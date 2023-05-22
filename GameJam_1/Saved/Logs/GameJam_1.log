@@ -13328,3 +13328,387 @@ Button
 [2023.05.22-13.54.47:244][273]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/Audio/SFX/WAVs/Footstep_1.Footstep_1
 [2023.05.22-13.54.47:244][273]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/Audio/SFX/WAVs/Footstep_4.Footstep_4
 [2023.05.22-13.54.47:244][273]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/Audio/SFX/WAVs/Footstep_3.Footstep_3
+[2023.05.22-13.55.05:951][508]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.22-13.55.05:961][508]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.22-13.55.05:961][508]PIE: New page: PIE session: Testing_World (23 May 2023, 9:55:05 am)
+[2023.05.22-13.55.05:999][508]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Testing_World
+[2023.05.22-13.55.06:004][508]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004399s)
+[2023.05.22-13.55.06:004][508]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Testing_World.Testing_World to /Game/Levels/UEDPIE_0_Testing_World.Testing_World (0.004443s)
+[2023.05.22-13.55.06:004][508]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.22-13.55.06:004][508]LogAIModule: Creating AISystem for world Testing_World
+[2023.05.22-13.55.06:005][508]LogPlayLevel: PIE: World Init took: (0.000802s)
+[2023.05.22-13.55.06:041][508]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2023.05.22-13.55.06:047][508]LogAudio: Display: Creating Audio Device:                 Id: 132, Scope: Unique, Realtime: True
+[2023.05.22-13.55.06:047][508]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.22-13.55.06:047][508]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.22-13.55.06:047][508]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.22-13.55.06:047][508]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.22-13.55.06:048][508]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.22-13.55.06:048][508]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.22-13.55.06:048][508]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.22-13.55.06:048][508]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.22-13.55.06:048][508]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.22-13.55.06:048][508]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.22-13.55.06:048][508]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.22-13.55.06:050][508]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.22-13.55.06:081][508]LogAudioMixer: Display: Using Audio Hardware Device Speakers (HyperX Cloud II Wireless)
+[2023.05.22-13.55.06:082][508]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.22-13.55.06:082][508]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.22-13.55.06:082][508]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.22-13.55.06:083][508]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=132
+[2023.05.22-13.55.06:083][508]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=132
+[2023.05.22-13.55.06:084][508]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=132
+[2023.05.22-13.55.06:084][508]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=132
+[2023.05.22-13.55.06:084][508]LogInit: FAudioDevice initialized.
+[2023.05.22-13.55.06:084][508]LogAudio: Display: Audio Device (ID: 132) registered with world 'Testing_World'.
+[2023.05.22-13.55.06:087][508]LogLoad: Game class is 'Player_GM_C'
+[2023.05.22-13.55.06:089][508]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Testing_World.Testing_World up for play (max tick rate 0) at 2023.05.22-23.55.06
+[2023.05.22-13.55.06:089][508]LogWorld: Bringing up level for play took: 0.001889
+[2023.05.22-13.55.06:092][508]LogOnline: OSS: Created online subsystem instance for: :Context_186
+[2023.05.22-13.55.06:094][508]PIE: Server logged in
+[2023.05.22-13.55.06:094][508]PIE: Play in editor total start time 0.134 seconds.
+[2023.05.22-13.55.37:189][471]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.22-13.55.37:189][471]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Testing_World
+[2023.05.22-13.55.37:190][471]LogWorld: UWorld::CleanupWorld for Testing_World, bSessionEnded=true, bCleanupResources=true
+[2023.05.22-13.55.37:190][471]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.22-13.55.37:197][471]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.22-13.55.37:204][471]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.22-13.55.37:241][471]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.22-13.55.37:242][471]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=132
+[2023.05.22-13.55.37:244][471]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=132
+[2023.05.22-13.55.37:251][471]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2023.05.22-13.55.37:321][472]LogPlayLevel: Display: Destroying online subsystem :Context_186
+[2023.05.22-13.57.33:499][362]LogFactory: FactoryCreateFile: SoundWave with SoundFactory (0 0 E:\GameProjects\GameJam #1\Audio\SFX\PressurePlate_Down.wav)
+[2023.05.22-13.57.33:509][362]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_1000_StreamCache_Ver5027_MEM_65536MaxChnkSize_00483224128 wave PressurePlate_Down...
+[2023.05.22-13.57.33:509][362]LogAudioDerivedData: Warning: [SoundWave /Game/Audio/SFX/WAVs/PressurePlate_Down.PressurePlate_Down] High sample rate wave (96000) with Bink Audio - perf waste - high frequencies are discarded by Bink Audio (like most perceptual codecs).
+[2023.05.22-13.57.33:514][362]LogAudio: Display: Chunk size for SoundWave /Game/Audio/SFX/WAVs/PressurePlate_Down.PressurePlate_Down: 262144
+[2023.05.22-13.57.33:515][362]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_1000_StreamCache_Ver5027_MEM_65536MaxChnkSize_00483224128 wave PressurePlate_Down...
+[2023.05.22-13.57.33:515][362]LogAudioDerivedData: Warning: [SoundWave /Game/Audio/SFX/WAVs/PressurePlate_Down.PressurePlate_Down] High sample rate wave (96000) with Bink Audio - perf waste - high frequencies are discarded by Bink Audio (like most perceptual codecs).
+[2023.05.22-13.57.33:516][362]LogFactory: FactoryCreateFile: SoundWave with SoundFactory (0 0 E:\GameProjects\GameJam #1\Audio\SFX\PressurePlate_Up.wav)
+[2023.05.22-13.57.33:520][362]LogAudio: Display: Chunk size for SoundWave /Game/Audio/SFX/WAVs/PressurePlate_Down.PressurePlate_Down: 262144
+[2023.05.22-13.57.33:521][362]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_1000_StreamCache_Ver5027_MEM_65536MaxChnkSize_00483224128 wave PressurePlate_Up...
+[2023.05.22-13.57.33:521][362]LogAudioDerivedData: Warning: [SoundWave /Game/Audio/SFX/WAVs/PressurePlate_Up.PressurePlate_Up] High sample rate wave (96000) with Bink Audio - perf waste - high frequencies are discarded by Bink Audio (like most perceptual codecs).
+[2023.05.22-13.57.33:527][362]LogAudio: Display: Chunk size for SoundWave /Game/Audio/SFX/WAVs/PressurePlate_Up.PressurePlate_Up: 262144
+[2023.05.22-13.57.33:527][362]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_1000_StreamCache_Ver5027_MEM_65536MaxChnkSize_00483224128 wave PressurePlate_Up...
+[2023.05.22-13.57.33:527][362]LogAudioDerivedData: Warning: [SoundWave /Game/Audio/SFX/WAVs/PressurePlate_Up.PressurePlate_Up] High sample rate wave (96000) with Bink Audio - perf waste - high frequencies are discarded by Bink Audio (like most perceptual codecs).
+[2023.05.22-13.57.33:534][362]LogAudio: Display: Chunk size for SoundWave /Game/Audio/SFX/WAVs/PressurePlate_Up.PressurePlate_Up: 262144
+[2023.05.22-13.57.41:285][778]LogContentBrowser: Deferred new asset file creation: NewSoundCue
+[2023.05.22-13.57.41:301][778]LogContentBrowser: Creating deferred item: NewSoundCue
+[2023.05.22-13.57.41:313][779]LogContentBrowser: Renaming the item being created (Deferred Item: NewSoundCue).
+[2023.05.22-13.57.47:101][375]LogContentBrowser: Attempting asset rename: NewSoundCue -> PressurePlate_Down
+[2023.05.22-13.57.47:101][375]LogContentBrowser: End creating deferred item NewSoundCue
+[2023.05.22-13.57.49:925][587]LogContentBrowser: Deferred new asset file creation: NewSoundCue
+[2023.05.22-13.57.49:938][587]LogContentBrowser: Creating deferred item: NewSoundCue
+[2023.05.22-13.57.49:950][588]LogContentBrowser: Renaming the item being created (Deferred Item: NewSoundCue).
+[2023.05.22-13.57.55:036][118]LogContentBrowser: Attempting asset rename: NewSoundCue -> PressurePlate_Up
+[2023.05.22-13.57.55:037][118]LogContentBrowser: End creating deferred item NewSoundCue
+[2023.05.22-13.57.56:224][231]LogAssetEditorSubsystem: Opening Asset editor for SoundCue /Game/Audio/SFX/PressurePlate_Down.PressurePlate_Down
+[2023.05.22-13.58.01:886][614]LogActorFactory: Actor Factory attempting to spawn SoundWave /Game/Audio/SFX/WAVs/PressurePlate_Down.PressurePlate_Down
+[2023.05.22-13.58.01:886][614]LogActorFactory: Actor Factory attempting to spawn SoundWave /Game/Audio/SFX/WAVs/PressurePlate_Down.PressurePlate_Down
+[2023.05.22-13.58.01:886][614]LogActorFactory: Actor Factory spawned SoundWave /Game/Audio/SFX/WAVs/PressurePlate_Down.PressurePlate_Down as actor: AmbientSound /Game/Levels/Testing_World.Testing_World:PersistentLevel.AmbientSound_12
+[2023.05.22-13.58.01:886][614]LogActorFactory: Actor Factory spawned SoundWave /Game/Audio/SFX/WAVs/PressurePlate_Down.PressurePlate_Down as actor: AmbientSound /Game/Levels/Testing_World.Testing_World:PersistentLevel.AmbientSound_12
+[2023.05.22-13.58.05:008][821]LogAudio: Display: Cached duration for Sound Cue SoundCue /Game/Audio/SFX/PressurePlate_Down.PressurePlate_Down was zero and has changed. Consider manually Re-saving the asset
+[2023.05.22-13.58.09:827][145]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.22-13.58.09:869][145]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Audio/SFX/PressurePlate_Down" FILE="../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Audio/SFX/PressurePlate_Down.uasset" SILENT=true
+[2023.05.22-13.58.09:873][145]LogSavePackage: Moving output files for package: /Game/Audio/SFX/PressurePlate_Down
+[2023.05.22-13.58.09:873][145]LogSavePackage: Moving '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Saved/PressurePlate_DownA1338C044D4259CC3A7D8682F7AE63C5.tmp' to '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Audio/SFX/PressurePlate_Down.uasset'
+[2023.05.22-13.58.09:893][145]LogFileHelpers: InternalPromptForCheckoutAndSave took 66 ms (total: 37.3 sec)
+[2023.05.22-13.58.09:901][145]AssetCheck: New page: Asset Save: PressurePlate_Down
+[2023.05.22-13.58.09:901][145]LogContentValidation: Display: Validating /Script/Engine.SoundCue /Game/Audio/SFX/PressurePlate_Down.PressurePlate_Down
+[2023.05.22-13.58.15:022][523]LogAssetEditorSubsystem: Opening Asset editor for SoundCue /Game/Audio/SFX/PressurePlate_Up.PressurePlate_Up
+[2023.05.22-13.58.18:387][732]LogActorFactory: Actor Factory attempting to spawn SoundWave /Game/Audio/SFX/WAVs/PressurePlate_Up.PressurePlate_Up
+[2023.05.22-13.58.18:387][732]LogActorFactory: Actor Factory attempting to spawn SoundWave /Game/Audio/SFX/WAVs/PressurePlate_Up.PressurePlate_Up
+[2023.05.22-13.58.18:387][732]LogActorFactory: Actor Factory spawned SoundWave /Game/Audio/SFX/WAVs/PressurePlate_Up.PressurePlate_Up as actor: AmbientSound /Game/Levels/Testing_World.Testing_World:PersistentLevel.AmbientSound_13
+[2023.05.22-13.58.18:388][732]LogActorFactory: Actor Factory spawned SoundWave /Game/Audio/SFX/WAVs/PressurePlate_Up.PressurePlate_Up as actor: AmbientSound /Game/Levels/Testing_World.Testing_World:PersistentLevel.AmbientSound_13
+[2023.05.22-13.58.21:326][927]LogAudio: Display: Cached duration for Sound Cue SoundCue /Game/Audio/SFX/PressurePlate_Up.PressurePlate_Up was zero and has changed. Consider manually Re-saving the asset
+[2023.05.22-13.58.23:960][ 95]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.22-13.58.24:008][ 95]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Audio/SFX/PressurePlate_Up" FILE="../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Audio/SFX/PressurePlate_Up.uasset" SILENT=true
+[2023.05.22-13.58.24:011][ 95]LogSavePackage: Moving output files for package: /Game/Audio/SFX/PressurePlate_Up
+[2023.05.22-13.58.24:011][ 95]LogSavePackage: Moving '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Saved/PressurePlate_UpF903026C405AEE2E00932982BB6C506D.tmp' to '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Audio/SFX/PressurePlate_Up.uasset'
+[2023.05.22-13.58.24:032][ 95]LogFileHelpers: InternalPromptForCheckoutAndSave took 72 ms (total: 37.3 sec)
+[2023.05.22-13.58.24:040][ 95]AssetCheck: New page: Asset Save: PressurePlate_Up
+[2023.05.22-13.58.24:040][ 95]LogContentValidation: Display: Validating /Script/Engine.SoundCue /Game/Audio/SFX/PressurePlate_Up.PressurePlate_Up
+[2023.05.22-13.58.29:663][501]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_PressurePlate.BP_PressurePlate
+[2023.05.22-13.58.29:663][501]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.22-13.59.21:539][238]BlueprintLog: New page: Compile BP_PressurePlate
+[2023.05.22-13.59.21:616][238]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2023.05.22-14.00.36:985][803]BlueprintLog: New page: Compile BP_PressurePlate
+[2023.05.22-14.00.37:059][803]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2023.05.22-14.00.37:747][831]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.22-14.00.37:811][831]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_PressurePlate" FILE="../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_PressurePlate.uasset" SILENT=true
+[2023.05.22-14.00.37:824][831]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_PressurePlate
+[2023.05.22-14.00.37:825][831]LogSavePackage: Moving '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Saved/BP_PressurePlateE271109E4EF172796EEACB986FB01D55.tmp' to '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_PressurePlate.uasset'
+[2023.05.22-14.00.37:845][831]LogFileHelpers: InternalPromptForCheckoutAndSave took 98 ms (total: 37.4 sec)
+[2023.05.22-14.00.37:856][831]AssetCheck: New page: Asset Save: BP_PressurePlate
+[2023.05.22-14.00.37:857][831]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_PressurePlate.BP_PressurePlate
+[2023.05.22-14.00.39:807][971]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.22-14.00.39:816][971]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.22-14.00.39:816][971]PIE: New page: PIE session: Testing_World (23 May 2023, 10:00:39 am)
+[2023.05.22-14.00.39:839][971]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Testing_World
+[2023.05.22-14.00.39:843][971]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004387s)
+[2023.05.22-14.00.39:843][971]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Testing_World.Testing_World to /Game/Levels/UEDPIE_0_Testing_World.Testing_World (0.004429s)
+[2023.05.22-14.00.39:843][971]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.22-14.00.39:844][971]LogAIModule: Creating AISystem for world Testing_World
+[2023.05.22-14.00.39:844][971]LogPlayLevel: PIE: World Init took: (0.000785s)
+[2023.05.22-14.00.39:891][971]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2023.05.22-14.00.39:899][971]LogAudio: Display: Creating Audio Device:                 Id: 133, Scope: Unique, Realtime: True
+[2023.05.22-14.00.39:899][971]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.22-14.00.39:899][971]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.22-14.00.39:899][971]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.22-14.00.39:899][971]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.22-14.00.39:899][971]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.22-14.00.39:899][971]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.22-14.00.39:899][971]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.22-14.00.39:899][971]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.22-14.00.39:899][971]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.22-14.00.39:899][971]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.22-14.00.39:899][971]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.22-14.00.39:902][971]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.22-14.00.39:932][971]LogAudioMixer: Display: Using Audio Hardware Device Speakers (HyperX Cloud II Wireless)
+[2023.05.22-14.00.39:933][971]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.22-14.00.39:933][971]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.22-14.00.39:933][971]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.22-14.00.39:934][971]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=133
+[2023.05.22-14.00.39:934][971]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=133
+[2023.05.22-14.00.39:936][971]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=133
+[2023.05.22-14.00.39:936][971]LogInit: FAudioDevice initialized.
+[2023.05.22-14.00.39:936][971]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=133
+[2023.05.22-14.00.39:936][971]LogAudio: Display: Audio Device (ID: 133) registered with world 'Testing_World'.
+[2023.05.22-14.00.39:940][971]LogLoad: Game class is 'Player_GM_C'
+[2023.05.22-14.00.39:941][971]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Testing_World.Testing_World up for play (max tick rate 0) at 2023.05.23-00.00.39
+[2023.05.22-14.00.39:941][971]LogWorld: Bringing up level for play took: 0.001520
+[2023.05.22-14.00.39:944][971]LogOnline: OSS: Created online subsystem instance for: :Context_188
+[2023.05.22-14.00.39:945][971]PIE: Server logged in
+[2023.05.22-14.00.39:946][971]PIE: Play in editor total start time 0.13 seconds.
+[2023.05.22-14.01.30:389][607]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.22-14.01.30:389][607]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Testing_World
+[2023.05.22-14.01.30:389][607]LogWorld: UWorld::CleanupWorld for Testing_World, bSessionEnded=true, bCleanupResources=true
+[2023.05.22-14.01.30:389][607]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.22-14.01.30:492][607]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.22-14.01.30:500][607]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.22-14.01.30:549][607]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.22-14.01.30:549][607]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=133
+[2023.05.22-14.01.30:551][607]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=133
+[2023.05.22-14.01.30:556][607]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.22-14.01.30:559][607]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2023.05.22-14.01.30:640][608]LogPlayLevel: Display: Destroying online subsystem :Context_188
+[2023.05.22-14.01.32:462][750]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2023.05.22-14.01.32:471][750]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.22-14.01.32:518][750]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Testing_World" FILE="../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Levels/Testing_World.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.05.22-14.01.32:570][750]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2023.05.22-14.01.32:596][750]LogSavePackage: Moving output files for package: /Game/Levels/Testing_World
+[2023.05.22-14.01.32:597][750]LogSavePackage: Moving '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Saved/Testing_WorldCD3EBB394CBBD8A5133581B2E29A946C.tmp' to '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Levels/Testing_World.umap'
+[2023.05.22-14.01.32:617][750]LogFileHelpers: Saving map 'Testing_World' took 0.099
+[2023.05.22-14.01.32:619][750]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Audio/SFX/WAVs/PressurePlate_Down" FILE="../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Audio/SFX/WAVs/PressurePlate_Down.uasset" SILENT=true
+[2023.05.22-14.01.32:625][750]LogSavePackage: Moving output files for package: /Game/Audio/SFX/WAVs/PressurePlate_Down
+[2023.05.22-14.01.32:625][750]LogSavePackage: Moving '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Saved/PressurePlate_Down5F8800D94428451F28968ABB584C64B2.tmp' to '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Audio/SFX/WAVs/PressurePlate_Down.uasset'
+[2023.05.22-14.01.32:629][750]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Audio/SFX/WAVs/PressurePlate_Up" FILE="../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Audio/SFX/WAVs/PressurePlate_Up.uasset" SILENT=true
+[2023.05.22-14.01.32:659][750]LogSavePackage: Moving output files for package: /Game/Audio/SFX/WAVs/PressurePlate_Up
+[2023.05.22-14.01.32:659][750]LogSavePackage: Moving '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Saved/PressurePlate_Up1709586B47B08F15822D20BAB3747EAF.tmp' to '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Audio/SFX/WAVs/PressurePlate_Up.uasset'
+[2023.05.22-14.01.32:683][750]LogFileHelpers: InternalPromptForCheckoutAndSave took 211 ms (total: 37.7 sec)
+[2023.05.22-14.01.32:700][750]AssetCheck: New page: Asset Save: multiple assets
+[2023.05.22-14.01.32:700][750]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Testing_World.Testing_World
+[2023.05.22-14.01.32:700][750]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/Audio/SFX/WAVs/PressurePlate_Up.PressurePlate_Up
+[2023.05.22-14.01.32:700][750]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/Audio/SFX/WAVs/PressurePlate_Down.PressurePlate_Down
+[2023.05.22-14.01.58:094][196]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.05.22-14.01.58:094][196]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.05.22-14.01.58:094][196]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.05.22-14.02.00:174][196]LogSlate: Window 'Pick Parent Class' being destroyed
+[2023.05.22-14.02.00:220][196]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2023.05.22-14.02.00:232][196]LogContentBrowser: Creating deferred item: NewBlueprint
+[2023.05.22-14.02.00:243][197]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2023.05.22-14.02.11:736][344]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_Checkpoint
+[2023.05.22-14.02.11:742][344]LogContentBrowser: End creating deferred item NewBlueprint
+[2023.05.22-14.02.13:037][465]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_Checkpoint.BP_Checkpoint
+[2023.05.22-14.02.13:038][465]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.22-14.02.13:625][465]LogViewport: Scene viewport resized to 1144x693, mode Windowed.
+[2023.05.22-14.02.48:683][510]BlueprintLog: New page: Compile BP_Checkpoint
+[2023.05.22-14.02.48:761][510]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2023.05.22-14.02.49:812][555]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.22-14.02.49:858][555]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Checkpoint" FILE="../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_Checkpoint.uasset" SILENT=true
+[2023.05.22-14.02.49:864][555]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Checkpoint
+[2023.05.22-14.02.49:864][555]LogSavePackage: Moving '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Saved/BP_Checkpoint6154047F4DC84DD43817E989DFB0D4A5.tmp' to '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_Checkpoint.uasset'
+[2023.05.22-14.02.49:883][555]LogFileHelpers: InternalPromptForCheckoutAndSave took 71 ms (total: 37.7 sec)
+[2023.05.22-14.02.49:891][555]AssetCheck: New page: Asset Save: BP_Checkpoint
+[2023.05.22-14.02.49:891][555]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Checkpoint.BP_Checkpoint
+[2023.05.22-14.02.53:658][787]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_Checkpoint.BP_Checkpoint_C
+[2023.05.22-14.02.53:658][787]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_Checkpoint.BP_Checkpoint_C
+[2023.05.22-14.02.53:659][787]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_Checkpoint.BP_Checkpoint as actor: BP_Checkpoint_C /Game/Levels/Testing_World.Testing_World:PersistentLevel.BP_Checkpoint_C_0
+[2023.05.22-14.02.53:660][787]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_Checkpoint.BP_Checkpoint as actor: BP_Checkpoint_C /Game/Levels/Testing_World.Testing_World:PersistentLevel.BP_Checkpoint_C_0
+[2023.05.22-14.02.54:597][862]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_Checkpoint.BP_Checkpoint_C
+[2023.05.22-14.02.54:597][862]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_Checkpoint.BP_Checkpoint_C
+[2023.05.22-14.02.54:599][862]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_Checkpoint.BP_Checkpoint as actor: BP_Checkpoint_C /Game/Levels/Testing_World.Testing_World:PersistentLevel.BP_Checkpoint_C_1
+[2023.05.22-14.02.54:599][862]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_Checkpoint.BP_Checkpoint as actor: BP_Checkpoint_C /Game/Levels/Testing_World.Testing_World:PersistentLevel.BP_Checkpoint_C_1
+[2023.05.22-14.02.58:508][127]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2023.05.22-14.03.29:319][946]BlueprintLog: New page: Compile BP_Checkpoint
+[2023.05.22-14.03.29:408][946]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2023.05.22-14.03.29:785][948]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.22-14.03.29:829][948]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Checkpoint" FILE="../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_Checkpoint.uasset" SILENT=true
+[2023.05.22-14.03.29:835][948]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Checkpoint
+[2023.05.22-14.03.29:836][948]LogSavePackage: Moving '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Saved/BP_Checkpoint243D993E492476452638CDBD46048E00.tmp' to '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_Checkpoint.uasset'
+[2023.05.22-14.03.29:854][948]LogFileHelpers: InternalPromptForCheckoutAndSave took 68 ms (total: 37.8 sec)
+[2023.05.22-14.03.29:863][948]AssetCheck: New page: Asset Save: BP_Checkpoint
+[2023.05.22-14.03.29:864][948]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Checkpoint.BP_Checkpoint
+[2023.05.22-14.03.40:095][608]BlueprintLog: New page: Compile BP_Checkpoint
+[2023.05.22-14.03.40:176][608]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2023.05.22-14.03.40:533][609]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.22-14.03.40:578][609]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Checkpoint" FILE="../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_Checkpoint.uasset" SILENT=true
+[2023.05.22-14.03.40:583][609]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Checkpoint
+[2023.05.22-14.03.40:584][609]LogSavePackage: Moving '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Saved/BP_Checkpoint92297C4C48E9A47C656A5E95297D2D2B.tmp' to '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_Checkpoint.uasset'
+[2023.05.22-14.03.40:602][609]LogFileHelpers: InternalPromptForCheckoutAndSave took 68 ms (total: 37.9 sec)
+[2023.05.22-14.03.40:613][609]AssetCheck: New page: Asset Save: BP_Checkpoint
+[2023.05.22-14.03.40:613][609]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Checkpoint.BP_Checkpoint
+[2023.05.22-14.03.58:016][660]BlueprintLog: New page: Compile BP_Checkpoint
+[2023.05.22-14.03.58:105][660]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2023.05.22-14.03.58:725][677]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.22-14.03.58:771][677]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Checkpoint" FILE="../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_Checkpoint.uasset" SILENT=true
+[2023.05.22-14.03.58:776][677]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Checkpoint
+[2023.05.22-14.03.58:777][677]LogSavePackage: Moving '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Saved/BP_CheckpointB2BB08FE4C4A9696732C69A8A387CB73.tmp' to '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_Checkpoint.uasset'
+[2023.05.22-14.03.58:797][677]LogFileHelpers: InternalPromptForCheckoutAndSave took 72 ms (total: 37.9 sec)
+[2023.05.22-14.03.58:805][677]AssetCheck: New page: Asset Save: BP_Checkpoint
+[2023.05.22-14.03.58:805][677]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Checkpoint.BP_Checkpoint
+[2023.05.22-14.04.08:392][148]BlueprintLog: New page: Compile BP_Checkpoint
+[2023.05.22-14.04.08:472][148]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2023.05.22-14.04.23:497][985]BlueprintLog: New page: Compile BP_Checkpoint
+[2023.05.22-14.04.23:580][985]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2023.05.22-14.04.42:378][ 81]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_ColourTile.BP_ColourTile
+[2023.05.22-14.04.42:379][ 81]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.22-14.04.57:657][867]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.05.22-14.04.57:658][867]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.05.22-14.04.57:658][867]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.05.22-14.05.21:336][ 85]BlueprintLog: New page: Compile BP_Checkpoint
+[2023.05.22-14.05.21:433][ 85]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2023.05.22-14.05.21:891][ 97]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.22-14.05.21:938][ 97]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Checkpoint" FILE="../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_Checkpoint.uasset" SILENT=true
+[2023.05.22-14.05.21:945][ 97]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Checkpoint
+[2023.05.22-14.05.21:946][ 97]LogSavePackage: Moving '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Saved/BP_Checkpoint6DF8BAC14A94944D85F43797ED99BA7B.tmp' to '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_Checkpoint.uasset'
+[2023.05.22-14.05.21:967][ 97]LogFileHelpers: InternalPromptForCheckoutAndSave took 75 ms (total: 38.0 sec)
+[2023.05.22-14.05.21:974][ 97]AssetCheck: New page: Asset Save: BP_Checkpoint
+[2023.05.22-14.05.21:974][ 97]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Checkpoint.BP_Checkpoint
+[2023.05.22-14.05.40:198][ 40]BlueprintLog: New page: Compile BP_Checkpoint
+[2023.05.22-14.05.40:293][ 40]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2023.05.22-14.05.40:798][ 55]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.22-14.05.40:846][ 55]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Checkpoint" FILE="../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_Checkpoint.uasset" SILENT=true
+[2023.05.22-14.05.40:854][ 55]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Checkpoint
+[2023.05.22-14.05.40:855][ 55]LogSavePackage: Moving '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Saved/BP_CheckpointD07319CB4551CFF858706982D4281F87.tmp' to '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_Checkpoint.uasset'
+[2023.05.22-14.05.40:882][ 55]LogFileHelpers: InternalPromptForCheckoutAndSave took 83 ms (total: 38.1 sec)
+[2023.05.22-14.05.40:892][ 55]AssetCheck: New page: Asset Save: BP_Checkpoint
+[2023.05.22-14.05.40:892][ 55]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Checkpoint.BP_Checkpoint
+[2023.05.22-14.05.44:225][256]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.22-14.05.44:234][256]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.22-14.05.44:234][256]PIE: New page: PIE session: Testing_World (23 May 2023, 10:05:44 am)
+[2023.05.22-14.05.44:234][256]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Testing_World
+[2023.05.22-14.05.44:239][256]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004478s)
+[2023.05.22-14.05.44:239][256]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Testing_World.Testing_World to /Game/Levels/UEDPIE_0_Testing_World.Testing_World (0.004510s)
+[2023.05.22-14.05.44:239][256]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.22-14.05.44:239][256]LogAIModule: Creating AISystem for world Testing_World
+[2023.05.22-14.05.44:240][256]LogPlayLevel: PIE: World Init took: (0.000788s)
+[2023.05.22-14.05.44:305][256]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2023.05.22-14.05.44:312][256]LogAudio: Display: Creating Audio Device:                 Id: 134, Scope: Unique, Realtime: True
+[2023.05.22-14.05.44:312][256]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.22-14.05.44:312][256]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.22-14.05.44:312][256]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.22-14.05.44:312][256]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.22-14.05.44:312][256]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.22-14.05.44:312][256]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.22-14.05.44:312][256]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.22-14.05.44:312][256]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.22-14.05.44:313][256]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.22-14.05.44:313][256]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.22-14.05.44:313][256]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.22-14.05.44:315][256]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.22-14.05.44:345][256]LogAudioMixer: Display: Using Audio Hardware Device Speakers (HyperX Cloud II Wireless)
+[2023.05.22-14.05.44:346][256]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.22-14.05.44:346][256]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.22-14.05.44:346][256]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.22-14.05.44:347][256]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=134
+[2023.05.22-14.05.44:347][256]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=134
+[2023.05.22-14.05.44:348][256]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=134
+[2023.05.22-14.05.44:348][256]LogInit: FAudioDevice initialized.
+[2023.05.22-14.05.44:348][256]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=134
+[2023.05.22-14.05.44:348][256]LogAudio: Display: Audio Device (ID: 134) registered with world 'Testing_World'.
+[2023.05.22-14.05.44:352][256]LogLoad: Game class is 'Player_GM_C'
+[2023.05.22-14.05.44:353][256]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Testing_World.Testing_World up for play (max tick rate 0) at 2023.05.23-00.05.44
+[2023.05.22-14.05.44:353][256]LogWorld: Bringing up level for play took: 0.001661
+[2023.05.22-14.05.44:356][256]LogOnline: OSS: Created online subsystem instance for: :Context_191
+[2023.05.22-14.05.44:358][256]PIE: Server logged in
+[2023.05.22-14.05.44:358][256]PIE: Play in editor total start time 0.124 seconds.
+[2023.05.22-14.05.51:377][868]LogScript: Warning: Accessed None trying to read property DoorRef
+	BP_Checkpoint_C /Game/Levels/UEDPIE_0_Testing_World.Testing_World:PersistentLevel.BP_Checkpoint_C_1
+	Function /Game/Blueprints/BP_Checkpoint.BP_Checkpoint_C:ExecuteUbergraph_BP_Checkpoint:0016
+[2023.05.22-14.05.51:377][868]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property DoorRef". Node:  Set DoorOpen Graph:  EventGraph Function:  Execute Ubergraph BP Checkpoint Blueprint:  BP_Checkpoint
+[2023.05.22-14.05.54:319][136]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.22-14.05.54:319][136]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Testing_World
+[2023.05.22-14.05.54:319][136]LogWorld: UWorld::CleanupWorld for Testing_World, bSessionEnded=true, bCleanupResources=true
+[2023.05.22-14.05.54:319][136]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.22-14.05.54:545][136]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.22-14.05.54:553][136]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.22-14.05.54:617][136]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.22-14.05.54:617][136]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=134
+[2023.05.22-14.05.54:619][136]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=134
+[2023.05.22-14.05.54:623][136]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.22-14.05.54:626][136]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2023.05.22-14.05.54:787][137]LogPlayLevel: Display: Destroying online subsystem :Context_191
+[2023.05.22-14.05.58:682][407]LogSlate: Window 'Message Log' being destroyed
+[2023.05.22-14.05.58:694][407]LogSlate: Window 'Message Log' being destroyed
+[2023.05.22-14.06.06:682][973]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2023.05.22-14.06.06:692][973]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.22-14.06.06:738][973]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Testing_World" FILE="../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Levels/Testing_World.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.05.22-14.06.06:803][973]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2023.05.22-14.06.06:828][973]LogSavePackage: Moving output files for package: /Game/Levels/Testing_World
+[2023.05.22-14.06.06:828][973]LogSavePackage: Moving '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Saved/Testing_WorldE37F8682432E89252EAE0EA34EDB369C.tmp' to '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Levels/Testing_World.umap'
+[2023.05.22-14.06.06:844][973]LogFileHelpers: Saving map 'Testing_World' took 0.106
+[2023.05.22-14.06.06:879][973]LogFileHelpers: InternalPromptForCheckoutAndSave took 186 ms (total: 38.3 sec)
+[2023.05.22-14.06.06:894][973]AssetCheck: New page: Asset Save: Testing_World
+[2023.05.22-14.06.06:894][973]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Testing_World.Testing_World
+[2023.05.22-14.06.07:425][ 10]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.22-14.06.07:434][ 10]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.22-14.06.07:434][ 10]PIE: New page: PIE session: Testing_World (23 May 2023, 10:06:07 am)
+[2023.05.22-14.06.07:458][ 10]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Testing_World
+[2023.05.22-14.06.07:463][ 10]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004676s)
+[2023.05.22-14.06.07:463][ 10]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Testing_World.Testing_World to /Game/Levels/UEDPIE_0_Testing_World.Testing_World (0.004730s)
+[2023.05.22-14.06.07:463][ 10]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.22-14.06.07:463][ 10]LogAIModule: Creating AISystem for world Testing_World
+[2023.05.22-14.06.07:464][ 10]LogPlayLevel: PIE: World Init took: (0.000868s)
+[2023.05.22-14.06.07:529][ 10]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2023.05.22-14.06.07:536][ 10]LogAudio: Display: Creating Audio Device:                 Id: 135, Scope: Unique, Realtime: True
+[2023.05.22-14.06.07:537][ 10]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.22-14.06.07:537][ 10]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.22-14.06.07:537][ 10]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.22-14.06.07:537][ 10]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.22-14.06.07:537][ 10]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.22-14.06.07:537][ 10]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.22-14.06.07:537][ 10]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.22-14.06.07:537][ 10]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.22-14.06.07:537][ 10]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.22-14.06.07:537][ 10]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.22-14.06.07:537][ 10]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.22-14.06.07:539][ 10]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.22-14.06.07:571][ 10]LogAudioMixer: Display: Using Audio Hardware Device Speakers (HyperX Cloud II Wireless)
+[2023.05.22-14.06.07:572][ 10]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.22-14.06.07:572][ 10]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.22-14.06.07:572][ 10]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.22-14.06.07:572][ 10]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=135
+[2023.05.22-14.06.07:573][ 10]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=135
+[2023.05.22-14.06.07:575][ 10]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=135
+[2023.05.22-14.06.07:575][ 10]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=135
+[2023.05.22-14.06.07:575][ 10]LogInit: FAudioDevice initialized.
+[2023.05.22-14.06.07:575][ 10]LogAudio: Display: Audio Device (ID: 135) registered with world 'Testing_World'.
+[2023.05.22-14.06.07:578][ 10]LogLoad: Game class is 'Player_GM_C'
+[2023.05.22-14.06.07:580][ 10]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Testing_World.Testing_World up for play (max tick rate 0) at 2023.05.23-00.06.07
+[2023.05.22-14.06.07:580][ 10]LogWorld: Bringing up level for play took: 0.001642
+[2023.05.22-14.06.07:582][ 10]LogOnline: OSS: Created online subsystem instance for: :Context_192
+[2023.05.22-14.06.07:584][ 10]PIE: Server logged in
+[2023.05.22-14.06.07:585][ 10]PIE: Play in editor total start time 0.151 seconds.
+[2023.05.22-14.06.37:848][699]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.22-14.06.37:848][699]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Testing_World
+[2023.05.22-14.06.37:849][699]LogWorld: UWorld::CleanupWorld for Testing_World, bSessionEnded=true, bCleanupResources=true
+[2023.05.22-14.06.37:849][699]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.22-14.06.37:859][699]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.22-14.06.37:867][699]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.22-14.06.37:931][699]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.22-14.06.37:932][699]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=135
+[2023.05.22-14.06.37:933][699]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=135
+[2023.05.22-14.06.37:941][699]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2023.05.22-14.06.38:026][700]LogPlayLevel: Display: Destroying online subsystem :Context_192
+[2023.05.22-14.06.39:240][769]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
