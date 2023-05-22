@@ -7777,3 +7777,1236 @@ Button
 [2023.05.22-11.15.20:847][733]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
 [2023.05.22-11.15.20:847][733]LogWorld: UWorld::CleanupWorld for World_42, bSessionEnded=true, bCleanupResources=true
 [2023.05.22-11.15.20:847][733]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.22-11.15.49:289][261]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.22-11.15.49:298][261]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.22-11.15.49:298][261]PIE: New page: PIE session: Testing_World (23 May 2023, 7:15:49 am)
+[2023.05.22-11.15.49:298][261]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Testing_World
+[2023.05.22-11.15.49:301][261]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003091s)
+[2023.05.22-11.15.49:301][261]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Testing_World.Testing_World to /Game/Levels/UEDPIE_0_Testing_World.Testing_World (0.003134s)
+[2023.05.22-11.15.49:301][261]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.22-11.15.49:302][261]LogAIModule: Creating AISystem for world Testing_World
+[2023.05.22-11.15.49:302][261]LogPlayLevel: PIE: World Init took: (0.000940s)
+[2023.05.22-11.15.49:399][261]LogUObjectHash: Compacting FUObjectHashTables data took   3.14ms
+[2023.05.22-11.15.49:446][261]LogAudio: Display: Creating Audio Device:                 Id: 75, Scope: Unique, Realtime: True
+[2023.05.22-11.15.49:446][261]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.22-11.15.49:446][261]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.22-11.15.49:446][261]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.22-11.15.49:446][261]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.22-11.15.49:446][261]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.22-11.15.49:446][261]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.22-11.15.49:446][261]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.22-11.15.49:446][261]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.22-11.15.49:447][261]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.22-11.15.49:447][261]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.22-11.15.49:447][261]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.22-11.15.49:449][261]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.22-11.15.49:479][261]LogAudioMixer: Display: Using Audio Hardware Device Speakers (HyperX Cloud II Wireless)
+[2023.05.22-11.15.49:479][261]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.22-11.15.49:479][261]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.22-11.15.49:479][261]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.22-11.15.49:480][261]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=75
+[2023.05.22-11.15.49:480][261]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=75
+[2023.05.22-11.15.49:483][261]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=75
+[2023.05.22-11.15.49:483][261]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=75
+[2023.05.22-11.15.49:483][261]LogInit: FAudioDevice initialized.
+[2023.05.22-11.15.49:483][261]LogAudio: Display: Audio Device (ID: 75) registered with world 'Testing_World'.
+[2023.05.22-11.15.49:486][261]LogLoad: Game class is 'Player_GM_C'
+[2023.05.22-11.15.49:487][261]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Testing_World.Testing_World up for play (max tick rate 0) at 2023.05.22-21.15.49
+[2023.05.22-11.15.49:487][261]LogWorld: Bringing up level for play took: 0.000878
+[2023.05.22-11.15.49:489][261]LogOnline: OSS: Created online subsystem instance for: :Context_110
+[2023.05.22-11.15.49:491][261]PIE: Server logged in
+[2023.05.22-11.15.49:492][261]PIE: Play in editor total start time 0.194 seconds.
+[2023.05.22-11.16.38:584][924]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.22-11.16.38:584][924]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Testing_World
+[2023.05.22-11.16.38:584][924]LogWorld: UWorld::CleanupWorld for Testing_World, bSessionEnded=true, bCleanupResources=true
+[2023.05.22-11.16.38:584][924]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.22-11.16.38:590][924]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.22-11.16.38:597][924]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.22-11.16.38:620][924]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.22-11.16.38:621][924]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=75
+[2023.05.22-11.16.38:623][924]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=75
+[2023.05.22-11.16.38:627][924]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.22-11.16.38:630][924]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2023.05.22-11.16.38:680][925]LogPlayLevel: Display: Destroying online subsystem :Context_110
+[2023.05.22-11.17.42:479][383]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.05.22-11.17.42:480][383]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.05.22-11.17.42:480][383]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.05.22-11.17.43:591][383]LogSlate: Window 'Pick Parent Class' being destroyed
+[2023.05.22-11.17.43:609][383]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2023.05.22-11.17.43:616][383]LogContentBrowser: Creating deferred item: NewBlueprint
+[2023.05.22-11.17.43:625][384]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2023.05.22-11.17.54:330][605]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_SecurityCamera
+[2023.05.22-11.17.54:336][605]LogContentBrowser: End creating deferred item NewBlueprint
+[2023.05.22-11.18.00:848][876]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_SecurityCamera.BP_SecurityCamera
+[2023.05.22-11.18.00:849][876]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.22-11.18.01:409][876]LogViewport: Scene viewport resized to 1144x693, mode Windowed.
+[2023.05.22-11.18.16:662][796]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.16:663][796]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.16:678][797]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.16:679][797]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.16:679][797]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.16:693][798]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.16:694][798]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.16:694][798]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.16:709][799]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.16:709][799]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.16:709][799]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.16:724][800]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.16:724][800]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.16:724][800]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.16:740][801]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.16:740][801]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.16:740][801]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.16:755][802]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.16:755][802]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.16:755][802]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.16:772][803]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.16:772][803]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.16:772][803]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.16:788][804]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.16:788][804]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.16:788][804]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.16:805][805]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.16:805][805]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.16:805][805]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.16:820][806]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.16:821][806]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.16:821][806]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.16:838][807]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.16:838][807]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.16:838][807]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.16:854][808]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.16:855][808]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.16:855][808]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.16:870][809]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.16:870][809]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.16:870][809]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.16:885][810]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.16:885][810]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.16:885][810]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.16:899][811]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.16:899][811]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.16:899][811]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.16:914][812]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.16:914][812]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.16:914][812]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.16:928][813]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.16:929][813]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.16:929][813]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.16:943][814]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.16:943][814]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.16:943][814]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.16:958][815]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.16:958][815]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.16:958][815]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.16:972][816]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.16:972][816]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.16:972][816]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.16:986][817]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.16:986][817]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.16:986][817]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:000][818]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:000][818]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:000][818]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:014][819]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:014][819]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:014][819]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:028][820]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:029][820]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:029][820]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:043][821]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:043][821]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:043][821]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:057][822]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:057][822]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:057][822]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:071][823]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:071][823]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:072][823]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:085][824]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:086][824]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:086][824]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:102][825]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:102][825]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:102][825]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:116][826]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:117][826]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:117][826]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:131][827]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:132][827]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:132][827]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:146][828]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:147][828]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:147][828]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:162][829]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:162][829]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:162][829]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:177][830]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:177][830]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:177][830]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:192][831]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:193][831]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:193][831]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:209][832]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:209][832]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:209][832]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:224][833]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:225][833]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:225][833]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:239][834]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:239][834]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:240][834]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:256][835]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:257][835]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:257][835]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:272][836]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:272][836]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:272][836]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:287][837]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:288][837]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:288][837]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:304][838]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:304][838]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:304][838]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:321][839]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:321][839]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:321][839]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:337][840]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:337][840]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:337][840]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:352][841]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:352][841]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:352][841]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:367][842]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:367][842]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:367][842]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:384][843]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:384][843]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:384][843]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:398][844]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:399][844]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:399][844]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:415][845]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:415][845]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:415][845]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:430][846]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:430][846]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:430][846]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:444][847]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:444][847]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:445][847]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:459][848]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:459][848]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:459][848]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:474][849]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:474][849]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:474][849]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:488][850]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:488][850]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:488][850]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:502][851]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:502][851]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:502][851]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:518][852]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:518][852]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:518][852]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:533][853]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:533][853]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:533][853]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:549][854]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:549][854]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:549][854]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:565][855]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.17:565][855]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Camera has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.000
+[2023.05.22-11.18.31:002][666]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.500 Y=0.000 Z=0.500
+[2023.05.22-11.18.31:003][666]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.500 Y=0.000 Z=0.500
+[2023.05.22-11.18.31:020][667]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.500 Y=0.000 Z=0.500
+[2023.05.22-11.18.31:020][667]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.500 Y=0.000 Z=0.500
+[2023.05.22-11.18.31:020][667]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.500 Y=0.000 Z=0.500
+[2023.05.22-11.18.31:039][668]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.500 Y=0.000 Z=0.500
+[2023.05.22-11.18.31:039][668]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.500 Y=0.000 Z=0.500
+[2023.05.22-11.18.31:039][668]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.500 Y=0.000 Z=0.500
+[2023.05.22-11.18.31:057][669]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.500 Y=0.000 Z=0.500
+[2023.05.22-11.18.31:057][669]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.500 Y=0.000 Z=0.500
+[2023.05.22-11.18.31:057][669]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.500 Y=0.000 Z=0.500
+[2023.05.22-11.18.31:075][670]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.500 Y=0.000 Z=0.500
+[2023.05.22-11.18.31:076][670]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.500 Y=0.000 Z=0.500
+[2023.05.22-11.18.31:076][670]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.500 Y=0.000 Z=0.500
+[2023.05.22-11.18.31:093][671]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.500 Y=0.000 Z=0.500
+[2023.05.22-11.18.31:093][671]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.500 Y=0.000 Z=0.500
+[2023.05.22-11.18.31:093][671]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.500 Y=0.000 Z=0.500
+[2023.05.22-11.18.31:112][672]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.500 Y=0.000 Z=0.500
+[2023.05.22-11.18.31:112][672]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.500 Y=0.000 Z=0.500
+[2023.05.22-11.18.31:112][672]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.500 Y=0.000 Z=0.500
+[2023.05.22-11.18.31:130][673]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.500 Y=0.000 Z=0.500
+[2023.05.22-11.18.31:131][673]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.500 Y=0.000 Z=0.500
+[2023.05.22-11.18.31:131][673]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.500 Y=0.000 Z=0.500
+[2023.05.22-11.18.31:149][674]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.500 Y=0.000 Z=0.500
+[2023.05.22-11.18.31:149][674]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.500 Y=0.000 Z=0.500
+[2023.05.22-11.18.31:149][674]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.500 Y=0.000 Z=0.500
+[2023.05.22-11.18.31:169][675]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.500 Y=0.000 Z=0.500
+[2023.05.22-11.18.31:169][675]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.500 Y=0.000 Z=0.500
+[2023.05.22-11.18.31:169][675]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.500 Y=0.000 Z=0.500
+[2023.05.22-11.18.31:187][676]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.500 Y=0.000 Z=0.500
+[2023.05.22-11.18.31:187][676]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.500 Y=0.000 Z=0.500
+[2023.05.22-11.18.31:187][676]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.500 Y=0.000 Z=0.500
+[2023.05.22-11.18.31:204][677]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.500 Y=0.000 Z=0.500
+[2023.05.22-11.18.31:204][677]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.500 Y=0.000 Z=0.500
+[2023.05.22-11.18.31:204][677]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.500 Y=0.000 Z=0.500
+[2023.05.22-11.18.31:220][678]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.500 Y=0.000 Z=0.500
+[2023.05.22-11.18.31:220][678]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.500 Y=0.000 Z=0.500
+[2023.05.22-11.18.31:220][678]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.500 Y=0.000 Z=0.500
+[2023.05.22-11.18.31:236][679]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.500 Y=0.000 Z=0.500
+[2023.05.22-11.18.31:236][679]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.500 Y=0.000 Z=0.500
+[2023.05.22-11.18.31:236][679]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.500 Y=0.000 Z=0.500
+[2023.05.22-11.18.31:256][680]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.500 Y=0.000 Z=0.500
+[2023.05.22-11.18.31:256][680]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.500 Y=0.000 Z=0.500
+[2023.05.22-11.18.31:256][680]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.500 Y=0.000 Z=0.500
+[2023.05.22-11.18.31:270][681]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.500 Y=0.000 Z=0.500
+[2023.05.22-11.18.31:270][681]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.500 Y=0.000 Z=0.500
+[2023.05.22-11.18.31:271][681]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.500 Y=0.000 Z=0.500
+[2023.05.22-11.18.31:285][682]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.500 Y=0.000 Z=0.500
+[2023.05.22-11.18.31:285][682]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.500 Y=0.000 Z=0.500
+[2023.05.22-11.18.31:285][682]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.500 Y=0.000 Z=0.500
+[2023.05.22-11.18.31:300][683]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.500 Y=0.000 Z=0.500
+[2023.05.22-11.18.31:300][683]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.500 Y=0.000 Z=0.500
+[2023.05.22-11.18.31:300][683]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.500 Y=0.000 Z=0.500
+[2023.05.22-11.18.31:317][684]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.500 Y=0.000 Z=0.500
+[2023.05.22-11.18.31:317][684]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.500 Y=0.000 Z=0.500
+[2023.05.22-11.18.31:317][684]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.500 Y=0.000 Z=0.500
+[2023.05.22-11.18.31:333][685]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.500 Y=0.000 Z=0.500
+[2023.05.22-11.18.31:333][685]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.500 Y=0.000 Z=0.500
+[2023.05.22-11.18.31:333][685]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.500 Y=0.000 Z=0.500
+[2023.05.22-11.18.31:349][686]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.500 Y=0.000 Z=0.500
+[2023.05.22-11.18.31:349][686]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.500 Y=0.000 Z=0.500
+[2023.05.22-11.18.31:349][686]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.500 Y=0.000 Z=0.500
+[2023.05.22-11.18.31:363][687]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.500 Y=0.000 Z=0.500
+[2023.05.22-11.18.31:363][687]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.500 Y=0.000 Z=0.500
+[2023.05.22-11.18.31:363][687]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.500 Y=0.000 Z=0.500
+[2023.05.22-11.18.31:378][688]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.500 Y=0.000 Z=0.500
+[2023.05.22-11.18.31:378][688]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.500 Y=0.000 Z=0.500
+[2023.05.22-11.18.31:378][688]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.500 Y=0.000 Z=0.500
+[2023.05.22-11.18.31:396][689]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.500 Y=0.000 Z=0.500
+[2023.05.22-11.18.31:397][689]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.500 Y=0.000 Z=0.500
+[2023.05.22-11.18.31:397][689]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.500 Y=0.000 Z=0.500
+[2023.05.22-11.18.31:411][690]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.500 Y=0.000 Z=0.500
+[2023.05.22-11.18.31:412][690]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.500 Y=0.000 Z=0.500
+[2023.05.22-11.18.31:412][690]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.500 Y=0.000 Z=0.500
+[2023.05.22-11.18.31:426][691]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.500 Y=0.000 Z=0.500
+[2023.05.22-11.18.31:426][691]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.500 Y=0.000 Z=0.500
+[2023.05.22-11.18.31:426][691]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.500 Y=0.000 Z=0.500
+[2023.05.22-11.18.31:441][692]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.500 Y=0.000 Z=0.500
+[2023.05.22-11.18.31:442][692]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.500 Y=0.000 Z=0.500
+[2023.05.22-11.18.31:442][692]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.500 Y=0.000 Z=0.500
+[2023.05.22-11.18.31:456][693]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.500 Y=0.000 Z=0.500
+[2023.05.22-11.18.31:456][693]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.500 Y=0.000 Z=0.500
+[2023.05.22-11.18.31:457][693]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.500 Y=0.000 Z=0.500
+[2023.05.22-11.18.31:472][694]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.500 Y=0.000 Z=0.500
+[2023.05.22-11.18.31:473][694]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.500 Y=0.000 Z=0.500
+[2023.05.22-11.18.31:473][694]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.500 Y=0.000 Z=0.500
+[2023.05.22-11.18.31:716][708]LogEditorTransaction: Undo Modify Component(s)
+[2023.05.22-11.18.35:300][895]LogEditorTransaction: Undo Modify Component(s)
+[2023.05.22-11.18.58:437][305]LogEditorTransaction: Undo Modify Component(s)
+[2023.05.22-11.21.14:985][910]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.CaptureZone has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2023.05.22-11.21.14:986][910]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.CaptureZone' 
+[2023.05.22-11.21.14:986][910]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.CaptureZone has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2023.05.22-11.21.14:986][910]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.CaptureZone' 
+[2023.05.22-11.21.15:003][911]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.CaptureZone has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2023.05.22-11.21.15:003][911]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.CaptureZone' 
+[2023.05.22-11.21.15:021][912]LogPhysics: Warning: Scale for /Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.CaptureZone has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2023.05.22-11.21.15:021][912]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_43:PersistentLevel.BP_SecurityCamera_C_0.CaptureZone' 
+[2023.05.22-11.21.40:362][501]BlueprintLog: New page: Compile BP_SecurityCamera
+[2023.05.22-11.21.40:509][501]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2023.05.22-11.21.40:971][520]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.22-11.21.41:029][520]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_SecurityCamera" FILE="../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_SecurityCamera.uasset" SILENT=true
+[2023.05.22-11.21.41:037][520]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_SecurityCamera
+[2023.05.22-11.21.41:037][520]LogSavePackage: Moving '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Saved/BP_SecurityCamera511D64D941AF4953AEDDD7955062698B.tmp' to '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_SecurityCamera.uasset'
+[2023.05.22-11.21.41:051][520]LogFileHelpers: InternalPromptForCheckoutAndSave took 79 ms (total: 24.5 sec)
+[2023.05.22-11.21.41:058][520]AssetCheck: New page: Asset Save: BP_SecurityCamera
+[2023.05.22-11.21.41:058][520]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_SecurityCamera.BP_SecurityCamera
+[2023.05.22-11.23.28:765][ 18]BlueprintLog: New page: Compile BP_SecurityCamera
+[2023.05.22-11.23.28:829][ 18]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2023.05.22-11.24.20:448][ 94]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2023.05.22-11.24.20:469][ 94]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Levels/Testing_World_Auto3
+[2023.05.22-11.24.20:469][ 94]LogSavePackage: Moving '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Saved/Testing_World_Auto36EAC6B974119BB140A58C0A4EE2CD595.tmp' to '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Saved/Autosaves/Game/Levels/Testing_World_Auto3.umap'
+[2023.05.22-11.24.20:474][ 94]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/Testing_World' took 0.062
+[2023.05.22-11.24.20:474][ 94]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.062
+[2023.05.22-11.24.20:474][ 94]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Audio/SFX/WAVs/Correct_SFX] ([1] browsable assets)...
+[2023.05.22-11.24.20:478][ 94]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/Audio/SFX/WAVs/Correct_SFX.Correct_SFX]
+[2023.05.22-11.24.20:478][ 94]OBJ SavePackage: Finished generating thumbnails for package [/Game/Audio/SFX/WAVs/Correct_SFX]
+[2023.05.22-11.24.20:496][ 94]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Audio/SFX/WAVs/Correct_SFX_Auto3
+[2023.05.22-11.24.20:496][ 94]LogSavePackage: Moving '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Saved/Correct_SFX_Auto30B4C76774E36A0386DB2159E3C84EFE0.tmp' to '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Saved/Autosaves/Game/Audio/SFX/WAVs/Correct_SFX_Auto3.uasset'
+[2023.05.22-11.24.20:498][ 94]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/BP_SecurityCamera] ([2] browsable assets)...
+[2023.05.22-11.24.20:554][ 94]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_SecurityCamera.BP_SecurityCamera]
+[2023.05.22-11.24.20:554][ 94]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_SecurityCamera]
+[2023.05.22-11.24.20:632][ 94]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/BP_SecurityCamera_Auto3
+[2023.05.22-11.24.20:632][ 94]LogSavePackage: Moving '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Saved/BP_SecurityCamera_Auto3673DE7E747FDD055FAD213A152E8E026.tmp' to '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Saved/Autosaves/Game/Blueprints/BP_SecurityCamera_Auto3.uasset'
+[2023.05.22-11.24.20:634][ 94]LogFileHelpers: Auto-saving content packages took 0.160
+[2023.05.22-11.26.38:917][568]LogSlate: Window 'Delete Variable' being destroyed
+[2023.05.22-11.27.24:632][194]BlueprintLog: New page: Compile BP_SecurityCamera
+[2023.05.22-11.27.24:690][194]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2023.05.22-11.27.25:141][223]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.22-11.27.25:204][223]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_SecurityCamera" FILE="../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_SecurityCamera.uasset" SILENT=true
+[2023.05.22-11.27.25:432][223]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_SecurityCamera
+[2023.05.22-11.27.25:433][223]LogSavePackage: Moving '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Saved/BP_SecurityCameraBD243EFC48EB51CCBFE7E28BB61B1102.tmp' to '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_SecurityCamera.uasset'
+[2023.05.22-11.27.25:445][223]LogFileHelpers: InternalPromptForCheckoutAndSave took 304 ms (total: 24.8 sec)
+[2023.05.22-11.27.25:453][223]AssetCheck: New page: Asset Save: BP_SecurityCamera
+[2023.05.22-11.27.25:453][223]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_SecurityCamera.BP_SecurityCamera
+[2023.05.22-11.28.34:629][357]BlueprintLog: New page: Compile BP_SecurityCamera
+[2023.05.22-11.28.34:683][357]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2023.05.22-11.28.35:109][387]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.22-11.28.35:171][387]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_SecurityCamera" FILE="../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_SecurityCamera.uasset" SILENT=true
+[2023.05.22-11.28.35:177][387]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_SecurityCamera
+[2023.05.22-11.28.35:178][387]LogSavePackage: Moving '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Saved/BP_SecurityCamera256A00DF4B2F1C92BAF9C3B99C566F7D.tmp' to '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_SecurityCamera.uasset'
+[2023.05.22-11.28.35:190][387]LogFileHelpers: InternalPromptForCheckoutAndSave took 81 ms (total: 24.9 sec)
+[2023.05.22-11.28.35:200][387]AssetCheck: New page: Asset Save: BP_SecurityCamera
+[2023.05.22-11.28.35:200][387]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_SecurityCamera.BP_SecurityCamera
+[2023.05.22-11.34.21:279][524]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2023.05.22-11.34.21:288][524]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/Testing_World' took 0.045
+[2023.05.22-11.34.21:288][524]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/BP_SecurityCamera] ([2] browsable assets)...
+[2023.05.22-11.34.21:342][524]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_SecurityCamera.BP_SecurityCamera]
+[2023.05.22-11.34.21:342][524]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_SecurityCamera]
+[2023.05.22-11.34.21:348][524]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/BP_SecurityCamera_Auto4
+[2023.05.22-11.34.21:348][524]LogSavePackage: Moving '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Saved/BP_SecurityCamera_Auto496059B5F41B22F6B5D54959957F4C391.tmp' to '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Saved/Autosaves/Game/Blueprints/BP_SecurityCamera_Auto4.uasset'
+[2023.05.22-11.34.21:349][524]LogFileHelpers: Auto-saving content packages took 0.061
+[2023.05.22-11.42.43:230][524]LogDerivedDataCache: C:/Users/bgsan/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:04.093 and deleted 0 files with total size 0 MiB. Scanned 2348 files in 2336 folders with total size 49 MiB.
+[2023.05.22-11.42.52:201][240]BlueprintLog: New page: Compile BP_SecurityCamera
+[2023.05.22-11.42.52:253][240]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2023.05.22-11.43.33:240][992]BlueprintLog: New page: Compile BP_SecurityCamera
+[2023.05.22-11.43.33:325][992]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2023.05.22-11.43.33:698][ 11]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.22-11.43.33:747][ 11]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_SecurityCamera" FILE="../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_SecurityCamera.uasset" SILENT=true
+[2023.05.22-11.43.33:756][ 11]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_SecurityCamera
+[2023.05.22-11.43.33:757][ 11]LogSavePackage: Moving '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Saved/BP_SecurityCameraD9D847EF4149CF48161163B97291125B.tmp' to '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_SecurityCamera.uasset'
+[2023.05.22-11.43.33:768][ 11]LogFileHelpers: InternalPromptForCheckoutAndSave took 70 ms (total: 24.9 sec)
+[2023.05.22-11.43.33:776][ 11]AssetCheck: New page: Asset Save: BP_SecurityCamera
+[2023.05.22-11.43.33:776][ 11]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_SecurityCamera.BP_SecurityCamera
+[2023.05.22-11.44.05:335][ 13]BlueprintLog: New page: Compile BP_SecurityCamera
+[2023.05.22-11.44.05:394][ 13]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2023.05.22-11.44.05:733][ 30]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.22-11.44.05:784][ 30]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_SecurityCamera" FILE="../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_SecurityCamera.uasset" SILENT=true
+[2023.05.22-11.44.05:792][ 30]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_SecurityCamera
+[2023.05.22-11.44.05:793][ 30]LogSavePackage: Moving '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Saved/BP_SecurityCamera19DDE8784C5E19C186069690621ABAD9.tmp' to '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_SecurityCamera.uasset'
+[2023.05.22-11.44.05:805][ 30]LogFileHelpers: InternalPromptForCheckoutAndSave took 71 ms (total: 25.0 sec)
+[2023.05.22-11.44.05:815][ 30]AssetCheck: New page: Asset Save: BP_SecurityCamera
+[2023.05.22-11.44.05:815][ 30]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_SecurityCamera.BP_SecurityCamera
+[2023.05.22-11.44.47:043][ 22]BlueprintLog: New page: Compile BP_SecurityCamera
+[2023.05.22-11.44.47:099][ 22]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2023.05.22-11.44.47:971][ 90]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.22-11.44.48:026][ 90]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_SecurityCamera" FILE="../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_SecurityCamera.uasset" SILENT=true
+[2023.05.22-11.44.48:035][ 90]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_SecurityCamera
+[2023.05.22-11.44.48:036][ 90]LogSavePackage: Moving '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Saved/BP_SecurityCamera8DB27EE94D84080A8A372580ED51F2CC.tmp' to '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_SecurityCamera.uasset'
+[2023.05.22-11.44.48:048][ 90]LogFileHelpers: InternalPromptForCheckoutAndSave took 76 ms (total: 25.1 sec)
+[2023.05.22-11.44.48:054][ 90]AssetCheck: New page: Asset Save: BP_SecurityCamera
+[2023.05.22-11.44.48:055][ 90]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_SecurityCamera.BP_SecurityCamera
+[2023.05.22-11.44.52:459][514]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_SecurityCamera.BP_SecurityCamera_C
+[2023.05.22-11.44.52:460][514]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_SecurityCamera.BP_SecurityCamera_C
+[2023.05.22-11.44.52:461][514]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_SecurityCamera.BP_SecurityCamera as actor: BP_SecurityCamera_C /Game/Levels/Testing_World.Testing_World:PersistentLevel.BP_SecurityCamera_C_0
+[2023.05.22-11.44.52:463][514]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_SecurityCamera.BP_SecurityCamera as actor: BP_SecurityCamera_C /Game/Levels/Testing_World.Testing_World:PersistentLevel.BP_SecurityCamera_C_0
+[2023.05.22-11.44.53:032][564]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_SecurityCamera.BP_SecurityCamera_C
+[2023.05.22-11.44.53:032][564]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_SecurityCamera.BP_SecurityCamera_C
+[2023.05.22-11.44.53:035][564]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_SecurityCamera.BP_SecurityCamera as actor: BP_SecurityCamera_C /Game/Levels/Testing_World.Testing_World:PersistentLevel.BP_SecurityCamera_C_1
+[2023.05.22-11.44.53:036][564]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_SecurityCamera.BP_SecurityCamera as actor: BP_SecurityCamera_C /Game/Levels/Testing_World.Testing_World:PersistentLevel.BP_SecurityCamera_C_1
+[2023.05.22-11.44.55:215][763]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.22-11.44.55:245][763]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.22-11.44.55:245][763]PIE: New page: PIE session: Testing_World (23 May 2023, 7:44:55 am)
+[2023.05.22-11.44.55:281][763]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Testing_World
+[2023.05.22-11.44.55:284][763]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002898s)
+[2023.05.22-11.44.55:284][763]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Testing_World.Testing_World to /Game/Levels/UEDPIE_0_Testing_World.Testing_World (0.002933s)
+[2023.05.22-11.44.55:284][763]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.22-11.44.55:284][763]LogAIModule: Creating AISystem for world Testing_World
+[2023.05.22-11.44.55:285][763]LogPlayLevel: PIE: World Init took: (0.000784s)
+[2023.05.22-11.44.55:320][763]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2023.05.22-11.44.55:327][763]LogAudio: Display: Creating Audio Device:                 Id: 76, Scope: Unique, Realtime: True
+[2023.05.22-11.44.55:327][763]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.22-11.44.55:327][763]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.22-11.44.55:327][763]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.22-11.44.55:327][763]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.22-11.44.55:327][763]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.22-11.44.55:327][763]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.22-11.44.55:327][763]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.22-11.44.55:327][763]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.22-11.44.55:328][763]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.22-11.44.55:328][763]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.22-11.44.55:328][763]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.22-11.44.55:330][763]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.22-11.44.55:359][763]LogAudioMixer: Display: Using Audio Hardware Device Speakers (HyperX Cloud II Wireless)
+[2023.05.22-11.44.55:359][763]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.22-11.44.55:359][763]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.22-11.44.55:359][763]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.22-11.44.55:360][763]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=76
+[2023.05.22-11.44.55:360][763]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=76
+[2023.05.22-11.44.55:361][763]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=76
+[2023.05.22-11.44.55:361][763]LogInit: FAudioDevice initialized.
+[2023.05.22-11.44.55:361][763]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=76
+[2023.05.22-11.44.55:362][763]LogAudio: Display: Audio Device (ID: 76) registered with world 'Testing_World'.
+[2023.05.22-11.44.55:365][763]LogLoad: Game class is 'Player_GM_C'
+[2023.05.22-11.44.55:366][763]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Testing_World.Testing_World up for play (max tick rate 0) at 2023.05.22-21.44.55
+[2023.05.22-11.44.55:366][763]LogWorld: Bringing up level for play took: 0.000951
+[2023.05.22-11.44.55:368][763]LogOnline: OSS: Created online subsystem instance for: :Context_113
+[2023.05.22-11.44.55:370][763]PIE: Server logged in
+[2023.05.22-11.44.55:371][763]PIE: Play in editor total start time 0.147 seconds.
+[2023.05.22-11.44.56:930][886]LogShaderCompilers: Display: ================================================
+[2023.05.22-11.44.56:930][886]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.05.22-11.44.56:930][886]LogShaderCompilers: Display: Total job queries 331, among them cache hits 77 (23.26%)
+[2023.05.22-11.44.56:930][886]LogShaderCompilers: Display: Tracking 254 distinct input hashes that result in 182 distinct outputs (71.65%)
+[2023.05.22-11.44.56:930][886]LogShaderCompilers: Display: RAM used: 2.02 MB (0.00 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.12%
+[2023.05.22-11.44.56:930][886]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.05.22-11.44.56:930][886]LogShaderCompilers: Display: Shaders Compiled: 152
+[2023.05.22-11.44.56:930][886]LogShaderCompilers: Display: Jobs assigned 152, completed 152 (100.00%)
+[2023.05.22-11.44.56:930][886]LogShaderCompilers: Display: Average time worker was idle: 449.74 s
+[2023.05.22-11.44.56:930][886]LogShaderCompilers: Display: Time job spent in pending queue: average 2.35 s, longest 8.95 s
+[2023.05.22-11.44.56:930][886]LogShaderCompilers: Display: Job execution time: average 1.00 s, max 2.85 s
+[2023.05.22-11.44.56:930][886]LogShaderCompilers: Display: Job life time (pending + execution): average 3.34 s, max 10.48
+[2023.05.22-11.44.56:930][886]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 26.41 s
+[2023.05.22-11.44.56:930][886]LogShaderCompilers: Display: Jobs were issued in 152 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.05.22-11.44.56:930][886]LogShaderCompilers: Display: Average processing rate: 5.75 jobs/sec
+[2023.05.22-11.44.56:930][886]LogShaderCompilers: Display: Total thread time: 110.34 s
+[2023.05.22-11.44.56:930][886]LogShaderCompilers: Display: Total thread preprocess time: 5.78 s
+[2023.05.22-11.44.56:930][886]LogShaderCompilers: Display: Percentage time preprocessing: 5.24%
+[2023.05.22-11.44.56:930][886]LogShaderCompilers: Display: Effective parallelization: 4.18 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.05.22-11.44.56:930][886]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.05.22-11.44.56:930][886]LogShaderCompilers: Display:  TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQSkylight (compiled    4 times, average 0.96 sec, max 1.77 sec, min 0.65 sec)
+[2023.05.22-11.44.56:930][886]LogShaderCompilers: Display:                                           FLumenCardPS<true> (compiled    1 times, average 0.96 sec, max 0.96 sec, min 0.96 sec)
+[2023.05.22-11.44.56:930][886]LogShaderCompilers: Display:                         TBasePassPSTLightMapPolicyLQSkylight (compiled    4 times, average 0.93 sec, max 1.75 sec, min 0.64 sec)
+[2023.05.22-11.44.56:930][886]LogShaderCompilers: Display:                                 TBasePassPSTLightMapPolicyHQ (compiled    4 times, average 0.93 sec, max 1.69 sec, min 0.65 sec)
+[2023.05.22-11.44.56:930][886]LogShaderCompilers: Display:          TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQ (compiled    4 times, average 0.92 sec, max 1.70 sec, min 0.62 sec)
+[2023.05.22-11.44.56:930][886]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.05.22-11.44.56:930][886]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 13.21% of total time (compiled   18 times, average 0.81 sec, max 1.42 sec, min 0.56 sec)
+[2023.05.22-11.44.56:930][886]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 10.87% of total time (compiled   17 times, average 0.71 sec, max 0.85 sec, min 0.57 sec)
+[2023.05.22-11.44.56:930][886]LogShaderCompilers: Display:                                                 FLumenCardVS - 7.09% of total time (compiled   12 times, average 0.65 sec, max 0.77 sec, min 0.54 sec)
+[2023.05.22-11.44.56:930][886]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 4.50% of total time (compiled   12 times, average 0.41 sec, max 0.54 sec, min 0.35 sec)
+[2023.05.22-11.44.56:930][886]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight - 4.00% of total time (compiled    5 times, average 0.88 sec, max 1.43 sec, min 0.70 sec)
+[2023.05.22-11.44.56:930][886]LogShaderCompilers: Display: ================================================
+[2023.05.22-11.45.00:461][297]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.22-11.45.00:461][297]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Testing_World
+[2023.05.22-11.45.00:461][297]LogWorld: UWorld::CleanupWorld for Testing_World, bSessionEnded=true, bCleanupResources=true
+[2023.05.22-11.45.00:462][297]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.22-11.45.00:469][297]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.22-11.45.00:475][297]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.22-11.45.00:509][297]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.22-11.45.00:509][297]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=76
+[2023.05.22-11.45.00:511][297]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=76
+[2023.05.22-11.45.00:514][297]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.22-11.45.00:517][297]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2023.05.22-11.45.00:571][298]LogPlayLevel: Display: Destroying online subsystem :Context_113
+[2023.05.22-11.45.12:325][161]BlueprintLog: New page: Compile BP_SecurityCamera
+[2023.05.22-11.45.12:383][161]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2023.05.22-11.45.12:947][168]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.22-11.45.13:000][168]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_SecurityCamera" FILE="../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_SecurityCamera.uasset" SILENT=true
+[2023.05.22-11.45.13:008][168]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_SecurityCamera
+[2023.05.22-11.45.13:009][168]LogSavePackage: Moving '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Saved/BP_SecurityCamera9F2E81664CC287D4AD9F8580EF6415D8.tmp' to '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_SecurityCamera.uasset'
+[2023.05.22-11.45.13:022][168]LogFileHelpers: InternalPromptForCheckoutAndSave took 75 ms (total: 25.2 sec)
+[2023.05.22-11.45.13:032][168]AssetCheck: New page: Asset Save: BP_SecurityCamera
+[2023.05.22-11.45.13:033][168]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_SecurityCamera.BP_SecurityCamera
+[2023.05.22-11.45.14:678][303]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.22-11.45.14:687][303]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.22-11.45.14:687][303]PIE: New page: PIE session: Testing_World (23 May 2023, 7:45:14 am)
+[2023.05.22-11.45.14:711][303]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Testing_World
+[2023.05.22-11.45.14:714][303]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002841s)
+[2023.05.22-11.45.14:714][303]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Testing_World.Testing_World to /Game/Levels/UEDPIE_0_Testing_World.Testing_World (0.002877s)
+[2023.05.22-11.45.14:714][303]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.22-11.45.14:714][303]LogAIModule: Creating AISystem for world Testing_World
+[2023.05.22-11.45.14:715][303]LogPlayLevel: PIE: World Init took: (0.000733s)
+[2023.05.22-11.45.14:749][303]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2023.05.22-11.45.14:756][303]LogAudio: Display: Creating Audio Device:                 Id: 77, Scope: Unique, Realtime: True
+[2023.05.22-11.45.14:756][303]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.22-11.45.14:756][303]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.22-11.45.14:756][303]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.22-11.45.14:756][303]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.22-11.45.14:756][303]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.22-11.45.14:756][303]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.22-11.45.14:756][303]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.22-11.45.14:756][303]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.22-11.45.14:757][303]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.22-11.45.14:757][303]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.22-11.45.14:757][303]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.22-11.45.14:759][303]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.22-11.45.14:787][303]LogAudioMixer: Display: Using Audio Hardware Device Speakers (HyperX Cloud II Wireless)
+[2023.05.22-11.45.14:788][303]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.22-11.45.14:788][303]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.22-11.45.14:788][303]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.22-11.45.14:789][303]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=77
+[2023.05.22-11.45.14:789][303]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=77
+[2023.05.22-11.45.14:790][303]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=77
+[2023.05.22-11.45.14:790][303]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=77
+[2023.05.22-11.45.14:790][303]LogInit: FAudioDevice initialized.
+[2023.05.22-11.45.14:790][303]LogAudio: Display: Audio Device (ID: 77) registered with world 'Testing_World'.
+[2023.05.22-11.45.14:793][303]LogLoad: Game class is 'Player_GM_C'
+[2023.05.22-11.45.14:794][303]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Testing_World.Testing_World up for play (max tick rate 0) at 2023.05.22-21.45.14
+[2023.05.22-11.45.14:794][303]LogWorld: Bringing up level for play took: 0.000899
+[2023.05.22-11.45.14:797][303]LogOnline: OSS: Created online subsystem instance for: :Context_114
+[2023.05.22-11.45.14:798][303]PIE: Server logged in
+[2023.05.22-11.45.14:799][303]PIE: Play in editor total start time 0.112 seconds.
+[2023.05.22-11.45.16:981][540]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.22-11.45.16:981][540]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Testing_World
+[2023.05.22-11.45.16:981][540]LogWorld: UWorld::CleanupWorld for Testing_World, bSessionEnded=true, bCleanupResources=true
+[2023.05.22-11.45.16:981][540]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.22-11.45.17:007][540]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.22-11.45.17:013][540]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.22-11.45.17:048][540]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.22-11.45.17:048][540]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=77
+[2023.05.22-11.45.17:050][540]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=77
+[2023.05.22-11.45.17:055][540]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.22-11.45.17:057][540]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2023.05.22-11.45.17:112][541]LogPlayLevel: Display: Destroying online subsystem :Context_114
+[2023.05.22-11.45.31:008][492]BlueprintLog: New page: Compile BP_SecurityCamera
+[2023.05.22-11.45.31:067][492]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2023.05.22-11.45.31:383][503]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.22-11.45.31:438][503]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_SecurityCamera" FILE="../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_SecurityCamera.uasset" SILENT=true
+[2023.05.22-11.45.31:447][503]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_SecurityCamera
+[2023.05.22-11.45.31:447][503]LogSavePackage: Moving '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Saved/BP_SecurityCamera0D467D454033D17D144E8A82E590214D.tmp' to '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_SecurityCamera.uasset'
+[2023.05.22-11.45.31:460][503]LogFileHelpers: InternalPromptForCheckoutAndSave took 76 ms (total: 25.2 sec)
+[2023.05.22-11.45.31:471][503]AssetCheck: New page: Asset Save: BP_SecurityCamera
+[2023.05.22-11.45.31:471][503]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_SecurityCamera.BP_SecurityCamera
+[2023.05.22-11.45.33:672][672]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.22-11.45.33:681][672]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.22-11.45.33:682][672]PIE: New page: PIE session: Testing_World (23 May 2023, 7:45:33 am)
+[2023.05.22-11.45.33:682][672]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Testing_World
+[2023.05.22-11.45.33:685][672]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002963s)
+[2023.05.22-11.45.33:685][672]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Testing_World.Testing_World to /Game/Levels/UEDPIE_0_Testing_World.Testing_World (0.002992s)
+[2023.05.22-11.45.33:685][672]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.22-11.45.33:685][672]LogAIModule: Creating AISystem for world Testing_World
+[2023.05.22-11.45.33:685][672]LogPlayLevel: PIE: World Init took: (0.000730s)
+[2023.05.22-11.45.33:720][672]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2023.05.22-11.45.33:726][672]LogAudio: Display: Creating Audio Device:                 Id: 78, Scope: Unique, Realtime: True
+[2023.05.22-11.45.33:726][672]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.22-11.45.33:726][672]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.22-11.45.33:726][672]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.22-11.45.33:726][672]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.22-11.45.33:726][672]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.22-11.45.33:726][672]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.22-11.45.33:726][672]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.22-11.45.33:726][672]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.22-11.45.33:726][672]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.22-11.45.33:726][672]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.22-11.45.33:727][672]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.22-11.45.33:729][672]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.22-11.45.33:757][672]LogAudioMixer: Display: Using Audio Hardware Device Speakers (HyperX Cloud II Wireless)
+[2023.05.22-11.45.33:757][672]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.22-11.45.33:757][672]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.22-11.45.33:757][672]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.22-11.45.33:758][672]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=78
+[2023.05.22-11.45.33:758][672]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=78
+[2023.05.22-11.45.33:759][672]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=78
+[2023.05.22-11.45.33:759][672]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=78
+[2023.05.22-11.45.33:759][672]LogInit: FAudioDevice initialized.
+[2023.05.22-11.45.33:759][672]LogAudio: Display: Audio Device (ID: 78) registered with world 'Testing_World'.
+[2023.05.22-11.45.33:763][672]LogLoad: Game class is 'Player_GM_C'
+[2023.05.22-11.45.33:763][672]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Testing_World.Testing_World up for play (max tick rate 0) at 2023.05.22-21.45.33
+[2023.05.22-11.45.33:764][672]LogWorld: Bringing up level for play took: 0.000934
+[2023.05.22-11.45.33:766][672]LogOnline: OSS: Created online subsystem instance for: :Context_115
+[2023.05.22-11.45.33:767][672]PIE: Server logged in
+[2023.05.22-11.45.33:768][672]PIE: Play in editor total start time 0.087 seconds.
+[2023.05.22-11.45.36:191][944]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.22-11.45.36:191][944]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Testing_World
+[2023.05.22-11.45.36:191][944]LogWorld: UWorld::CleanupWorld for Testing_World, bSessionEnded=true, bCleanupResources=true
+[2023.05.22-11.45.36:191][944]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.22-11.45.36:219][944]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.22-11.45.36:226][944]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.22-11.45.36:259][944]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.22-11.45.36:259][944]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=78
+[2023.05.22-11.45.36:261][944]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=78
+[2023.05.22-11.45.36:264][944]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.22-11.45.36:266][944]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2023.05.22-11.45.36:321][945]LogPlayLevel: Display: Destroying online subsystem :Context_115
+[2023.05.22-11.46.04:351][172]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2023.05.22-11.46.04:374][172]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Levels/Testing_World_Auto5
+[2023.05.22-11.46.04:375][172]LogSavePackage: Moving '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Saved/Testing_World_Auto50BCD0AE04D151E300AD90EACBAAC0D2F.tmp' to '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Saved/Autosaves/Game/Levels/Testing_World_Auto5.umap'
+[2023.05.22-11.46.04:380][172]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/Testing_World' took 0.071
+[2023.05.22-11.46.04:380][172]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.071
+[2023.05.22-11.46.54:838][657]LogEditorTransaction: Undo Move Node
+[2023.05.22-11.48.04:489][917]BlueprintLog: New page: Compile BP_SecurityCamera
+[2023.05.22-11.48.04:552][917]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2023.05.22-11.48.05:050][936]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.22-11.48.05:109][936]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_SecurityCamera" FILE="../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_SecurityCamera.uasset" SILENT=true
+[2023.05.22-11.48.05:119][936]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_SecurityCamera
+[2023.05.22-11.48.05:119][936]LogSavePackage: Moving '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Saved/BP_SecurityCamera861FA0B24087E84EA62DB8955AB208AB.tmp' to '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_SecurityCamera.uasset'
+[2023.05.22-11.48.05:132][936]LogFileHelpers: InternalPromptForCheckoutAndSave took 82 ms (total: 25.3 sec)
+[2023.05.22-11.48.05:143][936]AssetCheck: New page: Asset Save: BP_SecurityCamera
+[2023.05.22-11.48.05:144][936]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_SecurityCamera.BP_SecurityCamera
+[2023.05.22-11.48.06:516][ 40]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.22-11.48.06:526][ 40]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.22-11.48.06:526][ 40]PIE: New page: PIE session: Testing_World (23 May 2023, 7:48:06 am)
+[2023.05.22-11.48.06:551][ 40]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Testing_World
+[2023.05.22-11.48.06:554][ 40]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002962s)
+[2023.05.22-11.48.06:554][ 40]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Testing_World.Testing_World to /Game/Levels/UEDPIE_0_Testing_World.Testing_World (0.003005s)
+[2023.05.22-11.48.06:554][ 40]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.22-11.48.06:554][ 40]LogAIModule: Creating AISystem for world Testing_World
+[2023.05.22-11.48.06:555][ 40]LogPlayLevel: PIE: World Init took: (0.000920s)
+[2023.05.22-11.48.06:591][ 40]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2023.05.22-11.48.06:598][ 40]LogAudio: Display: Creating Audio Device:                 Id: 79, Scope: Unique, Realtime: True
+[2023.05.22-11.48.06:598][ 40]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.22-11.48.06:598][ 40]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.22-11.48.06:598][ 40]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.22-11.48.06:598][ 40]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.22-11.48.06:598][ 40]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.22-11.48.06:598][ 40]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.22-11.48.06:598][ 40]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.22-11.48.06:598][ 40]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.22-11.48.06:599][ 40]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.22-11.48.06:599][ 40]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.22-11.48.06:599][ 40]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.22-11.48.06:601][ 40]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.22-11.48.06:631][ 40]LogAudioMixer: Display: Using Audio Hardware Device Speakers (HyperX Cloud II Wireless)
+[2023.05.22-11.48.06:632][ 40]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.22-11.48.06:632][ 40]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.22-11.48.06:632][ 40]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.22-11.48.06:633][ 40]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=79
+[2023.05.22-11.48.06:633][ 40]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=79
+[2023.05.22-11.48.06:635][ 40]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=79
+[2023.05.22-11.48.06:635][ 40]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=79
+[2023.05.22-11.48.06:635][ 40]LogInit: FAudioDevice initialized.
+[2023.05.22-11.48.06:635][ 40]LogAudio: Display: Audio Device (ID: 79) registered with world 'Testing_World'.
+[2023.05.22-11.48.06:638][ 40]LogLoad: Game class is 'Player_GM_C'
+[2023.05.22-11.48.06:639][ 40]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Testing_World.Testing_World up for play (max tick rate 0) at 2023.05.22-21.48.06
+[2023.05.22-11.48.06:639][ 40]LogWorld: Bringing up level for play took: 0.001022
+[2023.05.22-11.48.06:642][ 40]LogOnline: OSS: Created online subsystem instance for: :Context_116
+[2023.05.22-11.48.06:644][ 40]PIE: Server logged in
+[2023.05.22-11.48.06:645][ 40]PIE: Play in editor total start time 0.118 seconds.
+[2023.05.22-11.48.12:101][637]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.22-11.48.12:101][637]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Testing_World
+[2023.05.22-11.48.12:101][637]LogWorld: UWorld::CleanupWorld for Testing_World, bSessionEnded=true, bCleanupResources=true
+[2023.05.22-11.48.12:101][637]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.22-11.48.12:145][637]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.22-11.48.12:153][637]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.22-11.48.12:188][637]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.22-11.48.12:188][637]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=79
+[2023.05.22-11.48.12:190][637]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=79
+[2023.05.22-11.48.12:194][637]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.22-11.48.12:197][637]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2023.05.22-11.48.12:259][638]LogPlayLevel: Display: Destroying online subsystem :Context_116
+[2023.05.22-11.48.25:089][ 89]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.22-11.48.25:148][ 89]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_SecurityCamera" FILE="../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_SecurityCamera.uasset" SILENT=true
+[2023.05.22-11.48.25:158][ 89]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_SecurityCamera
+[2023.05.22-11.48.25:158][ 89]LogSavePackage: Moving '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Saved/BP_SecurityCamera7CACB2A64B05A837F65F138EA3CA432C.tmp' to '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_SecurityCamera.uasset'
+[2023.05.22-11.48.25:172][ 89]LogFileHelpers: InternalPromptForCheckoutAndSave took 83 ms (total: 25.4 sec)
+[2023.05.22-11.48.25:180][ 89]AssetCheck: New page: Asset Save: BP_SecurityCamera
+[2023.05.22-11.48.25:180][ 89]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_SecurityCamera.BP_SecurityCamera
+[2023.05.22-11.48.26:373][177]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.22-11.48.26:383][177]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.05.22-11.48.26:384][177]LogPlayLevel: [PlayLevel] Compiling BP_SecurityCamera before play...
+[2023.05.22-11.48.26:496][177]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2023.05.22-11.48.26:502][177]LogPlayLevel: PlayLevel: Blueprint regeneration took 118 ms (1 blueprints)
+[2023.05.22-11.48.26:502][177]PIE: New page: PIE session: Testing_World (23 May 2023, 7:48:26 am)
+[2023.05.22-11.48.26:502][177]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Testing_World
+[2023.05.22-11.48.26:505][177]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002955s)
+[2023.05.22-11.48.26:505][177]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Testing_World.Testing_World to /Game/Levels/UEDPIE_0_Testing_World.Testing_World (0.002990s)
+[2023.05.22-11.48.26:506][177]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.22-11.48.26:506][177]LogAIModule: Creating AISystem for world Testing_World
+[2023.05.22-11.48.26:506][177]LogPlayLevel: PIE: World Init took: (0.000822s)
+[2023.05.22-11.48.26:542][177]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2023.05.22-11.48.26:547][177]LogAudio: Display: Creating Audio Device:                 Id: 80, Scope: Unique, Realtime: True
+[2023.05.22-11.48.26:547][177]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.22-11.48.26:547][177]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.22-11.48.26:547][177]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.22-11.48.26:547][177]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.22-11.48.26:547][177]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.22-11.48.26:547][177]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.22-11.48.26:547][177]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.22-11.48.26:547][177]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.22-11.48.26:547][177]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.22-11.48.26:547][177]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.22-11.48.26:547][177]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.22-11.48.26:550][177]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.22-11.48.26:580][177]LogAudioMixer: Display: Using Audio Hardware Device Speakers (HyperX Cloud II Wireless)
+[2023.05.22-11.48.26:580][177]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.22-11.48.26:580][177]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.22-11.48.26:580][177]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.22-11.48.26:581][177]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=80
+[2023.05.22-11.48.26:581][177]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=80
+[2023.05.22-11.48.26:583][177]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=80
+[2023.05.22-11.48.26:583][177]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=80
+[2023.05.22-11.48.26:583][177]LogInit: FAudioDevice initialized.
+[2023.05.22-11.48.26:583][177]LogAudio: Display: Audio Device (ID: 80) registered with world 'Testing_World'.
+[2023.05.22-11.48.26:587][177]LogLoad: Game class is 'Player_GM_C'
+[2023.05.22-11.48.26:588][177]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Testing_World.Testing_World up for play (max tick rate 0) at 2023.05.22-21.48.26
+[2023.05.22-11.48.26:588][177]LogWorld: Bringing up level for play took: 0.000930
+[2023.05.22-11.48.26:590][177]LogOnline: OSS: Created online subsystem instance for: :Context_117
+[2023.05.22-11.48.26:592][177]PIE: Server logged in
+[2023.05.22-11.48.26:593][177]PIE: Play in editor total start time 0.21 seconds.
+[2023.05.22-11.48.29:891][530]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.22-11.48.29:891][530]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Testing_World
+[2023.05.22-11.48.29:891][530]LogWorld: UWorld::CleanupWorld for Testing_World, bSessionEnded=true, bCleanupResources=true
+[2023.05.22-11.48.29:891][530]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.22-11.48.29:899][530]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.22-11.48.29:906][530]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.22-11.48.29:942][530]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.22-11.48.29:942][530]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=80
+[2023.05.22-11.48.29:944][530]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=80
+[2023.05.22-11.48.29:950][530]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2023.05.22-11.48.30:009][531]LogPlayLevel: Display: Destroying online subsystem :Context_117
+[2023.05.22-11.48.48:628][629]BlueprintLog: New page: Compile BP_SecurityCamera
+[2023.05.22-11.48.48:690][629]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2023.05.22-11.48.49:054][641]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.22-11.48.49:110][641]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_SecurityCamera" FILE="../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_SecurityCamera.uasset" SILENT=true
+[2023.05.22-11.48.49:120][641]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_SecurityCamera
+[2023.05.22-11.48.49:120][641]LogSavePackage: Moving '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Saved/BP_SecurityCamera24C1262F4CCE3287303695B19B6B10B0.tmp' to '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_SecurityCamera.uasset'
+[2023.05.22-11.48.49:134][641]LogFileHelpers: InternalPromptForCheckoutAndSave took 80 ms (total: 25.5 sec)
+[2023.05.22-11.48.49:141][641]AssetCheck: New page: Asset Save: BP_SecurityCamera
+[2023.05.22-11.48.49:141][641]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_SecurityCamera.BP_SecurityCamera
+[2023.05.22-11.48.50:454][740]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.22-11.48.50:466][740]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.22-11.48.50:466][740]PIE: New page: PIE session: Testing_World (23 May 2023, 7:48:50 am)
+[2023.05.22-11.48.50:466][740]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Testing_World
+[2023.05.22-11.48.50:469][740]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003034s)
+[2023.05.22-11.48.50:469][740]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Testing_World.Testing_World to /Game/Levels/UEDPIE_0_Testing_World.Testing_World (0.003077s)
+[2023.05.22-11.48.50:469][740]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.22-11.48.50:470][740]LogAIModule: Creating AISystem for world Testing_World
+[2023.05.22-11.48.50:470][740]LogPlayLevel: PIE: World Init took: (0.000825s)
+[2023.05.22-11.48.50:508][740]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2023.05.22-11.48.50:514][740]LogAudio: Display: Creating Audio Device:                 Id: 81, Scope: Unique, Realtime: True
+[2023.05.22-11.48.50:514][740]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.22-11.48.50:514][740]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.22-11.48.50:514][740]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.22-11.48.50:514][740]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.22-11.48.50:514][740]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.22-11.48.50:514][740]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.22-11.48.50:514][740]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.22-11.48.50:514][740]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.22-11.48.50:515][740]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.22-11.48.50:515][740]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.22-11.48.50:515][740]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.22-11.48.50:517][740]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.22-11.48.50:547][740]LogAudioMixer: Display: Using Audio Hardware Device Speakers (HyperX Cloud II Wireless)
+[2023.05.22-11.48.50:547][740]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.22-11.48.50:547][740]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.22-11.48.50:547][740]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.22-11.48.50:548][740]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=81
+[2023.05.22-11.48.50:549][740]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=81
+[2023.05.22-11.48.50:550][740]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=81
+[2023.05.22-11.48.50:550][740]LogInit: FAudioDevice initialized.
+[2023.05.22-11.48.50:550][740]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=81
+[2023.05.22-11.48.50:550][740]LogAudio: Display: Audio Device (ID: 81) registered with world 'Testing_World'.
+[2023.05.22-11.48.50:553][740]LogLoad: Game class is 'Player_GM_C'
+[2023.05.22-11.48.50:554][740]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Testing_World.Testing_World up for play (max tick rate 0) at 2023.05.22-21.48.50
+[2023.05.22-11.48.50:554][740]LogWorld: Bringing up level for play took: 0.000957
+[2023.05.22-11.48.50:557][740]LogOnline: OSS: Created online subsystem instance for: :Context_118
+[2023.05.22-11.48.50:558][740]PIE: Server logged in
+[2023.05.22-11.48.50:559][740]PIE: Play in editor total start time 0.094 seconds.
+[2023.05.22-11.48.54:531][163]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.22-11.48.54:531][163]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Testing_World
+[2023.05.22-11.48.54:531][163]LogWorld: UWorld::CleanupWorld for Testing_World, bSessionEnded=true, bCleanupResources=true
+[2023.05.22-11.48.54:531][163]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.22-11.48.54:573][163]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.22-11.48.54:580][163]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.22-11.48.54:616][163]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.22-11.48.54:616][163]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=81
+[2023.05.22-11.48.54:618][163]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=81
+[2023.05.22-11.48.54:624][163]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.22-11.48.54:626][163]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2023.05.22-11.48.54:687][164]LogPlayLevel: Display: Destroying online subsystem :Context_118
+[2023.05.22-11.48.59:792][465]BlueprintLog: New page: Compile BP_SecurityCamera
+[2023.05.22-11.48.59:854][465]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2023.05.22-11.49.00:106][469]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.22-11.49.00:151][469]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_SecurityCamera" FILE="../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_SecurityCamera.uasset" SILENT=true
+[2023.05.22-11.49.00:161][469]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_SecurityCamera
+[2023.05.22-11.49.00:162][469]LogSavePackage: Moving '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Saved/BP_SecurityCamera9A999B464E6BD30F0FA8589EF4CFF1D2.tmp' to '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_SecurityCamera.uasset'
+[2023.05.22-11.49.00:175][469]LogFileHelpers: InternalPromptForCheckoutAndSave took 69 ms (total: 25.5 sec)
+[2023.05.22-11.49.00:183][469]AssetCheck: New page: Asset Save: BP_SecurityCamera
+[2023.05.22-11.49.00:183][469]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_SecurityCamera.BP_SecurityCamera
+[2023.05.22-11.49.02:056][606]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.22-11.49.02:065][606]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.22-11.49.02:065][606]PIE: New page: PIE session: Testing_World (23 May 2023, 7:49:02 am)
+[2023.05.22-11.49.02:065][606]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Testing_World
+[2023.05.22-11.49.02:068][606]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003183s)
+[2023.05.22-11.49.02:068][606]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Testing_World.Testing_World to /Game/Levels/UEDPIE_0_Testing_World.Testing_World (0.003220s)
+[2023.05.22-11.49.02:068][606]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.22-11.49.02:069][606]LogAIModule: Creating AISystem for world Testing_World
+[2023.05.22-11.49.02:069][606]LogPlayLevel: PIE: World Init took: (0.000817s)
+[2023.05.22-11.49.02:106][606]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2023.05.22-11.49.02:111][606]LogAudio: Display: Creating Audio Device:                 Id: 82, Scope: Unique, Realtime: True
+[2023.05.22-11.49.02:111][606]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.22-11.49.02:111][606]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.22-11.49.02:111][606]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.22-11.49.02:111][606]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.22-11.49.02:111][606]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.22-11.49.02:111][606]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.22-11.49.02:111][606]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.22-11.49.02:111][606]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.22-11.49.02:112][606]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.22-11.49.02:112][606]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.22-11.49.02:112][606]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.22-11.49.02:114][606]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.22-11.49.02:144][606]LogAudioMixer: Display: Using Audio Hardware Device Speakers (HyperX Cloud II Wireless)
+[2023.05.22-11.49.02:144][606]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.22-11.49.02:144][606]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.22-11.49.02:144][606]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.22-11.49.02:146][606]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=82
+[2023.05.22-11.49.02:146][606]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=82
+[2023.05.22-11.49.02:148][606]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=82
+[2023.05.22-11.49.02:148][606]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=82
+[2023.05.22-11.49.02:148][606]LogInit: FAudioDevice initialized.
+[2023.05.22-11.49.02:148][606]LogAudio: Display: Audio Device (ID: 82) registered with world 'Testing_World'.
+[2023.05.22-11.49.02:151][606]LogLoad: Game class is 'Player_GM_C'
+[2023.05.22-11.49.02:152][606]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Testing_World.Testing_World up for play (max tick rate 0) at 2023.05.22-21.49.02
+[2023.05.22-11.49.02:153][606]LogWorld: Bringing up level for play took: 0.000959
+[2023.05.22-11.49.02:155][606]LogOnline: OSS: Created online subsystem instance for: :Context_119
+[2023.05.22-11.49.02:157][606]PIE: Server logged in
+[2023.05.22-11.49.02:158][606]PIE: Play in editor total start time 0.092 seconds.
+[2023.05.22-11.49.03:191][711]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.22-11.49.03:191][711]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Testing_World
+[2023.05.22-11.49.03:191][711]LogWorld: UWorld::CleanupWorld for Testing_World, bSessionEnded=true, bCleanupResources=true
+[2023.05.22-11.49.03:191][711]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.22-11.49.03:233][711]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.22-11.49.03:240][711]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.22-11.49.03:275][711]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.22-11.49.03:275][711]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=82
+[2023.05.22-11.49.03:277][711]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=82
+[2023.05.22-11.49.03:281][711]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.22-11.49.03:283][711]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2023.05.22-11.49.03:345][712]LogPlayLevel: Display: Destroying online subsystem :Context_119
+[2023.05.22-11.50.33:432][843]BlueprintLog: New page: Compile BP_SecurityCamera
+[2023.05.22-11.50.33:498][843]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2023.05.22-11.50.33:871][856]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.22-11.50.33:929][856]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_SecurityCamera" FILE="../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_SecurityCamera.uasset" SILENT=true
+[2023.05.22-11.50.33:938][856]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_SecurityCamera
+[2023.05.22-11.50.33:938][856]LogSavePackage: Moving '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Saved/BP_SecurityCamera5C05C6C3442B489394265EB4ABE299EF.tmp' to '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_SecurityCamera.uasset'
+[2023.05.22-11.50.33:953][856]LogFileHelpers: InternalPromptForCheckoutAndSave took 82 ms (total: 25.6 sec)
+[2023.05.22-11.50.33:961][856]AssetCheck: New page: Asset Save: BP_SecurityCamera
+[2023.05.22-11.50.33:961][856]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_SecurityCamera.BP_SecurityCamera
+[2023.05.22-11.50.35:287][954]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.22-11.50.35:297][954]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.22-11.50.35:297][954]PIE: New page: PIE session: Testing_World (23 May 2023, 7:50:35 am)
+[2023.05.22-11.50.35:297][954]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Testing_World
+[2023.05.22-11.50.35:300][954]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002968s)
+[2023.05.22-11.50.35:300][954]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Testing_World.Testing_World to /Game/Levels/UEDPIE_0_Testing_World.Testing_World (0.003004s)
+[2023.05.22-11.50.35:300][954]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.22-11.50.35:301][954]LogAIModule: Creating AISystem for world Testing_World
+[2023.05.22-11.50.35:301][954]LogPlayLevel: PIE: World Init took: (0.000923s)
+[2023.05.22-11.50.35:337][954]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2023.05.22-11.50.35:342][954]LogAudio: Display: Creating Audio Device:                 Id: 83, Scope: Unique, Realtime: True
+[2023.05.22-11.50.35:343][954]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.22-11.50.35:343][954]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.22-11.50.35:343][954]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.22-11.50.35:343][954]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.22-11.50.35:343][954]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.22-11.50.35:343][954]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.22-11.50.35:343][954]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.22-11.50.35:343][954]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.22-11.50.35:343][954]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.22-11.50.35:343][954]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.22-11.50.35:343][954]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.22-11.50.35:345][954]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.22-11.50.35:375][954]LogAudioMixer: Display: Using Audio Hardware Device Speakers (HyperX Cloud II Wireless)
+[2023.05.22-11.50.35:375][954]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.22-11.50.35:375][954]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.22-11.50.35:375][954]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.22-11.50.35:376][954]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=83
+[2023.05.22-11.50.35:376][954]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=83
+[2023.05.22-11.50.35:378][954]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=83
+[2023.05.22-11.50.35:378][954]LogInit: FAudioDevice initialized.
+[2023.05.22-11.50.35:378][954]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=83
+[2023.05.22-11.50.35:378][954]LogAudio: Display: Audio Device (ID: 83) registered with world 'Testing_World'.
+[2023.05.22-11.50.35:381][954]LogLoad: Game class is 'Player_GM_C'
+[2023.05.22-11.50.35:382][954]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Testing_World.Testing_World up for play (max tick rate 0) at 2023.05.22-21.50.35
+[2023.05.22-11.50.35:383][954]LogWorld: Bringing up level for play took: 0.000946
+[2023.05.22-11.50.35:386][954]LogOnline: OSS: Created online subsystem instance for: :Context_120
+[2023.05.22-11.50.35:387][954]PIE: Server logged in
+[2023.05.22-11.50.35:388][954]PIE: Play in editor total start time 0.091 seconds.
+[2023.05.22-11.50.42:881][769]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.22-11.50.42:881][769]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Testing_World
+[2023.05.22-11.50.42:881][769]LogWorld: UWorld::CleanupWorld for Testing_World, bSessionEnded=true, bCleanupResources=true
+[2023.05.22-11.50.42:881][769]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.22-11.50.42:924][769]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.22-11.50.42:931][769]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.22-11.50.42:968][769]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.22-11.50.42:968][769]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=83
+[2023.05.22-11.50.42:970][769]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=83
+[2023.05.22-11.50.42:974][769]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.22-11.50.42:977][769]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2023.05.22-11.50.43:038][770]LogPlayLevel: Display: Destroying online subsystem :Context_120
+[2023.05.22-11.51.06:898][276]BlueprintLog: New page: Compile BP_SecurityCamera
+[2023.05.22-11.51.06:963][276]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2023.05.22-11.51.07:501][299]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.22-11.51.07:559][299]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_SecurityCamera" FILE="../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_SecurityCamera.uasset" SILENT=true
+[2023.05.22-11.51.07:568][299]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_SecurityCamera
+[2023.05.22-11.51.07:568][299]LogSavePackage: Moving '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Saved/BP_SecurityCamera8D4FC3A94837857ECAA1A5AB77992265.tmp' to '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_SecurityCamera.uasset'
+[2023.05.22-11.51.07:583][299]LogFileHelpers: InternalPromptForCheckoutAndSave took 82 ms (total: 25.7 sec)
+[2023.05.22-11.51.07:591][299]AssetCheck: New page: Asset Save: BP_SecurityCamera
+[2023.05.22-11.51.07:591][299]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_SecurityCamera.BP_SecurityCamera
+[2023.05.22-11.51.09:333][430]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.22-11.51.09:343][430]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.22-11.51.09:343][430]PIE: New page: PIE session: Testing_World (23 May 2023, 7:51:09 am)
+[2023.05.22-11.51.09:381][430]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Testing_World
+[2023.05.22-11.51.09:384][430]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002915s)
+[2023.05.22-11.51.09:384][430]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Testing_World.Testing_World to /Game/Levels/UEDPIE_0_Testing_World.Testing_World (0.002955s)
+[2023.05.22-11.51.09:384][430]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.22-11.51.09:385][430]LogAIModule: Creating AISystem for world Testing_World
+[2023.05.22-11.51.09:385][430]LogPlayLevel: PIE: World Init took: (0.000785s)
+[2023.05.22-11.51.09:421][430]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2023.05.22-11.51.09:426][430]LogAudio: Display: Creating Audio Device:                 Id: 84, Scope: Unique, Realtime: True
+[2023.05.22-11.51.09:427][430]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.22-11.51.09:427][430]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.22-11.51.09:427][430]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.22-11.51.09:427][430]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.22-11.51.09:427][430]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.22-11.51.09:427][430]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.22-11.51.09:427][430]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.22-11.51.09:427][430]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.22-11.51.09:427][430]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.22-11.51.09:427][430]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.22-11.51.09:427][430]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.22-11.51.09:430][430]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.22-11.51.09:459][430]LogAudioMixer: Display: Using Audio Hardware Device Speakers (HyperX Cloud II Wireless)
+[2023.05.22-11.51.09:459][430]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.22-11.51.09:459][430]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.22-11.51.09:460][430]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.22-11.51.09:461][430]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=84
+[2023.05.22-11.51.09:461][430]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=84
+[2023.05.22-11.51.09:462][430]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=84
+[2023.05.22-11.51.09:462][430]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=84
+[2023.05.22-11.51.09:462][430]LogInit: FAudioDevice initialized.
+[2023.05.22-11.51.09:462][430]LogAudio: Display: Audio Device (ID: 84) registered with world 'Testing_World'.
+[2023.05.22-11.51.09:466][430]LogLoad: Game class is 'Player_GM_C'
+[2023.05.22-11.51.09:467][430]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Testing_World.Testing_World up for play (max tick rate 0) at 2023.05.22-21.51.09
+[2023.05.22-11.51.09:467][430]LogWorld: Bringing up level for play took: 0.001011
+[2023.05.22-11.51.09:469][430]LogOnline: OSS: Created online subsystem instance for: :Context_121
+[2023.05.22-11.51.09:471][430]PIE: Server logged in
+[2023.05.22-11.51.09:471][430]PIE: Play in editor total start time 0.128 seconds.
+[2023.05.22-11.51.17:761][353]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.22-11.51.17:761][353]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Testing_World
+[2023.05.22-11.51.17:761][353]LogWorld: UWorld::CleanupWorld for Testing_World, bSessionEnded=true, bCleanupResources=true
+[2023.05.22-11.51.17:761][353]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.22-11.51.17:807][353]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.22-11.51.17:813][353]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.22-11.51.17:849][353]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.22-11.51.17:849][353]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=84
+[2023.05.22-11.51.17:851][353]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=84
+[2023.05.22-11.51.17:855][353]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.22-11.51.17:857][353]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2023.05.22-11.51.17:917][354]LogPlayLevel: Display: Destroying online subsystem :Context_121
+[2023.05.22-11.51.20:007][471]LogViewport: Scene viewport resized to 1144x691, mode Windowed.
+[2023.05.22-11.51.25:959][774]BlueprintLog: New page: Compile BP_SecurityCamera
+[2023.05.22-11.51.26:042][774]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2023.05.22-11.51.26:417][782]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.22-11.51.26:465][782]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_SecurityCamera" FILE="../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_SecurityCamera.uasset" SILENT=true
+[2023.05.22-11.51.26:475][782]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_SecurityCamera
+[2023.05.22-11.51.26:476][782]LogSavePackage: Moving '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Saved/BP_SecurityCamera60537B5C4B708723D3782D9875987F15.tmp' to '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_SecurityCamera.uasset'
+[2023.05.22-11.51.26:491][782]LogFileHelpers: InternalPromptForCheckoutAndSave took 73 ms (total: 25.8 sec)
+[2023.05.22-11.51.26:501][782]AssetCheck: New page: Asset Save: BP_SecurityCamera
+[2023.05.22-11.51.26:501][782]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_SecurityCamera.BP_SecurityCamera
+[2023.05.22-11.51.33:577][211]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.22-11.51.33:586][211]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.22-11.51.33:586][211]PIE: New page: PIE session: Testing_World (23 May 2023, 7:51:33 am)
+[2023.05.22-11.51.33:610][211]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Testing_World
+[2023.05.22-11.51.33:614][211]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003106s)
+[2023.05.22-11.51.33:614][211]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Testing_World.Testing_World to /Game/Levels/UEDPIE_0_Testing_World.Testing_World (0.003149s)
+[2023.05.22-11.51.33:614][211]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.22-11.51.33:614][211]LogAIModule: Creating AISystem for world Testing_World
+[2023.05.22-11.51.33:614][211]LogPlayLevel: PIE: World Init took: (0.000780s)
+[2023.05.22-11.51.33:652][211]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2023.05.22-11.51.33:659][211]LogAudio: Display: Creating Audio Device:                 Id: 85, Scope: Unique, Realtime: True
+[2023.05.22-11.51.33:659][211]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.22-11.51.33:659][211]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.22-11.51.33:659][211]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.22-11.51.33:659][211]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.22-11.51.33:659][211]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.22-11.51.33:659][211]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.22-11.51.33:659][211]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.22-11.51.33:660][211]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.22-11.51.33:660][211]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.22-11.51.33:660][211]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.22-11.51.33:660][211]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.22-11.51.33:662][211]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.22-11.51.33:692][211]LogAudioMixer: Display: Using Audio Hardware Device Speakers (HyperX Cloud II Wireless)
+[2023.05.22-11.51.33:692][211]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.22-11.51.33:692][211]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.22-11.51.33:692][211]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.22-11.51.33:693][211]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=85
+[2023.05.22-11.51.33:693][211]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=85
+[2023.05.22-11.51.33:695][211]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=85
+[2023.05.22-11.51.33:695][211]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=85
+[2023.05.22-11.51.33:695][211]LogInit: FAudioDevice initialized.
+[2023.05.22-11.51.33:695][211]LogAudio: Display: Audio Device (ID: 85) registered with world 'Testing_World'.
+[2023.05.22-11.51.33:698][211]LogLoad: Game class is 'Player_GM_C'
+[2023.05.22-11.51.33:699][211]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Testing_World.Testing_World up for play (max tick rate 0) at 2023.05.22-21.51.33
+[2023.05.22-11.51.33:699][211]LogWorld: Bringing up level for play took: 0.000968
+[2023.05.22-11.51.33:701][211]LogOnline: OSS: Created online subsystem instance for: :Context_122
+[2023.05.22-11.51.33:703][211]PIE: Server logged in
+[2023.05.22-11.51.33:704][211]PIE: Play in editor total start time 0.118 seconds.
+[2023.05.22-11.51.36:041][454]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.22-11.51.36:041][454]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Testing_World
+[2023.05.22-11.51.36:041][454]LogWorld: UWorld::CleanupWorld for Testing_World, bSessionEnded=true, bCleanupResources=true
+[2023.05.22-11.51.36:041][454]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.22-11.51.36:049][454]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.22-11.51.36:055][454]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.22-11.51.36:093][454]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.22-11.51.36:093][454]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=85
+[2023.05.22-11.51.36:095][454]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=85
+[2023.05.22-11.51.36:099][454]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.22-11.51.36:102][454]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2023.05.22-11.51.36:162][455]LogPlayLevel: Display: Destroying online subsystem :Context_122
+[2023.05.22-11.51.59:677][870]BlueprintLog: New page: Compile BP_SecurityCamera
+[2023.05.22-11.51.59:738][870]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2023.05.22-11.51.59:989][874]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.22-11.52.00:041][874]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_SecurityCamera" FILE="../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_SecurityCamera.uasset" SILENT=true
+[2023.05.22-11.52.00:050][874]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_SecurityCamera
+[2023.05.22-11.52.00:051][874]LogSavePackage: Moving '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Saved/BP_SecurityCameraC593390345859A5B21F7C3851407CDE3.tmp' to '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_SecurityCamera.uasset'
+[2023.05.22-11.52.00:065][874]LogFileHelpers: InternalPromptForCheckoutAndSave took 75 ms (total: 25.9 sec)
+[2023.05.22-11.52.00:072][874]AssetCheck: New page: Asset Save: BP_SecurityCamera
+[2023.05.22-11.52.00:072][874]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_SecurityCamera.BP_SecurityCamera
+[2023.05.22-11.52.01:407][975]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.22-11.52.01:417][975]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.22-11.52.01:417][975]PIE: New page: PIE session: Testing_World (23 May 2023, 7:52:01 am)
+[2023.05.22-11.52.01:417][975]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Testing_World
+[2023.05.22-11.52.01:421][975]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003500s)
+[2023.05.22-11.52.01:421][975]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Testing_World.Testing_World to /Game/Levels/UEDPIE_0_Testing_World.Testing_World (0.003673s)
+[2023.05.22-11.52.01:421][975]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.22-11.52.01:422][975]LogAIModule: Creating AISystem for world Testing_World
+[2023.05.22-11.52.01:422][975]LogPlayLevel: PIE: World Init took: (0.000830s)
+[2023.05.22-11.52.01:459][975]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2023.05.22-11.52.01:465][975]LogAudio: Display: Creating Audio Device:                 Id: 86, Scope: Unique, Realtime: True
+[2023.05.22-11.52.01:465][975]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.22-11.52.01:465][975]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.22-11.52.01:465][975]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.22-11.52.01:465][975]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.22-11.52.01:465][975]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.22-11.52.01:465][975]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.22-11.52.01:465][975]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.22-11.52.01:465][975]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.22-11.52.01:465][975]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.22-11.52.01:465][975]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.22-11.52.01:465][975]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.22-11.52.01:468][975]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.22-11.52.01:498][975]LogAudioMixer: Display: Using Audio Hardware Device Speakers (HyperX Cloud II Wireless)
+[2023.05.22-11.52.01:498][975]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.22-11.52.01:498][975]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.22-11.52.01:498][975]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.22-11.52.01:500][975]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=86
+[2023.05.22-11.52.01:500][975]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=86
+[2023.05.22-11.52.01:501][975]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=86
+[2023.05.22-11.52.01:501][975]LogInit: FAudioDevice initialized.
+[2023.05.22-11.52.01:501][975]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=86
+[2023.05.22-11.52.01:501][975]LogAudio: Display: Audio Device (ID: 86) registered with world 'Testing_World'.
+[2023.05.22-11.52.01:505][975]LogLoad: Game class is 'Player_GM_C'
+[2023.05.22-11.52.01:506][975]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Testing_World.Testing_World up for play (max tick rate 0) at 2023.05.22-21.52.01
+[2023.05.22-11.52.01:506][975]LogWorld: Bringing up level for play took: 0.001074
+[2023.05.22-11.52.01:508][975]LogOnline: OSS: Created online subsystem instance for: :Context_123
+[2023.05.22-11.52.01:510][975]PIE: Server logged in
+[2023.05.22-11.52.01:511][975]PIE: Play in editor total start time 0.094 seconds.
+[2023.05.22-11.52.18:191][833]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.22-11.52.18:191][833]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Testing_World
+[2023.05.22-11.52.18:191][833]LogWorld: UWorld::CleanupWorld for Testing_World, bSessionEnded=true, bCleanupResources=true
+[2023.05.22-11.52.18:191][833]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.22-11.52.18:235][833]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.22-11.52.18:241][833]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.22-11.52.18:278][833]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.22-11.52.18:278][833]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=86
+[2023.05.22-11.52.18:279][833]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=86
+[2023.05.22-11.52.18:284][833]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.22-11.52.18:286][833]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2023.05.22-11.52.18:345][834]LogPlayLevel: Display: Destroying online subsystem :Context_123
+[2023.05.22-11.52.21:145][ 61]Cmd: DUPLICATE
+[2023.05.22-11.52.21:145][ 61]Cmd: ACTOR DUPLICATE
+[2023.05.22-11.52.23:442][253]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.22-11.52.23:452][253]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.22-11.52.23:452][253]PIE: New page: PIE session: Testing_World (23 May 2023, 7:52:23 am)
+[2023.05.22-11.52.23:453][253]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Testing_World
+[2023.05.22-11.52.23:457][253]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004078s)
+[2023.05.22-11.52.23:457][253]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Testing_World.Testing_World to /Game/Levels/UEDPIE_0_Testing_World.Testing_World (0.004124s)
+[2023.05.22-11.52.23:457][253]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.22-11.52.23:458][253]LogAIModule: Creating AISystem for world Testing_World
+[2023.05.22-11.52.23:458][253]LogPlayLevel: PIE: World Init took: (0.000907s)
+[2023.05.22-11.52.23:494][253]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2023.05.22-11.52.23:500][253]LogAudio: Display: Creating Audio Device:                 Id: 87, Scope: Unique, Realtime: True
+[2023.05.22-11.52.23:500][253]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.22-11.52.23:500][253]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.22-11.52.23:500][253]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.22-11.52.23:500][253]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.22-11.52.23:500][253]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.22-11.52.23:500][253]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.22-11.52.23:500][253]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.22-11.52.23:500][253]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.22-11.52.23:500][253]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.22-11.52.23:500][253]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.22-11.52.23:500][253]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.22-11.52.23:503][253]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.22-11.52.23:532][253]LogAudioMixer: Display: Using Audio Hardware Device Speakers (HyperX Cloud II Wireless)
+[2023.05.22-11.52.23:532][253]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.22-11.52.23:532][253]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.22-11.52.23:532][253]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.22-11.52.23:533][253]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=87
+[2023.05.22-11.52.23:533][253]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=87
+[2023.05.22-11.52.23:534][253]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=87
+[2023.05.22-11.52.23:534][253]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=87
+[2023.05.22-11.52.23:534][253]LogInit: FAudioDevice initialized.
+[2023.05.22-11.52.23:534][253]LogAudio: Display: Audio Device (ID: 87) registered with world 'Testing_World'.
+[2023.05.22-11.52.23:538][253]LogLoad: Game class is 'Player_GM_C'
+[2023.05.22-11.52.23:539][253]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Testing_World.Testing_World up for play (max tick rate 0) at 2023.05.22-21.52.23
+[2023.05.22-11.52.23:539][253]LogWorld: Bringing up level for play took: 0.001041
+[2023.05.22-11.52.23:542][253]LogOnline: OSS: Created online subsystem instance for: :Context_124
+[2023.05.22-11.52.23:543][253]PIE: Server logged in
+[2023.05.22-11.52.23:544][253]PIE: Play in editor total start time 0.092 seconds.
+[2023.05.22-11.52.28:011][742]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.22-11.52.28:011][742]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Testing_World
+[2023.05.22-11.52.28:011][742]LogWorld: UWorld::CleanupWorld for Testing_World, bSessionEnded=true, bCleanupResources=true
+[2023.05.22-11.52.28:011][742]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.22-11.52.28:018][742]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.22-11.52.28:026][742]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.22-11.52.28:062][742]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.22-11.52.28:062][742]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=87
+[2023.05.22-11.52.28:064][742]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=87
+[2023.05.22-11.52.28:068][742]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.22-11.52.28:071][742]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2023.05.22-11.52.28:133][743]LogPlayLevel: Display: Destroying online subsystem :Context_124
+[2023.05.22-11.52.35:791][146]BlueprintLog: New page: Compile BP_SecurityCamera
+[2023.05.22-11.52.35:855][146]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2023.05.22-11.52.36:190][156]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.22-11.52.36:245][156]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_SecurityCamera" FILE="../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_SecurityCamera.uasset" SILENT=true
+[2023.05.22-11.52.36:254][156]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_SecurityCamera
+[2023.05.22-11.52.36:255][156]LogSavePackage: Moving '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Saved/BP_SecurityCamera01201C1C4589C1247DF55AB4DD66FEDB.tmp' to '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_SecurityCamera.uasset'
+[2023.05.22-11.52.36:268][156]LogFileHelpers: InternalPromptForCheckoutAndSave took 78 ms (total: 25.9 sec)
+[2023.05.22-11.52.36:276][156]AssetCheck: New page: Asset Save: BP_SecurityCamera
+[2023.05.22-11.52.36:276][156]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_SecurityCamera.BP_SecurityCamera
+[2023.05.22-11.52.37:760][264]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.22-11.52.37:769][264]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.22-11.52.37:769][264]PIE: New page: PIE session: Testing_World (23 May 2023, 7:52:37 am)
+[2023.05.22-11.52.37:770][264]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Testing_World
+[2023.05.22-11.52.37:773][264]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003241s)
+[2023.05.22-11.52.37:773][264]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Testing_World.Testing_World to /Game/Levels/UEDPIE_0_Testing_World.Testing_World (0.003281s)
+[2023.05.22-11.52.37:773][264]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.22-11.52.37:773][264]LogAIModule: Creating AISystem for world Testing_World
+[2023.05.22-11.52.37:774][264]LogPlayLevel: PIE: World Init took: (0.000807s)
+[2023.05.22-11.52.37:810][264]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2023.05.22-11.52.37:815][264]LogAudio: Display: Creating Audio Device:                 Id: 88, Scope: Unique, Realtime: True
+[2023.05.22-11.52.37:815][264]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.22-11.52.37:815][264]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.22-11.52.37:815][264]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.22-11.52.37:815][264]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.22-11.52.37:815][264]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.22-11.52.37:815][264]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.22-11.52.37:815][264]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.22-11.52.37:815][264]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.22-11.52.37:816][264]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.22-11.52.37:816][264]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.22-11.52.37:816][264]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.22-11.52.37:818][264]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.22-11.52.37:847][264]LogAudioMixer: Display: Using Audio Hardware Device Speakers (HyperX Cloud II Wireless)
+[2023.05.22-11.52.37:848][264]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.22-11.52.37:848][264]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.22-11.52.37:848][264]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.22-11.52.37:849][264]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=88
+[2023.05.22-11.52.37:849][264]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=88
+[2023.05.22-11.52.37:851][264]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=88
+[2023.05.22-11.52.37:851][264]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=88
+[2023.05.22-11.52.37:851][264]LogInit: FAudioDevice initialized.
+[2023.05.22-11.52.37:851][264]LogAudio: Display: Audio Device (ID: 88) registered with world 'Testing_World'.
+[2023.05.22-11.52.37:854][264]LogLoad: Game class is 'Player_GM_C'
+[2023.05.22-11.52.37:855][264]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Testing_World.Testing_World up for play (max tick rate 0) at 2023.05.22-21.52.37
+[2023.05.22-11.52.37:855][264]LogWorld: Bringing up level for play took: 0.001024
+[2023.05.22-11.52.37:858][264]LogOnline: OSS: Created online subsystem instance for: :Context_125
+[2023.05.22-11.52.37:859][264]PIE: Server logged in
+[2023.05.22-11.52.37:860][264]PIE: Play in editor total start time 0.091 seconds.
+[2023.05.22-11.52.54:791][159]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.22-11.52.54:791][159]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Testing_World
+[2023.05.22-11.52.54:791][159]LogWorld: UWorld::CleanupWorld for Testing_World, bSessionEnded=true, bCleanupResources=true
+[2023.05.22-11.52.54:791][159]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.22-11.52.54:850][159]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.22-11.52.54:857][159]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.22-11.52.54:893][159]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.22-11.52.54:893][159]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=88
+[2023.05.22-11.52.54:895][159]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=88
+[2023.05.22-11.52.54:900][159]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.22-11.52.54:902][159]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2023.05.22-11.52.54:962][160]LogPlayLevel: Display: Destroying online subsystem :Context_125
