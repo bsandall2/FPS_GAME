@@ -9010,3 +9010,843 @@ Button
 [2023.05.22-11.52.54:900][159]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2023.05.22-11.52.54:902][159]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
 [2023.05.22-11.52.54:962][160]LogPlayLevel: Display: Destroying online subsystem :Context_125
+[2023.05.22-11.54.59:062][307]BlueprintLog: New page: Compile BP_SecurityCamera
+[2023.05.22-11.54.59:125][307]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2023.05.22-11.54.59:636][329]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.22-11.54.59:690][329]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_SecurityCamera" FILE="../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_SecurityCamera.uasset" SILENT=true
+[2023.05.22-11.54.59:699][329]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_SecurityCamera
+[2023.05.22-11.54.59:700][329]LogSavePackage: Moving '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Saved/BP_SecurityCameraF157DF074FD44F93536BE6827941E9CC.tmp' to '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_SecurityCamera.uasset'
+[2023.05.22-11.54.59:713][329]LogFileHelpers: InternalPromptForCheckoutAndSave took 77 ms (total: 26.0 sec)
+[2023.05.22-11.54.59:721][329]AssetCheck: New page: Asset Save: BP_SecurityCamera
+[2023.05.22-11.54.59:721][329]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_SecurityCamera.BP_SecurityCamera
+[2023.05.22-11.55.08:205][880]BlueprintLog: New page: Compile BP_SecurityCamera
+[2023.05.22-11.55.08:271][880]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2023.05.22-11.55.08:689][894]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.22-11.55.08:744][894]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_SecurityCamera" FILE="../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_SecurityCamera.uasset" SILENT=true
+[2023.05.22-11.55.08:753][894]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_SecurityCamera
+[2023.05.22-11.55.08:753][894]LogSavePackage: Moving '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Saved/BP_SecurityCamera20748E414CB1F2549F09CB983900019B.tmp' to '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_SecurityCamera.uasset'
+[2023.05.22-11.55.08:767][894]LogFileHelpers: InternalPromptForCheckoutAndSave took 78 ms (total: 26.1 sec)
+[2023.05.22-11.55.08:774][894]AssetCheck: New page: Asset Save: BP_SecurityCamera
+[2023.05.22-11.55.08:774][894]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_SecurityCamera.BP_SecurityCamera
+[2023.05.22-11.55.10:731][ 38]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.22-11.55.10:740][ 38]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.22-11.55.10:740][ 38]PIE: New page: PIE session: Testing_World (23 May 2023, 7:55:10 am)
+[2023.05.22-11.55.10:790][ 38]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Testing_World
+[2023.05.22-11.55.10:793][ 38]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003111s)
+[2023.05.22-11.55.10:793][ 38]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Testing_World.Testing_World to /Game/Levels/UEDPIE_0_Testing_World.Testing_World (0.003152s)
+[2023.05.22-11.55.10:793][ 38]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.22-11.55.10:794][ 38]LogAIModule: Creating AISystem for world Testing_World
+[2023.05.22-11.55.10:794][ 38]LogPlayLevel: PIE: World Init took: (0.000795s)
+[2023.05.22-11.55.10:829][ 38]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2023.05.22-11.55.10:836][ 38]LogAudio: Display: Creating Audio Device:                 Id: 89, Scope: Unique, Realtime: True
+[2023.05.22-11.55.10:836][ 38]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.22-11.55.10:836][ 38]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.22-11.55.10:836][ 38]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.22-11.55.10:836][ 38]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.22-11.55.10:836][ 38]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.22-11.55.10:836][ 38]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.22-11.55.10:836][ 38]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.22-11.55.10:836][ 38]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.22-11.55.10:836][ 38]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.22-11.55.10:836][ 38]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.22-11.55.10:836][ 38]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.22-11.55.10:839][ 38]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.22-11.55.10:868][ 38]LogAudioMixer: Display: Using Audio Hardware Device Speakers (HyperX Cloud II Wireless)
+[2023.05.22-11.55.10:869][ 38]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.22-11.55.10:869][ 38]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.22-11.55.10:869][ 38]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.22-11.55.10:870][ 38]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=89
+[2023.05.22-11.55.10:870][ 38]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=89
+[2023.05.22-11.55.10:872][ 38]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=89
+[2023.05.22-11.55.10:872][ 38]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=89
+[2023.05.22-11.55.10:872][ 38]LogInit: FAudioDevice initialized.
+[2023.05.22-11.55.10:872][ 38]LogAudio: Display: Audio Device (ID: 89) registered with world 'Testing_World'.
+[2023.05.22-11.55.10:875][ 38]LogLoad: Game class is 'Player_GM_C'
+[2023.05.22-11.55.10:876][ 38]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Testing_World.Testing_World up for play (max tick rate 0) at 2023.05.22-21.55.10
+[2023.05.22-11.55.10:876][ 38]LogWorld: Bringing up level for play took: 0.001090
+[2023.05.22-11.55.10:879][ 38]LogOnline: OSS: Created online subsystem instance for: :Context_126
+[2023.05.22-11.55.10:880][ 38]PIE: Server logged in
+[2023.05.22-11.55.10:881][ 38]PIE: Play in editor total start time 0.141 seconds.
+[2023.05.22-11.55.16:360][648]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.22-11.55.16:360][648]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Testing_World
+[2023.05.22-11.55.16:361][648]LogWorld: UWorld::CleanupWorld for Testing_World, bSessionEnded=true, bCleanupResources=true
+[2023.05.22-11.55.16:361][648]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.22-11.55.16:416][648]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.22-11.55.16:423][648]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.22-11.55.16:459][648]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.22-11.55.16:459][648]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=89
+[2023.05.22-11.55.16:461][648]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=89
+[2023.05.22-11.55.16:465][648]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.22-11.55.16:468][648]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2023.05.22-11.55.16:530][649]LogPlayLevel: Display: Destroying online subsystem :Context_126
+[2023.05.22-11.57.21:695][776]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2023.05.22-11.57.21:714][776]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Levels/Testing_World_Auto6
+[2023.05.22-11.57.21:715][776]LogSavePackage: Moving '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Saved/Testing_World_Auto60FB875EC446EAD8CF55E54B129C9513C.tmp' to '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Saved/Autosaves/Game/Levels/Testing_World_Auto6.umap'
+[2023.05.22-11.57.21:720][776]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/Testing_World' took 0.062
+[2023.05.22-11.57.21:720][776]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.062
+[2023.05.22-11.58.42:937][348]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.05.22-11.58.42:938][348]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.05.22-11.58.42:938][348]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.05.22-11.58.43:668][348]LogSlate: Window 'Pick Parent Class' being destroyed
+[2023.05.22-11.58.43:704][348]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2023.05.22-11.58.43:713][348]LogContentBrowser: Creating deferred item: NewBlueprint
+[2023.05.22-11.58.43:725][349]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2023.05.22-11.58.53:453][302]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_ColourTile
+[2023.05.22-11.58.53:459][302]LogContentBrowser: End creating deferred item NewBlueprint
+[2023.05.22-11.58.54:799][422]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_ColourTile.BP_ColourTile
+[2023.05.22-11.58.54:800][422]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.22-11.58.55:373][422]LogViewport: Scene viewport resized to 1144x693, mode Windowed.
+[2023.05.22-11.59.04:515][936]LogPhysics: Warning: Scale for /Engine/Transient.World_45:PersistentLevel.BP_ColourTile_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.05.22-11.59.04:515][936]LogPhysics: Warning: Scale for /Engine/Transient.World_45:PersistentLevel.BP_ColourTile_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.05.22-11.59.04:537][937]LogPhysics: Warning: Scale for /Engine/Transient.World_45:PersistentLevel.BP_ColourTile_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.05.22-11.59.04:537][937]LogPhysics: Warning: Scale for /Engine/Transient.World_45:PersistentLevel.BP_ColourTile_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.05.22-11.59.04:537][937]LogPhysics: Warning: Scale for /Engine/Transient.World_45:PersistentLevel.BP_ColourTile_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.05.22-11.59.04:559][938]LogPhysics: Warning: Scale for /Engine/Transient.World_45:PersistentLevel.BP_ColourTile_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.05.22-11.59.04:560][938]LogPhysics: Warning: Scale for /Engine/Transient.World_45:PersistentLevel.BP_ColourTile_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.05.22-11.59.04:560][938]LogPhysics: Warning: Scale for /Engine/Transient.World_45:PersistentLevel.BP_ColourTile_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.05.22-11.59.04:582][939]LogPhysics: Warning: Scale for /Engine/Transient.World_45:PersistentLevel.BP_ColourTile_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.05.22-11.59.04:582][939]LogPhysics: Warning: Scale for /Engine/Transient.World_45:PersistentLevel.BP_ColourTile_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.05.22-11.59.04:582][939]LogPhysics: Warning: Scale for /Engine/Transient.World_45:PersistentLevel.BP_ColourTile_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.05.22-11.59.04:606][940]LogPhysics: Warning: Scale for /Engine/Transient.World_45:PersistentLevel.BP_ColourTile_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.05.22-11.59.04:606][940]LogPhysics: Warning: Scale for /Engine/Transient.World_45:PersistentLevel.BP_ColourTile_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.05.22-11.59.04:606][940]LogPhysics: Warning: Scale for /Engine/Transient.World_45:PersistentLevel.BP_ColourTile_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.05.22-11.59.04:627][941]LogPhysics: Warning: Scale for /Engine/Transient.World_45:PersistentLevel.BP_ColourTile_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.05.22-11.59.04:627][941]LogPhysics: Warning: Scale for /Engine/Transient.World_45:PersistentLevel.BP_ColourTile_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.05.22-11.59.04:627][941]LogPhysics: Warning: Scale for /Engine/Transient.World_45:PersistentLevel.BP_ColourTile_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.05.22-11.59.04:649][942]LogPhysics: Warning: Scale for /Engine/Transient.World_45:PersistentLevel.BP_ColourTile_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.05.22-11.59.04:649][942]LogPhysics: Warning: Scale for /Engine/Transient.World_45:PersistentLevel.BP_ColourTile_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.05.22-11.59.04:649][942]LogPhysics: Warning: Scale for /Engine/Transient.World_45:PersistentLevel.BP_ColourTile_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.05.22-11.59.04:670][943]LogPhysics: Warning: Scale for /Engine/Transient.World_45:PersistentLevel.BP_ColourTile_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.05.22-11.59.04:670][943]LogPhysics: Warning: Scale for /Engine/Transient.World_45:PersistentLevel.BP_ColourTile_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.05.22-11.59.04:670][943]LogPhysics: Warning: Scale for /Engine/Transient.World_45:PersistentLevel.BP_ColourTile_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.05.22-11.59.04:691][944]LogPhysics: Warning: Scale for /Engine/Transient.World_45:PersistentLevel.BP_ColourTile_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.05.22-11.59.04:691][944]LogPhysics: Warning: Scale for /Engine/Transient.World_45:PersistentLevel.BP_ColourTile_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.05.22-11.59.04:691][944]LogPhysics: Warning: Scale for /Engine/Transient.World_45:PersistentLevel.BP_ColourTile_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.05.22-11.59.04:712][945]LogPhysics: Warning: Scale for /Engine/Transient.World_45:PersistentLevel.BP_ColourTile_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.05.22-11.59.04:712][945]LogPhysics: Warning: Scale for /Engine/Transient.World_45:PersistentLevel.BP_ColourTile_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.05.22-11.59.04:712][945]LogPhysics: Warning: Scale for /Engine/Transient.World_45:PersistentLevel.BP_ColourTile_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.05.22-11.59.04:733][946]LogPhysics: Warning: Scale for /Engine/Transient.World_45:PersistentLevel.BP_ColourTile_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.05.22-11.59.04:733][946]LogPhysics: Warning: Scale for /Engine/Transient.World_45:PersistentLevel.BP_ColourTile_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.05.22-11.59.04:733][946]LogPhysics: Warning: Scale for /Engine/Transient.World_45:PersistentLevel.BP_ColourTile_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.05.22-11.59.04:755][947]LogPhysics: Warning: Scale for /Engine/Transient.World_45:PersistentLevel.BP_ColourTile_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.05.22-11.59.04:755][947]LogPhysics: Warning: Scale for /Engine/Transient.World_45:PersistentLevel.BP_ColourTile_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.05.22-11.59.04:756][947]LogPhysics: Warning: Scale for /Engine/Transient.World_45:PersistentLevel.BP_ColourTile_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.05.22-11.59.04:776][948]LogPhysics: Warning: Scale for /Engine/Transient.World_45:PersistentLevel.BP_ColourTile_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.05.22-11.59.04:776][948]LogPhysics: Warning: Scale for /Engine/Transient.World_45:PersistentLevel.BP_ColourTile_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.05.22-11.59.04:776][948]LogPhysics: Warning: Scale for /Engine/Transient.World_45:PersistentLevel.BP_ColourTile_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.05.22-11.59.04:797][949]LogPhysics: Warning: Scale for /Engine/Transient.World_45:PersistentLevel.BP_ColourTile_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.05.22-11.59.04:797][949]LogPhysics: Warning: Scale for /Engine/Transient.World_45:PersistentLevel.BP_ColourTile_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.05.22-11.59.04:797][949]LogPhysics: Warning: Scale for /Engine/Transient.World_45:PersistentLevel.BP_ColourTile_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.05.22-11.59.04:818][950]LogPhysics: Warning: Scale for /Engine/Transient.World_45:PersistentLevel.BP_ColourTile_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.05.22-11.59.04:818][950]LogPhysics: Warning: Scale for /Engine/Transient.World_45:PersistentLevel.BP_ColourTile_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.05.22-11.59.04:818][950]LogPhysics: Warning: Scale for /Engine/Transient.World_45:PersistentLevel.BP_ColourTile_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.05.22-11.59.04:839][951]LogPhysics: Warning: Scale for /Engine/Transient.World_45:PersistentLevel.BP_ColourTile_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.05.22-11.59.04:839][951]LogPhysics: Warning: Scale for /Engine/Transient.World_45:PersistentLevel.BP_ColourTile_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.05.22-11.59.04:839][951]LogPhysics: Warning: Scale for /Engine/Transient.World_45:PersistentLevel.BP_ColourTile_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.05.22-11.59.04:860][952]LogPhysics: Warning: Scale for /Engine/Transient.World_45:PersistentLevel.BP_ColourTile_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.05.22-11.59.04:861][952]LogPhysics: Warning: Scale for /Engine/Transient.World_45:PersistentLevel.BP_ColourTile_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.05.22-11.59.04:861][952]LogPhysics: Warning: Scale for /Engine/Transient.World_45:PersistentLevel.BP_ColourTile_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.05.22-11.59.04:885][953]LogPhysics: Warning: Scale for /Engine/Transient.World_45:PersistentLevel.BP_ColourTile_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.05.22-11.59.04:885][953]LogPhysics: Warning: Scale for /Engine/Transient.World_45:PersistentLevel.BP_ColourTile_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.05.22-11.59.04:885][953]LogPhysics: Warning: Scale for /Engine/Transient.World_45:PersistentLevel.BP_ColourTile_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.05.22-11.59.04:907][954]LogPhysics: Warning: Scale for /Engine/Transient.World_45:PersistentLevel.BP_ColourTile_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.05.22-11.59.04:907][954]LogPhysics: Warning: Scale for /Engine/Transient.World_45:PersistentLevel.BP_ColourTile_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.05.22-11.59.04:907][954]LogPhysics: Warning: Scale for /Engine/Transient.World_45:PersistentLevel.BP_ColourTile_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.05.22-11.59.04:930][955]LogPhysics: Warning: Scale for /Engine/Transient.World_45:PersistentLevel.BP_ColourTile_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.05.22-11.59.04:930][955]LogPhysics: Warning: Scale for /Engine/Transient.World_45:PersistentLevel.BP_ColourTile_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.05.22-11.59.04:930][955]LogPhysics: Warning: Scale for /Engine/Transient.World_45:PersistentLevel.BP_ColourTile_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.05.22-11.59.04:952][956]LogPhysics: Warning: Scale for /Engine/Transient.World_45:PersistentLevel.BP_ColourTile_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.05.22-11.59.04:953][956]LogPhysics: Warning: Scale for /Engine/Transient.World_45:PersistentLevel.BP_ColourTile_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.05.22-11.59.04:953][956]LogPhysics: Warning: Scale for /Engine/Transient.World_45:PersistentLevel.BP_ColourTile_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.05.22-11.59.04:974][957]LogPhysics: Warning: Scale for /Engine/Transient.World_45:PersistentLevel.BP_ColourTile_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.05.22-11.59.04:974][957]LogPhysics: Warning: Scale for /Engine/Transient.World_45:PersistentLevel.BP_ColourTile_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.05.22-11.59.04:974][957]LogPhysics: Warning: Scale for /Engine/Transient.World_45:PersistentLevel.BP_ColourTile_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.05.22-11.59.04:995][958]LogPhysics: Warning: Scale for /Engine/Transient.World_45:PersistentLevel.BP_ColourTile_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.05.22-11.59.04:996][958]LogPhysics: Warning: Scale for /Engine/Transient.World_45:PersistentLevel.BP_ColourTile_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.05.22-11.59.04:996][958]LogPhysics: Warning: Scale for /Engine/Transient.World_45:PersistentLevel.BP_ColourTile_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.05.22-11.59.05:018][959]LogPhysics: Warning: Scale for /Engine/Transient.World_45:PersistentLevel.BP_ColourTile_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.05.22-11.59.05:018][959]LogPhysics: Warning: Scale for /Engine/Transient.World_45:PersistentLevel.BP_ColourTile_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.05.22-11.59.05:018][959]LogPhysics: Warning: Scale for /Engine/Transient.World_45:PersistentLevel.BP_ColourTile_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.05.22-11.59.05:040][960]LogPhysics: Warning: Scale for /Engine/Transient.World_45:PersistentLevel.BP_ColourTile_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.05.22-11.59.05:041][960]LogPhysics: Warning: Scale for /Engine/Transient.World_45:PersistentLevel.BP_ColourTile_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.05.22-11.59.05:041][960]LogPhysics: Warning: Scale for /Engine/Transient.World_45:PersistentLevel.BP_ColourTile_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.05.22-11.59.05:062][961]LogPhysics: Warning: Scale for /Engine/Transient.World_45:PersistentLevel.BP_ColourTile_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.05.22-11.59.05:062][961]LogPhysics: Warning: Scale for /Engine/Transient.World_45:PersistentLevel.BP_ColourTile_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.05.22-11.59.05:062][961]LogPhysics: Warning: Scale for /Engine/Transient.World_45:PersistentLevel.BP_ColourTile_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.05.22-11.59.05:084][962]LogPhysics: Warning: Scale for /Engine/Transient.World_45:PersistentLevel.BP_ColourTile_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.05.22-11.59.05:084][962]LogPhysics: Warning: Scale for /Engine/Transient.World_45:PersistentLevel.BP_ColourTile_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.05.22-11.59.05:084][962]LogPhysics: Warning: Scale for /Engine/Transient.World_45:PersistentLevel.BP_ColourTile_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.05.22-11.59.05:109][963]LogPhysics: Warning: Scale for /Engine/Transient.World_45:PersistentLevel.BP_ColourTile_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.05.22-11.59.05:109][963]LogPhysics: Warning: Scale for /Engine/Transient.World_45:PersistentLevel.BP_ColourTile_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.05.22-11.59.05:109][963]LogPhysics: Warning: Scale for /Engine/Transient.World_45:PersistentLevel.BP_ColourTile_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.05.22-11.59.05:132][964]LogPhysics: Warning: Scale for /Engine/Transient.World_45:PersistentLevel.BP_ColourTile_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.05.22-11.59.05:132][964]LogPhysics: Warning: Scale for /Engine/Transient.World_45:PersistentLevel.BP_ColourTile_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.05.22-11.59.05:132][964]LogPhysics: Warning: Scale for /Engine/Transient.World_45:PersistentLevel.BP_ColourTile_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.05.22-11.59.05:158][965]LogPhysics: Warning: Scale for /Engine/Transient.World_45:PersistentLevel.BP_ColourTile_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.05.22-11.59.05:158][965]LogPhysics: Warning: Scale for /Engine/Transient.World_45:PersistentLevel.BP_ColourTile_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.05.22-11.59.05:158][965]LogPhysics: Warning: Scale for /Engine/Transient.World_45:PersistentLevel.BP_ColourTile_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.05.22-11.59.05:182][966]LogPhysics: Warning: Scale for /Engine/Transient.World_45:PersistentLevel.BP_ColourTile_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.05.22-11.59.05:182][966]LogPhysics: Warning: Scale for /Engine/Transient.World_45:PersistentLevel.BP_ColourTile_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.05.22-11.59.14:919][515]LogEditorTransaction: Undo Modify Component(s)
+[2023.05.22-11.59.22:749][937]BlueprintLog: New page: Compile BP_ColourTile
+[2023.05.22-11.59.22:825][937]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2023.05.22-11.59.23:374][956]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.22-11.59.23:423][956]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_ColourTile" FILE="../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_ColourTile.uasset" SILENT=true
+[2023.05.22-11.59.23:429][956]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_ColourTile
+[2023.05.22-11.59.23:429][956]LogSavePackage: Moving '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Saved/BP_ColourTile47F2EC744800AE8D27898C85FE82FD0F.tmp' to '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_ColourTile.uasset'
+[2023.05.22-11.59.23:444][956]LogFileHelpers: InternalPromptForCheckoutAndSave took 69 ms (total: 26.2 sec)
+[2023.05.22-11.59.23:451][956]AssetCheck: New page: Asset Save: BP_ColourTile
+[2023.05.22-11.59.23:451][956]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_ColourTile.BP_ColourTile
+[2023.05.22-12.00.02:498][113]BlueprintLog: New page: Compile BP_ColourTile
+[2023.05.22-12.00.02:581][113]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2023.05.22-12.00.02:911][122]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.22-12.00.02:960][122]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_ColourTile" FILE="../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_ColourTile.uasset" SILENT=true
+[2023.05.22-12.00.02:967][122]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_ColourTile
+[2023.05.22-12.00.02:968][122]LogSavePackage: Moving '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Saved/BP_ColourTile1F6B10B84B6B6BFD3086308479B0B69C.tmp' to '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_ColourTile.uasset'
+[2023.05.22-12.00.02:984][122]LogFileHelpers: InternalPromptForCheckoutAndSave took 72 ms (total: 26.2 sec)
+[2023.05.22-12.00.02:991][122]AssetCheck: New page: Asset Save: BP_ColourTile
+[2023.05.22-12.00.02:991][122]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_ColourTile.BP_ColourTile
+[2023.05.22-12.01.06:187][507]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.05.22-12.01.06:188][507]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.05.22-12.01.06:188][507]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.05.22-12.01.51:351][716]BlueprintLog: New page: Compile BP_ColourTile
+[2023.05.22-12.01.51:427][716]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2023.05.22-12.01.51:841][735]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.22-12.01.51:893][735]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_ColourTile" FILE="../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_ColourTile.uasset" SILENT=true
+[2023.05.22-12.01.51:901][735]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_ColourTile
+[2023.05.22-12.01.51:901][735]LogSavePackage: Moving '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Saved/BP_ColourTile2FD0A4DA474284A1650F87AE3A0CECDF.tmp' to '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_ColourTile.uasset'
+[2023.05.22-12.01.51:914][735]LogFileHelpers: InternalPromptForCheckoutAndSave took 72 ms (total: 26.3 sec)
+[2023.05.22-12.01.51:922][735]AssetCheck: New page: Asset Save: BP_ColourTile
+[2023.05.22-12.01.51:922][735]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_ColourTile.BP_ColourTile
+[2023.05.22-12.02.30:658][890]BlueprintLog: New page: Compile BP_ColourTile
+[2023.05.22-12.02.30:731][890]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2023.05.22-12.02.31:005][900]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.22-12.02.31:066][900]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_ColourTile" FILE="../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_ColourTile.uasset" SILENT=true
+[2023.05.22-12.02.31:076][900]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_ColourTile
+[2023.05.22-12.02.31:076][900]LogSavePackage: Moving '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Saved/BP_ColourTileB1074BAF42C06C800CFC51ACB865502B.tmp' to '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_ColourTile.uasset'
+[2023.05.22-12.02.31:095][900]LogFileHelpers: InternalPromptForCheckoutAndSave took 90 ms (total: 26.4 sec)
+[2023.05.22-12.02.31:104][900]AssetCheck: New page: Asset Save: BP_ColourTile
+[2023.05.22-12.02.31:104][900]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_ColourTile.BP_ColourTile
+[2023.05.22-12.02.57:766][230]BlueprintLog: New page: Compile BP_ColourTile
+[2023.05.22-12.02.57:837][230]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2023.05.22-12.02.58:035][234]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.22-12.02.58:093][234]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_ColourTile" FILE="../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_ColourTile.uasset" SILENT=true
+[2023.05.22-12.02.58:103][234]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_ColourTile
+[2023.05.22-12.02.58:104][234]LogSavePackage: Moving '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Saved/BP_ColourTile417600A245F3E1D32DD9A2819E8DF5F0.tmp' to '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_ColourTile.uasset'
+[2023.05.22-12.02.58:123][234]LogFileHelpers: InternalPromptForCheckoutAndSave took 86 ms (total: 26.5 sec)
+[2023.05.22-12.02.58:132][234]AssetCheck: New page: Asset Save: BP_ColourTile
+[2023.05.22-12.02.58:132][234]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_ColourTile.BP_ColourTile
+[2023.05.22-12.03.21:292][371]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.22-12.03.21:353][371]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_ColourTile" FILE="../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_ColourTile.uasset" SILENT=true
+[2023.05.22-12.03.21:362][371]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_ColourTile
+[2023.05.22-12.03.21:363][371]LogSavePackage: Moving '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Saved/BP_ColourTile4BCD352546ACA69A4F202AA9A143DD1F.tmp' to '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_ColourTile.uasset'
+[2023.05.22-12.03.21:377][371]LogFileHelpers: InternalPromptForCheckoutAndSave took 85 ms (total: 26.6 sec)
+[2023.05.22-12.03.21:386][371]AssetCheck: New page: Asset Save: BP_ColourTile
+[2023.05.22-12.03.21:386][371]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_ColourTile.BP_ColourTile
+[2023.05.22-12.03.21:706][390]BlueprintLog: New page: Compile BP_ColourTile
+[2023.05.22-12.03.21:777][390]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2023.05.22-12.03.58:036][430]BlueprintLog: New page: Compile BP_ColourTile
+[2023.05.22-12.03.58:107][430]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2023.05.22-12.03.58:546][450]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.22-12.03.58:602][450]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_ColourTile" FILE="../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_ColourTile.uasset" SILENT=true
+[2023.05.22-12.03.58:612][450]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_ColourTile
+[2023.05.22-12.03.58:613][450]LogSavePackage: Moving '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Saved/BP_ColourTileC34E2FE84C3554DA838AEEB8FC1C68DA.tmp' to '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_ColourTile.uasset'
+[2023.05.22-12.03.58:627][450]LogFileHelpers: InternalPromptForCheckoutAndSave took 81 ms (total: 26.6 sec)
+[2023.05.22-12.03.58:634][450]AssetCheck: New page: Asset Save: BP_ColourTile
+[2023.05.22-12.03.58:634][450]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_ColourTile.BP_ColourTile
+[2023.05.22-12.04.04:790][649]BlueprintLog: New page: Compile BP_ColourTile
+[2023.05.22-12.04.04:861][649]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2023.05.22-12.04.05:323][669]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.22-12.04.05:381][669]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_ColourTile" FILE="../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_ColourTile.uasset" SILENT=true
+[2023.05.22-12.04.05:392][669]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_ColourTile
+[2023.05.22-12.04.05:393][669]LogSavePackage: Moving '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Saved/BP_ColourTile819B40B3400F792D0C6983AF39F03331.tmp' to '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_ColourTile.uasset'
+[2023.05.22-12.04.05:408][669]LogFileHelpers: InternalPromptForCheckoutAndSave took 84 ms (total: 26.7 sec)
+[2023.05.22-12.04.05:416][669]AssetCheck: New page: Asset Save: BP_ColourTile
+[2023.05.22-12.04.05:416][669]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_ColourTile.BP_ColourTile
+[2023.05.22-12.04.44:196][795]BlueprintLog: New page: Compile BP_ColourTile
+[2023.05.22-12.04.44:268][795]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2023.05.22-12.04.44:653][810]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.22-12.04.44:713][810]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_ColourTile" FILE="../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_ColourTile.uasset" SILENT=true
+[2023.05.22-12.04.44:725][810]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_ColourTile
+[2023.05.22-12.04.44:726][810]LogSavePackage: Moving '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Saved/BP_ColourTileB42908B346A884A782740DBBEF2A60B8.tmp' to '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_ColourTile.uasset'
+[2023.05.22-12.04.44:742][810]LogFileHelpers: InternalPromptForCheckoutAndSave took 89 ms (total: 26.8 sec)
+[2023.05.22-12.04.44:750][810]AssetCheck: New page: Asset Save: BP_ColourTile
+[2023.05.22-12.04.44:750][810]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_ColourTile.BP_ColourTile
+[2023.05.22-12.04.50:431][145]BlueprintLog: New page: Compile BP_ColourTile
+[2023.05.22-12.04.50:501][145]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2023.05.22-12.04.50:911][164]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.22-12.04.50:969][164]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_ColourTile" FILE="../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_ColourTile.uasset" SILENT=true
+[2023.05.22-12.04.50:980][164]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_ColourTile
+[2023.05.22-12.04.50:981][164]LogSavePackage: Moving '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Saved/BP_ColourTile7795BF6A45A43C23A884DC9D9761E558.tmp' to '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_ColourTile.uasset'
+[2023.05.22-12.04.50:998][164]LogFileHelpers: InternalPromptForCheckoutAndSave took 87 ms (total: 26.9 sec)
+[2023.05.22-12.04.51:011][164]AssetCheck: New page: Asset Save: BP_ColourTile
+[2023.05.22-12.04.51:011][164]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_ColourTile.BP_ColourTile
+[2023.05.22-12.04.57:418][630]LogContentBrowser: Deferred new asset file creation: M_Blue1
+[2023.05.22-12.04.57:425][630]LogContentBrowser: Creating deferred item: M_Blue1
+[2023.05.22-12.04.57:437][631]LogContentBrowser: Renaming the item being created (Deferred Item: M_Blue1).
+[2023.05.22-12.05.02:032][ 84]LogContentBrowser: Attempting asset rename: M_Blue1 -> M_Red
+[2023.05.22-12.05.02:045][ 84]LogContentBrowser: End creating deferred item M_Blue1
+[2023.05.22-12.05.02:783][141]LogShaderCompilers: Display: ================================================
+[2023.05.22-12.05.02:784][141]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.05.22-12.05.02:784][141]LogShaderCompilers: Display: Total job queries 335, among them cache hits 77 (22.99%)
+[2023.05.22-12.05.02:784][141]LogShaderCompilers: Display: Tracking 255 distinct input hashes that result in 182 distinct outputs (71.37%)
+[2023.05.22-12.05.02:784][141]LogShaderCompilers: Display: RAM used: 2.02 MB (0.00 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.12%
+[2023.05.22-12.05.02:784][141]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.05.22-12.05.02:784][141]LogShaderCompilers: Display: Shaders Compiled: 153
+[2023.05.22-12.05.02:784][141]LogShaderCompilers: Display: Jobs assigned 156, completed 153 (98.08%)
+[2023.05.22-12.05.02:784][141]LogShaderCompilers: Display: Average time worker was idle: 1108.99 s
+[2023.05.22-12.05.02:784][141]LogShaderCompilers: Display: Time job spent in pending queue: average 2.29 s, longest 8.95 s
+[2023.05.22-12.05.02:784][141]LogShaderCompilers: Display: Job execution time: average 0.99 s, max 2.85 s
+[2023.05.22-12.05.02:784][141]LogShaderCompilers: Display: Job life time (pending + execution): average 3.33 s, max 10.48
+[2023.05.22-12.05.02:784][141]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 27.14 s
+[2023.05.22-12.05.02:784][141]LogShaderCompilers: Display: Jobs were issued in 156 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.05.22-12.05.02:784][141]LogShaderCompilers: Display: Average processing rate: 5.64 jobs/sec
+[2023.05.22-12.05.02:784][141]LogShaderCompilers: Display: Total thread time: 110.75 s
+[2023.05.22-12.05.02:784][141]LogShaderCompilers: Display: Total thread preprocess time: 5.82 s
+[2023.05.22-12.05.02:784][141]LogShaderCompilers: Display: Percentage time preprocessing: 5.25%
+[2023.05.22-12.05.02:784][141]LogShaderCompilers: Display: Effective parallelization: 4.08 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.05.22-12.05.02:784][141]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.05.22-12.05.02:784][141]LogShaderCompilers: Display:  TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQSkylight (compiled    4 times, average 0.96 sec, max 1.77 sec, min 0.65 sec)
+[2023.05.22-12.05.02:784][141]LogShaderCompilers: Display:                                           FLumenCardPS<true> (compiled    1 times, average 0.96 sec, max 0.96 sec, min 0.96 sec)
+[2023.05.22-12.05.02:784][141]LogShaderCompilers: Display:                         TBasePassPSTLightMapPolicyLQSkylight (compiled    4 times, average 0.93 sec, max 1.75 sec, min 0.64 sec)
+[2023.05.22-12.05.02:784][141]LogShaderCompilers: Display:                                 TBasePassPSTLightMapPolicyHQ (compiled    4 times, average 0.93 sec, max 1.69 sec, min 0.65 sec)
+[2023.05.22-12.05.02:784][141]LogShaderCompilers: Display:          TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQ (compiled    4 times, average 0.92 sec, max 1.70 sec, min 0.62 sec)
+[2023.05.22-12.05.02:784][141]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.05.22-12.05.02:784][141]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 13.16% of total time (compiled   18 times, average 0.81 sec, max 1.42 sec, min 0.56 sec)
+[2023.05.22-12.05.02:784][141]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 10.83% of total time (compiled   17 times, average 0.71 sec, max 0.85 sec, min 0.57 sec)
+[2023.05.22-12.05.02:784][141]LogShaderCompilers: Display:                                                 FLumenCardVS - 7.06% of total time (compiled   12 times, average 0.65 sec, max 0.77 sec, min 0.54 sec)
+[2023.05.22-12.05.02:784][141]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 4.85% of total time (compiled   13 times, average 0.41 sec, max 0.54 sec, min 0.35 sec)
+[2023.05.22-12.05.02:784][141]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight - 3.98% of total time (compiled    5 times, average 0.88 sec, max 1.43 sec, min 0.70 sec)
+[2023.05.22-12.05.02:784][141]LogShaderCompilers: Display: ================================================
+[2023.05.22-12.05.03:900][223]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Assets/Materials/M_Red.M_Red
+[2023.05.22-12.05.03:903][223]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.22-12.05.04:036][223]MaterialEditorStats: Texture samplers: 0/16
+[2023.05.22-12.05.04:037][223]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.05.22-12.05.04:037][223]MaterialEditorStats: Shader Count: 0
+[2023.05.22-12.05.04:053][223]LogViewport: Scene viewport resized to 376x449, mode Windowed.
+[2023.05.22-12.05.04:146][225]MaterialEditorStats: Base pass shader: 212 instructions
+[2023.05.22-12.05.04:146][225]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.05.22-12.05.04:146][225]MaterialEditorStats: Texture samplers: 2/16
+[2023.05.22-12.05.04:146][225]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.05.22-12.05.04:146][225]MaterialEditorStats: Shader Count: 4
+[2023.05.22-12.05.11:479][651]LogSlate: Window 'Color Picker' being destroyed
+[2023.05.22-12.05.11:505][651]MaterialEditorStats: Texture samplers: 0/16
+[2023.05.22-12.05.11:505][651]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.05.22-12.05.11:505][651]MaterialEditorStats: Shader Count: 0
+[2023.05.22-12.05.12:590][699]MaterialEditorStats: Base pass shader: 212 instructions
+[2023.05.22-12.05.12:590][699]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.05.22-12.05.12:590][699]MaterialEditorStats: Texture samplers: 2/16
+[2023.05.22-12.05.12:590][699]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.05.22-12.05.12:590][699]MaterialEditorStats: Shader Count: 4
+[2023.05.22-12.05.13:071][726]LogMaterialEditor: Saving and Compiling material M_Red
+[2023.05.22-12.05.13:617][726]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2023.05.22-12.05.14:423][726]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2023.05.22-12.05.14:442][726]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.22-12.05.16:110][726]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Materials/M_Red" FILE="../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Assets/Materials/M_Red.uasset" SILENT=true
+[2023.05.22-12.05.16:116][726]LogSavePackage: Moving output files for package: /Game/Assets/Materials/M_Red
+[2023.05.22-12.05.16:117][726]LogSavePackage: Moving '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Saved/M_RedD8610FBC40D4D0A29BFE4C8110780A55.tmp' to '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Assets/Materials/M_Red.uasset'
+[2023.05.22-12.05.16:131][726]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.68 sec (total: 28.6 sec)
+[2023.05.22-12.05.16:139][726]AssetCheck: New page: Asset Save: M_Red
+[2023.05.22-12.05.16:139][726]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Assets/Materials/M_Red.M_Red
+[2023.05.22-12.05.16:143][726]MaterialEditorStats: Base pass shader: 212 instructions
+[2023.05.22-12.05.16:144][726]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.05.22-12.05.16:144][726]MaterialEditorStats: MaxSampler: 260 instructions
+[2023.05.22-12.05.16:144][726]MaterialEditorStats: Texture samplers: 3/16
+[2023.05.22-12.05.16:144][726]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.05.22-12.05.16:144][726]MaterialEditorStats: Shader Count: 16
+[2023.05.22-12.05.16:965][773]LogWorld: UWorld::CleanupWorld for World_47, bSessionEnded=true, bCleanupResources=true
+[2023.05.22-12.05.16:965][773]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.22-12.05.20:789][954]BlueprintLog: New page: Compile BP_ColourTile
+[2023.05.22-12.05.20:865][954]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2023.05.22-12.05.21:260][964]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.22-12.05.21:319][964]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_ColourTile" FILE="../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_ColourTile.uasset" SILENT=true
+[2023.05.22-12.05.21:333][964]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_ColourTile
+[2023.05.22-12.05.21:333][964]LogSavePackage: Moving '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Saved/BP_ColourTile5FDE91904955558FE2441EBB695D542D.tmp' to '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_ColourTile.uasset'
+[2023.05.22-12.05.21:347][964]LogFileHelpers: InternalPromptForCheckoutAndSave took 87 ms (total: 28.7 sec)
+[2023.05.22-12.05.21:354][964]AssetCheck: New page: Asset Save: BP_ColourTile
+[2023.05.22-12.05.21:355][964]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_ColourTile.BP_ColourTile
+[2023.05.22-12.05.28:207][307]BlueprintLog: New page: Compile BP_ColourTile
+[2023.05.22-12.05.28:278][307]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2023.05.22-12.05.28:513][309]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.22-12.05.28:565][309]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_ColourTile" FILE="../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_ColourTile.uasset" SILENT=true
+[2023.05.22-12.05.28:577][309]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_ColourTile
+[2023.05.22-12.05.28:578][309]LogSavePackage: Moving '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Saved/BP_ColourTileA8E4B13F4A9A641FA9D144BD59ACF9A7.tmp' to '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_ColourTile.uasset'
+[2023.05.22-12.05.28:595][309]LogFileHelpers: InternalPromptForCheckoutAndSave took 82 ms (total: 28.8 sec)
+[2023.05.22-12.05.28:609][309]AssetCheck: New page: Asset Save: BP_ColourTile
+[2023.05.22-12.05.28:609][309]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_ColourTile.BP_ColourTile
+[2023.05.22-12.05.49:106][122]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_ColourTile.BP_ColourTile_C
+[2023.05.22-12.05.49:106][122]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_ColourTile.BP_ColourTile_C
+[2023.05.22-12.05.49:107][122]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_ColourTile.BP_ColourTile as actor: BP_ColourTile_C /Game/Levels/Testing_World.Testing_World:PersistentLevel.BP_ColourTile_C_0
+[2023.05.22-12.05.49:109][122]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_ColourTile.BP_ColourTile as actor: BP_ColourTile_C /Game/Levels/Testing_World.Testing_World:PersistentLevel.BP_ColourTile_C_0
+[2023.05.22-12.05.51:753][317]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_ColourTile.BP_ColourTile_C
+[2023.05.22-12.05.51:753][317]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_ColourTile.BP_ColourTile_C
+[2023.05.22-12.05.51:755][317]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_ColourTile.BP_ColourTile as actor: BP_ColourTile_C /Game/Levels/Testing_World.Testing_World:PersistentLevel.BP_ColourTile_C_1
+[2023.05.22-12.05.51:757][317]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_ColourTile.BP_ColourTile as actor: BP_ColourTile_C /Game/Levels/Testing_World.Testing_World:PersistentLevel.BP_ColourTile_C_1
+[2023.05.22-12.05.52:463][376]Cmd: DUPLICATE
+[2023.05.22-12.05.52:463][376]Cmd: ACTOR DUPLICATE
+[2023.05.22-12.05.54:190][504]Cmd: DUPLICATE
+[2023.05.22-12.05.54:190][504]Cmd: ACTOR DUPLICATE
+[2023.05.22-12.06.08:072][665]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2023.05.22-12.06.51:979][369]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.22-12.06.52:045][369]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_ColourTile" FILE="../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_ColourTile.uasset" SILENT=true
+[2023.05.22-12.06.52:057][369]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_ColourTile
+[2023.05.22-12.06.52:058][369]LogSavePackage: Moving '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Saved/BP_ColourTile6C692B124DCD597921327B88BBC1B68C.tmp' to '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_ColourTile.uasset'
+[2023.05.22-12.06.52:077][369]LogFileHelpers: InternalPromptForCheckoutAndSave took 97 ms (total: 28.9 sec)
+[2023.05.22-12.06.52:086][369]AssetCheck: New page: Asset Save: BP_ColourTile
+[2023.05.22-12.06.52:086][369]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_ColourTile.BP_ColourTile
+[2023.05.22-12.06.52:363][387]BlueprintLog: New page: Compile BP_ColourTile
+[2023.05.22-12.06.52:510][387]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2023.05.22-12.08.20:449][483]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.22-12.08.20:461][483]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.22-12.08.20:461][483]PIE: New page: PIE session: Testing_World (23 May 2023, 8:08:20 am)
+[2023.05.22-12.08.20:499][483]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Testing_World
+[2023.05.22-12.08.20:503][483]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004326s)
+[2023.05.22-12.08.20:503][483]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Testing_World.Testing_World to /Game/Levels/UEDPIE_0_Testing_World.Testing_World (0.004368s)
+[2023.05.22-12.08.20:503][483]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.22-12.08.20:504][483]LogAIModule: Creating AISystem for world Testing_World
+[2023.05.22-12.08.20:504][483]LogPlayLevel: PIE: World Init took: (0.000855s)
+[2023.05.22-12.08.20:552][483]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2023.05.22-12.08.20:558][483]LogAudio: Display: Creating Audio Device:                 Id: 90, Scope: Unique, Realtime: True
+[2023.05.22-12.08.20:558][483]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.22-12.08.20:558][483]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.22-12.08.20:558][483]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.22-12.08.20:558][483]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.22-12.08.20:558][483]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.22-12.08.20:558][483]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.22-12.08.20:558][483]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.22-12.08.20:558][483]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.22-12.08.20:559][483]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.22-12.08.20:559][483]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.22-12.08.20:559][483]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.22-12.08.20:561][483]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.22-12.08.20:591][483]LogAudioMixer: Display: Using Audio Hardware Device Speakers (HyperX Cloud II Wireless)
+[2023.05.22-12.08.20:591][483]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.22-12.08.20:591][483]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.22-12.08.20:591][483]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.22-12.08.20:593][483]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=90
+[2023.05.22-12.08.20:593][483]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=90
+[2023.05.22-12.08.20:594][483]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=90
+[2023.05.22-12.08.20:595][483]LogInit: FAudioDevice initialized.
+[2023.05.22-12.08.20:595][483]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=90
+[2023.05.22-12.08.20:595][483]LogAudio: Display: Audio Device (ID: 90) registered with world 'Testing_World'.
+[2023.05.22-12.08.20:598][483]LogLoad: Game class is 'Player_GM_C'
+[2023.05.22-12.08.20:600][483]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Testing_World.Testing_World up for play (max tick rate 0) at 2023.05.22-22.08.20
+[2023.05.22-12.08.20:600][483]LogWorld: Bringing up level for play took: 0.001413
+[2023.05.22-12.08.20:602][483]LogOnline: OSS: Created online subsystem instance for: :Context_130
+[2023.05.22-12.08.20:604][483]PIE: Server logged in
+[2023.05.22-12.08.20:605][483]PIE: Play in editor total start time 0.146 seconds.
+[2023.05.22-12.08.32:349][709]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.22-12.08.32:349][709]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Testing_World
+[2023.05.22-12.08.32:350][709]LogWorld: UWorld::CleanupWorld for Testing_World, bSessionEnded=true, bCleanupResources=true
+[2023.05.22-12.08.32:350][709]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.22-12.08.32:358][709]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.22-12.08.32:365][709]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.22-12.08.32:412][709]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.22-12.08.32:413][709]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=90
+[2023.05.22-12.08.32:415][709]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=90
+[2023.05.22-12.08.32:418][709]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.22-12.08.32:421][709]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2023.05.22-12.08.32:483][710]LogPlayLevel: Display: Destroying online subsystem :Context_130
+[2023.05.22-12.08.35:893][982]LogViewport: Scene viewport resized to 1144x691, mode Windowed.
+[2023.05.22-12.08.45:739][515]BlueprintLog: New page: Compile BP_ColourTile
+[2023.05.22-12.08.45:840][515]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2023.05.22-12.08.46:173][519]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.22-12.08.46:228][519]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_ColourTile" FILE="../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_ColourTile.uasset" SILENT=true
+[2023.05.22-12.08.46:240][519]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_ColourTile
+[2023.05.22-12.08.46:240][519]LogSavePackage: Moving '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Saved/BP_ColourTile16CF79B149449CEBD0B958B159669CAC.tmp' to '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_ColourTile.uasset'
+[2023.05.22-12.08.46:258][519]LogFileHelpers: InternalPromptForCheckoutAndSave took 85 ms (total: 29.0 sec)
+[2023.05.22-12.08.46:269][519]AssetCheck: New page: Asset Save: BP_ColourTile
+[2023.05.22-12.08.46:269][519]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_ColourTile.BP_ColourTile
+[2023.05.22-12.08.47:886][631]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.22-12.08.47:896][631]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.22-12.08.47:896][631]PIE: New page: PIE session: Testing_World (23 May 2023, 8:08:47 am)
+[2023.05.22-12.08.47:919][631]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Testing_World
+[2023.05.22-12.08.47:923][631]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004245s)
+[2023.05.22-12.08.47:923][631]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Testing_World.Testing_World to /Game/Levels/UEDPIE_0_Testing_World.Testing_World (0.004292s)
+[2023.05.22-12.08.47:923][631]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.22-12.08.47:924][631]LogAIModule: Creating AISystem for world Testing_World
+[2023.05.22-12.08.47:924][631]LogPlayLevel: PIE: World Init took: (0.000867s)
+[2023.05.22-12.08.47:970][631]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2023.05.22-12.08.47:976][631]LogAudio: Display: Creating Audio Device:                 Id: 91, Scope: Unique, Realtime: True
+[2023.05.22-12.08.47:976][631]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.22-12.08.47:976][631]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.22-12.08.47:976][631]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.22-12.08.47:976][631]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.22-12.08.47:976][631]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.22-12.08.47:976][631]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.22-12.08.47:976][631]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.22-12.08.47:976][631]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.22-12.08.47:976][631]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.22-12.08.47:976][631]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.22-12.08.47:976][631]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.22-12.08.47:979][631]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.22-12.08.48:008][631]LogAudioMixer: Display: Using Audio Hardware Device Speakers (HyperX Cloud II Wireless)
+[2023.05.22-12.08.48:008][631]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.22-12.08.48:008][631]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.22-12.08.48:008][631]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.22-12.08.48:009][631]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=91
+[2023.05.22-12.08.48:009][631]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=91
+[2023.05.22-12.08.48:011][631]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=91
+[2023.05.22-12.08.48:011][631]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=91
+[2023.05.22-12.08.48:011][631]LogInit: FAudioDevice initialized.
+[2023.05.22-12.08.48:011][631]LogAudio: Display: Audio Device (ID: 91) registered with world 'Testing_World'.
+[2023.05.22-12.08.48:014][631]LogLoad: Game class is 'Player_GM_C'
+[2023.05.22-12.08.48:015][631]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Testing_World.Testing_World up for play (max tick rate 0) at 2023.05.22-22.08.48
+[2023.05.22-12.08.48:016][631]LogWorld: Bringing up level for play took: 0.001647
+[2023.05.22-12.08.48:018][631]LogOnline: OSS: Created online subsystem instance for: :Context_131
+[2023.05.22-12.08.48:020][631]PIE: Server logged in
+[2023.05.22-12.08.48:021][631]PIE: Play in editor total start time 0.125 seconds.
+[2023.05.22-12.09.01:839][ 66]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.22-12.09.01:839][ 66]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Testing_World
+[2023.05.22-12.09.01:839][ 66]LogWorld: UWorld::CleanupWorld for Testing_World, bSessionEnded=true, bCleanupResources=true
+[2023.05.22-12.09.01:839][ 66]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.22-12.09.01:848][ 66]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.22-12.09.01:855][ 66]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.22-12.09.01:905][ 66]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.22-12.09.01:905][ 66]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=91
+[2023.05.22-12.09.01:907][ 66]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=91
+[2023.05.22-12.09.01:911][ 66]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.22-12.09.01:914][ 66]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2023.05.22-12.09.01:981][ 67]LogPlayLevel: Display: Destroying online subsystem :Context_131
+[2023.05.22-12.09.19:706][981]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.05.22-12.09.19:707][981]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.05.22-12.09.19:707][981]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.05.22-12.09.21:010][981]LogSlate: Window 'Pick Parent Class' being destroyed
+[2023.05.22-12.09.21:027][981]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2023.05.22-12.09.21:038][981]LogContentBrowser: Creating deferred item: NewBlueprint
+[2023.05.22-12.09.21:051][982]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2023.05.22-12.09.29:256][751]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_ColourTileChecker
+[2023.05.22-12.09.29:262][751]LogContentBrowser: End creating deferred item NewBlueprint
+[2023.05.22-12.09.30:517][861]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_ColourTileChecker.BP_ColourTileChecker
+[2023.05.22-12.09.30:517][861]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.22-12.09.31:055][861]LogViewport: Scene viewport resized to 1144x693, mode Windowed.
+[2023.05.22-12.09.48:217][854]BlueprintLog: New page: Compile BP_ColourTileChecker
+[2023.05.22-12.09.48:297][854]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2023.05.22-12.09.48:684][865]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.22-12.09.48:734][865]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_ColourTileChecker" FILE="../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_ColourTileChecker.uasset" SILENT=true
+[2023.05.22-12.09.48:741][865]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_ColourTileChecker
+[2023.05.22-12.09.48:741][865]LogSavePackage: Moving '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Saved/BP_ColourTileCheckerFEE6B3774B5B3C270D553FBD322647FB.tmp' to '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_ColourTileChecker.uasset'
+[2023.05.22-12.09.48:755][865]LogFileHelpers: InternalPromptForCheckoutAndSave took 71 ms (total: 29.0 sec)
+[2023.05.22-12.09.48:762][865]AssetCheck: New page: Asset Save: BP_ColourTileChecker
+[2023.05.22-12.09.48:762][865]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_ColourTileChecker.BP_ColourTileChecker
+[2023.05.22-12.10.59:658][935]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2023.05.22-12.10.59:681][935]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Levels/Testing_World_Auto7
+[2023.05.22-12.10.59:682][935]LogSavePackage: Moving '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Saved/Testing_World_Auto719FC303C4B8A8956B6602D8E7058FC93.tmp' to '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Saved/Autosaves/Game/Levels/Testing_World_Auto7.umap'
+[2023.05.22-12.10.59:686][935]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/Testing_World' took 0.084
+[2023.05.22-12.10.59:686][935]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.084
+[2023.05.22-12.10.59:687][935]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/BP_ColourTileChecker] ([2] browsable assets)...
+[2023.05.22-12.10.59:741][935]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_ColourTileChecker.BP_ColourTileChecker]
+[2023.05.22-12.10.59:741][935]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_ColourTileChecker]
+[2023.05.22-12.10.59:747][935]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/BP_ColourTileChecker_Auto7
+[2023.05.22-12.10.59:747][935]LogSavePackage: Moving '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Saved/BP_ColourTileChecker_Auto7D03367154F586BF72F236A8427BDCAEF.tmp' to '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Saved/Autosaves/Game/Blueprints/BP_ColourTileChecker_Auto7.uasset'
+[2023.05.22-12.10.59:748][935]LogFileHelpers: Auto-saving content packages took 0.061
+[2023.05.22-12.11.12:374][259]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.05.22-12.11.12:375][259]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.05.22-12.11.12:375][259]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.05.22-12.12.54:378][881]BlueprintLog: New page: Compile BP_ColourTileChecker
+[2023.05.22-12.12.54:464][881]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2023.05.22-12.12.54:809][895]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.22-12.12.54:873][895]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_ColourTileChecker" FILE="../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_ColourTileChecker.uasset" SILENT=true
+[2023.05.22-12.12.54:880][895]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_ColourTileChecker
+[2023.05.22-12.12.54:881][895]LogSavePackage: Moving '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Saved/BP_ColourTileCheckerBC28B6704A632C152AA34895ED96443B.tmp' to '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_ColourTileChecker.uasset'
+[2023.05.22-12.12.54:896][895]LogFileHelpers: InternalPromptForCheckoutAndSave took 86 ms (total: 29.1 sec)
+[2023.05.22-12.12.54:904][895]AssetCheck: New page: Asset Save: BP_ColourTileChecker
+[2023.05.22-12.12.54:904][895]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_ColourTileChecker.BP_ColourTileChecker
+[2023.05.22-12.14.32:837][100]BlueprintLog: New page: Compile BP_ColourTileChecker
+[2023.05.22-12.14.32:840][100]LogBlueprint: Error: [AssetLog] D:\Unreal_Projects\GameJam_1\GameJam_1\Content\Blueprints\BP_ColourTileChecker.uasset: [Compiler] This blueprint (self) is not a BP_Door_C, therefore ' Target ' must have a connection.
+[2023.05.22-12.14.32:840][100]LogBlueprint: Error: [AssetLog] D:\Unreal_Projects\GameJam_1\GameJam_1\Content\Blueprints\BP_ColourTileChecker.uasset: [Compiler] Variable node  Set DoorOpen  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2023.05.22-12.14.32:931][100]LogUObjectHash: Compacting FUObjectHashTables data took   2.96ms
+[2023.05.22-12.14.33:343][120]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.22-12.14.33:397][120]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_ColourTileChecker" FILE="../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_ColourTileChecker.uasset" SILENT=true
+[2023.05.22-12.14.33:406][120]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_ColourTileChecker
+[2023.05.22-12.14.33:407][120]LogSavePackage: Moving '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Saved/BP_ColourTileCheckerFC4DE0614B162EA9143C6E86339D0E22.tmp' to '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_ColourTileChecker.uasset'
+[2023.05.22-12.14.33:421][120]LogFileHelpers: InternalPromptForCheckoutAndSave took 78 ms (total: 29.2 sec)
+[2023.05.22-12.14.33:428][120]AssetCheck: New page: Asset Save: BP_ColourTileChecker
+[2023.05.22-12.14.33:429][120]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_ColourTileChecker.BP_ColourTileChecker
+[2023.05.22-12.14.37:056][339]BlueprintLog: New page: Compile BP_ColourTileChecker
+[2023.05.22-12.14.37:141][339]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2023.05.22-12.14.37:481][355]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.22-12.14.37:540][355]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_ColourTileChecker" FILE="../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_ColourTileChecker.uasset" SILENT=true
+[2023.05.22-12.14.37:549][355]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_ColourTileChecker
+[2023.05.22-12.14.37:550][355]LogSavePackage: Moving '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Saved/BP_ColourTileChecker54C867244083CE8A2B9C708E2FAD42B9.tmp' to '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_ColourTileChecker.uasset'
+[2023.05.22-12.14.37:567][355]LogFileHelpers: InternalPromptForCheckoutAndSave took 85 ms (total: 29.3 sec)
+[2023.05.22-12.14.37:574][355]AssetCheck: New page: Asset Save: BP_ColourTileChecker
+[2023.05.22-12.14.37:574][355]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_ColourTileChecker.BP_ColourTileChecker
+[2023.05.22-12.14.41:027][586]LogSlate: Window 'BP_ColourTileChecker' being destroyed
+[2023.05.22-12.14.41:037][586]LogSlate: Window 'BP_ColourTileChecker' being destroyed
+[2023.05.22-12.14.41:051][586]LogWorld: UWorld::CleanupWorld for World_43, bSessionEnded=true, bCleanupResources=true
+[2023.05.22-12.14.41:051][586]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.22-12.14.41:334][586]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2023.05.22-12.14.41:334][586]LogWorld: UWorld::CleanupWorld for World_45, bSessionEnded=true, bCleanupResources=true
+[2023.05.22-12.14.41:334][586]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.22-12.14.41:547][586]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2023.05.22-12.14.41:547][586]LogWorld: UWorld::CleanupWorld for World_48, bSessionEnded=true, bCleanupResources=true
+[2023.05.22-12.14.41:547][586]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.22-12.14.43:172][690]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_ColourTileChecker.BP_ColourTileChecker_C
+[2023.05.22-12.14.43:172][690]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_ColourTileChecker.BP_ColourTileChecker_C
+[2023.05.22-12.14.43:173][690]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_ColourTileChecker.BP_ColourTileChecker as actor: BP_ColourTileChecker_C /Game/Levels/Testing_World.Testing_World:PersistentLevel.BP_ColourTileChecker_C_0
+[2023.05.22-12.14.43:174][690]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_ColourTileChecker.BP_ColourTileChecker as actor: BP_ColourTileChecker_C /Game/Levels/Testing_World.Testing_World:PersistentLevel.BP_ColourTileChecker_C_0
+[2023.05.22-12.14.43:850][728]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_ColourTileChecker.BP_ColourTileChecker_C
+[2023.05.22-12.14.43:850][728]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_ColourTileChecker.BP_ColourTileChecker_C
+[2023.05.22-12.14.43:852][728]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_ColourTileChecker.BP_ColourTileChecker as actor: BP_ColourTileChecker_C /Game/Levels/Testing_World.Testing_World:PersistentLevel.BP_ColourTileChecker_C_1
+[2023.05.22-12.14.43:853][728]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_ColourTileChecker.BP_ColourTileChecker as actor: BP_ColourTileChecker_C /Game/Levels/Testing_World.Testing_World:PersistentLevel.BP_ColourTileChecker_C_1
+[2023.05.22-12.14.52:583][501]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_ColourTileChecker.BP_ColourTileChecker
+[2023.05.22-12.14.52:584][501]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.22-12.14.57:452][740]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.22-12.14.57:514][740]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_ColourTileChecker" FILE="../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_ColourTileChecker.uasset" SILENT=true
+[2023.05.22-12.14.57:523][740]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_ColourTileChecker
+[2023.05.22-12.14.57:524][740]LogSavePackage: Moving '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Saved/BP_ColourTileCheckerBDFD5A124FD2DB74701DA696298F6678.tmp' to '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_ColourTileChecker.uasset'
+[2023.05.22-12.14.57:539][740]LogFileHelpers: InternalPromptForCheckoutAndSave took 86 ms (total: 29.4 sec)
+[2023.05.22-12.14.57:549][740]AssetCheck: New page: Asset Save: BP_ColourTileChecker
+[2023.05.22-12.14.57:549][740]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_ColourTileChecker.BP_ColourTileChecker
+[2023.05.22-12.14.57:697][749]BlueprintLog: New page: Compile BP_ColourTileChecker
+[2023.05.22-12.14.57:768][749]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2023.05.22-12.15.00:559][920]LogSlate: Window 'BP_ColourTileChecker' being destroyed
+[2023.05.22-12.15.00:567][920]LogSlate: Window 'BP_ColourTileChecker' being destroyed
+[2023.05.22-12.15.00:608][920]LogWorld: UWorld::CleanupWorld for World_50, bSessionEnded=true, bCleanupResources=true
+[2023.05.22-12.15.00:608][920]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.22-12.15.26:815][950]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_ColourTileChecker.BP_ColourTileChecker
+[2023.05.22-12.15.26:816][950]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.22-12.15.29:880][ 75]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.22-12.15.29:950][ 75]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_ColourTileChecker" FILE="../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_ColourTileChecker.uasset" SILENT=true
+[2023.05.22-12.15.29:958][ 75]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_ColourTileChecker
+[2023.05.22-12.15.29:959][ 75]LogSavePackage: Moving '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Saved/BP_ColourTileChecker3A0DD9AC46D417FBFD4D658A00267D8E.tmp' to '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_ColourTileChecker.uasset'
+[2023.05.22-12.15.29:975][ 75]LogFileHelpers: InternalPromptForCheckoutAndSave took 95 ms (total: 29.5 sec)
+[2023.05.22-12.15.29:990][ 75]AssetCheck: New page: Asset Save: BP_ColourTileChecker
+[2023.05.22-12.15.29:990][ 75]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_ColourTileChecker.BP_ColourTileChecker
+[2023.05.22-12.15.30:205][ 87]BlueprintLog: New page: Compile BP_ColourTileChecker
+[2023.05.22-12.15.30:281][ 87]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2023.05.22-12.15.32:970][267]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_Door.BP_Door_C
+[2023.05.22-12.15.32:970][267]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_Door.BP_Door_C
+[2023.05.22-12.15.32:971][267]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_Door.BP_Door as actor: BP_Door_C /Game/Levels/Testing_World.Testing_World:PersistentLevel.BP_Door_C_2
+[2023.05.22-12.15.32:972][267]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_Door.BP_Door as actor: BP_Door_C /Game/Levels/Testing_World.Testing_World:PersistentLevel.BP_Door_C_2
+[2023.05.22-12.15.35:397][423]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_Door.BP_Door_C
+[2023.05.22-12.15.35:397][423]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_Door.BP_Door_C
+[2023.05.22-12.15.35:399][423]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_Door.BP_Door as actor: BP_Door_C /Game/Levels/Testing_World.Testing_World:PersistentLevel.BP_Door_C_3
+[2023.05.22-12.15.35:400][423]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_Door.BP_Door as actor: BP_Door_C /Game/Levels/Testing_World.Testing_World:PersistentLevel.BP_Door_C_3
+[2023.05.22-12.15.41:316][912]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.22-12.15.41:325][912]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.22-12.15.41:325][912]PIE: New page: PIE session: Testing_World (23 May 2023, 8:15:41 am)
+[2023.05.22-12.15.41:358][912]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Testing_World
+[2023.05.22-12.15.41:363][912]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004575s)
+[2023.05.22-12.15.41:363][912]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Testing_World.Testing_World to /Game/Levels/UEDPIE_0_Testing_World.Testing_World (0.004624s)
+[2023.05.22-12.15.41:363][912]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.22-12.15.41:363][912]LogAIModule: Creating AISystem for world Testing_World
+[2023.05.22-12.15.41:364][912]LogPlayLevel: PIE: World Init took: (0.000910s)
+[2023.05.22-12.15.41:403][912]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2023.05.22-12.15.41:411][912]LogAudio: Display: Creating Audio Device:                 Id: 92, Scope: Unique, Realtime: True
+[2023.05.22-12.15.41:411][912]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.22-12.15.41:411][912]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.22-12.15.41:411][912]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.22-12.15.41:411][912]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.22-12.15.41:411][912]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.22-12.15.41:411][912]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.22-12.15.41:411][912]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.22-12.15.41:411][912]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.22-12.15.41:412][912]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.22-12.15.41:412][912]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.22-12.15.41:412][912]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.22-12.15.41:415][912]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.22-12.15.41:444][912]LogAudioMixer: Display: Using Audio Hardware Device Speakers (HyperX Cloud II Wireless)
+[2023.05.22-12.15.41:445][912]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.22-12.15.41:445][912]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.22-12.15.41:445][912]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.22-12.15.41:445][912]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=92
+[2023.05.22-12.15.41:446][912]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=92
+[2023.05.22-12.15.41:448][912]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=92
+[2023.05.22-12.15.41:448][912]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=92
+[2023.05.22-12.15.41:448][912]LogInit: FAudioDevice initialized.
+[2023.05.22-12.15.41:448][912]LogAudio: Display: Audio Device (ID: 92) registered with world 'Testing_World'.
+[2023.05.22-12.15.41:452][912]LogLoad: Game class is 'Player_GM_C'
+[2023.05.22-12.15.41:453][912]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Testing_World.Testing_World up for play (max tick rate 0) at 2023.05.22-22.15.41
+[2023.05.22-12.15.41:453][912]LogWorld: Bringing up level for play took: 0.001629
+[2023.05.22-12.15.41:456][912]LogOnline: OSS: Created online subsystem instance for: :Context_136
+[2023.05.22-12.15.41:458][912]PIE: Server logged in
+[2023.05.22-12.15.41:458][912]PIE: Play in editor total start time 0.134 seconds.
+[2023.05.22-12.15.42:319][912]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	BP_ColourTileChecker_C /Game/Levels/UEDPIE_0_Testing_World.Testing_World:PersistentLevel.BP_ColourTileChecker_C_1
+	Function /Game/Blueprints/BP_ColourTileChecker.BP_ColourTileChecker_C:ExecuteUbergraph_BP_ColourTileChecker:01DE
+[2023.05.22-12.15.42:329][912]PIE: Error: Infinite loop detected. Blueprint:  BP_ColourTileChecker Function:  Outputs Call Stack:  Show
+[2023.05.22-12.15.42:359][912]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.22-12.15.42:359][912]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Testing_World
+[2023.05.22-12.15.42:359][912]LogWorld: UWorld::CleanupWorld for Testing_World, bSessionEnded=true, bCleanupResources=true
+[2023.05.22-12.15.42:359][912]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.22-12.15.42:417][912]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.22-12.15.42:424][912]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.22-12.15.42:460][912]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.22-12.15.42:461][912]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=92
+[2023.05.22-12.15.42:462][912]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=92
+[2023.05.22-12.15.42:467][912]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.22-12.15.42:470][912]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2023.05.22-12.15.42:649][913]LogPlayLevel: Display: Destroying online subsystem :Context_136
+[2023.05.22-12.16.06:354][385]BlueprintLog: New page: Compile BP_ColourTileChecker
+[2023.05.22-12.16.06:426][385]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2023.05.22-12.16.07:148][417]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.22-12.16.07:207][417]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_ColourTileChecker" FILE="../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_ColourTileChecker.uasset" SILENT=true
+[2023.05.22-12.16.07:216][417]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_ColourTileChecker
+[2023.05.22-12.16.07:217][417]LogSavePackage: Moving '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Saved/BP_ColourTileChecker99C7F51F4AC4394004B40BB3BF96482A.tmp' to '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_ColourTileChecker.uasset'
+[2023.05.22-12.16.07:232][417]LogFileHelpers: InternalPromptForCheckoutAndSave took 84 ms (total: 29.5 sec)
+[2023.05.22-12.16.07:239][417]AssetCheck: New page: Asset Save: BP_ColourTileChecker
+[2023.05.22-12.16.07:239][417]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_ColourTileChecker.BP_ColourTileChecker
+[2023.05.22-12.16.11:207][646]BlueprintLog: New page: Compile BP_ColourTileChecker
+[2023.05.22-12.16.11:276][646]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2023.05.22-12.16.11:528][651]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.22-12.16.11:585][651]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_ColourTileChecker" FILE="../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_ColourTileChecker.uasset" SILENT=true
+[2023.05.22-12.16.11:595][651]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_ColourTileChecker
+[2023.05.22-12.16.11:596][651]LogSavePackage: Moving '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Saved/BP_ColourTileCheckerB88F484543CCDED715EF25939A84154F.tmp' to '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_ColourTileChecker.uasset'
+[2023.05.22-12.16.11:612][651]LogFileHelpers: InternalPromptForCheckoutAndSave took 83 ms (total: 29.6 sec)
+[2023.05.22-12.16.11:620][651]AssetCheck: New page: Asset Save: BP_ColourTileChecker
+[2023.05.22-12.16.11:620][651]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_ColourTileChecker.BP_ColourTileChecker
+[2023.05.22-12.16.13:504][778]LogSlate: Window 'Message Log' being destroyed
+[2023.05.22-12.16.13:525][778]LogSlate: Window 'Message Log' being destroyed
+[2023.05.22-12.16.14:075][826]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.22-12.16.14:086][826]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.22-12.16.14:086][826]PIE: New page: PIE session: Testing_World (23 May 2023, 8:16:14 am)
+[2023.05.22-12.16.14:086][826]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Testing_World
+[2023.05.22-12.16.14:091][826]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004844s)
+[2023.05.22-12.16.14:091][826]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Testing_World.Testing_World to /Game/Levels/UEDPIE_0_Testing_World.Testing_World (0.004993s)
+[2023.05.22-12.16.14:091][826]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.22-12.16.14:091][826]LogAIModule: Creating AISystem for world Testing_World
+[2023.05.22-12.16.14:092][826]LogPlayLevel: PIE: World Init took: (0.000921s)
+[2023.05.22-12.16.14:129][826]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2023.05.22-12.16.14:137][826]LogAudio: Display: Creating Audio Device:                 Id: 93, Scope: Unique, Realtime: True
+[2023.05.22-12.16.14:137][826]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.22-12.16.14:137][826]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.22-12.16.14:137][826]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.22-12.16.14:137][826]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.22-12.16.14:137][826]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.22-12.16.14:137][826]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.22-12.16.14:137][826]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.22-12.16.14:137][826]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.22-12.16.14:138][826]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.22-12.16.14:138][826]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.22-12.16.14:138][826]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.22-12.16.14:140][826]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.22-12.16.14:173][826]LogAudioMixer: Display: Using Audio Hardware Device Speakers (HyperX Cloud II Wireless)
+[2023.05.22-12.16.14:173][826]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.22-12.16.14:173][826]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.22-12.16.14:174][826]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.22-12.16.14:174][826]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=93
+[2023.05.22-12.16.14:174][826]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=93
+[2023.05.22-12.16.14:177][826]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=93
+[2023.05.22-12.16.14:177][826]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=93
+[2023.05.22-12.16.14:177][826]LogInit: FAudioDevice initialized.
+[2023.05.22-12.16.14:177][826]LogAudio: Display: Audio Device (ID: 93) registered with world 'Testing_World'.
+[2023.05.22-12.16.14:181][826]LogLoad: Game class is 'Player_GM_C'
+[2023.05.22-12.16.14:183][826]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Testing_World.Testing_World up for play (max tick rate 0) at 2023.05.22-22.16.14
+[2023.05.22-12.16.14:183][826]LogWorld: Bringing up level for play took: 0.001969
+[2023.05.22-12.16.14:186][826]LogOnline: OSS: Created online subsystem instance for: :Context_137
+[2023.05.22-12.16.14:188][826]PIE: Server logged in
+[2023.05.22-12.16.14:188][826]PIE: Play in editor total start time 0.103 seconds.
+[2023.05.22-12.18.11:998][961]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.22-12.18.11:998][961]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Testing_World
+[2023.05.22-12.18.11:998][961]LogWorld: UWorld::CleanupWorld for Testing_World, bSessionEnded=true, bCleanupResources=true
+[2023.05.22-12.18.11:999][961]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.22-12.18.12:031][961]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.22-12.18.12:038][961]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.22-12.18.12:075][961]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.22-12.18.12:076][961]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=93
+[2023.05.22-12.18.12:077][961]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=93
+[2023.05.22-12.18.12:082][961]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.22-12.18.12:085][961]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2023.05.22-12.18.12:148][962]LogPlayLevel: Display: Destroying online subsystem :Context_137
+[2023.05.22-12.18.13:058][ 34]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.22-12.18.13:068][ 34]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.22-12.18.13:068][ 34]PIE: New page: PIE session: Testing_World (23 May 2023, 8:18:13 am)
+[2023.05.22-12.18.13:068][ 34]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Testing_World
+[2023.05.22-12.18.13:073][ 34]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004426s)
+[2023.05.22-12.18.13:073][ 34]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Testing_World.Testing_World to /Game/Levels/UEDPIE_0_Testing_World.Testing_World (0.004462s)
+[2023.05.22-12.18.13:073][ 34]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.22-12.18.13:073][ 34]LogAIModule: Creating AISystem for world Testing_World
+[2023.05.22-12.18.13:073][ 34]LogPlayLevel: PIE: World Init took: (0.000794s)
+[2023.05.22-12.18.13:109][ 34]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2023.05.22-12.18.13:115][ 34]LogAudio: Display: Creating Audio Device:                 Id: 94, Scope: Unique, Realtime: True
+[2023.05.22-12.18.13:115][ 34]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.22-12.18.13:115][ 34]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.22-12.18.13:115][ 34]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.22-12.18.13:115][ 34]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.22-12.18.13:115][ 34]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.22-12.18.13:115][ 34]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.22-12.18.13:115][ 34]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.22-12.18.13:115][ 34]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.22-12.18.13:115][ 34]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.22-12.18.13:115][ 34]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.22-12.18.13:115][ 34]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.22-12.18.13:118][ 34]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.22-12.18.13:147][ 34]LogAudioMixer: Display: Using Audio Hardware Device Speakers (HyperX Cloud II Wireless)
+[2023.05.22-12.18.13:148][ 34]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.22-12.18.13:148][ 34]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.22-12.18.13:148][ 34]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.22-12.18.13:148][ 34]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=94
+[2023.05.22-12.18.13:148][ 34]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=94
+[2023.05.22-12.18.13:150][ 34]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=94
+[2023.05.22-12.18.13:150][ 34]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=94
+[2023.05.22-12.18.13:150][ 34]LogInit: FAudioDevice initialized.
+[2023.05.22-12.18.13:150][ 34]LogAudio: Display: Audio Device (ID: 94) registered with world 'Testing_World'.
+[2023.05.22-12.18.13:153][ 34]LogLoad: Game class is 'Player_GM_C'
+[2023.05.22-12.18.13:155][ 34]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Testing_World.Testing_World up for play (max tick rate 0) at 2023.05.22-22.18.13
+[2023.05.22-12.18.13:155][ 34]LogWorld: Bringing up level for play took: 0.001797
+[2023.05.22-12.18.13:157][ 34]LogOnline: OSS: Created online subsystem instance for: :Context_138
+[2023.05.22-12.18.13:159][ 34]PIE: Server logged in
+[2023.05.22-12.18.13:160][ 34]PIE: Play in editor total start time 0.092 seconds.
+[2023.05.22-12.20.24:818][130]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.22-12.20.24:818][130]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Testing_World
+[2023.05.22-12.20.24:819][130]LogWorld: UWorld::CleanupWorld for Testing_World, bSessionEnded=true, bCleanupResources=true
+[2023.05.22-12.20.24:819][130]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.22-12.20.24:826][130]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.22-12.20.24:834][130]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.22-12.20.24:870][130]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.22-12.20.24:871][130]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=94
+[2023.05.22-12.20.24:873][130]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=94
+[2023.05.22-12.20.24:879][130]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2023.05.22-12.20.24:941][131]LogPlayLevel: Display: Destroying online subsystem :Context_138
+[2023.05.22-12.20.25:497][173]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.22-12.20.25:507][173]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.22-12.20.25:507][173]PIE: New page: PIE session: Testing_World (23 May 2023, 8:20:25 am)
+[2023.05.22-12.20.25:538][173]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Testing_World
+[2023.05.22-12.20.25:542][173]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004373s)
+[2023.05.22-12.20.25:542][173]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Testing_World.Testing_World to /Game/Levels/UEDPIE_0_Testing_World.Testing_World (0.004424s)
+[2023.05.22-12.20.25:542][173]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.22-12.20.25:543][173]LogAIModule: Creating AISystem for world Testing_World
+[2023.05.22-12.20.25:543][173]LogPlayLevel: PIE: World Init took: (0.000865s)
+[2023.05.22-12.20.25:579][173]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2023.05.22-12.20.25:585][173]LogAudio: Display: Creating Audio Device:                 Id: 95, Scope: Unique, Realtime: True
+[2023.05.22-12.20.25:585][173]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.22-12.20.25:585][173]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.22-12.20.25:585][173]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.22-12.20.25:585][173]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.22-12.20.25:585][173]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.22-12.20.25:585][173]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.22-12.20.25:585][173]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.22-12.20.25:585][173]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.22-12.20.25:586][173]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.22-12.20.25:586][173]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.22-12.20.25:586][173]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.22-12.20.25:588][173]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.22-12.20.25:618][173]LogAudioMixer: Display: Using Audio Hardware Device Speakers (HyperX Cloud II Wireless)
+[2023.05.22-12.20.25:619][173]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.22-12.20.25:619][173]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.22-12.20.25:619][173]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.22-12.20.25:619][173]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=95
+[2023.05.22-12.20.25:619][173]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=95
+[2023.05.22-12.20.25:621][173]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=95
+[2023.05.22-12.20.25:621][173]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=95
+[2023.05.22-12.20.25:621][173]LogInit: FAudioDevice initialized.
+[2023.05.22-12.20.25:621][173]LogAudio: Display: Audio Device (ID: 95) registered with world 'Testing_World'.
+[2023.05.22-12.20.25:624][173]LogLoad: Game class is 'Player_GM_C'
+[2023.05.22-12.20.25:626][173]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Testing_World.Testing_World up for play (max tick rate 0) at 2023.05.22-22.20.25
+[2023.05.22-12.20.25:626][173]LogWorld: Bringing up level for play took: 0.001688
+[2023.05.22-12.20.25:628][173]LogOnline: OSS: Created online subsystem instance for: :Context_139
+[2023.05.22-12.20.25:630][173]PIE: Server logged in
+[2023.05.22-12.20.25:631][173]PIE: Play in editor total start time 0.124 seconds.
+[2023.05.22-12.23.41:018][371]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.22-12.23.41:018][371]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Testing_World
+[2023.05.22-12.23.41:018][371]LogWorld: UWorld::CleanupWorld for Testing_World, bSessionEnded=true, bCleanupResources=true
+[2023.05.22-12.23.41:019][371]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.22-12.23.41:026][371]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.22-12.23.41:034][371]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.22-12.23.41:070][371]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.22-12.23.41:071][371]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=95
+[2023.05.22-12.23.41:073][371]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=95
+[2023.05.22-12.23.41:079][371]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2023.05.22-12.23.41:140][372]LogPlayLevel: Display: Destroying online subsystem :Context_139
