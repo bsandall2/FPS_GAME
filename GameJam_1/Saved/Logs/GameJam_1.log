@@ -3354,3 +3354,309 @@ You can not unload a level you are currently editing.
 [2023.05.23-06.27.31:749][173]LogFileHelpers: InternalPromptForCheckoutAndSave started...
 [2023.05.23-06.27.33:023][173]LogSlate: Window 'Save Level As' being destroyed
 [2023.05.23-06.27.33:038][173]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.28 sec (total: 23.7 sec)
+[2023.05.23-06.32.48:110][505]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 E:\GameProjects\GameJam #1\Assets\3D_Models\PressurePlate_MESH.fbx)
+[2023.05.23-06.32.48:115][505]LogFbx: Loading FBX Scene from E:\GameProjects\GameJam #1\Assets\3D_Models\PressurePlate_MESH.fbx
+[2023.05.23-06.32.48:120][505]LogFbx: FBX Scene Loaded Succesfully
+[2023.05.23-06.32.50:251][505]LogSlate: Window 'FBX Import Options' being destroyed
+[2023.05.23-06.32.50:303][505]LogFbx: Display: Triangulating static mesh PP_Base
+[2023.05.23-06.32.50:305][505]LogStaticMesh: Display: Building static mesh PressurePlate_MESH_PP_Base...
+[2023.05.23-06.32.50:309][505]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/Meshes/PressurePlate_MESH_PP_Base.PressurePlate_MESH_PP_Base
+[2023.05.23-06.32.50:353][505]LogStaticMesh: Warning: PressurePlate_MESH_PP_Base has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2023.05.23-06.32.50:364][505]LogFbx: Display: Triangulating static mesh PP_Button
+[2023.05.23-06.32.50:365][505]LogStaticMesh: Display: Building static mesh PressurePlate_MESH_PP_Button...
+[2023.05.23-06.32.50:369][505]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/Meshes/PressurePlate_MESH_PP_Button.PressurePlate_MESH_PP_Button
+[2023.05.23-06.32.50:393][505]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2023.05.23-06.32.50:393][505]FBXImport: Warning: PressurePlate_MESH_PP_Base has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2023.05.23-06.32.51:708][596]LogSlate: Window 'Message Log' being destroyed
+[2023.05.23-06.32.51:716][596]LogSlate: Window 'Message Log' being destroyed
+[2023.05.23-06.32.53:651][753]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Meshes/PressurePlate_MESH_PP_Button.PressurePlate_MESH_PP_Button
+[2023.05.23-06.32.53:652][753]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Meshes/PressurePlate_MESH_PP_Button.PressurePlate_MESH_PP_Button
+[2023.05.23-06.32.53:652][753]LogActorFactory: Actor Factory spawned StaticMesh /Game/Assets/Meshes/PressurePlate_MESH_PP_Button.PressurePlate_MESH_PP_Button as actor: StaticMeshActor /Game/Levels/Testing_World.Testing_World:PersistentLevel.StaticMeshActor_39
+[2023.05.23-06.32.53:652][753]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Meshes/PressurePlate_MESH_PP_Base.PressurePlate_MESH_PP_Base
+[2023.05.23-06.32.53:652][753]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Meshes/PressurePlate_MESH_PP_Base.PressurePlate_MESH_PP_Base
+[2023.05.23-06.32.53:652][753]LogActorFactory: Actor Factory spawned StaticMesh /Game/Assets/Meshes/PressurePlate_MESH_PP_Base.PressurePlate_MESH_PP_Base as actor: StaticMeshActor /Game/Levels/Testing_World.Testing_World:PersistentLevel.StaticMeshActor_40
+[2023.05.23-06.32.58:007][208]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Meshes/PressurePlate_MESH_PP_Button.PressurePlate_MESH_PP_Button
+[2023.05.23-06.32.58:008][208]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Meshes/PressurePlate_MESH_PP_Button.PressurePlate_MESH_PP_Button
+[2023.05.23-06.32.58:009][208]LogActorFactory: Actor Factory spawned StaticMesh /Game/Assets/Meshes/PressurePlate_MESH_PP_Button.PressurePlate_MESH_PP_Button as actor: StaticMeshActor /Game/Levels/Testing_World.Testing_World:PersistentLevel.StaticMeshActor_41
+[2023.05.23-06.32.58:028][208]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Meshes/PressurePlate_MESH_PP_Base.PressurePlate_MESH_PP_Base
+[2023.05.23-06.32.58:028][208]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Meshes/PressurePlate_MESH_PP_Base.PressurePlate_MESH_PP_Base
+[2023.05.23-06.32.58:028][208]LogActorFactory: Actor Factory spawned StaticMesh /Game/Assets/Meshes/PressurePlate_MESH_PP_Base.PressurePlate_MESH_PP_Base as actor: StaticMeshActor /Game/Levels/Testing_World.Testing_World:PersistentLevel.StaticMeshActor_42
+[2023.05.23-06.32.59:156][329]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2023.05.23-06.33.00:601][492]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2023.05.23-06.33.00:610][492]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.23-06.33.00:610][492]PIE: New page: PIE session: Testing_World (24 May 2023, 2:33:00 am)
+[2023.05.23-06.33.00:610][492]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Testing_World
+[2023.05.23-06.33.00:615][492]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005201s)
+[2023.05.23-06.33.00:615][492]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Testing_World.Testing_World to /Game/Levels/UEDPIE_0_Testing_World.Testing_World (0.005230s)
+[2023.05.23-06.33.00:615][492]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.23-06.33.00:615][492]LogAIModule: Creating AISystem for world Testing_World
+[2023.05.23-06.33.00:616][492]LogPlayLevel: PIE: World Init took: (0.000794s)
+[2023.05.23-06.33.00:649][492]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2023.05.23-06.33.00:652][492]LogAudio: Display: Creating Audio Device:                 Id: 24, Scope: Unique, Realtime: True
+[2023.05.23-06.33.00:652][492]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.23-06.33.00:652][492]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.23-06.33.00:652][492]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.23-06.33.00:652][492]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.23-06.33.00:652][492]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.23-06.33.00:652][492]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.23-06.33.00:652][492]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.23-06.33.00:652][492]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.23-06.33.00:653][492]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.23-06.33.00:653][492]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.23-06.33.00:653][492]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.23-06.33.00:655][492]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.23-06.33.00:683][492]LogAudioMixer: Display: Using Audio Hardware Device Speakers (HyperX Cloud II Wireless)
+[2023.05.23-06.33.00:684][492]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.23-06.33.00:684][492]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.23-06.33.00:684][492]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.23-06.33.00:684][492]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=24
+[2023.05.23-06.33.00:684][492]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=24
+[2023.05.23-06.33.00:686][492]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=24
+[2023.05.23-06.33.00:686][492]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=24
+[2023.05.23-06.33.00:686][492]LogInit: FAudioDevice initialized.
+[2023.05.23-06.33.00:686][492]LogAudio: Display: Audio Device (ID: 24) registered with world 'Testing_World'.
+[2023.05.23-06.33.00:711][492]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.23-06.33.00:711][492]LogLoad: Game class is 'Player_GM_C'
+[2023.05.23-06.33.00:713][492]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Testing_World.Testing_World up for play (max tick rate 0) at 2023.05.23-16.33.00
+[2023.05.23-06.33.00:714][492]LogWorld: Bringing up level for play took: 0.002069
+[2023.05.23-06.33.00:716][492]LogOnline: OSS: Created online subsystem instance for: :Context_50
+[2023.05.23-06.33.00:762][492]PIE: Server logged in
+[2023.05.23-06.33.00:763][492]PIE: Play in editor total start time 0.154 seconds.
+[2023.05.23-06.33.00:810][492]LogViewport: Scene viewport resized to 1914x1000, mode Windowed.
+[2023.05.23-06.33.14:189][641]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.23-06.33.14:189][641]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Testing_World
+[2023.05.23-06.33.14:190][641]LogSlate: Window 'GameJam_1 Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6)' being destroyed
+[2023.05.23-06.33.14:198][641]LogWorld: UWorld::CleanupWorld for Testing_World, bSessionEnded=true, bCleanupResources=true
+[2023.05.23-06.33.14:198][641]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.23-06.33.14:202][641]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.23-06.33.14:209][641]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.23-06.33.14:241][641]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24
+[2023.05.23-06.33.14:242][641]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24
+[2023.05.23-06.33.14:250][641]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2023.05.23-06.33.14:287][642]LogPlayLevel: Display: Destroying online subsystem :Context_50
+[2023.05.23-06.33.16:561][900]Cmd: DELETE
+[2023.05.23-06.33.16:561][900]Cmd: ACTOR DELETE
+[2023.05.23-06.33.16:567][900]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.23-06.33.16:568][900]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.23-06.33.16:600][900]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2023.05.23-06.33.16:603][900]LogEditorActor: Deleted 2 Actors (0.042 secs)
+[2023.05.23-06.33.18:946][ 86]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2023.05.23-06.33.19:653][ 86]LogSlate: Window 'Delete Assets' being destroyed
+[2023.05.23-06.33.19:678][ 86]LogUObjectGlobals: Force Deleting 2 Package(s):
+	Asset Name: /Game/Assets/Meshes/PressurePlate_MESH_PP_Base.PressurePlate_MESH_PP_Base
+	Asset Type: StaticMesh
+	Asset Name: /Game/Assets/Meshes/PressurePlate_MESH_PP_Button.PressurePlate_MESH_PP_Button
+	Asset Type: StaticMesh
+[2023.05.23-06.33.20:048][ 86]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2023.05.23-06.33.20:080][ 86]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2023.05.23-06.33.20:112][ 86]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2023.05.23-06.35.05:468][457]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 E:\GameProjects\GameJam #1\Assets\3D_Models\PressurePlate_MESH.fbx)
+[2023.05.23-06.35.05:473][457]LogFbx: Loading FBX Scene from E:\GameProjects\GameJam #1\Assets\3D_Models\PressurePlate_MESH.fbx
+[2023.05.23-06.35.05:478][457]LogFbx: FBX Scene Loaded Succesfully
+[2023.05.23-06.35.06:287][457]LogSlate: Window 'FBX Import Options' being destroyed
+[2023.05.23-06.35.06:335][457]LogFbx: Display: Triangulating static mesh PP_Base
+[2023.05.23-06.35.06:338][457]LogStaticMesh: Display: Building static mesh PressurePlate_MESH_PP_Base...
+[2023.05.23-06.35.06:344][457]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/Meshes/PressurePlate_MESH_PP_Base.PressurePlate_MESH_PP_Base
+[2023.05.23-06.35.06:344][457]LogStaticMesh: Warning: PressurePlate_MESH_PP_Base has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2023.05.23-06.35.06:358][457]LogFbx: Display: Triangulating static mesh PP_Button
+[2023.05.23-06.35.06:359][457]LogStaticMesh: Display: Building static mesh PressurePlate_MESH_PP_Button...
+[2023.05.23-06.35.06:364][457]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/Meshes/PressurePlate_MESH_PP_Button.PressurePlate_MESH_PP_Button
+[2023.05.23-06.35.06:385][457]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2023.05.23-06.35.06:385][457]FBXImport: Warning: PressurePlate_MESH_PP_Base has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2023.05.23-06.35.07:831][574]LogSlate: Window 'Message Log' being destroyed
+[2023.05.23-06.35.07:839][574]LogSlate: Window 'Message Log' being destroyed
+[2023.05.23-06.35.09:961][740]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Meshes/PressurePlate_MESH_PP_Button.PressurePlate_MESH_PP_Button
+[2023.05.23-06.35.09:961][740]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Meshes/PressurePlate_MESH_PP_Button.PressurePlate_MESH_PP_Button
+[2023.05.23-06.35.09:962][740]LogActorFactory: Actor Factory spawned StaticMesh /Game/Assets/Meshes/PressurePlate_MESH_PP_Button.PressurePlate_MESH_PP_Button as actor: StaticMeshActor /Game/Levels/Testing_World.Testing_World:PersistentLevel.StaticMeshActor_43
+[2023.05.23-06.35.09:962][740]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Meshes/PressurePlate_MESH_PP_Base.PressurePlate_MESH_PP_Base
+[2023.05.23-06.35.09:962][740]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Meshes/PressurePlate_MESH_PP_Base.PressurePlate_MESH_PP_Base
+[2023.05.23-06.35.09:962][740]LogActorFactory: Actor Factory spawned StaticMesh /Game/Assets/Meshes/PressurePlate_MESH_PP_Base.PressurePlate_MESH_PP_Base as actor: StaticMeshActor /Game/Levels/Testing_World.Testing_World:PersistentLevel.StaticMeshActor_44
+[2023.05.23-06.35.12:434][ 22]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Meshes/PressurePlate_MESH_PP_Button.PressurePlate_MESH_PP_Button
+[2023.05.23-06.35.12:434][ 22]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Meshes/PressurePlate_MESH_PP_Button.PressurePlate_MESH_PP_Button
+[2023.05.23-06.35.12:435][ 22]LogActorFactory: Actor Factory spawned StaticMesh /Game/Assets/Meshes/PressurePlate_MESH_PP_Button.PressurePlate_MESH_PP_Button as actor: StaticMeshActor /Game/Levels/Testing_World.Testing_World:PersistentLevel.StaticMeshActor_45
+[2023.05.23-06.35.12:451][ 22]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Meshes/PressurePlate_MESH_PP_Base.PressurePlate_MESH_PP_Base
+[2023.05.23-06.35.12:451][ 22]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Meshes/PressurePlate_MESH_PP_Base.PressurePlate_MESH_PP_Base
+[2023.05.23-06.35.12:451][ 22]LogActorFactory: Actor Factory spawned StaticMesh /Game/Assets/Meshes/PressurePlate_MESH_PP_Base.PressurePlate_MESH_PP_Base as actor: StaticMeshActor /Game/Levels/Testing_World.Testing_World:PersistentLevel.StaticMeshActor_46
+[2023.05.23-06.35.17:555][612]Cmd: DELETE
+[2023.05.23-06.35.17:555][612]Cmd: ACTOR DELETE
+[2023.05.23-06.35.17:558][612]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.23-06.35.17:559][612]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.23-06.35.17:591][612]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2023.05.23-06.35.17:594][612]LogEditorActor: Deleted 2 Actors (0.039 secs)
+[2023.05.23-06.35.19:296][776]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Assets/Meshes/PressurePlate_MESH_PP_Base.PressurePlate_MESH_PP_Base
+[2023.05.23-06.35.19:316][776]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.23-06.35.19:591][776]LogViewport: Scene viewport resized to 1405x902, mode Windowed.
+[2023.05.23-06.35.36:880][181]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.23-06.35.36:927][181]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Meshes/PressurePlate_MESH_PP_Base" FILE="../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Assets/Meshes/PressurePlate_MESH_PP_Base.uasset" SILENT=true
+[2023.05.23-06.35.36:933][181]LogSavePackage: Moving output files for package: /Game/Assets/Meshes/PressurePlate_MESH_PP_Base
+[2023.05.23-06.35.36:933][181]LogSavePackage: Moving '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Saved/PressurePlate_MESH_PP_BaseA80DCBE348FE538F6D446293C4EBCFC2.tmp' to '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Assets/Meshes/PressurePlate_MESH_PP_Base.uasset'
+[2023.05.23-06.35.36:940][181]LogFileHelpers: InternalPromptForCheckoutAndSave took 59 ms (total: 23.7 sec)
+[2023.05.23-06.35.36:947][181]AssetCheck: New page: Asset Save: PressurePlate_MESH_PP_Base
+[2023.05.23-06.35.36:947][181]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Meshes/PressurePlate_MESH_PP_Base.PressurePlate_MESH_PP_Base
+[2023.05.23-06.35.37:846][240]LogWorld: UWorld::CleanupWorld for World_27, bSessionEnded=true, bCleanupResources=true
+[2023.05.23-06.35.37:846][240]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.23-06.35.39:066][349]LogSlate: Window 'BP_Door' being destroyed
+[2023.05.23-06.35.39:086][349]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
+[2023.05.23-06.35.39:086][349]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.23-06.35.40:615][497]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Assets/Meshes/PressurePlate_MESH_PP_Button.PressurePlate_MESH_PP_Button
+[2023.05.23-06.35.40:652][497]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.23-06.35.40:922][497]LogViewport: Scene viewport resized to 1405x902, mode Windowed.
+[2023.05.23-06.35.46:261][907]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.23-06.35.46:314][907]LogSavePackage: Moving output files for package: /Game/Assets/Meshes/PressurePlate_MESH_PP_Button
+[2023.05.23-06.35.46:314][907]LogSavePackage: Moving '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Saved/PressurePlate_MESH_PP_Button04687F944040D8CD4AF73199F2865F61.tmp' to '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Assets/Meshes/PressurePlate_MESH_PP_Button.uasset'
+[2023.05.23-06.35.46:322][907]LogFileHelpers: InternalPromptForCheckoutAndSave took 61 ms (total: 23.8 sec)
+[2023.05.23-06.35.46:329][907]AssetCheck: New page: Asset Save: PressurePlate_MESH_PP_Button
+[2023.05.23-06.35.46:329][907]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Meshes/PressurePlate_MESH_PP_Button.PressurePlate_MESH_PP_Button
+[2023.05.23-06.35.46:932][950]LogSlate: Window 'PressurePlate_MESH_PP_Button' being destroyed
+[2023.05.23-06.35.47:472][950]LogWorld: UWorld::CleanupWorld for World_28, bSessionEnded=true, bCleanupResources=true
+[2023.05.23-06.35.47:472][950]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.23-06.35.52:545][474]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_PressurePlate.BP_PressurePlate
+[2023.05.23-06.35.52:545][474]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.23-06.35.53:993][537]LogViewport: Scene viewport resized to 1144x693, mode Windowed.
+[2023.05.23-06.36.24:249][650]BlueprintLog: New page: Compile BP_PressurePlate
+[2023.05.23-06.36.24:320][650]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2023.05.23-06.36.24:665][671]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.23-06.36.24:709][671]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_PressurePlate" FILE="../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_PressurePlate.uasset" SILENT=true
+[2023.05.23-06.36.24:720][671]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_PressurePlate
+[2023.05.23-06.36.24:721][671]LogSavePackage: Moving '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Saved/BP_PressurePlate316B01144474ECD97B676DA36D39AE31.tmp' to '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_PressurePlate.uasset'
+[2023.05.23-06.36.24:729][671]LogFileHelpers: InternalPromptForCheckoutAndSave took 64 ms (total: 23.9 sec)
+[2023.05.23-06.36.24:736][671]AssetCheck: New page: Asset Save: BP_PressurePlate
+[2023.05.23-06.36.24:736][671]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_PressurePlate.BP_PressurePlate
+[2023.05.23-06.36.41:182][997]LogEditorTransaction: Undo Mouse Drag
+[2023.05.23-06.36.47:907][537]BlueprintLog: New page: Compile BP_PressurePlate
+[2023.05.23-06.36.47:964][537]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2023.05.23-06.36.48:417][565]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.23-06.36.48:462][565]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_PressurePlate" FILE="../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_PressurePlate.uasset" SILENT=true
+[2023.05.23-06.36.48:474][565]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_PressurePlate
+[2023.05.23-06.36.48:474][565]LogSavePackage: Moving '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Saved/BP_PressurePlate570C792C410E0202111EE6AA57A2CF13.tmp' to '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_PressurePlate.uasset'
+[2023.05.23-06.36.48:483][565]LogFileHelpers: InternalPromptForCheckoutAndSave took 65 ms (total: 23.9 sec)
+[2023.05.23-06.36.48:489][565]AssetCheck: New page: Asset Save: BP_PressurePlate
+[2023.05.23-06.36.48:489][565]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_PressurePlate.BP_PressurePlate
+[2023.05.23-06.36.50:944][808]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2023.05.23-06.36.50:952][808]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.23-06.36.50:952][808]PIE: New page: PIE session: Testing_World (24 May 2023, 2:36:50 am)
+[2023.05.23-06.36.50:952][808]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Testing_World
+[2023.05.23-06.36.50:957][808]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004931s)
+[2023.05.23-06.36.50:957][808]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Testing_World.Testing_World to /Game/Levels/UEDPIE_0_Testing_World.Testing_World (0.004959s)
+[2023.05.23-06.36.50:957][808]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.23-06.36.50:958][808]LogAIModule: Creating AISystem for world Testing_World
+[2023.05.23-06.36.50:958][808]LogPlayLevel: PIE: World Init took: (0.000711s)
+[2023.05.23-06.36.50:990][808]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2023.05.23-06.36.50:993][808]LogAudio: Display: Creating Audio Device:                 Id: 25, Scope: Unique, Realtime: True
+[2023.05.23-06.36.50:993][808]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.23-06.36.50:993][808]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.23-06.36.50:993][808]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.23-06.36.50:993][808]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.23-06.36.50:993][808]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.23-06.36.50:993][808]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.23-06.36.50:993][808]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.23-06.36.50:993][808]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.23-06.36.50:994][808]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.23-06.36.50:994][808]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.23-06.36.50:994][808]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.23-06.36.50:996][808]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.23-06.36.51:025][808]LogAudioMixer: Display: Using Audio Hardware Device Speakers (HyperX Cloud II Wireless)
+[2023.05.23-06.36.51:025][808]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.23-06.36.51:025][808]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.23-06.36.51:025][808]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.23-06.36.51:026][808]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=25
+[2023.05.23-06.36.51:026][808]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=25
+[2023.05.23-06.36.51:027][808]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=25
+[2023.05.23-06.36.51:027][808]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=25
+[2023.05.23-06.36.51:027][808]LogInit: FAudioDevice initialized.
+[2023.05.23-06.36.51:027][808]LogAudio: Display: Audio Device (ID: 25) registered with world 'Testing_World'.
+[2023.05.23-06.36.51:053][808]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.23-06.36.51:054][808]LogLoad: Game class is 'Player_GM_C'
+[2023.05.23-06.36.51:056][808]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Testing_World.Testing_World up for play (max tick rate 0) at 2023.05.23-16.36.51
+[2023.05.23-06.36.51:056][808]LogWorld: Bringing up level for play took: 0.002568
+[2023.05.23-06.36.51:059][808]LogOnline: OSS: Created online subsystem instance for: :Context_54
+[2023.05.23-06.36.51:109][808]PIE: Server logged in
+[2023.05.23-06.36.51:111][808]PIE: Play in editor total start time 0.159 seconds.
+[2023.05.23-06.36.51:158][808]LogViewport: Scene viewport resized to 1914x1000, mode Windowed.
+[2023.05.23-06.36.56:739][274]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.23-06.36.56:739][274]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Testing_World
+[2023.05.23-06.36.56:740][274]LogSlate: Window 'GameJam_1 Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6)' being destroyed
+[2023.05.23-06.36.56:749][274]LogWorld: UWorld::CleanupWorld for Testing_World, bSessionEnded=true, bCleanupResources=true
+[2023.05.23-06.36.56:749][274]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.23-06.36.56:752][274]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.23-06.36.56:759][274]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.23-06.36.56:791][274]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.23-06.36.56:792][274]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25
+[2023.05.23-06.36.56:793][274]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25
+[2023.05.23-06.36.56:800][274]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2023.05.23-06.36.56:823][275]LogPlayLevel: Display: Destroying online subsystem :Context_54
+[2023.05.23-06.37.04:412][938]BlueprintLog: New page: Compile BP_PressurePlate
+[2023.05.23-06.37.04:466][938]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2023.05.23-06.37.04:813][959]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.23-06.37.04:857][959]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_PressurePlate" FILE="../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_PressurePlate.uasset" SILENT=true
+[2023.05.23-06.37.04:868][959]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_PressurePlate
+[2023.05.23-06.37.04:869][959]LogSavePackage: Moving '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Saved/BP_PressurePlateE87146284E77093D782176B8BEC86E15.tmp' to '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_PressurePlate.uasset'
+[2023.05.23-06.37.04:878][959]LogFileHelpers: InternalPromptForCheckoutAndSave took 64 ms (total: 24.0 sec)
+[2023.05.23-06.37.04:884][959]AssetCheck: New page: Asset Save: BP_PressurePlate
+[2023.05.23-06.37.04:884][959]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_PressurePlate.BP_PressurePlate
+[2023.05.23-06.37.06:283][ 87]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2023.05.23-06.37.06:291][ 87]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.23-06.37.06:291][ 87]PIE: New page: PIE session: Testing_World (24 May 2023, 2:37:06 am)
+[2023.05.23-06.37.06:291][ 87]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Testing_World
+[2023.05.23-06.37.06:296][ 87]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004999s)
+[2023.05.23-06.37.06:297][ 87]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Testing_World.Testing_World to /Game/Levels/UEDPIE_0_Testing_World.Testing_World (0.005031s)
+[2023.05.23-06.37.06:297][ 87]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.23-06.37.06:297][ 87]LogAIModule: Creating AISystem for world Testing_World
+[2023.05.23-06.37.06:297][ 87]LogPlayLevel: PIE: World Init took: (0.000717s)
+[2023.05.23-06.37.06:328][ 87]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2023.05.23-06.37.06:332][ 87]LogAudio: Display: Creating Audio Device:                 Id: 26, Scope: Unique, Realtime: True
+[2023.05.23-06.37.06:332][ 87]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.23-06.37.06:332][ 87]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.23-06.37.06:332][ 87]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.23-06.37.06:332][ 87]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.23-06.37.06:332][ 87]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.23-06.37.06:332][ 87]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.23-06.37.06:332][ 87]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.23-06.37.06:332][ 87]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.23-06.37.06:332][ 87]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.23-06.37.06:332][ 87]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.23-06.37.06:332][ 87]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.23-06.37.06:335][ 87]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.23-06.37.06:363][ 87]LogAudioMixer: Display: Using Audio Hardware Device Speakers (HyperX Cloud II Wireless)
+[2023.05.23-06.37.06:363][ 87]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.23-06.37.06:363][ 87]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.23-06.37.06:363][ 87]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.23-06.37.06:364][ 87]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=26
+[2023.05.23-06.37.06:364][ 87]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=26
+[2023.05.23-06.37.06:365][ 87]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=26
+[2023.05.23-06.37.06:365][ 87]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=26
+[2023.05.23-06.37.06:365][ 87]LogInit: FAudioDevice initialized.
+[2023.05.23-06.37.06:365][ 87]LogAudio: Display: Audio Device (ID: 26) registered with world 'Testing_World'.
+[2023.05.23-06.37.06:390][ 87]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.23-06.37.06:391][ 87]LogLoad: Game class is 'Player_GM_C'
+[2023.05.23-06.37.06:393][ 87]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Testing_World.Testing_World up for play (max tick rate 0) at 2023.05.23-16.37.06
+[2023.05.23-06.37.06:393][ 87]LogWorld: Bringing up level for play took: 0.001999
+[2023.05.23-06.37.06:395][ 87]LogOnline: OSS: Created online subsystem instance for: :Context_55
+[2023.05.23-06.37.06:401][ 87]PIE: Server logged in
+[2023.05.23-06.37.06:403][ 87]PIE: Play in editor total start time 0.112 seconds.
+[2023.05.23-06.37.06:450][ 87]LogViewport: Scene viewport resized to 1914x1000, mode Windowed.
+[2023.05.23-06.37.46:019][449]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.23-06.37.46:019][449]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Testing_World
+[2023.05.23-06.37.46:019][449]LogSlate: Window 'GameJam_1 Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6)' being destroyed
+[2023.05.23-06.37.46:040][449]LogWorld: UWorld::CleanupWorld for Testing_World, bSessionEnded=true, bCleanupResources=true
+[2023.05.23-06.37.46:040][449]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.23-06.37.46:043][449]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.23-06.37.46:050][449]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.23-06.37.46:082][449]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.23-06.37.46:082][449]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=26
+[2023.05.23-06.37.46:084][449]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=26
+[2023.05.23-06.37.46:091][449]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2023.05.23-06.37.46:115][450]LogPlayLevel: Display: Destroying online subsystem :Context_55
+[2023.05.23-06.37.48:410][685]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2023.05.23-06.37.48:414][685]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.23-06.37.49:784][685]LogSlate: Window 'Save Level As' being destroyed
+[2023.05.23-06.37.49:799][685]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.38 sec (total: 25.4 sec)
+[2023.05.23-06.37.51:423][845]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.23-06.37.51:453][845]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Testing_World" FILE="../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Levels/Testing_World.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.05.23-06.37.51:485][845]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2023.05.23-06.37.51:507][845]LogSavePackage: Moving output files for package: /Game/Levels/Testing_World
+[2023.05.23-06.37.51:508][845]LogSavePackage: Moving '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Saved/Testing_WorldB6C662E745FDA7F2D7DF16BEC517C0A0.tmp' to '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Levels/Testing_World.umap'
+[2023.05.23-06.37.51:522][845]LogFileHelpers: Saving map 'Testing_World' took 0.069
+[2023.05.23-06.37.51:547][845]LogFileHelpers: InternalPromptForCheckoutAndSave took 124 ms (total: 25.5 sec)
+[2023.05.23-06.37.51:554][845]AssetCheck: New page: Asset Save: Testing_World
+[2023.05.23-06.37.51:555][845]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Testing_World.Testing_World
