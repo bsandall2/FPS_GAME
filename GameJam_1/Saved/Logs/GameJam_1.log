@@ -2299,3 +2299,90 @@ UnknownFunction []
 [2023.05.24-06.18.44:682][650]LogFileHelpers: InternalPromptForCheckoutAndSave took 50 ms (total: 5.29 sec)
 [2023.05.24-06.18.44:688][650]AssetCheck: New page: Asset Save: MazeRight_LIGHTS_SEQ
 [2023.05.24-06.18.44:688][650]LogContentValidation: Display: Validating /Script/LevelSequence.LevelSequence /Game/Sequences/MazeRight_LIGHTS_SEQ.MazeRight_LIGHTS_SEQ
+[2023.05.24-06.29.51:781][793]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2023.05.24-06.29.51:787][793]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/Game_Level' took 0.029
+[2023.05.24-06.31.03:724][145]Cmd: DELETE
+[2023.05.24-06.31.03:724][145]Cmd: ACTOR DELETE
+[2023.05.24-06.31.03:736][145]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.24-06.31.03:759][145]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2023.05.24-06.31.03:763][145]LogEditorActor: Deleted 1 Actors (0.039 secs)
+[2023.05.24-06.31.04:030][166]Cmd: DELETE
+[2023.05.24-06.31.04:030][166]Cmd: ACTOR DELETE
+[2023.05.24-06.31.04:043][166]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.24-06.31.04:066][166]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2023.05.24-06.31.04:069][166]LogEditorActor: Deleted 1 Actors (0.039 secs)
+[2023.05.24-06.36.56:232][291]Cmd: DELETE
+[2023.05.24-06.36.56:232][291]Cmd: ACTOR DELETE
+[2023.05.24-06.36.56:244][291]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.24-06.36.56:268][291]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2023.05.24-06.36.56:274][291]LogEditorActor: Deleted 1 Actors (0.042 secs)
+[2023.05.24-06.36.58:825][573]Cmd: MODE GRID=0
+[2023.05.24-06.36.59:576][656]Cmd: MODE GRID=1
+[2023.05.24-06.39.28:477][120]LogClass: Warning: Short type name "BP_Door_C_0" provided for TryFindType. Please convert it to a path name (suggested: "None"). Callstack:
+
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+
+[2023.05.24-06.39.28:494][120]LogClass: Warning: Short type name "BP_Door_C_0" provided for TryFindType. Please convert it to a path name (suggested: "None"). Callstack:
+
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+
+[2023.05.24-06.39.28:512][120]LogClass: Warning: Short type name "BP_Door_C_0" provided for TryFindType. Please convert it to a path name (suggested: "None"). Callstack:
+
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+
+[2023.05.24-06.39.28:529][120]LogClass: Warning: Short type name "BP_Door_C_0" provided for TryFindType. Please convert it to a path name (suggested: "None"). Callstack:
+
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+
+[2023.05.24-06.39.38:020][161]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.24-06.39.38:046][161]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Game_Level" FILE="../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Levels/Game_Level.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.05.24-06.39.38:072][161]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2023.05.24-06.39.38:237][161]LogSavePackage: Moving output files for package: /Game/Levels/Game_Level
+[2023.05.24-06.39.38:238][161]LogSavePackage: Moving '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Saved/Game_LevelB31378704F12AD117B843AB3AB8C66FC.tmp' to '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Levels/Game_Level.umap'
+[2023.05.24-06.39.38:257][161]LogFileHelpers: Saving map 'Game_Level' took 0.212
+[2023.05.24-06.39.38:287][161]LogFileHelpers: InternalPromptForCheckoutAndSave took 266 ms (total: 5.56 sec)
+[2023.05.24-06.39.38:295][161]AssetCheck: New page: Asset Save: Game_Level
+[2023.05.24-06.39.38:295][161]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Game_Level.Game_Level
+[2023.05.24-06.39.42:826][426]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.24-06.39.42:854][426]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sequences/MazeRight_LIGHTS_SEQ" FILE="../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Sequences/MazeRight_LIGHTS_SEQ.uasset" SILENT=true
+[2023.05.24-06.39.42:876][426]LogSavePackage: Moving output files for package: /Game/Sequences/MazeRight_LIGHTS_SEQ
+[2023.05.24-06.39.42:876][426]LogSavePackage: Moving '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Saved/MazeRight_LIGHTS_SEQCFA0EBCE4FE7780DBDEB87B0B7940545.tmp' to '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Sequences/MazeRight_LIGHTS_SEQ.uasset'
+[2023.05.24-06.39.42:884][426]LogFileHelpers: InternalPromptForCheckoutAndSave took 57 ms (total: 5.62 sec)
+[2023.05.24-06.39.42:891][426]AssetCheck: New page: Asset Save: MazeRight_LIGHTS_SEQ
+[2023.05.24-06.39.42:891][426]LogContentValidation: Display: Validating /Script/LevelSequence.LevelSequence /Game/Sequences/MazeRight_LIGHTS_SEQ.MazeRight_LIGHTS_SEQ
