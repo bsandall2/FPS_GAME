@@ -6151,3 +6151,45 @@ Script Stack (1 frames) :
 [2023.05.25-05.49.03:102][134]LogFileHelpers: InternalPromptForCheckoutAndSave took 134 ms (total: 3.96 sec)
 [2023.05.25-05.49.03:112][134]AssetCheck: New page: Asset Save: Testing_World
 [2023.05.25-05.49.03:112][134]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Testing_World.Testing_World
+[2023.05.25-05.49.39:962][ 66]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2023.05.25-05.49.42:720][ 66]LogSlate: Window 'Save Content' being destroyed
+[2023.05.25-05.49.42:730][ 66]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.25-05.49.42:759][ 66]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.25-05.49.42:855][ 66]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Game_Level" FILE="../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Levels/Game_Level.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.05.25-05.49.42:919][ 66]LogUObjectHash: Compacting FUObjectHashTables data took   1.98ms
+[2023.05.25-05.49.43:075][ 66]LogSavePackage: Moving output files for package: /Game/Levels/Game_Level
+[2023.05.25-05.49.43:075][ 66]LogSavePackage: Moving '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Saved/Game_LevelE377F8E84AE002FD39E6CDB554540F3D.tmp' to '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Levels/Game_Level.umap'
+[2023.05.25-05.49.43:152][ 66]LogFileHelpers: Saving map 'Game_Level' took 0.395
+[2023.05.25-05.49.43:152][ 66]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_ColourTileChecker" FILE="../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_ColourTileChecker.uasset" SILENT=true
+[2023.05.25-05.49.43:164][ 66]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_ColourTileChecker
+[2023.05.25-05.49.43:165][ 66]LogSavePackage: Moving '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Saved/BP_ColourTileCheckerB2908210427BF67BE35A088C9D710582.tmp' to '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_ColourTileChecker.uasset'
+[2023.05.25-05.49.43:190][ 66]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Door" FILE="../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_Door.uasset" SILENT=true
+[2023.05.25-05.49.43:206][ 66]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Door
+[2023.05.25-05.49.43:206][ 66]LogSavePackage: Moving '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Saved/BP_DoorE6F4D7D34B9D32D63FB86F896DAE56B4.tmp' to '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Blueprints/BP_Door.uasset'
+[2023.05.25-05.49.43:214][ 66]LogFileHelpers: InternalPromptForCheckoutAndSave took 484 ms (total: 4.44 sec)
+[2023.05.25-05.49.43:214][ 66]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Levels/Game_Level.Game_Level
+[2023.05.25-05.49.43:214][ 66]Cmd: MAP LOAD FILE="../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Levels/Game_Level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.05.25-05.49.43:215][ 66]LightingResults: New page: Lighting Build
+[2023.05.25-05.49.43:215][ 66]LoadErrors: New page: Loading map: Game_Level.umap
+[2023.05.25-05.49.43:220][ 66]LogWorld: UWorld::CleanupWorld for Testing_World, bSessionEnded=true, bCleanupResources=true
+[2023.05.25-05.49.43:220][ 66]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.25-05.49.43:220][ 66]MapCheck: New page: Map Check
+[2023.05.25-05.49.43:220][ 66]LightingResults: New page: Lighting Build
+[2023.05.25-05.49.43:278][ 66]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.25-05.49.43:283][ 66]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2023.05.25-05.49.43:288][ 66]LogWorld: UWorld::CleanupWorld for Game_Level, bSessionEnded=true, bCleanupResources=true
+[2023.05.25-05.49.43:290][ 66]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.25-05.49.43:353][ 66]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2023.05.25-05.49.43:409][ 66]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2023.05.25-05.49.43:468][ 66]LogAudio: Display: Audio Device (ID: 1) registered with world 'Game_Level'.
+[2023.05.25-05.49.43:468][ 66]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.25-05.49.43:469][ 66]LogAIModule: Creating AISystem for world Game_Level
+[2023.05.25-05.49.43:604][ 66]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.05.25-05.49.43:672][ 66]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2023.05.25-05.49.43:684][ 66]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.05.25-05.49.43:684][ 66]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.209ms to complete.
+[2023.05.25-05.49.43:684][ 66]LogFileHelpers: Loading map 'Game_Level' took 0.470
+[2023.05.25-05.49.43:702][ 66]AssetCheck: New page: Asset Save: multiple assets
+[2023.05.25-05.49.43:702][ 66]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Door.BP_Door
+[2023.05.25-05.49.43:702][ 66]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_ColourTileChecker.BP_ColourTileChecker
+[2023.05.25-05.49.43:702][ 66]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Game_Level.Game_Level
