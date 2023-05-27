@@ -4402,3 +4402,1068 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.05.27-11.52.52:345][975]LogFileHelpers: InternalPromptForCheckoutAndSave took 308 ms (total: 26.7 sec)
 [2023.05.27-11.52.52:358][975]AssetCheck: New page: Asset Save: Game_Level
 [2023.05.27-11.52.52:358][975]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Game_Level.Game_Level
+[2023.05.27-11.55.17:522][992]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.05.27-11.55.17:534][992]LogContentBrowser: Creating deferred item: NewFolder
+[2023.05.27-11.55.17:545][993]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2023.05.27-11.55.20:730][361]LogContentBrowser: Attempting asset rename: NewFolder -> Stairs_TEX
+[2023.05.27-11.55.20:731][361]LogContentBrowser: End creating deferred item NewFolder
+[2023.05.27-11.55.27:780][715]LogInterchangeEngine: [Pending] Importing
+[2023.05.27-11.55.27:780][715]LogInterchangeEngine: [Pending] Importing -  (2)
+[2023.05.27-11.55.27:780][715]LogInterchangeEngine: [Pending] Importing -  (3)
+[2023.05.27-11.55.27:780][715]LogInterchangeEngine: [Pending] Importing -  (4)
+[2023.05.27-11.55.27:780][715]LogInterchangeEngine: [Pending] Importing -  (5)
+[2023.05.27-11.55.27:792][716]LogTexture: Display: Building textures: /Game/Assets/Textures/Stairs_TEX/Stairs_5x3_MESH_M_Stairs_5x3_Height.Stairs_5x3_MESH_M_Stairs_5x3_Height (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 121.145823 MB), EncodeSpeed: Fast
+[2023.05.27-11.55.27:798][716]LogInterchangeImport: Display: Auto-detected grayscale, image changed to G8
+[2023.05.27-11.55.27:799][716]LogTexture: Display: Building textures: /Game/Assets/Textures/Stairs_TEX/Stairs_5x3_MESH_M_Stairs_5x3_Roughness.Stairs_5x3_MESH_M_Stairs_5x3_Roughness (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 121.145823 MB), EncodeSpeed: Fast
+[2023.05.27-11.55.27:802][716]LogTexture: Display: Building textures: /Game/Assets/Textures/Stairs_TEX/Stairs_5x3_MESH_M_Stairs_5x3_Metallic.Stairs_5x3_MESH_M_Stairs_5x3_Metallic (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 121.145823 MB), EncodeSpeed: Fast
+[2023.05.27-11.55.27:811][716]LogInterchangeEngine: [Pending] Importing -  (4)
+[2023.05.27-11.55.27:811][716]LogTexture: Display: Building textures: /Game/Assets/Textures/Stairs_TEX/Stairs_5x3_MESH_M_Stairs_5x3_BaseColor.Stairs_5x3_MESH_M_Stairs_5x3_BaseColor (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 121.145823 MB), EncodeSpeed: Fast
+[2023.05.27-11.55.27:811][716]LogInterchangeEngine: [Pending] Importing -  (3)
+[2023.05.27-11.55.27:811][716]LogInterchangeEngine: [Pending] Importing -  (2)
+[2023.05.27-11.55.27:814][716]LogTexture: Display: Building textures: /Game/Assets/Textures/Stairs_TEX/Stairs_5x3_MESH_M_Stairs_5x3_Normal.Stairs_5x3_MESH_M_Stairs_5x3_Normal (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 124.145823 MB), EncodeSpeed: Fast
+[2023.05.27-11.55.27:828][716]LogInterchangeEngine: [Pending] Importing -  (1)
+[2023.05.27-11.55.27:883][716]LogInterchangeEngine: [Success] Import Done
+[2023.05.27-11.55.27:886][716]LogInterchangeEngine: [Success] Import Done
+[2023.05.27-11.55.28:125][716]LogInterchangePipeline: Display: Auto-detected normal map
+[2023.05.27-11.55.28:126][716]LogTexture: Display: Building textures: /Game/Assets/Textures/Stairs_TEX/Stairs_5x3_MESH_M_Stairs_5x3_Normal.Stairs_5x3_MESH_M_Stairs_5x3_Normal (TFO_BC5, 1024x1024 x1x1x1) (Required Memory Estimate: 213.562488 MB), EncodeSpeed: Fast
+[2023.05.27-11.55.29:719][811]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2023.05.27-11.55.29:725][811]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.27-11.55.29:782][811]LogSavePackage: Moving output files for package: /Game/Assets/Textures/Stairs_TEX/Stairs_5x3_MESH_M_Stairs_5x3_Normal
+[2023.05.27-11.55.29:782][811]LogSavePackage: Moving '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Saved/Stairs_5x3_MESH_M_Stairs_5x3_Nor9F41CEB94A37CE9857FF838D0FD16736.tmp' to '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Assets/Textures/Stairs_TEX/Stairs_5x3_MESH_M_Stairs_5x3_Normal.uasset'
+[2023.05.27-11.55.29:792][811]LogSavePackage: Moving output files for package: /Game/Assets/Textures/Stairs_TEX/Stairs_5x3_MESH_M_Stairs_5x3_Roughness
+[2023.05.27-11.55.29:792][811]LogSavePackage: Moving '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Saved/Stairs_5x3_MESH_M_Stairs_5x3_RouE42E889542FAEBB833EFA7AD6DADC930.tmp' to '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Assets/Textures/Stairs_TEX/Stairs_5x3_MESH_M_Stairs_5x3_Roughness.uasset'
+[2023.05.27-11.55.29:820][811]LogSavePackage: Moving output files for package: /Game/Assets/Textures/Stairs_TEX/Stairs_5x3_MESH_M_Stairs_5x3_BaseColor
+[2023.05.27-11.55.29:820][811]LogSavePackage: Moving '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Saved/Stairs_5x3_MESH_M_Stairs_5x3_Bas6323A88145D6FCCF8321D4B478CD940E.tmp' to '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Assets/Textures/Stairs_TEX/Stairs_5x3_MESH_M_Stairs_5x3_BaseColor.uasset'
+[2023.05.27-11.55.29:830][811]LogSavePackage: Moving output files for package: /Game/Assets/Textures/Stairs_TEX/Stairs_5x3_MESH_M_Stairs_5x3_Height
+[2023.05.27-11.55.29:830][811]LogSavePackage: Moving '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Saved/Stairs_5x3_MESH_M_Stairs_5x3_Hei857DDF7C4A7980F3C58038AC7D1086B8.tmp' to '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Assets/Textures/Stairs_TEX/Stairs_5x3_MESH_M_Stairs_5x3_Height.uasset'
+[2023.05.27-11.55.29:874][811]LogSavePackage: Moving output files for package: /Game/Assets/Textures/Stairs_TEX/Stairs_5x3_MESH_M_Stairs_5x3_Metallic
+[2023.05.27-11.55.29:874][811]LogSavePackage: Moving '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Saved/Stairs_5x3_MESH_M_Stairs_5x3_Met40C91B1C4B48F3138A2C2895B04CCB06.tmp' to '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Assets/Textures/Stairs_TEX/Stairs_5x3_MESH_M_Stairs_5x3_Metallic.uasset'
+[2023.05.27-11.55.29:886][811]LogFileHelpers: InternalPromptForCheckoutAndSave took 161 ms (total: 26.9 sec)
+[2023.05.27-11.55.29:895][811]AssetCheck: New page: Asset Save: multiple assets
+[2023.05.27-11.55.29:895][811]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Assets/Textures/Stairs_TEX/Stairs_5x3_MESH_M_Stairs_5x3_Metallic.Stairs_5x3_MESH_M_Stairs_5x3_Metallic
+[2023.05.27-11.55.29:895][811]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Assets/Textures/Stairs_TEX/Stairs_5x3_MESH_M_Stairs_5x3_Height.Stairs_5x3_MESH_M_Stairs_5x3_Height
+[2023.05.27-11.55.29:895][811]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Assets/Textures/Stairs_TEX/Stairs_5x3_MESH_M_Stairs_5x3_BaseColor.Stairs_5x3_MESH_M_Stairs_5x3_BaseColor
+[2023.05.27-11.55.29:895][811]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Assets/Textures/Stairs_TEX/Stairs_5x3_MESH_M_Stairs_5x3_Roughness.Stairs_5x3_MESH_M_Stairs_5x3_Roughness
+[2023.05.27-11.55.29:895][811]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Assets/Textures/Stairs_TEX/Stairs_5x3_MESH_M_Stairs_5x3_Normal.Stairs_5x3_MESH_M_Stairs_5x3_Normal
+[2023.05.27-11.55.34:256][206]LogContentBrowser: Deferred new asset file creation: NewMaterial
+[2023.05.27-11.55.34:265][206]LogContentBrowser: Creating deferred item: NewMaterial
+[2023.05.27-11.55.34:277][207]LogContentBrowser: Renaming the item being created (Deferred Item: NewMaterial).
+[2023.05.27-11.55.37:335][525]LogContentBrowser: Attempting asset rename: NewMaterial -> M_Stairs
+[2023.05.27-11.55.37:336][525]LogContentBrowser: End creating deferred item NewMaterial
+[2023.05.27-11.55.38:760][657]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Assets/Materials/M_Stairs.M_Stairs
+[2023.05.27-11.55.38:764][657]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.27-11.55.38:874][657]MaterialEditorStats: Texture samplers: 0/16
+[2023.05.27-11.55.38:874][657]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.05.27-11.55.38:874][657]MaterialEditorStats: Shader Count: 0
+[2023.05.27-11.55.38:885][657]LogViewport: Scene viewport resized to 376x449, mode Windowed.
+[2023.05.27-11.55.39:590][689]LogShaderCompilers: Display: ================================================
+[2023.05.27-11.55.39:590][689]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.05.27-11.55.39:590][689]LogShaderCompilers: Display: Total job queries 1426, among them cache hits 853 (59.82%)
+[2023.05.27-11.55.39:590][689]LogShaderCompilers: Display: Tracking 570 distinct input hashes that result in 174 distinct outputs (30.53%)
+[2023.05.27-11.55.39:590][689]LogShaderCompilers: Display: RAM used: 4.10 MB (0.00 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.25%
+[2023.05.27-11.55.39:590][689]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.05.27-11.55.39:590][689]LogShaderCompilers: Display: Shaders Compiled: 379
+[2023.05.27-11.55.39:590][689]LogShaderCompilers: Display: Jobs assigned 382, completed 379 (99.21%)
+[2023.05.27-11.55.39:590][689]LogShaderCompilers: Display: Average time worker was idle: 51.48 s
+[2023.05.27-11.55.39:590][689]LogShaderCompilers: Display: Time job spent in pending queue: average 0.13 s, longest 0.99 s
+[2023.05.27-11.55.39:590][689]LogShaderCompilers: Display: Job execution time: average 0.75 s, max 2.63 s
+[2023.05.27-11.55.39:590][689]LogShaderCompilers: Display: Job life time (pending + execution): average 0.88 s, max 2.72
+[2023.05.27-11.55.39:590][689]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 74.74 s
+[2023.05.27-11.55.39:590][689]LogShaderCompilers: Display: Jobs were issued in 382 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.05.27-11.55.39:590][689]LogShaderCompilers: Display: Average processing rate: 5.07 jobs/sec
+[2023.05.27-11.55.39:590][689]LogShaderCompilers: Display: Total thread time: 227.59 s
+[2023.05.27-11.55.39:590][689]LogShaderCompilers: Display: Total thread preprocess time: 13.45 s
+[2023.05.27-11.55.39:590][689]LogShaderCompilers: Display: Percentage time preprocessing: 5.91%
+[2023.05.27-11.55.39:590][689]LogShaderCompilers: Display: Effective parallelization: 3.05 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.05.27-11.55.39:590][689]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.05.27-11.55.39:590][689]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled   14 times, average 0.76 sec, max 0.81 sec, min 0.72 sec)
+[2023.05.27-11.55.39:590][689]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled   14 times, average 0.75 sec, max 0.79 sec, min 0.72 sec)
+[2023.05.27-11.55.39:590][689]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled   14 times, average 0.74 sec, max 0.79 sec, min 0.71 sec)
+[2023.05.27-11.55.39:590][689]LogShaderCompilers: Display:               TBasePassPSFCachedVolumeIndirectLightingPolicy (compiled   14 times, average 0.74 sec, max 0.78 sec, min 0.69 sec)
+[2023.05.27-11.55.39:590][689]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy (compiled   14 times, average 0.74 sec, max 0.79 sec, min 0.68 sec)
+[2023.05.27-11.55.39:590][689]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.05.27-11.55.39:590][689]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 16.20% of total time (compiled   53 times, average 0.70 sec, max 0.87 sec, min 0.60 sec)
+[2023.05.27-11.55.39:590][689]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 14.96% of total time (compiled   53 times, average 0.64 sec, max 0.79 sec, min 0.54 sec)
+[2023.05.27-11.55.39:590][689]LogShaderCompilers: Display:                                                 FLumenCardVS - 12.89% of total time (compiled   51 times, average 0.58 sec, max 0.70 sec, min 0.46 sec)
+[2023.05.27-11.55.39:590][689]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 8.35% of total time (compiled   52 times, average 0.37 sec, max 0.46 sec, min 0.31 sec)
+[2023.05.27-11.55.39:590][689]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 4.70% of total time (compiled   14 times, average 0.76 sec, max 0.81 sec, min 0.72 sec)
+[2023.05.27-11.55.39:590][689]LogShaderCompilers: Display: ================================================
+[2023.05.27-11.55.39:818][700]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.05.27-11.55.39:818][700]MaterialEditorStats: Texture samplers: 0/16
+[2023.05.27-11.55.39:818][700]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.05.27-11.55.39:818][700]MaterialEditorStats: Shader Count: 3
+[2023.05.27-11.55.39:917][706]MaterialEditorStats: Base pass shader: 211 instructions
+[2023.05.27-11.55.39:917][706]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.05.27-11.55.39:917][706]MaterialEditorStats: Texture samplers: 2/16
+[2023.05.27-11.55.39:917][706]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.05.27-11.55.39:917][706]MaterialEditorStats: Shader Count: 4
+[2023.05.27-11.55.43:617][948]MaterialEditorStats: Texture samplers: 0/16
+[2023.05.27-11.55.43:617][948]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.05.27-11.55.43:617][948]MaterialEditorStats: Shader Count: 0
+[2023.05.27-11.55.43:679][950]MaterialEditorStats: Base pass shader: 211 instructions
+[2023.05.27-11.55.43:679][950]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.05.27-11.55.43:679][950]MaterialEditorStats: Texture samplers: 2/16
+[2023.05.27-11.55.43:679][950]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.05.27-11.55.43:679][950]MaterialEditorStats: Shader Count: 4
+[2023.05.27-11.55.45:793][106]MaterialEditorStats: Texture samplers: 0/16
+[2023.05.27-11.55.45:793][106]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.27-11.55.45:793][106]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.27-11.55.45:793][106]MaterialEditorStats: Shader Count: 0
+[2023.05.27-11.55.46:339][139]MaterialEditorStats: Texture samplers: 1/16
+[2023.05.27-11.55.46:339][139]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.27-11.55.46:339][139]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.27-11.55.46:339][139]MaterialEditorStats: Shader Count: 1
+[2023.05.27-11.55.46:628][154]MaterialEditorStats: Base pass vertex shader: 260 instructions
+[2023.05.27-11.55.46:628][154]MaterialEditorStats: Texture samplers: 1/16
+[2023.05.27-11.55.46:628][154]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.27-11.55.46:628][154]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.27-11.55.46:628][154]MaterialEditorStats: Shader Count: 3
+[2023.05.27-11.55.46:720][160]MaterialEditorStats: Base pass shader: 218 instructions
+[2023.05.27-11.55.46:720][160]MaterialEditorStats: Base pass vertex shader: 260 instructions
+[2023.05.27-11.55.46:720][160]MaterialEditorStats: Texture samplers: 3/16
+[2023.05.27-11.55.46:720][160]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.27-11.55.46:720][160]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.27-11.55.46:720][160]MaterialEditorStats: Shader Count: 4
+[2023.05.27-11.55.48:279][272]MaterialEditorStats: Texture samplers: 0/16
+[2023.05.27-11.55.48:279][272]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.27-11.55.48:280][272]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.27-11.55.48:280][272]MaterialEditorStats: Shader Count: 0
+[2023.05.27-11.55.48:343][274]MaterialEditorStats: Base pass shader: 218 instructions
+[2023.05.27-11.55.48:343][274]MaterialEditorStats: Base pass vertex shader: 260 instructions
+[2023.05.27-11.55.48:343][274]MaterialEditorStats: Texture samplers: 3/16
+[2023.05.27-11.55.48:343][274]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.27-11.55.48:343][274]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.27-11.55.48:343][274]MaterialEditorStats: Shader Count: 4
+[2023.05.27-11.55.49:447][352]MaterialEditorStats: Texture samplers: 0/16
+[2023.05.27-11.55.49:447][352]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.05.27-11.55.49:447][352]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.27-11.55.49:447][352]MaterialEditorStats: Shader Count: 0
+[2023.05.27-11.55.50:503][428]MaterialEditorStats: Base pass shader: 221 instructions
+[2023.05.27-11.55.50:504][428]MaterialEditorStats: Base pass vertex shader: 260 instructions
+[2023.05.27-11.55.50:504][428]MaterialEditorStats: Texture samplers: 4/16
+[2023.05.27-11.55.50:504][428]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.05.27-11.55.50:504][428]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.27-11.55.50:504][428]MaterialEditorStats: Shader Count: 4
+[2023.05.27-11.55.51:788][512]MaterialEditorStats: Texture samplers: 0/16
+[2023.05.27-11.55.51:788][512]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.05.27-11.55.51:788][512]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.27-11.55.51:788][512]MaterialEditorStats: Shader Count: 0
+[2023.05.27-11.55.51:863][514]MaterialEditorStats: Base pass shader: 221 instructions
+[2023.05.27-11.55.51:863][514]MaterialEditorStats: Base pass vertex shader: 260 instructions
+[2023.05.27-11.55.51:863][514]MaterialEditorStats: Texture samplers: 4/16
+[2023.05.27-11.55.51:863][514]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.05.27-11.55.51:863][514]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.27-11.55.51:863][514]MaterialEditorStats: Shader Count: 4
+[2023.05.27-11.55.53:071][599]MaterialEditorStats: Texture samplers: 0/16
+[2023.05.27-11.55.53:072][599]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2023.05.27-11.55.53:072][599]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.27-11.55.53:072][599]MaterialEditorStats: Shader Count: 0
+[2023.05.27-11.55.53:786][641]MaterialEditorStats: Texture samplers: 3/16
+[2023.05.27-11.55.53:786][641]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2023.05.27-11.55.53:786][641]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.27-11.55.53:786][641]MaterialEditorStats: Shader Count: 1
+[2023.05.27-11.55.53:931][649]MaterialEditorStats: Base pass shader: 229 instructions
+[2023.05.27-11.55.53:931][649]MaterialEditorStats: Base pass vertex shader: 260 instructions
+[2023.05.27-11.55.53:931][649]MaterialEditorStats: Texture samplers: 5/16
+[2023.05.27-11.55.53:931][649]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2023.05.27-11.55.53:931][649]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.27-11.55.53:931][649]MaterialEditorStats: Shader Count: 4
+[2023.05.27-11.55.55:433][744]MaterialEditorStats: Texture samplers: 0/16
+[2023.05.27-11.55.55:433][744]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2023.05.27-11.55.55:433][744]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.27-11.55.55:433][744]MaterialEditorStats: Shader Count: 0
+[2023.05.27-11.55.55:513][746]MaterialEditorStats: Base pass shader: 229 instructions
+[2023.05.27-11.55.55:513][746]MaterialEditorStats: Base pass vertex shader: 260 instructions
+[2023.05.27-11.55.55:513][746]MaterialEditorStats: Texture samplers: 5/16
+[2023.05.27-11.55.55:513][746]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2023.05.27-11.55.55:513][746]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.27-11.55.55:513][746]MaterialEditorStats: Shader Count: 4
+[2023.05.27-11.55.57:679][900]MaterialEditorStats: Texture samplers: 0/16
+[2023.05.27-11.55.57:679][900]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2023.05.27-11.55.57:679][900]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.27-11.55.57:679][900]MaterialEditorStats: Shader Count: 0
+[2023.05.27-11.55.58:220][928]MaterialEditorStats: Texture samplers: 3/16
+[2023.05.27-11.55.58:220][928]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2023.05.27-11.55.58:220][928]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.27-11.55.58:220][928]MaterialEditorStats: Shader Count: 1
+[2023.05.27-11.55.58:535][945]MaterialEditorStats: Base pass shader: 232 instructions
+[2023.05.27-11.55.58:535][945]MaterialEditorStats: Base pass vertex shader: 260 instructions
+[2023.05.27-11.55.58:535][945]MaterialEditorStats: Texture samplers: 6/16
+[2023.05.27-11.55.58:535][945]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2023.05.27-11.55.58:535][945]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.27-11.55.58:535][945]MaterialEditorStats: Shader Count: 4
+[2023.05.27-11.55.58:808][964]LogMaterialEditor: Saving and Compiling material M_Stairs
+[2023.05.27-11.55.59:285][964]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2023.05.27-11.55.59:957][964]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2023.05.27-11.55.59:968][964]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.27-11.56.01:534][964]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Materials/M_Stairs" FILE="../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Assets/Materials/M_Stairs.uasset" SILENT=true
+[2023.05.27-11.56.01:539][964]LogSavePackage: Moving output files for package: /Game/Assets/Materials/M_Stairs
+[2023.05.27-11.56.01:539][964]LogSavePackage: Moving '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Saved/M_Stairs16E96AD240AFE1E0446A3197E5E9C626.tmp' to '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Assets/Materials/M_Stairs.uasset'
+[2023.05.27-11.56.01:547][964]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.57 sec (total: 28.5 sec)
+[2023.05.27-11.56.01:554][964]AssetCheck: New page: Asset Save: M_Stairs
+[2023.05.27-11.56.01:554][964]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Assets/Materials/M_Stairs.M_Stairs
+[2023.05.27-11.56.01:556][964]MaterialEditorStats: Base pass shader: 232 instructions
+[2023.05.27-11.56.01:556][964]MaterialEditorStats: Base pass vertex shader: 260 instructions
+[2023.05.27-11.56.01:556][964]MaterialEditorStats: MaxSampler: 281 instructions
+[2023.05.27-11.56.01:556][964]MaterialEditorStats: Texture samplers: 7/16
+[2023.05.27-11.56.01:556][964]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2023.05.27-11.56.01:556][964]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.27-11.56.01:556][964]MaterialEditorStats: Shader Count: 16
+[2023.05.27-11.56.02:236][  6]LogSlate: Window 'M_Stairs' being destroyed
+[2023.05.27-11.56.02:260][  6]LogWorld: UWorld::CleanupWorld for World_46, bSessionEnded=true, bCleanupResources=true
+[2023.05.27-11.56.02:260][  6]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.27-11.56.05:903][343]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Assets/Meshes/Stairs_5x3_MESH.Stairs_5x3_MESH
+[2023.05.27-11.56.05:939][343]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.27-11.56.06:278][343]LogViewport: Scene viewport resized to 1405x902, mode Windowed.
+[2023.05.27-11.56.11:290][725]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.27-11.56.11:344][725]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Meshes/Stairs_5x3_MESH" FILE="../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Assets/Meshes/Stairs_5x3_MESH.uasset" SILENT=true
+[2023.05.27-11.56.11:351][725]LogSavePackage: Moving output files for package: /Game/Assets/Meshes/Stairs_5x3_MESH
+[2023.05.27-11.56.11:351][725]LogSavePackage: Moving '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Saved/Stairs_5x3_MESHF9435B064DBEFE2381CCB8A6BEF2F7CC.tmp' to '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Assets/Meshes/Stairs_5x3_MESH.uasset'
+[2023.05.27-11.56.11:360][725]LogFileHelpers: InternalPromptForCheckoutAndSave took 69 ms (total: 28.5 sec)
+[2023.05.27-11.56.11:372][725]AssetCheck: New page: Asset Save: Stairs_5x3_MESH
+[2023.05.27-11.56.11:372][725]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Meshes/Stairs_5x3_MESH.Stairs_5x3_MESH
+[2023.05.27-11.56.11:905][763]LogSlate: Window 'Stairs_5x3_MESH' being destroyed
+[2023.05.27-11.56.11:977][763]LogWorld: UWorld::CleanupWorld for World_47, bSessionEnded=true, bCleanupResources=true
+[2023.05.27-11.56.11:977][763]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.27-11.56.12:467][807]LogDerivedDataCache: C:/Users/bgsan/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:09.173 and deleted 0 files with total size 0 MiB. Scanned 4884 files in 4834 folders with total size 81 MiB.
+[2023.05.27-11.56.15:235][ 84]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2023.05.27-11.56.15:245][ 84]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.27-11.56.15:245][ 84]PIE: New page: PIE session: Game_Level (28 May 2023, 7:56:15 am)
+[2023.05.27-11.56.15:245][ 84]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Game_Level
+[2023.05.27-11.56.15:320][ 84]LogPlayLevel: PIE: StaticDuplicateObject took: (0.074282s)
+[2023.05.27-11.56.15:320][ 84]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Game_Level.Game_Level to /Game/Levels/UEDPIE_0_Game_Level.Game_Level (0.074318s)
+[2023.05.27-11.56.15:320][ 84]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.27-11.56.15:320][ 84]LogAIModule: Creating AISystem for world Game_Level
+[2023.05.27-11.56.15:321][ 84]LogPlayLevel: PIE: World Init took: (0.001101s)
+[2023.05.27-11.56.15:352][ 84]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2023.05.27-11.56.15:358][ 84]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2023.05.27-11.56.15:358][ 84]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.27-11.56.15:359][ 84]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.27-11.56.15:359][ 84]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.27-11.56.15:359][ 84]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.27-11.56.15:359][ 84]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.27-11.56.15:359][ 84]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.27-11.56.15:359][ 84]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.27-11.56.15:359][ 84]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.27-11.56.15:359][ 84]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.27-11.56.15:359][ 84]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.27-11.56.15:359][ 84]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.27-11.56.15:361][ 84]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.27-11.56.15:390][ 84]LogAudioMixer: Display: Using Audio Hardware Device Speakers (HyperX Cloud II Wireless)
+[2023.05.27-11.56.15:391][ 84]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.27-11.56.15:391][ 84]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.27-11.56.15:391][ 84]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.27-11.56.15:391][ 84]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=17
+[2023.05.27-11.56.15:391][ 84]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=17
+[2023.05.27-11.56.15:393][ 84]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=17
+[2023.05.27-11.56.15:393][ 84]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=17
+[2023.05.27-11.56.15:393][ 84]LogInit: FAudioDevice initialized.
+[2023.05.27-11.56.15:393][ 84]LogAudio: Display: Audio Device (ID: 17) registered with world 'Game_Level'.
+[2023.05.27-11.56.15:418][ 84]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.27-11.56.15:419][ 84]LogLoad: Game class is 'Player_GM_C'
+[2023.05.27-11.56.15:448][ 84]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Game_Level.Game_Level up for play (max tick rate 0) at 2023.05.27-21.56.15
+[2023.05.27-11.56.15:449][ 84]LogWorld: Bringing up level for play took: 0.030130
+[2023.05.27-11.56.15:451][ 84]LogOnline: OSS: Created online subsystem instance for: :Context_64
+[2023.05.27-11.56.15:456][ 84]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.05.27-11.56.15:456][ 84]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2023.05.27-11.56.15:458][ 84]PIE: Server logged in
+[2023.05.27-11.56.15:459][ 84]PIE: Play in editor total start time 0.214 seconds.
+[2023.05.27-11.56.15:505][ 84]LogViewport: Scene viewport resized to 1914x1000, mode Windowed.
+[2023.05.27-11.56.18:232][261]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2023.05.27-11.56.18:232][261]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2023.05.27-11.56.33:677][349]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.27-11.56.33:677][349]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Game_Level
+[2023.05.27-11.56.33:678][349]LogSlate: Window 'GameJam_1 Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6)' being destroyed
+[2023.05.27-11.56.33:687][349]LogWorld: UWorld::CleanupWorld for Game_Level, bSessionEnded=true, bCleanupResources=true
+[2023.05.27-11.56.33:692][349]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.27-11.56.33:695][349]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.27-11.56.33:703][349]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.27-11.56.33:731][349]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.27-11.56.33:731][349]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2023.05.27-11.56.33:733][349]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2023.05.27-11.56.33:748][349]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2023.05.27-11.56.33:803][350]LogPlayLevel: Display: Destroying online subsystem :Context_64
+[2023.05.27-11.57.50:250][ 42]LogInterchangeEngine: [Pending] Importing
+[2023.05.27-11.57.50:274][ 42]LogTexture: Display: Building textures: /Game/Assets/Textures/Stairs_TEX/Stairs_5x3_MESH_M_Stairs_5x3_Metallic.Stairs_5x3_MESH_M_Stairs_5x3_Metallic (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 121.145823 MB), EncodeSpeed: Fast
+[2023.05.27-11.57.50:284][ 42]LogInterchangeEngine: [Success] Import Done
+[2023.05.27-11.57.50:284][ 42]LogInterchangeEngine: [Pending] Importing
+[2023.05.27-11.57.50:301][ 42]LogInterchangeEngine: [Success] Import Done
+[2023.05.27-11.57.50:301][ 42]LogInterchangeEngine: [Pending] Importing
+[2023.05.27-11.57.50:302][ 42]LogTexture: Display: Building textures: /Game/Assets/Textures/Stairs_TEX/Stairs_5x3_MESH_M_Stairs_5x3_Normal.Stairs_5x3_MESH_M_Stairs_5x3_Normal (TFO_BC5, 1024x1024 x1x1x1) (Required Memory Estimate: 213.562488 MB), EncodeSpeed: Fast
+[2023.05.27-11.57.50:308][ 42]LogInterchangeEngine: [Success] Import Done
+[2023.05.27-11.57.50:308][ 42]LogInterchangeEngine: [Pending] Importing
+[2023.05.27-11.57.50:308][ 42]LogTexture: Display: Building textures: /Game/Assets/Textures/Stairs_TEX/Stairs_5x3_MESH_M_Stairs_5x3_Roughness.Stairs_5x3_MESH_M_Stairs_5x3_Roughness (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 121.145823 MB), EncodeSpeed: Fast
+[2023.05.27-11.57.50:327][ 42]LogInterchangeImport: Display: Auto-detected grayscale, image changed to G8
+[2023.05.27-11.57.50:329][ 42]LogInterchangeEngine: [Success] Import Done
+[2023.05.27-11.57.50:329][ 42]LogInterchangeEngine: [Pending] Importing
+[2023.05.27-11.57.50:329][ 42]LogTexture: Display: Building textures: /Game/Assets/Textures/Stairs_TEX/Stairs_5x3_MESH_M_Stairs_5x3_BaseColor.Stairs_5x3_MESH_M_Stairs_5x3_BaseColor (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 121.145823 MB), EncodeSpeed: Fast
+[2023.05.27-11.57.50:336][ 42]LogInterchangeEngine: [Success] Import Done
+[2023.05.27-11.57.50:336][ 42]LogTexture: Display: Building textures: /Game/Assets/Textures/Stairs_TEX/Stairs_5x3_MESH_M_Stairs_5x3_Height.Stairs_5x3_MESH_M_Stairs_5x3_Height (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 121.145823 MB), EncodeSpeed: Fast
+[2023.05.27-11.57.50:365][ 43]LogInterchangeEngine: [Success] Import Done
+[2023.05.27-11.57.50:371][ 43]LogInterchangeEngine: [Success] Import Done
+[2023.05.27-11.57.50:380][ 43]LogInterchangeEngine: [Success] Import Done
+[2023.05.27-11.57.50:388][ 43]LogInterchangeEngine: [Success] Import Done
+[2023.05.27-11.57.50:396][ 43]LogInterchangeEngine: [Success] Import Done
+[2023.05.27-11.57.52:369][123]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2023.05.27-11.57.52:375][123]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.27-11.57.52:424][123]LogSavePackage: Moving output files for package: /Game/Assets/Textures/Stairs_TEX/Stairs_5x3_MESH_M_Stairs_5x3_Normal
+[2023.05.27-11.57.52:425][123]LogSavePackage: Moving '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Saved/Stairs_5x3_MESH_M_Stairs_5x3_Nor8C86AB3246B6D38E22AFC5A2F7E96FC1.tmp' to '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Assets/Textures/Stairs_TEX/Stairs_5x3_MESH_M_Stairs_5x3_Normal.uasset'
+[2023.05.27-11.57.52:436][123]LogSavePackage: Moving output files for package: /Game/Assets/Textures/Stairs_TEX/Stairs_5x3_MESH_M_Stairs_5x3_Roughness
+[2023.05.27-11.57.52:436][123]LogSavePackage: Moving '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Saved/Stairs_5x3_MESH_M_Stairs_5x3_Rou35E2FC80425E52809581BA93C32F075D.tmp' to '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Assets/Textures/Stairs_TEX/Stairs_5x3_MESH_M_Stairs_5x3_Roughness.uasset'
+[2023.05.27-11.57.52:449][123]LogSavePackage: Moving output files for package: /Game/Assets/Textures/Stairs_TEX/Stairs_5x3_MESH_M_Stairs_5x3_BaseColor
+[2023.05.27-11.57.52:450][123]LogSavePackage: Moving '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Saved/Stairs_5x3_MESH_M_Stairs_5x3_Bas02966D154C8CD6755426FA915D1A1A2E.tmp' to '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Assets/Textures/Stairs_TEX/Stairs_5x3_MESH_M_Stairs_5x3_BaseColor.uasset'
+[2023.05.27-11.57.52:460][123]LogSavePackage: Moving output files for package: /Game/Assets/Textures/Stairs_TEX/Stairs_5x3_MESH_M_Stairs_5x3_Height
+[2023.05.27-11.57.52:461][123]LogSavePackage: Moving '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Saved/Stairs_5x3_MESH_M_Stairs_5x3_HeiBF8DE33D421D3DE7A2C6FC9DD1D11DF6.tmp' to '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Assets/Textures/Stairs_TEX/Stairs_5x3_MESH_M_Stairs_5x3_Height.uasset'
+[2023.05.27-11.57.52:471][123]LogSavePackage: Moving output files for package: /Game/Assets/Textures/Stairs_TEX/Stairs_5x3_MESH_M_Stairs_5x3_Metallic
+[2023.05.27-11.57.52:472][123]LogSavePackage: Moving '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Saved/Stairs_5x3_MESH_M_Stairs_5x3_Met6A865CF046FCB431058A51A1DEDCA295.tmp' to '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Assets/Textures/Stairs_TEX/Stairs_5x3_MESH_M_Stairs_5x3_Metallic.uasset'
+[2023.05.27-11.57.52:487][123]LogFileHelpers: InternalPromptForCheckoutAndSave took 112 ms (total: 28.6 sec)
+[2023.05.27-11.57.52:497][123]AssetCheck: New page: Asset Save: multiple assets
+[2023.05.27-11.57.52:497][123]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Assets/Textures/Stairs_TEX/Stairs_5x3_MESH_M_Stairs_5x3_Metallic.Stairs_5x3_MESH_M_Stairs_5x3_Metallic
+[2023.05.27-11.57.52:497][123]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Assets/Textures/Stairs_TEX/Stairs_5x3_MESH_M_Stairs_5x3_Height.Stairs_5x3_MESH_M_Stairs_5x3_Height
+[2023.05.27-11.57.52:497][123]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Assets/Textures/Stairs_TEX/Stairs_5x3_MESH_M_Stairs_5x3_BaseColor.Stairs_5x3_MESH_M_Stairs_5x3_BaseColor
+[2023.05.27-11.57.52:497][123]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Assets/Textures/Stairs_TEX/Stairs_5x3_MESH_M_Stairs_5x3_Roughness.Stairs_5x3_MESH_M_Stairs_5x3_Roughness
+[2023.05.27-11.57.52:497][123]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Assets/Textures/Stairs_TEX/Stairs_5x3_MESH_M_Stairs_5x3_Normal.Stairs_5x3_MESH_M_Stairs_5x3_Normal
+[2023.05.27-11.57.53:681][247]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2023.05.27-11.57.53:690][247]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.27-11.57.53:690][247]PIE: New page: PIE session: Game_Level (28 May 2023, 7:57:53 am)
+[2023.05.27-11.57.53:691][247]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Game_Level
+[2023.05.27-11.57.53:763][247]LogPlayLevel: PIE: StaticDuplicateObject took: (0.072329s)
+[2023.05.27-11.57.53:763][247]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Game_Level.Game_Level to /Game/Levels/UEDPIE_0_Game_Level.Game_Level (0.072365s)
+[2023.05.27-11.57.53:763][247]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.27-11.57.53:763][247]LogAIModule: Creating AISystem for world Game_Level
+[2023.05.27-11.57.53:764][247]LogPlayLevel: PIE: World Init took: (0.000954s)
+[2023.05.27-11.57.53:787][247]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2023.05.27-11.57.53:788][247]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2023.05.27-11.57.53:788][247]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.27-11.57.53:788][247]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.27-11.57.53:788][247]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.27-11.57.53:788][247]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.27-11.57.53:789][247]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.27-11.57.53:789][247]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.27-11.57.53:789][247]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.27-11.57.53:789][247]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.27-11.57.53:789][247]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.27-11.57.53:789][247]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.27-11.57.53:789][247]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.27-11.57.53:791][247]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.27-11.57.53:819][247]LogAudioMixer: Display: Using Audio Hardware Device Speakers (HyperX Cloud II Wireless)
+[2023.05.27-11.57.53:819][247]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.27-11.57.53:819][247]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.27-11.57.53:819][247]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.27-11.57.53:820][247]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=18
+[2023.05.27-11.57.53:820][247]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=18
+[2023.05.27-11.57.53:821][247]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=18
+[2023.05.27-11.57.53:821][247]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=18
+[2023.05.27-11.57.53:821][247]LogInit: FAudioDevice initialized.
+[2023.05.27-11.57.53:821][247]LogAudio: Display: Audio Device (ID: 18) registered with world 'Game_Level'.
+[2023.05.27-11.57.53:848][247]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.27-11.57.53:849][247]LogLoad: Game class is 'Player_GM_C'
+[2023.05.27-11.57.53:878][247]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Game_Level.Game_Level up for play (max tick rate 0) at 2023.05.27-21.57.53
+[2023.05.27-11.57.53:879][247]LogWorld: Bringing up level for play took: 0.030189
+[2023.05.27-11.57.53:881][247]LogOnline: OSS: Created online subsystem instance for: :Context_65
+[2023.05.27-11.57.53:886][247]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.05.27-11.57.53:886][247]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2023.05.27-11.57.53:888][247]PIE: Server logged in
+[2023.05.27-11.57.53:889][247]PIE: Play in editor total start time 0.199 seconds.
+[2023.05.27-11.57.53:935][247]LogViewport: Scene viewport resized to 1914x1000, mode Windowed.
+[2023.05.27-11.57.56:687][399]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2023.05.27-11.57.56:687][399]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2023.05.27-11.58.08:988][270]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.27-11.58.08:988][270]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Game_Level
+[2023.05.27-11.58.08:989][270]LogSlate: Window 'GameJam_1 Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6)' being destroyed
+[2023.05.27-11.58.08:998][270]LogWorld: UWorld::CleanupWorld for Game_Level, bSessionEnded=true, bCleanupResources=true
+[2023.05.27-11.58.09:003][270]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.27-11.58.09:005][270]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.27-11.58.09:014][270]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.27-11.58.09:037][270]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.27-11.58.09:037][270]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2023.05.27-11.58.09:040][270]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2023.05.27-11.58.09:058][270]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2023.05.27-11.58.09:126][271]LogPlayLevel: Display: Destroying online subsystem :Context_65
+[2023.05.27-11.58.20:470][537]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2023.05.27-11.58.20:479][537]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.27-11.58.20:479][537]PIE: New page: PIE session: Game_Level (28 May 2023, 7:58:20 am)
+[2023.05.27-11.58.20:480][537]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Game_Level
+[2023.05.27-11.58.20:552][537]LogPlayLevel: PIE: StaticDuplicateObject took: (0.071360s)
+[2023.05.27-11.58.20:552][537]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Game_Level.Game_Level to /Game/Levels/UEDPIE_0_Game_Level.Game_Level (0.071393s)
+[2023.05.27-11.58.20:552][537]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.27-11.58.20:552][537]LogAIModule: Creating AISystem for world Game_Level
+[2023.05.27-11.58.20:552][537]LogPlayLevel: PIE: World Init took: (0.000928s)
+[2023.05.27-11.58.20:576][537]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2023.05.27-11.58.20:578][537]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2023.05.27-11.58.20:578][537]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.27-11.58.20:578][537]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.27-11.58.20:578][537]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.27-11.58.20:578][537]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.27-11.58.20:578][537]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.27-11.58.20:578][537]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.27-11.58.20:578][537]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.27-11.58.20:578][537]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.27-11.58.20:578][537]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.27-11.58.20:578][537]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.27-11.58.20:578][537]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.27-11.58.20:580][537]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.27-11.58.20:608][537]LogAudioMixer: Display: Using Audio Hardware Device Speakers (HyperX Cloud II Wireless)
+[2023.05.27-11.58.20:608][537]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.27-11.58.20:608][537]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.27-11.58.20:608][537]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.27-11.58.20:609][537]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=19
+[2023.05.27-11.58.20:609][537]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=19
+[2023.05.27-11.58.20:611][537]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=19
+[2023.05.27-11.58.20:611][537]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=19
+[2023.05.27-11.58.20:611][537]LogInit: FAudioDevice initialized.
+[2023.05.27-11.58.20:611][537]LogAudio: Display: Audio Device (ID: 19) registered with world 'Game_Level'.
+[2023.05.27-11.58.20:635][537]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.27-11.58.20:636][537]LogLoad: Game class is 'Player_GM_C'
+[2023.05.27-11.58.20:665][537]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Game_Level.Game_Level up for play (max tick rate 0) at 2023.05.27-21.58.20
+[2023.05.27-11.58.20:666][537]LogWorld: Bringing up level for play took: 0.030190
+[2023.05.27-11.58.20:668][537]LogOnline: OSS: Created online subsystem instance for: :Context_66
+[2023.05.27-11.58.20:796][537]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.05.27-11.58.20:796][537]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2023.05.27-11.58.20:798][537]PIE: Server logged in
+[2023.05.27-11.58.20:799][537]PIE: Play in editor total start time 0.319 seconds.
+[2023.05.27-11.58.20:855][537]LogViewport: Scene viewport resized to 1914x1000, mode Windowed.
+[2023.05.27-11.58.23:492][700]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2023.05.27-11.58.23:492][700]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2023.05.27-11.59.28:968][299]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.27-11.59.28:968][299]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Game_Level
+[2023.05.27-11.59.28:971][299]LogSlate: Window 'GameJam_1 Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6)' being destroyed
+[2023.05.27-11.59.28:984][299]LogWorld: UWorld::CleanupWorld for Game_Level, bSessionEnded=true, bCleanupResources=true
+[2023.05.27-11.59.28:988][299]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.27-11.59.28:991][299]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.27-11.59.29:000][299]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.27-11.59.29:028][299]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2023.05.27-11.59.29:030][299]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2023.05.27-11.59.29:043][299]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2023.05.27-11.59.29:115][300]LogPlayLevel: Display: Destroying online subsystem :Context_66
+[2023.05.27-12.00.40:392][258]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.05.27-12.00.40:402][258]LogContentBrowser: Creating deferred item: NewFolder
+[2023.05.27-12.00.40:413][259]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2023.05.27-12.00.44:752][738]LogContentBrowser: Attempting asset rename: NewFolder -> Wall_2x3_TEX
+[2023.05.27-12.00.44:753][738]LogContentBrowser: End creating deferred item NewFolder
+[2023.05.27-12.00.55:990][137]LogInterchangeEngine: [Pending] Importing
+[2023.05.27-12.00.55:990][137]LogInterchangeEngine: [Pending] Importing -  (2)
+[2023.05.27-12.00.55:990][137]LogInterchangeEngine: [Pending] Importing -  (3)
+[2023.05.27-12.00.55:990][137]LogInterchangeEngine: [Pending] Importing -  (4)
+[2023.05.27-12.00.55:990][137]LogInterchangeEngine: [Pending] Importing -  (5)
+[2023.05.27-12.00.56:003][138]LogTexture: Display: Building textures: /Game/Assets/Textures/Wall_2x3_TEX/Wall_2x3_MESH_M_Wall_2x3_Height.Wall_2x3_MESH_M_Wall_2x3_Height (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 121.145823 MB), EncodeSpeed: Fast
+[2023.05.27-12.00.56:006][138]LogTexture: Display: Building textures: /Game/Assets/Textures/Wall_2x3_TEX/Wall_2x3_MESH_M_Wall_2x3_Metallic.Wall_2x3_MESH_M_Wall_2x3_Metallic (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 121.145823 MB), EncodeSpeed: Fast
+[2023.05.27-12.00.56:010][138]LogInterchangeImport: Display: Auto-detected grayscale, image changed to G8
+[2023.05.27-12.00.56:014][138]LogTexture: Display: Building textures: /Game/Assets/Textures/Wall_2x3_TEX/Wall_2x3_MESH_M_Wall_2x3_Roughness.Wall_2x3_MESH_M_Wall_2x3_Roughness (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 121.145823 MB), EncodeSpeed: Fast
+[2023.05.27-12.00.56:018][138]LogTexture: Display: Building textures: /Game/Assets/Textures/Wall_2x3_TEX/Wall_2x3_MESH_M_Wall_2x3_BaseColor.Wall_2x3_MESH_M_Wall_2x3_BaseColor (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 121.145823 MB), EncodeSpeed: Fast
+[2023.05.27-12.00.56:022][138]LogInterchangeEngine: [Pending] Importing -  (4)
+[2023.05.27-12.00.56:022][138]LogInterchangeEngine: [Pending] Importing -  (3)
+[2023.05.27-12.00.56:022][138]LogInterchangeEngine: [Pending] Importing -  (2)
+[2023.05.27-12.00.56:022][138]LogInterchangeEngine: [Pending] Importing -  (1)
+[2023.05.27-12.00.56:028][138]LogTexture: Display: Building textures: /Game/Assets/Textures/Wall_2x3_TEX/Wall_2x3_MESH_M_Wall_2x3_Normal.Wall_2x3_MESH_M_Wall_2x3_Normal (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 124.145823 MB), EncodeSpeed: Fast
+[2023.05.27-12.00.56:089][138]LogInterchangeEngine: [Success] Import Done
+[2023.05.27-12.00.56:097][138]LogInterchangeEngine: [Success] Import Done
+[2023.05.27-12.00.56:335][138]LogInterchangePipeline: Display: Auto-detected normal map
+[2023.05.27-12.00.56:337][138]LogTexture: Display: Building textures: /Game/Assets/Textures/Wall_2x3_TEX/Wall_2x3_MESH_M_Wall_2x3_Normal.Wall_2x3_MESH_M_Wall_2x3_Normal (TFO_BC5, 1024x1024 x1x1x1) (Required Memory Estimate: 213.562488 MB), EncodeSpeed: Fast
+[2023.05.27-12.01.01:253][368]LogContentBrowser: Deferred new asset file creation: NewMaterial
+[2023.05.27-12.01.01:262][368]LogContentBrowser: Creating deferred item: NewMaterial
+[2023.05.27-12.01.01:274][369]LogContentBrowser: Renaming the item being created (Deferred Item: NewMaterial).
+[2023.05.27-12.01.06:534][878]LogContentBrowser: Attempting asset rename: NewMaterial -> M_Wall_2x3
+[2023.05.27-12.01.06:535][878]LogContentBrowser: End creating deferred item NewMaterial
+[2023.05.27-12.01.07:680][970]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Assets/Materials/M_Wall_2x3.M_Wall_2x3
+[2023.05.27-12.01.07:683][970]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.27-12.01.07:800][970]MaterialEditorStats: Texture samplers: 0/16
+[2023.05.27-12.01.07:800][970]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.05.27-12.01.07:800][970]MaterialEditorStats: Shader Count: 0
+[2023.05.27-12.01.07:811][970]LogViewport: Scene viewport resized to 376x449, mode Windowed.
+[2023.05.27-12.01.08:569][  2]LogShaderCompilers: Display: ================================================
+[2023.05.27-12.01.08:569][  2]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.05.27-12.01.08:569][  2]LogShaderCompilers: Display: Total job queries 1524, among them cache hits 919 (60.30%)
+[2023.05.27-12.01.08:569][  2]LogShaderCompilers: Display: Tracking 602 distinct input hashes that result in 174 distinct outputs (28.90%)
+[2023.05.27-12.01.08:569][  2]LogShaderCompilers: Display: RAM used: 4.33 MB (0.00 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.26%
+[2023.05.27-12.01.08:569][  2]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.05.27-12.01.08:569][  2]LogShaderCompilers: Display: Shaders Compiled: 411
+[2023.05.27-12.01.08:569][  2]LogShaderCompilers: Display: Jobs assigned 414, completed 411 (99.28%)
+[2023.05.27-12.01.08:569][  2]LogShaderCompilers: Display: Average time worker was idle: 54.43 s
+[2023.05.27-12.01.08:569][  2]LogShaderCompilers: Display: Time job spent in pending queue: average 0.13 s, longest 0.99 s
+[2023.05.27-12.01.08:569][  2]LogShaderCompilers: Display: Job execution time: average 0.75 s, max 2.63 s
+[2023.05.27-12.01.08:570][  2]LogShaderCompilers: Display: Job life time (pending + execution): average 0.87 s, max 2.72
+[2023.05.27-12.01.08:570][  2]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 81.05 s
+[2023.05.27-12.01.08:570][  2]LogShaderCompilers: Display: Jobs were issued in 414 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.05.27-12.01.08:570][  2]LogShaderCompilers: Display: Average processing rate: 5.07 jobs/sec
+[2023.05.27-12.01.08:570][  2]LogShaderCompilers: Display: Total thread time: 246.35 s
+[2023.05.27-12.01.08:570][  2]LogShaderCompilers: Display: Total thread preprocess time: 14.53 s
+[2023.05.27-12.01.08:570][  2]LogShaderCompilers: Display: Percentage time preprocessing: 5.90%
+[2023.05.27-12.01.08:570][  2]LogShaderCompilers: Display: Effective parallelization: 3.04 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.05.27-12.01.08:570][  2]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.05.27-12.01.08:570][  2]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled   15 times, average 0.76 sec, max 0.81 sec, min 0.72 sec)
+[2023.05.27-12.01.08:570][  2]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled   15 times, average 0.75 sec, max 0.79 sec, min 0.72 sec)
+[2023.05.27-12.01.08:570][  2]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled   15 times, average 0.75 sec, max 0.79 sec, min 0.71 sec)
+[2023.05.27-12.01.08:570][  2]LogShaderCompilers: Display:               TBasePassPSFCachedVolumeIndirectLightingPolicy (compiled   15 times, average 0.74 sec, max 0.78 sec, min 0.69 sec)
+[2023.05.27-12.01.08:570][  2]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy (compiled   15 times, average 0.74 sec, max 0.79 sec, min 0.68 sec)
+[2023.05.27-12.01.08:570][  2]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.05.27-12.01.08:570][  2]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 16.34% of total time (compiled   58 times, average 0.69 sec, max 0.87 sec, min 0.60 sec)
+[2023.05.27-12.01.08:570][  2]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 15.10% of total time (compiled   58 times, average 0.64 sec, max 0.79 sec, min 0.54 sec)
+[2023.05.27-12.01.08:570][  2]LogShaderCompilers: Display:                                                 FLumenCardVS - 13.05% of total time (compiled   56 times, average 0.57 sec, max 0.70 sec, min 0.46 sec)
+[2023.05.27-12.01.08:570][  2]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 8.45% of total time (compiled   57 times, average 0.37 sec, max 0.46 sec, min 0.31 sec)
+[2023.05.27-12.01.08:570][  2]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 4.65% of total time (compiled   15 times, average 0.76 sec, max 0.81 sec, min 0.72 sec)
+[2023.05.27-12.01.08:570][  2]LogShaderCompilers: Display: ================================================
+[2023.05.27-12.01.08:902][ 17]MaterialEditorStats: Base pass shader: 211 instructions
+[2023.05.27-12.01.08:903][ 17]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.05.27-12.01.08:903][ 17]MaterialEditorStats: Texture samplers: 2/16
+[2023.05.27-12.01.08:903][ 17]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.05.27-12.01.08:903][ 17]MaterialEditorStats: Shader Count: 4
+[2023.05.27-12.01.13:161][307]MaterialEditorStats: Texture samplers: 0/16
+[2023.05.27-12.01.13:161][307]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.05.27-12.01.13:161][307]MaterialEditorStats: Shader Count: 0
+[2023.05.27-12.01.13:237][309]MaterialEditorStats: Base pass shader: 211 instructions
+[2023.05.27-12.01.13:237][309]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.05.27-12.01.13:237][309]MaterialEditorStats: Texture samplers: 2/16
+[2023.05.27-12.01.13:237][309]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.05.27-12.01.13:237][309]MaterialEditorStats: Shader Count: 4
+[2023.05.27-12.01.15:411][463]MaterialEditorStats: Texture samplers: 0/16
+[2023.05.27-12.01.15:411][463]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.27-12.01.15:411][463]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.27-12.01.15:411][463]MaterialEditorStats: Shader Count: 0
+[2023.05.27-12.01.15:948][490]MaterialEditorStats: Texture samplers: 1/16
+[2023.05.27-12.01.15:948][490]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.27-12.01.15:948][490]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.27-12.01.15:948][490]MaterialEditorStats: Shader Count: 1
+[2023.05.27-12.01.16:258][507]MaterialEditorStats: Base pass vertex shader: 260 instructions
+[2023.05.27-12.01.16:258][507]MaterialEditorStats: Texture samplers: 1/16
+[2023.05.27-12.01.16:258][507]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.27-12.01.16:258][507]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.27-12.01.16:258][507]MaterialEditorStats: Shader Count: 3
+[2023.05.27-12.01.16:349][511]MaterialEditorStats: Base pass shader: 218 instructions
+[2023.05.27-12.01.16:349][511]MaterialEditorStats: Base pass vertex shader: 260 instructions
+[2023.05.27-12.01.16:349][511]MaterialEditorStats: Texture samplers: 3/16
+[2023.05.27-12.01.16:349][511]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.27-12.01.16:349][511]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.27-12.01.16:349][511]MaterialEditorStats: Shader Count: 4
+[2023.05.27-12.01.16:942][552]MaterialEditorStats: Texture samplers: 0/16
+[2023.05.27-12.01.16:942][552]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.27-12.01.16:942][552]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.27-12.01.16:942][552]MaterialEditorStats: Shader Count: 0
+[2023.05.27-12.01.17:010][554]MaterialEditorStats: Base pass shader: 218 instructions
+[2023.05.27-12.01.17:010][554]MaterialEditorStats: Base pass vertex shader: 260 instructions
+[2023.05.27-12.01.17:010][554]MaterialEditorStats: Texture samplers: 3/16
+[2023.05.27-12.01.17:010][554]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.27-12.01.17:010][554]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.27-12.01.17:010][554]MaterialEditorStats: Shader Count: 4
+[2023.05.27-12.01.18:022][619]MaterialEditorStats: Texture samplers: 0/16
+[2023.05.27-12.01.18:022][619]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.05.27-12.01.18:022][619]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.27-12.01.18:022][619]MaterialEditorStats: Shader Count: 0
+[2023.05.27-12.01.18:773][664]MaterialEditorStats: Texture samplers: 2/16
+[2023.05.27-12.01.18:773][664]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.05.27-12.01.18:773][664]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.27-12.01.18:773][664]MaterialEditorStats: Shader Count: 2
+[2023.05.27-12.01.18:856][668]MaterialEditorStats: Base pass shader: 221 instructions
+[2023.05.27-12.01.18:856][668]MaterialEditorStats: Base pass vertex shader: 260 instructions
+[2023.05.27-12.01.18:856][668]MaterialEditorStats: Texture samplers: 4/16
+[2023.05.27-12.01.18:856][668]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.05.27-12.01.18:856][668]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.27-12.01.18:856][668]MaterialEditorStats: Shader Count: 4
+[2023.05.27-12.01.20:340][772]MaterialEditorStats: Texture samplers: 0/16
+[2023.05.27-12.01.20:340][772]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.05.27-12.01.20:340][772]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.27-12.01.20:340][772]MaterialEditorStats: Shader Count: 0
+[2023.05.27-12.01.20:406][774]MaterialEditorStats: Base pass shader: 221 instructions
+[2023.05.27-12.01.20:406][774]MaterialEditorStats: Base pass vertex shader: 260 instructions
+[2023.05.27-12.01.20:406][774]MaterialEditorStats: Texture samplers: 4/16
+[2023.05.27-12.01.20:406][774]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.05.27-12.01.20:406][774]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.27-12.01.20:406][774]MaterialEditorStats: Shader Count: 4
+[2023.05.27-12.01.21:783][868]MaterialEditorStats: Texture samplers: 0/16
+[2023.05.27-12.01.21:783][868]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2023.05.27-12.01.21:783][868]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.27-12.01.21:783][868]MaterialEditorStats: Shader Count: 0
+[2023.05.27-12.01.22:399][904]MaterialEditorStats: Texture samplers: 3/16
+[2023.05.27-12.01.22:399][904]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2023.05.27-12.01.22:399][904]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.27-12.01.22:399][904]MaterialEditorStats: Shader Count: 1
+[2023.05.27-12.01.22:555][913]MaterialEditorStats: Base pass shader: 229 instructions
+[2023.05.27-12.01.22:555][913]MaterialEditorStats: Base pass vertex shader: 260 instructions
+[2023.05.27-12.01.22:555][913]MaterialEditorStats: Texture samplers: 5/16
+[2023.05.27-12.01.22:555][913]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2023.05.27-12.01.22:555][913]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.27-12.01.22:555][913]MaterialEditorStats: Shader Count: 4
+[2023.05.27-12.01.24:531][ 42]MaterialEditorStats: Texture samplers: 0/16
+[2023.05.27-12.01.24:531][ 42]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2023.05.27-12.01.24:531][ 42]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.27-12.01.24:531][ 42]MaterialEditorStats: Shader Count: 0
+[2023.05.27-12.01.24:603][ 44]MaterialEditorStats: Base pass shader: 229 instructions
+[2023.05.27-12.01.24:603][ 44]MaterialEditorStats: Base pass vertex shader: 260 instructions
+[2023.05.27-12.01.24:603][ 44]MaterialEditorStats: Texture samplers: 5/16
+[2023.05.27-12.01.24:603][ 44]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2023.05.27-12.01.24:603][ 44]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.27-12.01.24:603][ 44]MaterialEditorStats: Shader Count: 4
+[2023.05.27-12.01.27:272][223]MaterialEditorStats: Texture samplers: 0/16
+[2023.05.27-12.01.27:272][223]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2023.05.27-12.01.27:272][223]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.27-12.01.27:272][223]MaterialEditorStats: Shader Count: 0
+[2023.05.27-12.01.27:831][250]MaterialEditorStats: Texture samplers: 3/16
+[2023.05.27-12.01.27:832][250]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2023.05.27-12.01.27:832][250]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.27-12.01.27:832][250]MaterialEditorStats: Shader Count: 1
+[2023.05.27-12.01.28:052][262]MaterialEditorStats: Base pass vertex shader: 260 instructions
+[2023.05.27-12.01.28:052][262]MaterialEditorStats: Texture samplers: 3/16
+[2023.05.27-12.01.28:052][262]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2023.05.27-12.01.28:052][262]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.27-12.01.28:052][262]MaterialEditorStats: Shader Count: 3
+[2023.05.27-12.01.28:145][268]MaterialEditorStats: Base pass shader: 232 instructions
+[2023.05.27-12.01.28:145][268]MaterialEditorStats: Base pass vertex shader: 260 instructions
+[2023.05.27-12.01.28:145][268]MaterialEditorStats: Texture samplers: 6/16
+[2023.05.27-12.01.28:145][268]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2023.05.27-12.01.28:145][268]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.27-12.01.28:145][268]MaterialEditorStats: Shader Count: 4
+[2023.05.27-12.01.28:423][288]LogMaterialEditor: Saving and Compiling material M_Wall_2x3
+[2023.05.27-12.01.28:903][288]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2023.05.27-12.01.29:574][288]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2023.05.27-12.01.29:581][288]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.27-12.01.31:059][288]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Materials/M_Wall_2x3" FILE="../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Assets/Materials/M_Wall_2x3.uasset" SILENT=true
+[2023.05.27-12.01.31:064][288]LogSavePackage: Moving output files for package: /Game/Assets/Materials/M_Wall_2x3
+[2023.05.27-12.01.31:064][288]LogSavePackage: Moving '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Saved/M_Wall_2x37AF310F34F03511D6E12B0B78DB6F784.tmp' to '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Assets/Materials/M_Wall_2x3.uasset'
+[2023.05.27-12.01.31:072][288]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.49 sec (total: 30.1 sec)
+[2023.05.27-12.01.31:079][288]AssetCheck: New page: Asset Save: M_Wall_2x3
+[2023.05.27-12.01.31:079][288]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Assets/Materials/M_Wall_2x3.M_Wall_2x3
+[2023.05.27-12.01.31:080][288]MaterialEditorStats: Base pass shader: 232 instructions
+[2023.05.27-12.01.31:080][288]MaterialEditorStats: Base pass vertex shader: 260 instructions
+[2023.05.27-12.01.31:080][288]MaterialEditorStats: MaxSampler: 281 instructions
+[2023.05.27-12.01.31:080][288]MaterialEditorStats: Texture samplers: 7/16
+[2023.05.27-12.01.31:081][288]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2023.05.27-12.01.31:081][288]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.27-12.01.31:081][288]MaterialEditorStats: Shader Count: 16
+[2023.05.27-12.01.31:457][307]LogSlate: Window 'M_Wall_2x3' being destroyed
+[2023.05.27-12.01.31:478][307]LogWorld: UWorld::CleanupWorld for World_48, bSessionEnded=true, bCleanupResources=true
+[2023.05.27-12.01.31:478][307]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.27-12.01.35:847][702]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Assets/Meshes/Wall_2x3_MESH.Wall_2x3_MESH
+[2023.05.27-12.01.35:883][702]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.27-12.01.36:211][702]LogViewport: Scene viewport resized to 1405x902, mode Windowed.
+[2023.05.27-12.01.44:857][407]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.27-12.01.44:906][407]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Meshes/Wall_2x3_MESH" FILE="../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Assets/Meshes/Wall_2x3_MESH.uasset" SILENT=true
+[2023.05.27-12.01.44:913][407]LogSavePackage: Moving output files for package: /Game/Assets/Meshes/Wall_2x3_MESH
+[2023.05.27-12.01.44:914][407]LogSavePackage: Moving '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Saved/Wall_2x3_MESHD5E8A55D474B502B4FE233A66D904D3C.tmp' to '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Assets/Meshes/Wall_2x3_MESH.uasset'
+[2023.05.27-12.01.44:923][407]LogFileHelpers: InternalPromptForCheckoutAndSave took 66 ms (total: 30.2 sec)
+[2023.05.27-12.01.44:930][407]AssetCheck: New page: Asset Save: Wall_2x3_MESH
+[2023.05.27-12.01.44:931][407]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Meshes/Wall_2x3_MESH.Wall_2x3_MESH
+[2023.05.27-12.01.45:424][440]LogSlate: Window 'Wall_2x3_MESH' being destroyed
+[2023.05.27-12.01.45:494][440]LogWorld: UWorld::CleanupWorld for World_49, bSessionEnded=true, bCleanupResources=true
+[2023.05.27-12.01.45:494][440]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.27-12.01.48:686][734]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2023.05.27-12.01.48:695][734]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.27-12.01.48:695][734]PIE: New page: PIE session: Game_Level (28 May 2023, 8:01:48 am)
+[2023.05.27-12.01.48:696][734]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Game_Level
+[2023.05.27-12.01.48:768][734]LogPlayLevel: PIE: StaticDuplicateObject took: (0.072506s)
+[2023.05.27-12.01.48:768][734]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Game_Level.Game_Level to /Game/Levels/UEDPIE_0_Game_Level.Game_Level (0.072537s)
+[2023.05.27-12.01.48:768][734]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.27-12.01.48:769][734]LogAIModule: Creating AISystem for world Game_Level
+[2023.05.27-12.01.48:769][734]LogPlayLevel: PIE: World Init took: (0.000965s)
+[2023.05.27-12.01.48:796][734]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2023.05.27-12.01.48:802][734]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2023.05.27-12.01.48:802][734]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.27-12.01.48:802][734]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.27-12.01.48:802][734]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.27-12.01.48:802][734]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.27-12.01.48:802][734]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.27-12.01.48:802][734]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.27-12.01.48:802][734]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.27-12.01.48:802][734]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.27-12.01.48:802][734]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.27-12.01.48:802][734]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.27-12.01.48:802][734]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.27-12.01.48:805][734]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.27-12.01.48:833][734]LogAudioMixer: Display: Using Audio Hardware Device Speakers (HyperX Cloud II Wireless)
+[2023.05.27-12.01.48:833][734]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.27-12.01.48:833][734]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.27-12.01.48:833][734]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.27-12.01.48:833][734]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=20
+[2023.05.27-12.01.48:833][734]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=20
+[2023.05.27-12.01.48:835][734]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=20
+[2023.05.27-12.01.48:835][734]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=20
+[2023.05.27-12.01.48:835][734]LogInit: FAudioDevice initialized.
+[2023.05.27-12.01.48:835][734]LogAudio: Display: Audio Device (ID: 20) registered with world 'Game_Level'.
+[2023.05.27-12.01.48:860][734]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.27-12.01.48:861][734]LogLoad: Game class is 'Player_GM_C'
+[2023.05.27-12.01.48:890][734]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Game_Level.Game_Level up for play (max tick rate 0) at 2023.05.27-22.01.48
+[2023.05.27-12.01.48:891][734]LogWorld: Bringing up level for play took: 0.030128
+[2023.05.27-12.01.48:893][734]LogOnline: OSS: Created online subsystem instance for: :Context_69
+[2023.05.27-12.01.48:898][734]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.05.27-12.01.48:898][734]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2023.05.27-12.01.48:900][734]PIE: Server logged in
+[2023.05.27-12.01.48:901][734]PIE: Play in editor total start time 0.206 seconds.
+[2023.05.27-12.01.48:972][734]LogViewport: Scene viewport resized to 1914x1000, mode Windowed.
+[2023.05.27-12.01.51:683][891]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2023.05.27-12.01.51:683][891]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2023.05.27-12.01.59:348][433]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.27-12.01.59:348][433]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Game_Level
+[2023.05.27-12.01.59:349][433]LogSlate: Window 'GameJam_1 Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6)' being destroyed
+[2023.05.27-12.01.59:356][433]LogWorld: UWorld::CleanupWorld for Game_Level, bSessionEnded=true, bCleanupResources=true
+[2023.05.27-12.01.59:361][433]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.27-12.01.59:364][433]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.27-12.01.59:372][433]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.27-12.01.59:400][433]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2023.05.27-12.01.59:402][433]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2023.05.27-12.01.59:417][433]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2023.05.27-12.01.59:494][434]LogPlayLevel: Display: Destroying online subsystem :Context_69
+[2023.05.27-12.02.45:790][225]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2023.05.27-12.02.45:801][225]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.27-12.02.45:801][225]PIE: New page: PIE session: Game_Level (28 May 2023, 8:02:45 am)
+[2023.05.27-12.02.45:801][225]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Game_Level
+[2023.05.27-12.02.45:873][225]LogPlayLevel: PIE: StaticDuplicateObject took: (0.071701s)
+[2023.05.27-12.02.45:873][225]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Game_Level.Game_Level to /Game/Levels/UEDPIE_0_Game_Level.Game_Level (0.071736s)
+[2023.05.27-12.02.45:873][225]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.27-12.02.45:874][225]LogAIModule: Creating AISystem for world Game_Level
+[2023.05.27-12.02.45:874][225]LogPlayLevel: PIE: World Init took: (0.000954s)
+[2023.05.27-12.02.45:897][225]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2023.05.27-12.02.45:901][225]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2023.05.27-12.02.45:901][225]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.27-12.02.45:901][225]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.27-12.02.45:901][225]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.27-12.02.45:901][225]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.27-12.02.45:901][225]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.27-12.02.45:901][225]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.27-12.02.45:901][225]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.27-12.02.45:901][225]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.27-12.02.45:901][225]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.27-12.02.45:901][225]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.27-12.02.45:901][225]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.27-12.02.45:903][225]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.27-12.02.45:931][225]LogAudioMixer: Display: Using Audio Hardware Device Speakers (HyperX Cloud II Wireless)
+[2023.05.27-12.02.45:931][225]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.27-12.02.45:931][225]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.27-12.02.45:931][225]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.27-12.02.45:932][225]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=21
+[2023.05.27-12.02.45:932][225]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=21
+[2023.05.27-12.02.45:933][225]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=21
+[2023.05.27-12.02.45:933][225]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=21
+[2023.05.27-12.02.45:933][225]LogInit: FAudioDevice initialized.
+[2023.05.27-12.02.45:933][225]LogAudio: Display: Audio Device (ID: 21) registered with world 'Game_Level'.
+[2023.05.27-12.02.45:960][225]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.27-12.02.45:960][225]LogLoad: Game class is 'Player_GM_C'
+[2023.05.27-12.02.45:989][225]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Game_Level.Game_Level up for play (max tick rate 0) at 2023.05.27-22.02.45
+[2023.05.27-12.02.45:991][225]LogWorld: Bringing up level for play took: 0.030414
+[2023.05.27-12.02.45:993][225]LogOnline: OSS: Created online subsystem instance for: :Context_70
+[2023.05.27-12.02.46:005][225]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.05.27-12.02.46:005][225]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2023.05.27-12.02.46:007][225]PIE: Server logged in
+[2023.05.27-12.02.46:008][225]PIE: Play in editor total start time 0.207 seconds.
+[2023.05.27-12.02.46:069][225]LogViewport: Scene viewport resized to 1914x1000, mode Windowed.
+[2023.05.27-12.02.48:797][420]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2023.05.27-12.02.48:797][420]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2023.05.27-12.02.58:758][133]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.27-12.02.58:758][133]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Game_Level
+[2023.05.27-12.02.58:759][133]LogSlate: Window 'GameJam_1 Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6)' being destroyed
+[2023.05.27-12.02.58:767][133]LogWorld: UWorld::CleanupWorld for Game_Level, bSessionEnded=true, bCleanupResources=true
+[2023.05.27-12.02.58:772][133]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.27-12.02.58:774][133]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.27-12.02.58:783][133]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.27-12.02.58:810][133]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2023.05.27-12.02.58:812][133]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2023.05.27-12.02.58:826][133]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2023.05.27-12.02.58:883][134]LogPlayLevel: Display: Destroying online subsystem :Context_70
+[2023.05.27-12.03.01:562][416]Cmd: DELETE
+[2023.05.27-12.03.01:684][416]Cmd: ACTOR DELETE
+[2023.05.27-12.03.02:702][416]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.27-12.03.02:738][416]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2023.05.27-12.03.02:742][416]LogEditorActor: Deleted 1 Actors (0.324 secs)
+[2023.05.27-12.03.18:132][935]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.27-12.03.18:159][935]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Game_Level" FILE="../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Levels/Game_Level.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.05.27-12.03.18:183][935]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2023.05.27-12.03.18:434][935]LogSavePackage: Moving output files for package: /Game/Levels/Game_Level
+[2023.05.27-12.03.18:435][935]LogSavePackage: Moving '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Saved/Game_Level99E7E22D435661F4F1F8CD84CEE59D83.tmp' to '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Levels/Game_Level.umap'
+[2023.05.27-12.03.18:456][935]LogFileHelpers: Saving map 'Game_Level' took 0.299
+[2023.05.27-12.03.18:493][935]LogFileHelpers: InternalPromptForCheckoutAndSave took 360 ms (total: 30.6 sec)
+[2023.05.27-12.03.18:500][935]AssetCheck: New page: Asset Save: Game_Level
+[2023.05.27-12.03.18:500][935]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Game_Level.Game_Level
+[2023.05.27-12.03.20:819][163]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2023.05.27-12.03.20:830][163]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.27-12.03.20:830][163]PIE: New page: PIE session: Game_Level (28 May 2023, 8:03:20 am)
+[2023.05.27-12.03.20:830][163]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Game_Level
+[2023.05.27-12.03.20:904][163]LogPlayLevel: PIE: StaticDuplicateObject took: (0.073261s)
+[2023.05.27-12.03.20:904][163]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Game_Level.Game_Level to /Game/Levels/UEDPIE_0_Game_Level.Game_Level (0.073293s)
+[2023.05.27-12.03.20:904][163]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.27-12.03.20:904][163]LogAIModule: Creating AISystem for world Game_Level
+[2023.05.27-12.03.20:905][163]LogPlayLevel: PIE: World Init took: (0.000971s)
+[2023.05.27-12.03.20:929][163]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2023.05.27-12.03.20:930][163]LogAudio: Display: Creating Audio Device:                 Id: 22, Scope: Unique, Realtime: True
+[2023.05.27-12.03.20:930][163]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.27-12.03.20:930][163]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.27-12.03.20:930][163]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.27-12.03.20:930][163]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.27-12.03.20:930][163]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.27-12.03.20:930][163]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.27-12.03.20:930][163]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.27-12.03.20:930][163]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.27-12.03.20:931][163]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.27-12.03.20:931][163]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.27-12.03.20:931][163]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.27-12.03.20:933][163]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.27-12.03.20:960][163]LogAudioMixer: Display: Using Audio Hardware Device Speakers (HyperX Cloud II Wireless)
+[2023.05.27-12.03.20:960][163]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.27-12.03.20:960][163]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.27-12.03.20:960][163]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.27-12.03.20:961][163]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=22
+[2023.05.27-12.03.20:961][163]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=22
+[2023.05.27-12.03.20:962][163]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=22
+[2023.05.27-12.03.20:962][163]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=22
+[2023.05.27-12.03.20:962][163]LogInit: FAudioDevice initialized.
+[2023.05.27-12.03.20:962][163]LogAudio: Display: Audio Device (ID: 22) registered with world 'Game_Level'.
+[2023.05.27-12.03.20:988][163]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.27-12.03.20:988][163]LogLoad: Game class is 'Player_GM_C'
+[2023.05.27-12.03.21:019][163]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Game_Level.Game_Level up for play (max tick rate 0) at 2023.05.27-22.03.21
+[2023.05.27-12.03.21:020][163]LogWorld: Bringing up level for play took: 0.031493
+[2023.05.27-12.03.21:022][163]LogOnline: OSS: Created online subsystem instance for: :Context_71
+[2023.05.27-12.03.21:027][163]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.05.27-12.03.21:027][163]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2023.05.27-12.03.21:029][163]PIE: Server logged in
+[2023.05.27-12.03.21:030][163]PIE: Play in editor total start time 0.199 seconds.
+[2023.05.27-12.03.21:096][163]LogViewport: Scene viewport resized to 1914x1000, mode Windowed.
+[2023.05.27-12.03.23:818][355]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2023.05.27-12.03.23:818][355]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2023.05.27-12.04.03:888][ 82]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.27-12.04.03:888][ 82]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Game_Level
+[2023.05.27-12.04.03:889][ 82]LogSlate: Window 'GameJam_1 Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6)' being destroyed
+[2023.05.27-12.04.03:899][ 82]LogWorld: UWorld::CleanupWorld for Game_Level, bSessionEnded=true, bCleanupResources=true
+[2023.05.27-12.04.03:903][ 82]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.27-12.04.03:906][ 82]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.27-12.04.03:915][ 82]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.27-12.04.03:946][ 82]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.27-12.04.03:946][ 82]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2023.05.27-12.04.03:948][ 82]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2023.05.27-12.04.03:961][ 82]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2023.05.27-12.04.04:017][ 83]LogPlayLevel: Display: Destroying online subsystem :Context_71
+[2023.05.27-12.04.05:355][215]Cmd: DELETE
+[2023.05.27-12.04.05:355][215]Cmd: ACTOR DELETE
+[2023.05.27-12.04.05:374][215]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.27-12.04.05:400][215]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2023.05.27-12.04.05:403][215]LogEditorActor: Deleted 1 Actors (0.048 secs)
+[2023.05.27-12.04.05:795][251]Cmd: DELETE
+[2023.05.27-12.04.05:795][251]Cmd: ACTOR DELETE
+[2023.05.27-12.04.05:813][251]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.27-12.04.05:838][251]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2023.05.27-12.04.05:840][251]LogEditorActor: Deleted 1 Actors (0.045 secs)
+[2023.05.27-12.04.33:747][ 68]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2023.05.27-12.04.33:757][ 68]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.27-12.04.33:757][ 68]PIE: New page: PIE session: Game_Level (28 May 2023, 8:04:33 am)
+[2023.05.27-12.04.33:758][ 68]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Game_Level
+[2023.05.27-12.04.33:830][ 68]LogPlayLevel: PIE: StaticDuplicateObject took: (0.072379s)
+[2023.05.27-12.04.33:830][ 68]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Game_Level.Game_Level to /Game/Levels/UEDPIE_0_Game_Level.Game_Level (0.072415s)
+[2023.05.27-12.04.33:830][ 68]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.27-12.04.33:831][ 68]LogAIModule: Creating AISystem for world Game_Level
+[2023.05.27-12.04.33:831][ 68]LogPlayLevel: PIE: World Init took: (0.000964s)
+[2023.05.27-12.04.33:854][ 68]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2023.05.27-12.04.33:857][ 68]LogAudio: Display: Creating Audio Device:                 Id: 23, Scope: Unique, Realtime: True
+[2023.05.27-12.04.33:857][ 68]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.27-12.04.33:857][ 68]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.27-12.04.33:857][ 68]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.27-12.04.33:857][ 68]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.27-12.04.33:857][ 68]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.27-12.04.33:857][ 68]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.27-12.04.33:857][ 68]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.27-12.04.33:857][ 68]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.27-12.04.33:858][ 68]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.27-12.04.33:858][ 68]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.27-12.04.33:858][ 68]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.27-12.04.33:860][ 68]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.27-12.04.33:888][ 68]LogAudioMixer: Display: Using Audio Hardware Device Speakers (HyperX Cloud II Wireless)
+[2023.05.27-12.04.33:888][ 68]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.27-12.04.33:888][ 68]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.27-12.04.33:888][ 68]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.27-12.04.33:888][ 68]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=23
+[2023.05.27-12.04.33:888][ 68]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=23
+[2023.05.27-12.04.33:890][ 68]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=23
+[2023.05.27-12.04.33:890][ 68]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=23
+[2023.05.27-12.04.33:890][ 68]LogInit: FAudioDevice initialized.
+[2023.05.27-12.04.33:890][ 68]LogAudio: Display: Audio Device (ID: 23) registered with world 'Game_Level'.
+[2023.05.27-12.04.33:915][ 68]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.27-12.04.33:916][ 68]LogLoad: Game class is 'Player_GM_C'
+[2023.05.27-12.04.33:945][ 68]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Game_Level.Game_Level up for play (max tick rate 0) at 2023.05.27-22.04.33
+[2023.05.27-12.04.33:947][ 68]LogWorld: Bringing up level for play took: 0.030614
+[2023.05.27-12.04.33:949][ 68]LogOnline: OSS: Created online subsystem instance for: :Context_72
+[2023.05.27-12.04.33:953][ 68]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.05.27-12.04.33:953][ 68]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2023.05.27-12.04.33:955][ 68]PIE: Server logged in
+[2023.05.27-12.04.33:956][ 68]PIE: Play in editor total start time 0.198 seconds.
+[2023.05.27-12.04.34:018][ 68]LogViewport: Scene viewport resized to 1914x1000, mode Windowed.
+[2023.05.27-12.04.36:753][254]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2023.05.27-12.04.36:753][254]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2023.05.27-12.04.53:409][384]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.27-12.04.53:409][384]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Game_Level
+[2023.05.27-12.04.53:410][384]LogSlate: Window 'GameJam_1 Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6)' being destroyed
+[2023.05.27-12.04.53:430][384]LogWorld: UWorld::CleanupWorld for Game_Level, bSessionEnded=true, bCleanupResources=true
+[2023.05.27-12.04.53:435][384]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.27-12.04.53:438][384]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.27-12.04.53:447][384]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.27-12.04.53:473][384]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.27-12.04.53:475][384]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2023.05.27-12.04.53:477][384]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2023.05.27-12.04.53:491][384]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2023.05.27-12.04.53:544][385]LogPlayLevel: Display: Destroying online subsystem :Context_72
+[2023.05.27-12.05.03:270][366]Cmd: TRANSACTION UNDO
+[2023.05.27-12.05.03:270][366]LogEditorTransaction: Undo Move Elements
+[2023.05.27-12.05.04:067][420]Cmd: TRANSACTION UNDO
+[2023.05.27-12.05.04:067][420]LogEditorTransaction: Undo Rotate Elements
+[2023.05.27-12.05.13:538][372]Cmd: DELETE
+[2023.05.27-12.05.13:538][372]Cmd: ACTOR DELETE
+[2023.05.27-12.05.13:556][372]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.27-12.05.13:581][372]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2023.05.27-12.05.13:585][372]LogEditorActor: Deleted 1 Actors (0.047 secs)
+[2023.05.27-12.05.19:491][965]Cmd: MODE GRID=0
+[2023.05.27-12.05.20:052][ 21]Cmd: MODE GRID=1
+[2023.05.27-12.06.23:435][257]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2023.05.27-12.06.23:445][257]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.27-12.06.23:445][257]PIE: New page: PIE session: Game_Level (28 May 2023, 8:06:23 am)
+[2023.05.27-12.06.23:445][257]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Game_Level
+[2023.05.27-12.06.23:518][257]LogPlayLevel: PIE: StaticDuplicateObject took: (0.072508s)
+[2023.05.27-12.06.23:518][257]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Game_Level.Game_Level to /Game/Levels/UEDPIE_0_Game_Level.Game_Level (0.072540s)
+[2023.05.27-12.06.23:518][257]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.27-12.06.23:518][257]LogAIModule: Creating AISystem for world Game_Level
+[2023.05.27-12.06.23:519][257]LogPlayLevel: PIE: World Init took: (0.000942s)
+[2023.05.27-12.06.23:542][257]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2023.05.27-12.06.23:546][257]LogAudio: Display: Creating Audio Device:                 Id: 24, Scope: Unique, Realtime: True
+[2023.05.27-12.06.23:546][257]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.27-12.06.23:546][257]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.27-12.06.23:546][257]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.27-12.06.23:546][257]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.27-12.06.23:546][257]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.27-12.06.23:546][257]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.27-12.06.23:546][257]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.27-12.06.23:546][257]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.27-12.06.23:547][257]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.27-12.06.23:547][257]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.27-12.06.23:547][257]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.27-12.06.23:549][257]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.27-12.06.23:576][257]LogAudioMixer: Display: Using Audio Hardware Device Speakers (HyperX Cloud II Wireless)
+[2023.05.27-12.06.23:576][257]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.27-12.06.23:576][257]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.27-12.06.23:576][257]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.27-12.06.23:577][257]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=24
+[2023.05.27-12.06.23:577][257]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=24
+[2023.05.27-12.06.23:579][257]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=24
+[2023.05.27-12.06.23:579][257]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=24
+[2023.05.27-12.06.23:579][257]LogInit: FAudioDevice initialized.
+[2023.05.27-12.06.23:579][257]LogAudio: Display: Audio Device (ID: 24) registered with world 'Game_Level'.
+[2023.05.27-12.06.23:606][257]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.27-12.06.23:606][257]LogLoad: Game class is 'Player_GM_C'
+[2023.05.27-12.06.23:636][257]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Game_Level.Game_Level up for play (max tick rate 0) at 2023.05.27-22.06.23
+[2023.05.27-12.06.23:637][257]LogWorld: Bringing up level for play took: 0.030949
+[2023.05.27-12.06.23:639][257]LogOnline: OSS: Created online subsystem instance for: :Context_73
+[2023.05.27-12.06.23:644][257]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.05.27-12.06.23:644][257]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2023.05.27-12.06.23:646][257]PIE: Server logged in
+[2023.05.27-12.06.23:647][257]PIE: Play in editor total start time 0.202 seconds.
+[2023.05.27-12.06.23:709][257]LogViewport: Scene viewport resized to 1914x1000, mode Windowed.
+[2023.05.27-12.06.26:432][455]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2023.05.27-12.06.26:432][455]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2023.05.27-12.06.35:889][100]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.27-12.06.35:889][100]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Game_Level
+[2023.05.27-12.06.35:890][100]LogSlate: Window 'GameJam_1 Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6)' being destroyed
+[2023.05.27-12.06.35:912][100]LogWorld: UWorld::CleanupWorld for Game_Level, bSessionEnded=true, bCleanupResources=true
+[2023.05.27-12.06.35:917][100]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.27-12.06.35:920][100]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.27-12.06.35:929][100]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.27-12.06.35:958][100]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24
+[2023.05.27-12.06.35:960][100]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24
+[2023.05.27-12.06.35:975][100]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2023.05.27-12.06.36:031][101]LogPlayLevel: Display: Destroying online subsystem :Context_73
+[2023.05.27-12.06.57:936][197]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2023.05.27-12.06.57:946][197]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.27-12.06.57:946][197]PIE: New page: PIE session: Game_Level (28 May 2023, 8:06:57 am)
+[2023.05.27-12.06.57:947][197]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Game_Level
+[2023.05.27-12.06.58:021][197]LogPlayLevel: PIE: StaticDuplicateObject took: (0.074421s)
+[2023.05.27-12.06.58:021][197]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Game_Level.Game_Level to /Game/Levels/UEDPIE_0_Game_Level.Game_Level (0.074453s)
+[2023.05.27-12.06.58:021][197]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.27-12.06.58:022][197]LogAIModule: Creating AISystem for world Game_Level
+[2023.05.27-12.06.58:022][197]LogPlayLevel: PIE: World Init took: (0.001051s)
+[2023.05.27-12.06.58:046][197]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2023.05.27-12.06.58:049][197]LogAudio: Display: Creating Audio Device:                 Id: 25, Scope: Unique, Realtime: True
+[2023.05.27-12.06.58:049][197]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.27-12.06.58:049][197]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.27-12.06.58:049][197]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.27-12.06.58:049][197]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.27-12.06.58:049][197]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.27-12.06.58:049][197]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.27-12.06.58:049][197]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.27-12.06.58:049][197]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.27-12.06.58:050][197]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.27-12.06.58:050][197]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.27-12.06.58:050][197]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.27-12.06.58:052][197]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.27-12.06.58:080][197]LogAudioMixer: Display: Using Audio Hardware Device Speakers (HyperX Cloud II Wireless)
+[2023.05.27-12.06.58:080][197]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.27-12.06.58:080][197]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.27-12.06.58:080][197]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.27-12.06.58:081][197]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=25
+[2023.05.27-12.06.58:081][197]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=25
+[2023.05.27-12.06.58:082][197]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=25
+[2023.05.27-12.06.58:082][197]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=25
+[2023.05.27-12.06.58:082][197]LogInit: FAudioDevice initialized.
+[2023.05.27-12.06.58:082][197]LogAudio: Display: Audio Device (ID: 25) registered with world 'Game_Level'.
+[2023.05.27-12.06.58:107][197]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.27-12.06.58:108][197]LogLoad: Game class is 'Player_GM_C'
+[2023.05.27-12.06.58:137][197]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Game_Level.Game_Level up for play (max tick rate 0) at 2023.05.27-22.06.58
+[2023.05.27-12.06.58:138][197]LogWorld: Bringing up level for play took: 0.030351
+[2023.05.27-12.06.58:141][197]LogOnline: OSS: Created online subsystem instance for: :Context_74
+[2023.05.27-12.06.58:145][197]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.05.27-12.06.58:145][197]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2023.05.27-12.06.58:147][197]PIE: Server logged in
+[2023.05.27-12.06.58:148][197]PIE: Play in editor total start time 0.202 seconds.
+[2023.05.27-12.06.58:224][197]LogViewport: Scene viewport resized to 1914x1000, mode Windowed.
+[2023.05.27-12.07.00:935][366]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2023.05.27-12.07.00:935][366]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2023.05.27-12.07.13:718][146]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.27-12.07.13:718][146]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Game_Level
+[2023.05.27-12.07.13:719][146]LogSlate: Window 'GameJam_1 Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6)' being destroyed
+[2023.05.27-12.07.13:729][146]LogWorld: UWorld::CleanupWorld for Game_Level, bSessionEnded=true, bCleanupResources=true
+[2023.05.27-12.07.13:733][146]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.27-12.07.13:736][146]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.27-12.07.13:745][146]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.27-12.07.13:769][146]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25
+[2023.05.27-12.07.13:771][146]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25
+[2023.05.27-12.07.13:790][146]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2023.05.27-12.07.13:846][147]LogPlayLevel: Display: Destroying online subsystem :Context_74
+[2023.05.27-12.07.14:736][228]Cmd: TRANSACTION UNDO
+[2023.05.27-12.07.14:736][228]LogEditorTransaction: Undo Move Elements
+[2023.05.27-12.07.14:957][237]Cmd: TRANSACTION UNDO
+[2023.05.27-12.07.14:958][237]LogEditorTransaction: Undo Move Elements
+[2023.05.27-12.07.15:309][255]Cmd: TRANSACTION UNDO
+[2023.05.27-12.07.15:309][255]LogEditorTransaction: Undo Rotate Elements
+[2023.05.27-12.07.15:699][289]Cmd: TRANSACTION UNDO
+[2023.05.27-12.07.15:699][289]LogEditorTransaction: Undo Clicking on Elements
+[2023.05.27-12.07.16:164][321]Cmd: TRANSACTION UNDO
+[2023.05.27-12.07.16:164][321]LogEditorTransaction: Undo Move Elements
+[2023.05.27-12.07.16:508][355]Cmd: TRANSACTION UNDO
+[2023.05.27-12.07.16:508][355]LogEditorTransaction: Undo Rotate Elements
+[2023.05.27-12.07.18:267][516]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.27-12.07.18:297][516]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Game_Level" FILE="../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Levels/Game_Level.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.05.27-12.07.18:322][516]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2023.05.27-12.07.18:548][516]LogSavePackage: Moving output files for package: /Game/Levels/Game_Level
+[2023.05.27-12.07.18:549][516]LogSavePackage: Moving '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Saved/Game_Level537BF21142AAD592C44AA5AB352E6090.tmp' to '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Levels/Game_Level.umap'
+[2023.05.27-12.07.18:568][516]LogFileHelpers: Saving map 'Game_Level' took 0.273
+[2023.05.27-12.07.18:602][516]LogFileHelpers: InternalPromptForCheckoutAndSave took 335 ms (total: 30.9 sec)
+[2023.05.27-12.07.18:609][516]AssetCheck: New page: Asset Save: Game_Level
+[2023.05.27-12.07.18:609][516]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Game_Level.Game_Level
+[2023.05.27-12.07.32:906][949]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2023.05.27-12.07.32:911][949]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.27-12.07.32:948][949]LogSavePackage: Moving output files for package: /Game/Assets/Textures/Wall_2x3_TEX/Wall_2x3_MESH_M_Wall_2x3_Roughness
+[2023.05.27-12.07.32:948][949]LogSavePackage: Moving '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Saved/Wall_2x3_MESH_M_Wall_2x3_Roughne7E178AF7411402ECA1A1FCA2A3F8563E.tmp' to '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Assets/Textures/Wall_2x3_TEX/Wall_2x3_MESH_M_Wall_2x3_Roughness.uasset'
+[2023.05.27-12.07.32:960][949]LogSavePackage: Moving output files for package: /Game/Assets/Textures/Wall_2x3_TEX/Wall_2x3_MESH_M_Wall_2x3_BaseColor
+[2023.05.27-12.07.32:960][949]LogSavePackage: Moving '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Saved/Wall_2x3_MESH_M_Wall_2x3_BaseColF7DBFF0D400E5E3014E7D9A90EA4D6D0.tmp' to '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Assets/Textures/Wall_2x3_TEX/Wall_2x3_MESH_M_Wall_2x3_BaseColor.uasset'
+[2023.05.27-12.07.32:971][949]LogSavePackage: Moving output files for package: /Game/Assets/Textures/Wall_2x3_TEX/Wall_2x3_MESH_M_Wall_2x3_Height
+[2023.05.27-12.07.32:971][949]LogSavePackage: Moving '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Saved/Wall_2x3_MESH_M_Wall_2x3_Height0A98D6644F00A2DC1BD2E8BF45E98481.tmp' to '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Assets/Textures/Wall_2x3_TEX/Wall_2x3_MESH_M_Wall_2x3_Height.uasset'
+[2023.05.27-12.07.32:983][949]LogSavePackage: Moving output files for package: /Game/Assets/Textures/Wall_2x3_TEX/Wall_2x3_MESH_M_Wall_2x3_Metallic
+[2023.05.27-12.07.32:983][949]LogSavePackage: Moving '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Saved/Wall_2x3_MESH_M_Wall_2x3_MetalliA2CEF1A24E230685A75A2EBB1891B79C.tmp' to '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Assets/Textures/Wall_2x3_TEX/Wall_2x3_MESH_M_Wall_2x3_Metallic.uasset'
+[2023.05.27-12.07.33:007][949]LogSavePackage: Moving output files for package: /Game/Assets/Textures/Wall_2x3_TEX/Wall_2x3_MESH_M_Wall_2x3_Normal
+[2023.05.27-12.07.33:007][949]LogSavePackage: Moving '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Saved/Wall_2x3_MESH_M_Wall_2x3_NormalB11B72C84001ACBDD5227B8701155B1F.tmp' to '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Assets/Textures/Wall_2x3_TEX/Wall_2x3_MESH_M_Wall_2x3_Normal.uasset'
+[2023.05.27-12.07.33:041][949]LogFileHelpers: InternalPromptForCheckoutAndSave took 130 ms (total: 31.0 sec)
+[2023.05.27-12.07.33:049][949]AssetCheck: New page: Asset Save: multiple assets
+[2023.05.27-12.07.33:049][949]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Assets/Textures/Wall_2x3_TEX/Wall_2x3_MESH_M_Wall_2x3_Normal.Wall_2x3_MESH_M_Wall_2x3_Normal
+[2023.05.27-12.07.33:049][949]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Assets/Textures/Wall_2x3_TEX/Wall_2x3_MESH_M_Wall_2x3_Metallic.Wall_2x3_MESH_M_Wall_2x3_Metallic
+[2023.05.27-12.07.33:049][949]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Assets/Textures/Wall_2x3_TEX/Wall_2x3_MESH_M_Wall_2x3_Height.Wall_2x3_MESH_M_Wall_2x3_Height
+[2023.05.27-12.07.33:049][949]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Assets/Textures/Wall_2x3_TEX/Wall_2x3_MESH_M_Wall_2x3_BaseColor.Wall_2x3_MESH_M_Wall_2x3_BaseColor
+[2023.05.27-12.07.33:049][949]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Assets/Textures/Wall_2x3_TEX/Wall_2x3_MESH_M_Wall_2x3_Roughness.Wall_2x3_MESH_M_Wall_2x3_Roughness
+[2023.05.27-12.07.34:791][108]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.27-12.07.34:821][108]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Game_Level" FILE="../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Levels/Game_Level.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.05.27-12.07.34:845][108]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2023.05.27-12.07.35:072][108]LogSavePackage: Moving output files for package: /Game/Levels/Game_Level
+[2023.05.27-12.07.35:073][108]LogSavePackage: Moving '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Saved/Game_Level87CFBAAF4BE786D4134FE68159622845.tmp' to '../../../../../Unreal_Projects/GameJam_1/GameJam_1/Content/Levels/Game_Level.umap'
+[2023.05.27-12.07.35:093][108]LogFileHelpers: Saving map 'Game_Level' took 0.273
+[2023.05.27-12.07.35:101][108]LogFileHelpers: InternalPromptForCheckoutAndSave took 309 ms (total: 31.3 sec)
+[2023.05.27-12.07.35:114][108]AssetCheck: New page: Asset Save: Game_Level
+[2023.05.27-12.07.35:114][108]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Game_Level.Game_Level
