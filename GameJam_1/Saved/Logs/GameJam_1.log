@@ -5467,3 +5467,43 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.05.27-12.07.35:101][108]LogFileHelpers: InternalPromptForCheckoutAndSave took 309 ms (total: 31.3 sec)
 [2023.05.27-12.07.35:114][108]AssetCheck: New page: Asset Save: Game_Level
 [2023.05.27-12.07.35:114][108]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Game_Level.Game_Level
+[2023.05.27-12.08.10:178][696]LogShaderCompilers: Display: ================================================
+[2023.05.27-12.08.10:179][696]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.05.27-12.08.10:179][696]LogShaderCompilers: Display: Total job queries 1637, among them cache hits 1002 (61.21%)
+[2023.05.27-12.08.10:179][696]LogShaderCompilers: Display: Tracking 635 distinct input hashes that result in 176 distinct outputs (27.72%)
+[2023.05.27-12.08.10:179][696]LogShaderCompilers: Display: RAM used: 4.56 MB (0.00 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.28%
+[2023.05.27-12.08.10:179][696]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.05.27-12.08.10:179][696]LogShaderCompilers: Display: Shaders Compiled: 442
+[2023.05.27-12.08.10:179][696]LogShaderCompilers: Display: Jobs assigned 442, completed 442 (100.00%)
+[2023.05.27-12.08.10:179][696]LogShaderCompilers: Display: Average time worker was idle: 54.11 s
+[2023.05.27-12.08.10:179][696]LogShaderCompilers: Display: Time job spent in pending queue: average 0.13 s, longest 0.99 s
+[2023.05.27-12.08.10:179][696]LogShaderCompilers: Display: Job execution time: average 0.75 s, max 2.63 s
+[2023.05.27-12.08.10:179][696]LogShaderCompilers: Display: Job life time (pending + execution): average 0.87 s, max 2.72
+[2023.05.27-12.08.10:179][696]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 86.58 s
+[2023.05.27-12.08.10:179][696]LogShaderCompilers: Display: Jobs were issued in 442 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.05.27-12.08.10:179][696]LogShaderCompilers: Display: Average processing rate: 5.11 jobs/sec
+[2023.05.27-12.08.10:179][696]LogShaderCompilers: Display: Total thread time: 264.74 s
+[2023.05.27-12.08.10:179][696]LogShaderCompilers: Display: Total thread preprocess time: 15.58 s
+[2023.05.27-12.08.10:179][696]LogShaderCompilers: Display: Percentage time preprocessing: 5.88%
+[2023.05.27-12.08.10:179][696]LogShaderCompilers: Display: Effective parallelization: 3.06 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.05.27-12.08.10:179][696]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.05.27-12.08.10:179][696]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled   16 times, average 0.76 sec, max 0.81 sec, min 0.72 sec)
+[2023.05.27-12.08.10:179][696]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled   16 times, average 0.75 sec, max 0.79 sec, min 0.72 sec)
+[2023.05.27-12.08.10:179][696]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled   16 times, average 0.74 sec, max 0.79 sec, min 0.69 sec)
+[2023.05.27-12.08.10:179][696]LogShaderCompilers: Display:               TBasePassPSFCachedVolumeIndirectLightingPolicy (compiled   16 times, average 0.74 sec, max 0.78 sec, min 0.68 sec)
+[2023.05.27-12.08.10:179][696]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy (compiled   16 times, average 0.74 sec, max 0.79 sec, min 0.68 sec)
+[2023.05.27-12.08.10:179][696]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.05.27-12.08.10:179][696]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 16.52% of total time (compiled   63 times, average 0.69 sec, max 0.87 sec, min 0.60 sec)
+[2023.05.27-12.08.10:179][696]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 15.26% of total time (compiled   63 times, average 0.64 sec, max 0.79 sec, min 0.54 sec)
+[2023.05.27-12.08.10:179][696]LogShaderCompilers: Display:                                                 FLumenCardVS - 13.22% of total time (compiled   61 times, average 0.57 sec, max 0.70 sec, min 0.46 sec)
+[2023.05.27-12.08.10:179][696]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 8.42% of total time (compiled   61 times, average 0.37 sec, max 0.46 sec, min 0.31 sec)
+[2023.05.27-12.08.10:179][696]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 4.62% of total time (compiled   16 times, average 0.76 sec, max 0.81 sec, min 0.72 sec)
+[2023.05.27-12.08.10:179][696]LogShaderCompilers: Display: ================================================
+[2023.05.27-12.08.58:895][242]LogSlate: Window 'Project Settings' being destroyed
+[2023.05.27-12.08.58:903][242]LogSlate: Window 'Project Settings' being destroyed
+[2023.05.27-12.09.03:651][645]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.05.27-12.09.03:652][645]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.05.27-12.09.03:652][645]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.05.27-12.15.22:265][875]LogSlate: Window 'Project Settings' being destroyed
+[2023.05.27-12.15.22:281][875]LogSlate: Window 'Project Settings' being destroyed
+[2023.05.27-12.15.23:628][987]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
