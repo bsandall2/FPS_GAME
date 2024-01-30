@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{9bab839a-1a07-46bb-af9c-8db9911f4865}">
+		<property name="assetPath">
+			<value>Interactables/Box_Impact_2.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>192</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.5590260416666667</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{5cd77b19-3bdf-4be2-a4c7-ba0d2d3c55f3}</destination>
+		</relationship>
+	</object>
+</objects>
