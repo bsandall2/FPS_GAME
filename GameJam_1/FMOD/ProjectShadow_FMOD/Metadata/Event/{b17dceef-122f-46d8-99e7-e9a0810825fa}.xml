@@ -129,7 +129,7 @@
 			<destination>{4d7352f9-d05e-4794-999d-dc2e33e90dab}</destination>
 		</relationship>
 		<relationship name="audioFile">
-			<destination>{4fdcc8d9-c286-4b6d-ab84-01b7b2cee324}</destination>
+			<destination>{1e642ef3-c57c-46f0-a279-f3a1e8ecfb25}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{77467a02-6151-44db-abfc-41d46a503398}">
@@ -239,6 +239,7 @@
 		<relationship name="effects">
 			<destination>{33e4b15c-dd07-44cf-9a16-46c23eb7add5}</destination>
 			<destination>{57e0b8f9-ff70-4547-96b0-8b643fb9e25a}</destination>
+			<destination>{1419d3f6-c1b5-4064-a9f8-fc709fc8e982}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{11c2f6b4-6bee-4900-9278-c979a152f310}" />
@@ -362,6 +363,11 @@
 	<object class="SFXReverbEffect" id="{57e0b8f9-ff70-4547-96b0-8b643fb9e25a}">
 		<property name="decayTime">
 			<value>3500</value>
+		</property>
+	</object>
+	<object class="DistortionEffect" id="{1419d3f6-c1b5-4064-a9f8-fc709fc8e982}">
+		<property name="level">
+			<value>0.349999994</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{c11dd79d-66c1-40a2-affb-5e59683770a7}">
