@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{493aab6b-edae-4eee-9303-21a99c5f6354}">
 		<property name="assetPath">
-			<value>SFX_PlayerSkip.wav</value>
+			<value>UI/SFX_PlayerSkip.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>96</value>
