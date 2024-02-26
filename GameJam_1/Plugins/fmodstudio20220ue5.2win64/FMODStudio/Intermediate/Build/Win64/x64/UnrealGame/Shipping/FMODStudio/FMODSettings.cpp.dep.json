@@ -1,0 +1,20 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "d:\\unreal_projects\\gamejam_1\\gamejam_1\\plugins\\fmodstudio20220ue5.2win64\\fmodstudio\\source\\fmodstudio\\private\\fmodsettings.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\unreal_projects\\gamejam_1\\gamejam_1\\plugins\\fmodstudio20220ue5.2win64\\fmodstudio\\intermediate\\build\\win64\\x64\\unrealgame\\shipping\\fmodstudio\\pch.fmodstudio.h.pch",
+        "Includes": [
+            "d:\\unreal_projects\\gamejam_1\\gamejam_1\\plugins\\fmodstudio20220ue5.2win64\\fmodstudio\\source\\fmodstudio\\classes\\fmodsettings.h",
+            "d:\\unreal_projects\\gamejam_1\\gamejam_1\\plugins\\fmodstudio20220ue5.2win64\\fmodstudio\\source\\fmodstudio\\public\\fmod\\fmod_common.h",
+            "d:\\unreal_projects\\gamejam_1\\gamejam_1\\plugins\\fmodstudio20220ue5.2win64\\fmodstudio\\source\\fmodstudio\\public\\fmod\\fmod_codec.h",
+            "d:\\unreal_projects\\gamejam_1\\gamejam_1\\plugins\\fmodstudio20220ue5.2win64\\fmodstudio\\source\\fmodstudio\\public\\fmod\\fmod_dsp.h",
+            "d:\\unreal_projects\\gamejam_1\\gamejam_1\\plugins\\fmodstudio20220ue5.2win64\\fmodstudio\\source\\fmodstudio\\public\\fmod\\fmod_dsp_effects.h",
+            "d:\\unreal_projects\\gamejam_1\\gamejam_1\\plugins\\fmodstudio20220ue5.2win64\\fmodstudio\\source\\fmodstudio\\public\\fmod\\fmod_output.h",
+            "d:\\unreal_projects\\gamejam_1\\gamejam_1\\plugins\\fmodstudio20220ue5.2win64\\fmodstudio\\intermediate\\build\\win64\\unrealgame\\inc\\fmodstudio\\uht\\fmodsettings.generated.h",
+            "d:\\epic games\\ue_5.2\\engine\\source\\runtime\\core\\public\\misc\\paths.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

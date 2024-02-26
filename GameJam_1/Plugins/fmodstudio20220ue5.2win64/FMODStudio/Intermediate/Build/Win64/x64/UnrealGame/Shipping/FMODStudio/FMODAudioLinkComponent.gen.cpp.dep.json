@@ -1,0 +1,26 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "d:\\unreal_projects\\gamejam_1\\gamejam_1\\plugins\\fmodstudio20220ue5.2win64\\fmodstudio\\intermediate\\build\\win64\\unrealgame\\inc\\fmodstudio\\uht\\fmodaudiolinkcomponent.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\unreal_projects\\gamejam_1\\gamejam_1\\plugins\\fmodstudio20220ue5.2win64\\fmodstudio\\intermediate\\build\\win64\\x64\\unrealgame\\shipping\\fmodstudio\\pch.fmodstudio.h.pch",
+        "Includes": [
+            "d:\\epic games\\ue_5.2\\engine\\source\\runtime\\coreuobject\\public\\uobject\\generatedcppincludes.h",
+            "d:\\epic games\\ue_5.2\\engine\\source\\runtime\\coreuobject\\public\\uobject\\metadata.h",
+            "d:\\epic games\\ue_5.2\\engine\\source\\runtime\\coreuobject\\public\\uobject\\textproperty.h",
+            "d:\\unreal_projects\\gamejam_1\\gamejam_1\\plugins\\fmodstudio20220ue5.2win64\\fmodstudio\\source\\fmodaudiolink\\public\\fmodaudiolinkcomponent.h",
+            "d:\\unreal_projects\\gamejam_1\\gamejam_1\\plugins\\fmodstudio20220ue5.2win64\\fmodstudio\\source\\fmodaudiolink\\public\\fmodaudiolinksettings.h",
+            "d:\\epic games\\ue_5.2\\engine\\source\\runtime\\audiolink\\audiolinkcore\\public\\audiolinksettingsabstract.h",
+            "d:\\epic games\\ue_5.2\\engine\\intermediate\\build\\win64\\unrealgame\\inc\\audiolinkcore\\uht\\audiolinksettingsabstract.generated.h",
+            "d:\\epic games\\ue_5.2\\engine\\source\\runtime\\engine\\classes\\engine\\streamablemanager.h",
+            "d:\\epic games\\ue_5.2\\engine\\source\\runtime\\coreuobject\\public\\uobject\\gcobject.h",
+            "d:\\unreal_projects\\gamejam_1\\gamejam_1\\plugins\\fmodstudio20220ue5.2win64\\fmodstudio\\intermediate\\build\\win64\\unrealgame\\inc\\fmodstudio\\uht\\fmodaudiolinksettings.generated.h",
+            "d:\\epic games\\ue_5.2\\engine\\source\\runtime\\audiolink\\audiolinkengine\\public\\iaudiolink.h",
+            "d:\\epic games\\ue_5.2\\engine\\source\\runtime\\audiolink\\audiolinkengine\\public\\iaudiolinkblueprintinterface.h",
+            "d:\\epic games\\ue_5.2\\engine\\intermediate\\build\\win64\\unrealgame\\inc\\audiolinkengine\\uht\\iaudiolinkblueprintinterface.generated.h",
+            "d:\\unreal_projects\\gamejam_1\\gamejam_1\\plugins\\fmodstudio20220ue5.2win64\\fmodstudio\\intermediate\\build\\win64\\unrealgame\\inc\\fmodstudio\\uht\\fmodaudiolinkcomponent.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
