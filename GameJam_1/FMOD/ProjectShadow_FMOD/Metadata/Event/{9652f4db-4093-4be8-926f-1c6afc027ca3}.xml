@@ -5,7 +5,7 @@
 			<value>Enemy_DiceRoll</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{dd616ab3-db91-431f-81ef-007a81bf05f2}</destination>
@@ -173,6 +173,7 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{c7926a94-5aae-4dd9-9f82-dc33b0e10140}">
 		<relationship name="effects">
+			<destination>{4bf0fa71-6179-4e96-9ec6-64625479e298}</destination>
 			<destination>{8fd054e0-bfa7-4d0a-8e25-1a019d71d3d6}</destination>
 			<destination>{47761375-0773-4e08-a237-553bf2b4597d}</destination>
 		</relationship>
@@ -251,6 +252,14 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{77357b35-3316-4569-afaa-052ef5fd88ca}" />
+	<object class="SpatialiserEffect" id="{4bf0fa71-6179-4e96-9ec6-64625479e298}">
+		<property name="maximumDistance">
+			<value>100</value>
+		</property>
+		<property name="overrideRange">
+			<value>true</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{8fd054e0-bfa7-4d0a-8e25-1a019d71d3d6}" />
 	<object class="SFXReverbEffect" id="{47761375-0773-4e08-a237-553bf2b4597d}">
 		<property name="decayTime">
