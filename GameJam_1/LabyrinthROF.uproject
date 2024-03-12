@@ -18,6 +18,14 @@
 		{
 			"Name": "FMODStudioNiagara",
 			"Enabled": false
+		},
+		{
+			"Name": "OWLLivestreamingToolkit",
+			"Enabled": false,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/92307b570d474fbc87592b973ce82e3b",
+			"SupportedTargetPlatforms": [
+				"Win64"
+			]
 		}
 	],
 	"TargetPlatforms": [
