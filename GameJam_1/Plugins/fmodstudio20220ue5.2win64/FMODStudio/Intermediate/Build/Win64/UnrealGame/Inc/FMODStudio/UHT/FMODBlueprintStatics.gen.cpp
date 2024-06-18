@@ -64,13 +64,13 @@ template<> FMODSTUDIO_API UScriptStruct* StaticStruct<FFMODEventInstance>()
 		nullptr,
 		&NewStructOps,
 		"FMODEventInstance",
-		sizeof(FFMODEventInstance),
-		alignof(FFMODEventInstance),
 		nullptr,
 		0,
+		sizeof(FFMODEventInstance),
+		alignof(FFMODEventInstance),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000001),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FFMODEventInstance_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFMODEventInstance_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFMODEventInstance_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FFMODEventInstance_Statics::Struct_MetaDataParams)
 	};
 	UScriptStruct* Z_Construct_UScriptStruct_FFMODEventInstance()
 	{
@@ -119,11 +119,11 @@ template<> FMODSTUDIO_API UScriptStruct* StaticStruct<FFMODEventInstance>()
 		"EFMOD_STUDIO_STOP_MODE",
 		"EFMOD_STUDIO_STOP_MODE",
 		Z_Construct_UEnum_FMODStudio_EFMOD_STUDIO_STOP_MODE_Statics::Enumerators,
-		UE_ARRAY_COUNT(Z_Construct_UEnum_FMODStudio_EFMOD_STUDIO_STOP_MODE_Statics::Enumerators),
 		RF_Public|RF_Transient|RF_MarkAsNative,
+		UE_ARRAY_COUNT(Z_Construct_UEnum_FMODStudio_EFMOD_STUDIO_STOP_MODE_Statics::Enumerators),
 		EEnumFlags::None,
 		(uint8)UEnum::ECppForm::Regular,
-		METADATA_PARAMS(Z_Construct_UEnum_FMODStudio_EFMOD_STUDIO_STOP_MODE_Statics::Enum_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UEnum_FMODStudio_EFMOD_STUDIO_STOP_MODE_Statics::Enum_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UEnum_FMODStudio_EFMOD_STUDIO_STOP_MODE_Statics::Enum_MetaDataParams), Z_Construct_UEnum_FMODStudio_EFMOD_STUDIO_STOP_MODE_Statics::Enum_MetaDataParams)
 	};
 	UEnum* Z_Construct_UEnum_FMODStudio_EFMOD_STUDIO_STOP_MODE()
 	{
@@ -551,12 +551,12 @@ template<> FMODSTUDIO_API UScriptStruct* StaticStruct<FFMODEventInstance>()
 #endif
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_BusSetMute_Statics::NewProp_Bus = { "Bus", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FMODBlueprintStatics_eventBusSetMute_Parms, Bus), Z_Construct_UClass_UFMODBus_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_BusSetMute_Statics::NewProp_Bus = { "Bus", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FMODBlueprintStatics_eventBusSetMute_Parms, Bus), Z_Construct_UClass_UFMODBus_NoRegister, METADATA_PARAMS(0, nullptr) };
 	void Z_Construct_UFunction_UFMODBlueprintStatics_BusSetMute_Statics::NewProp_bMute_SetBit(void* Obj)
 	{
 		((FMODBlueprintStatics_eventBusSetMute_Parms*)Obj)->bMute = 1;
 	}
-	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_BusSetMute_Statics::NewProp_bMute = { "bMute", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, sizeof(bool), sizeof(FMODBlueprintStatics_eventBusSetMute_Parms), &Z_Construct_UFunction_UFMODBlueprintStatics_BusSetMute_Statics::NewProp_bMute_SetBit, METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_BusSetMute_Statics::NewProp_bMute = { "bMute", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(FMODBlueprintStatics_eventBusSetMute_Parms), &Z_Construct_UFunction_UFMODBlueprintStatics_BusSetMute_Statics::NewProp_bMute_SetBit, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UFMODBlueprintStatics_BusSetMute_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UFMODBlueprintStatics_BusSetMute_Statics::NewProp_Bus,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UFMODBlueprintStatics_BusSetMute_Statics::NewProp_bMute,
@@ -570,7 +570,9 @@ template<> FMODSTUDIO_API UScriptStruct* StaticStruct<FFMODEventInstance>()
 		{ "UnsafeDuringActorConstruction", "true" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UFMODBlueprintStatics_BusSetMute_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UFMODBlueprintStatics, nullptr, "BusSetMute", nullptr, nullptr, sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_BusSetMute_Statics::FMODBlueprintStatics_eventBusSetMute_Parms), Z_Construct_UFunction_UFMODBlueprintStatics_BusSetMute_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_BusSetMute_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UFMODBlueprintStatics_BusSetMute_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_BusSetMute_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UFMODBlueprintStatics_BusSetMute_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UFMODBlueprintStatics, nullptr, "BusSetMute", nullptr, nullptr, Z_Construct_UFunction_UFMODBlueprintStatics_BusSetMute_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_BusSetMute_Statics::PropPointers), sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_BusSetMute_Statics::FMODBlueprintStatics_eventBusSetMute_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_BusSetMute_Statics::Function_MetaDataParams), Z_Construct_UFunction_UFMODBlueprintStatics_BusSetMute_Statics::Function_MetaDataParams) };
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_BusSetMute_Statics::PropPointers) < 2048);
+	static_assert(sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_BusSetMute_Statics::FMODBlueprintStatics_eventBusSetMute_Parms) < MAX_uint16);
 	UFunction* Z_Construct_UFunction_UFMODBlueprintStatics_BusSetMute()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -596,12 +598,12 @@ template<> FMODSTUDIO_API UScriptStruct* StaticStruct<FFMODEventInstance>()
 #endif
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_BusSetPaused_Statics::NewProp_Bus = { "Bus", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FMODBlueprintStatics_eventBusSetPaused_Parms, Bus), Z_Construct_UClass_UFMODBus_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_BusSetPaused_Statics::NewProp_Bus = { "Bus", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FMODBlueprintStatics_eventBusSetPaused_Parms, Bus), Z_Construct_UClass_UFMODBus_NoRegister, METADATA_PARAMS(0, nullptr) };
 	void Z_Construct_UFunction_UFMODBlueprintStatics_BusSetPaused_Statics::NewProp_bPaused_SetBit(void* Obj)
 	{
 		((FMODBlueprintStatics_eventBusSetPaused_Parms*)Obj)->bPaused = 1;
 	}
-	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_BusSetPaused_Statics::NewProp_bPaused = { "bPaused", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, sizeof(bool), sizeof(FMODBlueprintStatics_eventBusSetPaused_Parms), &Z_Construct_UFunction_UFMODBlueprintStatics_BusSetPaused_Statics::NewProp_bPaused_SetBit, METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_BusSetPaused_Statics::NewProp_bPaused = { "bPaused", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(FMODBlueprintStatics_eventBusSetPaused_Parms), &Z_Construct_UFunction_UFMODBlueprintStatics_BusSetPaused_Statics::NewProp_bPaused_SetBit, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UFMODBlueprintStatics_BusSetPaused_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UFMODBlueprintStatics_BusSetPaused_Statics::NewProp_Bus,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UFMODBlueprintStatics_BusSetPaused_Statics::NewProp_bPaused,
@@ -615,7 +617,9 @@ template<> FMODSTUDIO_API UScriptStruct* StaticStruct<FFMODEventInstance>()
 		{ "UnsafeDuringActorConstruction", "true" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UFMODBlueprintStatics_BusSetPaused_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UFMODBlueprintStatics, nullptr, "BusSetPaused", nullptr, nullptr, sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_BusSetPaused_Statics::FMODBlueprintStatics_eventBusSetPaused_Parms), Z_Construct_UFunction_UFMODBlueprintStatics_BusSetPaused_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_BusSetPaused_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UFMODBlueprintStatics_BusSetPaused_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_BusSetPaused_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UFMODBlueprintStatics_BusSetPaused_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UFMODBlueprintStatics, nullptr, "BusSetPaused", nullptr, nullptr, Z_Construct_UFunction_UFMODBlueprintStatics_BusSetPaused_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_BusSetPaused_Statics::PropPointers), sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_BusSetPaused_Statics::FMODBlueprintStatics_eventBusSetPaused_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_BusSetPaused_Statics::Function_MetaDataParams), Z_Construct_UFunction_UFMODBlueprintStatics_BusSetPaused_Statics::Function_MetaDataParams) };
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_BusSetPaused_Statics::PropPointers) < 2048);
+	static_assert(sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_BusSetPaused_Statics::FMODBlueprintStatics_eventBusSetPaused_Parms) < MAX_uint16);
 	UFunction* Z_Construct_UFunction_UFMODBlueprintStatics_BusSetPaused()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -640,8 +644,8 @@ template<> FMODSTUDIO_API UScriptStruct* StaticStruct<FFMODEventInstance>()
 #endif
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_BusSetVolume_Statics::NewProp_Bus = { "Bus", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FMODBlueprintStatics_eventBusSetVolume_Parms, Bus), Z_Construct_UClass_UFMODBus_NoRegister, METADATA_PARAMS(nullptr, 0) };
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_BusSetVolume_Statics::NewProp_Volume = { "Volume", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FMODBlueprintStatics_eventBusSetVolume_Parms, Volume), METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_BusSetVolume_Statics::NewProp_Bus = { "Bus", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FMODBlueprintStatics_eventBusSetVolume_Parms, Bus), Z_Construct_UClass_UFMODBus_NoRegister, METADATA_PARAMS(0, nullptr) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_BusSetVolume_Statics::NewProp_Volume = { "Volume", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FMODBlueprintStatics_eventBusSetVolume_Parms, Volume), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UFMODBlueprintStatics_BusSetVolume_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UFMODBlueprintStatics_BusSetVolume_Statics::NewProp_Bus,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UFMODBlueprintStatics_BusSetVolume_Statics::NewProp_Volume,
@@ -655,7 +659,9 @@ template<> FMODSTUDIO_API UScriptStruct* StaticStruct<FFMODEventInstance>()
 		{ "UnsafeDuringActorConstruction", "true" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UFMODBlueprintStatics_BusSetVolume_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UFMODBlueprintStatics, nullptr, "BusSetVolume", nullptr, nullptr, sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_BusSetVolume_Statics::FMODBlueprintStatics_eventBusSetVolume_Parms), Z_Construct_UFunction_UFMODBlueprintStatics_BusSetVolume_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_BusSetVolume_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UFMODBlueprintStatics_BusSetVolume_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_BusSetVolume_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UFMODBlueprintStatics_BusSetVolume_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UFMODBlueprintStatics, nullptr, "BusSetVolume", nullptr, nullptr, Z_Construct_UFunction_UFMODBlueprintStatics_BusSetVolume_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_BusSetVolume_Statics::PropPointers), sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_BusSetVolume_Statics::FMODBlueprintStatics_eventBusSetVolume_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_BusSetVolume_Statics::Function_MetaDataParams), Z_Construct_UFunction_UFMODBlueprintStatics_BusSetVolume_Statics::Function_MetaDataParams) };
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_BusSetVolume_Statics::PropPointers) < 2048);
+	static_assert(sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_BusSetVolume_Statics::FMODBlueprintStatics_eventBusSetVolume_Parms) < MAX_uint16);
 	UFunction* Z_Construct_UFunction_UFMODBlueprintStatics_BusSetVolume()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -680,8 +686,8 @@ template<> FMODSTUDIO_API UScriptStruct* StaticStruct<FFMODEventInstance>()
 #endif
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_BusStopAllEvents_Statics::NewProp_Bus = { "Bus", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FMODBlueprintStatics_eventBusStopAllEvents_Parms, Bus), Z_Construct_UClass_UFMODBus_NoRegister, METADATA_PARAMS(nullptr, 0) };
-	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_BusStopAllEvents_Statics::NewProp_stopMode = { "stopMode", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FMODBlueprintStatics_eventBusStopAllEvents_Parms, stopMode), Z_Construct_UEnum_FMODStudio_EFMOD_STUDIO_STOP_MODE, METADATA_PARAMS(nullptr, 0) }; // 3570590506
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_BusStopAllEvents_Statics::NewProp_Bus = { "Bus", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FMODBlueprintStatics_eventBusStopAllEvents_Parms, Bus), Z_Construct_UClass_UFMODBus_NoRegister, METADATA_PARAMS(0, nullptr) };
+	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_BusStopAllEvents_Statics::NewProp_stopMode = { "stopMode", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FMODBlueprintStatics_eventBusStopAllEvents_Parms, stopMode), Z_Construct_UEnum_FMODStudio_EFMOD_STUDIO_STOP_MODE, METADATA_PARAMS(0, nullptr) }; // 3643564038
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UFMODBlueprintStatics_BusStopAllEvents_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UFMODBlueprintStatics_BusStopAllEvents_Statics::NewProp_Bus,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UFMODBlueprintStatics_BusStopAllEvents_Statics::NewProp_stopMode,
@@ -695,7 +701,9 @@ template<> FMODSTUDIO_API UScriptStruct* StaticStruct<FFMODEventInstance>()
 		{ "UnsafeDuringActorConstruction", "true" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UFMODBlueprintStatics_BusStopAllEvents_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UFMODBlueprintStatics, nullptr, "BusStopAllEvents", nullptr, nullptr, sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_BusStopAllEvents_Statics::FMODBlueprintStatics_eventBusStopAllEvents_Parms), Z_Construct_UFunction_UFMODBlueprintStatics_BusStopAllEvents_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_BusStopAllEvents_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UFMODBlueprintStatics_BusStopAllEvents_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_BusStopAllEvents_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UFMODBlueprintStatics_BusStopAllEvents_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UFMODBlueprintStatics, nullptr, "BusStopAllEvents", nullptr, nullptr, Z_Construct_UFunction_UFMODBlueprintStatics_BusStopAllEvents_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_BusStopAllEvents_Statics::PropPointers), sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_BusStopAllEvents_Statics::FMODBlueprintStatics_eventBusStopAllEvents_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_BusStopAllEvents_Statics::Function_MetaDataParams), Z_Construct_UFunction_UFMODBlueprintStatics_BusStopAllEvents_Statics::Function_MetaDataParams) };
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_BusStopAllEvents_Statics::PropPointers) < 2048);
+	static_assert(sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_BusStopAllEvents_Statics::FMODBlueprintStatics_eventBusStopAllEvents_Parms) < MAX_uint16);
 	UFunction* Z_Construct_UFunction_UFMODBlueprintStatics_BusStopAllEvents()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -722,9 +730,9 @@ template<> FMODSTUDIO_API UScriptStruct* StaticStruct<FFMODEventInstance>()
 #endif
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceGetParameter_Statics::NewProp_EventInstance = { "EventInstance", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FMODBlueprintStatics_eventEventInstanceGetParameter_Parms, EventInstance), Z_Construct_UScriptStruct_FFMODEventInstance, METADATA_PARAMS(nullptr, 0) }; // 2164700124
-	const UECodeGen_Private::FNamePropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceGetParameter_Statics::NewProp_Name = { "Name", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FMODBlueprintStatics_eventEventInstanceGetParameter_Parms, Name), METADATA_PARAMS(nullptr, 0) };
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceGetParameter_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FMODBlueprintStatics_eventEventInstanceGetParameter_Parms, ReturnValue), METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceGetParameter_Statics::NewProp_EventInstance = { "EventInstance", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FMODBlueprintStatics_eventEventInstanceGetParameter_Parms, EventInstance), Z_Construct_UScriptStruct_FFMODEventInstance, METADATA_PARAMS(0, nullptr) }; // 1332022397
+	const UECodeGen_Private::FNamePropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceGetParameter_Statics::NewProp_Name = { "Name", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FMODBlueprintStatics_eventEventInstanceGetParameter_Parms, Name), METADATA_PARAMS(0, nullptr) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceGetParameter_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FMODBlueprintStatics_eventEventInstanceGetParameter_Parms, ReturnValue), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceGetParameter_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceGetParameter_Statics::NewProp_EventInstance,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceGetParameter_Statics::NewProp_Name,
@@ -739,7 +747,9 @@ template<> FMODSTUDIO_API UScriptStruct* StaticStruct<FFMODEventInstance>()
 		{ "UnsafeDuringActorConstruction", "true" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceGetParameter_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UFMODBlueprintStatics, nullptr, "EventInstanceGetParameter", nullptr, nullptr, sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceGetParameter_Statics::FMODBlueprintStatics_eventEventInstanceGetParameter_Parms), Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceGetParameter_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceGetParameter_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceGetParameter_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceGetParameter_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceGetParameter_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UFMODBlueprintStatics, nullptr, "EventInstanceGetParameter", nullptr, nullptr, Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceGetParameter_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceGetParameter_Statics::PropPointers), sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceGetParameter_Statics::FMODBlueprintStatics_eventEventInstanceGetParameter_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceGetParameter_Statics::Function_MetaDataParams), Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceGetParameter_Statics::Function_MetaDataParams) };
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceGetParameter_Statics::PropPointers) < 2048);
+	static_assert(sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceGetParameter_Statics::FMODBlueprintStatics_eventEventInstanceGetParameter_Parms) < MAX_uint16);
 	UFunction* Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceGetParameter()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -768,10 +778,10 @@ template<> FMODSTUDIO_API UScriptStruct* StaticStruct<FFMODEventInstance>()
 #endif
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceGetParameterValue_Statics::NewProp_EventInstance = { "EventInstance", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FMODBlueprintStatics_eventEventInstanceGetParameterValue_Parms, EventInstance), Z_Construct_UScriptStruct_FFMODEventInstance, METADATA_PARAMS(nullptr, 0) }; // 2164700124
-	const UECodeGen_Private::FNamePropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceGetParameterValue_Statics::NewProp_Name = { "Name", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FMODBlueprintStatics_eventEventInstanceGetParameterValue_Parms, Name), METADATA_PARAMS(nullptr, 0) };
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceGetParameterValue_Statics::NewProp_UserValue = { "UserValue", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FMODBlueprintStatics_eventEventInstanceGetParameterValue_Parms, UserValue), METADATA_PARAMS(nullptr, 0) };
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceGetParameterValue_Statics::NewProp_FinalValue = { "FinalValue", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FMODBlueprintStatics_eventEventInstanceGetParameterValue_Parms, FinalValue), METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceGetParameterValue_Statics::NewProp_EventInstance = { "EventInstance", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FMODBlueprintStatics_eventEventInstanceGetParameterValue_Parms, EventInstance), Z_Construct_UScriptStruct_FFMODEventInstance, METADATA_PARAMS(0, nullptr) }; // 1332022397
+	const UECodeGen_Private::FNamePropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceGetParameterValue_Statics::NewProp_Name = { "Name", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FMODBlueprintStatics_eventEventInstanceGetParameterValue_Parms, Name), METADATA_PARAMS(0, nullptr) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceGetParameterValue_Statics::NewProp_UserValue = { "UserValue", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FMODBlueprintStatics_eventEventInstanceGetParameterValue_Parms, UserValue), METADATA_PARAMS(0, nullptr) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceGetParameterValue_Statics::NewProp_FinalValue = { "FinalValue", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FMODBlueprintStatics_eventEventInstanceGetParameterValue_Parms, FinalValue), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceGetParameterValue_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceGetParameterValue_Statics::NewProp_EventInstance,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceGetParameterValue_Statics::NewProp_Name,
@@ -787,7 +797,9 @@ template<> FMODSTUDIO_API UScriptStruct* StaticStruct<FFMODEventInstance>()
 		{ "UnsafeDuringActorConstruction", "true" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceGetParameterValue_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UFMODBlueprintStatics, nullptr, "EventInstanceGetParameterValue", nullptr, nullptr, sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceGetParameterValue_Statics::FMODBlueprintStatics_eventEventInstanceGetParameterValue_Parms), Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceGetParameterValue_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceGetParameterValue_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04422401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceGetParameterValue_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceGetParameterValue_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceGetParameterValue_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UFMODBlueprintStatics, nullptr, "EventInstanceGetParameterValue", nullptr, nullptr, Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceGetParameterValue_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceGetParameterValue_Statics::PropPointers), sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceGetParameterValue_Statics::FMODBlueprintStatics_eventEventInstanceGetParameterValue_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04422401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceGetParameterValue_Statics::Function_MetaDataParams), Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceGetParameterValue_Statics::Function_MetaDataParams) };
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceGetParameterValue_Statics::PropPointers) < 2048);
+	static_assert(sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceGetParameterValue_Statics::FMODBlueprintStatics_eventEventInstanceGetParameterValue_Parms) < MAX_uint16);
 	UFunction* Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceGetParameterValue()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -813,12 +825,12 @@ template<> FMODSTUDIO_API UScriptStruct* StaticStruct<FFMODEventInstance>()
 #endif
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceIsValid_Statics::NewProp_EventInstance = { "EventInstance", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FMODBlueprintStatics_eventEventInstanceIsValid_Parms, EventInstance), Z_Construct_UScriptStruct_FFMODEventInstance, METADATA_PARAMS(nullptr, 0) }; // 2164700124
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceIsValid_Statics::NewProp_EventInstance = { "EventInstance", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FMODBlueprintStatics_eventEventInstanceIsValid_Parms, EventInstance), Z_Construct_UScriptStruct_FFMODEventInstance, METADATA_PARAMS(0, nullptr) }; // 1332022397
 	void Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceIsValid_Statics::NewProp_ReturnValue_SetBit(void* Obj)
 	{
 		((FMODBlueprintStatics_eventEventInstanceIsValid_Parms*)Obj)->ReturnValue = 1;
 	}
-	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceIsValid_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, sizeof(bool), sizeof(FMODBlueprintStatics_eventEventInstanceIsValid_Parms), &Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceIsValid_Statics::NewProp_ReturnValue_SetBit, METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceIsValid_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(FMODBlueprintStatics_eventEventInstanceIsValid_Parms), &Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceIsValid_Statics::NewProp_ReturnValue_SetBit, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceIsValid_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceIsValid_Statics::NewProp_EventInstance,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceIsValid_Statics::NewProp_ReturnValue,
@@ -832,7 +844,9 @@ template<> FMODSTUDIO_API UScriptStruct* StaticStruct<FFMODEventInstance>()
 		{ "UnsafeDuringActorConstruction", "true" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceIsValid_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UFMODBlueprintStatics, nullptr, "EventInstanceIsValid", nullptr, nullptr, sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceIsValid_Statics::FMODBlueprintStatics_eventEventInstanceIsValid_Parms), Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceIsValid_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceIsValid_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceIsValid_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceIsValid_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceIsValid_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UFMODBlueprintStatics, nullptr, "EventInstanceIsValid", nullptr, nullptr, Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceIsValid_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceIsValid_Statics::PropPointers), sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceIsValid_Statics::FMODBlueprintStatics_eventEventInstanceIsValid_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceIsValid_Statics::Function_MetaDataParams), Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceIsValid_Statics::Function_MetaDataParams) };
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceIsValid_Statics::PropPointers) < 2048);
+	static_assert(sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceIsValid_Statics::FMODBlueprintStatics_eventEventInstanceIsValid_Parms) < MAX_uint16);
 	UFunction* Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceIsValid()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -855,7 +869,7 @@ template<> FMODSTUDIO_API UScriptStruct* StaticStruct<FFMODEventInstance>()
 #endif
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceKeyOff_Statics::NewProp_EventInstance = { "EventInstance", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FMODBlueprintStatics_eventEventInstanceKeyOff_Parms, EventInstance), Z_Construct_UScriptStruct_FFMODEventInstance, METADATA_PARAMS(nullptr, 0) }; // 2164700124
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceKeyOff_Statics::NewProp_EventInstance = { "EventInstance", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FMODBlueprintStatics_eventEventInstanceKeyOff_Parms, EventInstance), Z_Construct_UScriptStruct_FFMODEventInstance, METADATA_PARAMS(0, nullptr) }; // 1332022397
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceKeyOff_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceKeyOff_Statics::NewProp_EventInstance,
 	};
@@ -868,7 +882,9 @@ template<> FMODSTUDIO_API UScriptStruct* StaticStruct<FFMODEventInstance>()
 		{ "UnsafeDuringActorConstruction", "true" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceKeyOff_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UFMODBlueprintStatics, nullptr, "EventInstanceKeyOff", nullptr, nullptr, sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceKeyOff_Statics::FMODBlueprintStatics_eventEventInstanceKeyOff_Parms), Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceKeyOff_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceKeyOff_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceKeyOff_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceKeyOff_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceKeyOff_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UFMODBlueprintStatics, nullptr, "EventInstanceKeyOff", nullptr, nullptr, Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceKeyOff_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceKeyOff_Statics::PropPointers), sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceKeyOff_Statics::FMODBlueprintStatics_eventEventInstanceKeyOff_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceKeyOff_Statics::Function_MetaDataParams), Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceKeyOff_Statics::Function_MetaDataParams) };
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceKeyOff_Statics::PropPointers) < 2048);
+	static_assert(sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceKeyOff_Statics::FMODBlueprintStatics_eventEventInstanceKeyOff_Parms) < MAX_uint16);
 	UFunction* Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceKeyOff()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -891,7 +907,7 @@ template<> FMODSTUDIO_API UScriptStruct* StaticStruct<FFMODEventInstance>()
 #endif
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_EventInstancePlay_Statics::NewProp_EventInstance = { "EventInstance", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FMODBlueprintStatics_eventEventInstancePlay_Parms, EventInstance), Z_Construct_UScriptStruct_FFMODEventInstance, METADATA_PARAMS(nullptr, 0) }; // 2164700124
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_EventInstancePlay_Statics::NewProp_EventInstance = { "EventInstance", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FMODBlueprintStatics_eventEventInstancePlay_Parms, EventInstance), Z_Construct_UScriptStruct_FFMODEventInstance, METADATA_PARAMS(0, nullptr) }; // 1332022397
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UFMODBlueprintStatics_EventInstancePlay_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UFMODBlueprintStatics_EventInstancePlay_Statics::NewProp_EventInstance,
 	};
@@ -904,7 +920,9 @@ template<> FMODSTUDIO_API UScriptStruct* StaticStruct<FFMODEventInstance>()
 		{ "UnsafeDuringActorConstruction", "true" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UFMODBlueprintStatics_EventInstancePlay_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UFMODBlueprintStatics, nullptr, "EventInstancePlay", nullptr, nullptr, sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstancePlay_Statics::FMODBlueprintStatics_eventEventInstancePlay_Parms), Z_Construct_UFunction_UFMODBlueprintStatics_EventInstancePlay_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstancePlay_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstancePlay_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstancePlay_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UFMODBlueprintStatics_EventInstancePlay_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UFMODBlueprintStatics, nullptr, "EventInstancePlay", nullptr, nullptr, Z_Construct_UFunction_UFMODBlueprintStatics_EventInstancePlay_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstancePlay_Statics::PropPointers), sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstancePlay_Statics::FMODBlueprintStatics_eventEventInstancePlay_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstancePlay_Statics::Function_MetaDataParams), Z_Construct_UFunction_UFMODBlueprintStatics_EventInstancePlay_Statics::Function_MetaDataParams) };
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstancePlay_Statics::PropPointers) < 2048);
+	static_assert(sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstancePlay_Statics::FMODBlueprintStatics_eventEventInstancePlay_Parms) < MAX_uint16);
 	UFunction* Z_Construct_UFunction_UFMODBlueprintStatics_EventInstancePlay()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -927,7 +945,7 @@ template<> FMODSTUDIO_API UScriptStruct* StaticStruct<FFMODEventInstance>()
 #endif
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceRelease_Statics::NewProp_EventInstance = { "EventInstance", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FMODBlueprintStatics_eventEventInstanceRelease_Parms, EventInstance), Z_Construct_UScriptStruct_FFMODEventInstance, METADATA_PARAMS(nullptr, 0) }; // 2164700124
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceRelease_Statics::NewProp_EventInstance = { "EventInstance", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FMODBlueprintStatics_eventEventInstanceRelease_Parms, EventInstance), Z_Construct_UScriptStruct_FFMODEventInstance, METADATA_PARAMS(0, nullptr) }; // 1332022397
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceRelease_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceRelease_Statics::NewProp_EventInstance,
 	};
@@ -940,7 +958,9 @@ template<> FMODSTUDIO_API UScriptStruct* StaticStruct<FFMODEventInstance>()
 		{ "UnsafeDuringActorConstruction", "true" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceRelease_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UFMODBlueprintStatics, nullptr, "EventInstanceRelease", nullptr, nullptr, sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceRelease_Statics::FMODBlueprintStatics_eventEventInstanceRelease_Parms), Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceRelease_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceRelease_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceRelease_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceRelease_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceRelease_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UFMODBlueprintStatics, nullptr, "EventInstanceRelease", nullptr, nullptr, Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceRelease_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceRelease_Statics::PropPointers), sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceRelease_Statics::FMODBlueprintStatics_eventEventInstanceRelease_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceRelease_Statics::Function_MetaDataParams), Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceRelease_Statics::Function_MetaDataParams) };
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceRelease_Statics::PropPointers) < 2048);
+	static_assert(sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceRelease_Statics::FMODBlueprintStatics_eventEventInstanceRelease_Parms) < MAX_uint16);
 	UFunction* Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceRelease()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -967,9 +987,9 @@ template<> FMODSTUDIO_API UScriptStruct* StaticStruct<FFMODEventInstance>()
 #endif
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetParameter_Statics::NewProp_EventInstance = { "EventInstance", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FMODBlueprintStatics_eventEventInstanceSetParameter_Parms, EventInstance), Z_Construct_UScriptStruct_FFMODEventInstance, METADATA_PARAMS(nullptr, 0) }; // 2164700124
-	const UECodeGen_Private::FNamePropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetParameter_Statics::NewProp_Name = { "Name", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FMODBlueprintStatics_eventEventInstanceSetParameter_Parms, Name), METADATA_PARAMS(nullptr, 0) };
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetParameter_Statics::NewProp_Value = { "Value", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FMODBlueprintStatics_eventEventInstanceSetParameter_Parms, Value), METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetParameter_Statics::NewProp_EventInstance = { "EventInstance", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FMODBlueprintStatics_eventEventInstanceSetParameter_Parms, EventInstance), Z_Construct_UScriptStruct_FFMODEventInstance, METADATA_PARAMS(0, nullptr) }; // 1332022397
+	const UECodeGen_Private::FNamePropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetParameter_Statics::NewProp_Name = { "Name", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FMODBlueprintStatics_eventEventInstanceSetParameter_Parms, Name), METADATA_PARAMS(0, nullptr) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetParameter_Statics::NewProp_Value = { "Value", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FMODBlueprintStatics_eventEventInstanceSetParameter_Parms, Value), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetParameter_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetParameter_Statics::NewProp_EventInstance,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetParameter_Statics::NewProp_Name,
@@ -984,7 +1004,9 @@ template<> FMODSTUDIO_API UScriptStruct* StaticStruct<FFMODEventInstance>()
 		{ "UnsafeDuringActorConstruction", "true" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetParameter_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UFMODBlueprintStatics, nullptr, "EventInstanceSetParameter", nullptr, nullptr, sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetParameter_Statics::FMODBlueprintStatics_eventEventInstanceSetParameter_Parms), Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetParameter_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetParameter_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetParameter_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetParameter_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetParameter_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UFMODBlueprintStatics, nullptr, "EventInstanceSetParameter", nullptr, nullptr, Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetParameter_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetParameter_Statics::PropPointers), sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetParameter_Statics::FMODBlueprintStatics_eventEventInstanceSetParameter_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetParameter_Statics::Function_MetaDataParams), Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetParameter_Statics::Function_MetaDataParams) };
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetParameter_Statics::PropPointers) < 2048);
+	static_assert(sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetParameter_Statics::FMODBlueprintStatics_eventEventInstanceSetParameter_Parms) < MAX_uint16);
 	UFunction* Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetParameter()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -1010,12 +1032,12 @@ template<> FMODSTUDIO_API UScriptStruct* StaticStruct<FFMODEventInstance>()
 #endif
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetPaused_Statics::NewProp_EventInstance = { "EventInstance", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FMODBlueprintStatics_eventEventInstanceSetPaused_Parms, EventInstance), Z_Construct_UScriptStruct_FFMODEventInstance, METADATA_PARAMS(nullptr, 0) }; // 2164700124
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetPaused_Statics::NewProp_EventInstance = { "EventInstance", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FMODBlueprintStatics_eventEventInstanceSetPaused_Parms, EventInstance), Z_Construct_UScriptStruct_FFMODEventInstance, METADATA_PARAMS(0, nullptr) }; // 1332022397
 	void Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetPaused_Statics::NewProp_Paused_SetBit(void* Obj)
 	{
 		((FMODBlueprintStatics_eventEventInstanceSetPaused_Parms*)Obj)->Paused = 1;
 	}
-	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetPaused_Statics::NewProp_Paused = { "Paused", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, sizeof(bool), sizeof(FMODBlueprintStatics_eventEventInstanceSetPaused_Parms), &Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetPaused_Statics::NewProp_Paused_SetBit, METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetPaused_Statics::NewProp_Paused = { "Paused", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(FMODBlueprintStatics_eventEventInstanceSetPaused_Parms), &Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetPaused_Statics::NewProp_Paused_SetBit, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetPaused_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetPaused_Statics::NewProp_EventInstance,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetPaused_Statics::NewProp_Paused,
@@ -1029,7 +1051,9 @@ template<> FMODSTUDIO_API UScriptStruct* StaticStruct<FFMODEventInstance>()
 		{ "UnsafeDuringActorConstruction", "true" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetPaused_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UFMODBlueprintStatics, nullptr, "EventInstanceSetPaused", nullptr, nullptr, sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetPaused_Statics::FMODBlueprintStatics_eventEventInstanceSetPaused_Parms), Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetPaused_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetPaused_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetPaused_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetPaused_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetPaused_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UFMODBlueprintStatics, nullptr, "EventInstanceSetPaused", nullptr, nullptr, Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetPaused_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetPaused_Statics::PropPointers), sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetPaused_Statics::FMODBlueprintStatics_eventEventInstanceSetPaused_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetPaused_Statics::Function_MetaDataParams), Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetPaused_Statics::Function_MetaDataParams) };
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetPaused_Statics::PropPointers) < 2048);
+	static_assert(sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetPaused_Statics::FMODBlueprintStatics_eventEventInstanceSetPaused_Parms) < MAX_uint16);
 	UFunction* Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetPaused()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -1054,8 +1078,8 @@ template<> FMODSTUDIO_API UScriptStruct* StaticStruct<FFMODEventInstance>()
 #endif
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetPitch_Statics::NewProp_EventInstance = { "EventInstance", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FMODBlueprintStatics_eventEventInstanceSetPitch_Parms, EventInstance), Z_Construct_UScriptStruct_FFMODEventInstance, METADATA_PARAMS(nullptr, 0) }; // 2164700124
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetPitch_Statics::NewProp_Pitch = { "Pitch", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FMODBlueprintStatics_eventEventInstanceSetPitch_Parms, Pitch), METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetPitch_Statics::NewProp_EventInstance = { "EventInstance", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FMODBlueprintStatics_eventEventInstanceSetPitch_Parms, EventInstance), Z_Construct_UScriptStruct_FFMODEventInstance, METADATA_PARAMS(0, nullptr) }; // 1332022397
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetPitch_Statics::NewProp_Pitch = { "Pitch", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FMODBlueprintStatics_eventEventInstanceSetPitch_Parms, Pitch), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetPitch_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetPitch_Statics::NewProp_EventInstance,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetPitch_Statics::NewProp_Pitch,
@@ -1069,7 +1093,9 @@ template<> FMODSTUDIO_API UScriptStruct* StaticStruct<FFMODEventInstance>()
 		{ "UnsafeDuringActorConstruction", "true" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetPitch_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UFMODBlueprintStatics, nullptr, "EventInstanceSetPitch", nullptr, nullptr, sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetPitch_Statics::FMODBlueprintStatics_eventEventInstanceSetPitch_Parms), Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetPitch_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetPitch_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetPitch_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetPitch_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetPitch_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UFMODBlueprintStatics, nullptr, "EventInstanceSetPitch", nullptr, nullptr, Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetPitch_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetPitch_Statics::PropPointers), sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetPitch_Statics::FMODBlueprintStatics_eventEventInstanceSetPitch_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetPitch_Statics::Function_MetaDataParams), Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetPitch_Statics::Function_MetaDataParams) };
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetPitch_Statics::PropPointers) < 2048);
+	static_assert(sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetPitch_Statics::FMODBlueprintStatics_eventEventInstanceSetPitch_Parms) < MAX_uint16);
 	UFunction* Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetPitch()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -1096,9 +1122,9 @@ template<> FMODSTUDIO_API UScriptStruct* StaticStruct<FFMODEventInstance>()
 #endif
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetProperty_Statics::NewProp_EventInstance = { "EventInstance", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FMODBlueprintStatics_eventEventInstanceSetProperty_Parms, EventInstance), Z_Construct_UScriptStruct_FFMODEventInstance, METADATA_PARAMS(nullptr, 0) }; // 2164700124
-	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetProperty_Statics::NewProp_Property = { "Property", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FMODBlueprintStatics_eventEventInstanceSetProperty_Parms, Property), Z_Construct_UEnum_FMODStudio_EFMODEventProperty, METADATA_PARAMS(nullptr, 0) }; // 2209603180
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetProperty_Statics::NewProp_Value = { "Value", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FMODBlueprintStatics_eventEventInstanceSetProperty_Parms, Value), METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetProperty_Statics::NewProp_EventInstance = { "EventInstance", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FMODBlueprintStatics_eventEventInstanceSetProperty_Parms, EventInstance), Z_Construct_UScriptStruct_FFMODEventInstance, METADATA_PARAMS(0, nullptr) }; // 1332022397
+	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetProperty_Statics::NewProp_Property = { "Property", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FMODBlueprintStatics_eventEventInstanceSetProperty_Parms, Property), Z_Construct_UEnum_FMODStudio_EFMODEventProperty, METADATA_PARAMS(0, nullptr) }; // 2440503207
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetProperty_Statics::NewProp_Value = { "Value", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FMODBlueprintStatics_eventEventInstanceSetProperty_Parms, Value), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetProperty_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetProperty_Statics::NewProp_EventInstance,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetProperty_Statics::NewProp_Property,
@@ -1113,7 +1139,9 @@ template<> FMODSTUDIO_API UScriptStruct* StaticStruct<FFMODEventInstance>()
 		{ "UnsafeDuringActorConstruction", "true" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetProperty_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UFMODBlueprintStatics, nullptr, "EventInstanceSetProperty", nullptr, nullptr, sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetProperty_Statics::FMODBlueprintStatics_eventEventInstanceSetProperty_Parms), Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetProperty_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetProperty_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetProperty_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetProperty_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetProperty_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UFMODBlueprintStatics, nullptr, "EventInstanceSetProperty", nullptr, nullptr, Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetProperty_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetProperty_Statics::PropPointers), sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetProperty_Statics::FMODBlueprintStatics_eventEventInstanceSetProperty_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetProperty_Statics::Function_MetaDataParams), Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetProperty_Statics::Function_MetaDataParams) };
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetProperty_Statics::PropPointers) < 2048);
+	static_assert(sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetProperty_Statics::FMODBlueprintStatics_eventEventInstanceSetProperty_Parms) < MAX_uint16);
 	UFunction* Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetProperty()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -1141,13 +1169,13 @@ template<> FMODSTUDIO_API UScriptStruct* StaticStruct<FFMODEventInstance>()
 #endif
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetTransform_Statics::NewProp_EventInstance = { "EventInstance", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FMODBlueprintStatics_eventEventInstanceSetTransform_Parms, EventInstance), Z_Construct_UScriptStruct_FFMODEventInstance, METADATA_PARAMS(nullptr, 0) }; // 2164700124
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetTransform_Statics::NewProp_EventInstance = { "EventInstance", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FMODBlueprintStatics_eventEventInstanceSetTransform_Parms, EventInstance), Z_Construct_UScriptStruct_FFMODEventInstance, METADATA_PARAMS(0, nullptr) }; // 1332022397
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetTransform_Statics::NewProp_Location_MetaData[] = {
 		{ "NativeConst", "" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetTransform_Statics::NewProp_Location = { "Location", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FMODBlueprintStatics_eventEventInstanceSetTransform_Parms, Location), Z_Construct_UScriptStruct_FTransform, METADATA_PARAMS(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetTransform_Statics::NewProp_Location_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetTransform_Statics::NewProp_Location_MetaData)) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetTransform_Statics::NewProp_Location = { "Location", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FMODBlueprintStatics_eventEventInstanceSetTransform_Parms, Location), Z_Construct_UScriptStruct_FTransform, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetTransform_Statics::NewProp_Location_MetaData), Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetTransform_Statics::NewProp_Location_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetTransform_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetTransform_Statics::NewProp_EventInstance,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetTransform_Statics::NewProp_Location,
@@ -1161,7 +1189,9 @@ template<> FMODSTUDIO_API UScriptStruct* StaticStruct<FFMODEventInstance>()
 		{ "UnsafeDuringActorConstruction", "true" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetTransform_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UFMODBlueprintStatics, nullptr, "EventInstanceSetTransform", nullptr, nullptr, sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetTransform_Statics::FMODBlueprintStatics_eventEventInstanceSetTransform_Parms), Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetTransform_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetTransform_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04C22401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetTransform_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetTransform_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetTransform_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UFMODBlueprintStatics, nullptr, "EventInstanceSetTransform", nullptr, nullptr, Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetTransform_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetTransform_Statics::PropPointers), sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetTransform_Statics::FMODBlueprintStatics_eventEventInstanceSetTransform_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04C22401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetTransform_Statics::Function_MetaDataParams), Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetTransform_Statics::Function_MetaDataParams) };
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetTransform_Statics::PropPointers) < 2048);
+	static_assert(sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetTransform_Statics::FMODBlueprintStatics_eventEventInstanceSetTransform_Parms) < MAX_uint16);
 	UFunction* Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetTransform()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -1186,8 +1216,8 @@ template<> FMODSTUDIO_API UScriptStruct* StaticStruct<FFMODEventInstance>()
 #endif
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetVolume_Statics::NewProp_EventInstance = { "EventInstance", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FMODBlueprintStatics_eventEventInstanceSetVolume_Parms, EventInstance), Z_Construct_UScriptStruct_FFMODEventInstance, METADATA_PARAMS(nullptr, 0) }; // 2164700124
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetVolume_Statics::NewProp_Volume = { "Volume", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FMODBlueprintStatics_eventEventInstanceSetVolume_Parms, Volume), METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetVolume_Statics::NewProp_EventInstance = { "EventInstance", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FMODBlueprintStatics_eventEventInstanceSetVolume_Parms, EventInstance), Z_Construct_UScriptStruct_FFMODEventInstance, METADATA_PARAMS(0, nullptr) }; // 1332022397
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetVolume_Statics::NewProp_Volume = { "Volume", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FMODBlueprintStatics_eventEventInstanceSetVolume_Parms, Volume), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetVolume_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetVolume_Statics::NewProp_EventInstance,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetVolume_Statics::NewProp_Volume,
@@ -1201,7 +1231,9 @@ template<> FMODSTUDIO_API UScriptStruct* StaticStruct<FFMODEventInstance>()
 		{ "UnsafeDuringActorConstruction", "true" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetVolume_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UFMODBlueprintStatics, nullptr, "EventInstanceSetVolume", nullptr, nullptr, sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetVolume_Statics::FMODBlueprintStatics_eventEventInstanceSetVolume_Parms), Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetVolume_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetVolume_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetVolume_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetVolume_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetVolume_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UFMODBlueprintStatics, nullptr, "EventInstanceSetVolume", nullptr, nullptr, Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetVolume_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetVolume_Statics::PropPointers), sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetVolume_Statics::FMODBlueprintStatics_eventEventInstanceSetVolume_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetVolume_Statics::Function_MetaDataParams), Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetVolume_Statics::Function_MetaDataParams) };
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetVolume_Statics::PropPointers) < 2048);
+	static_assert(sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetVolume_Statics::FMODBlueprintStatics_eventEventInstanceSetVolume_Parms) < MAX_uint16);
 	UFunction* Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetVolume()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -1227,12 +1259,12 @@ template<> FMODSTUDIO_API UScriptStruct* StaticStruct<FFMODEventInstance>()
 #endif
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceStop_Statics::NewProp_EventInstance = { "EventInstance", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FMODBlueprintStatics_eventEventInstanceStop_Parms, EventInstance), Z_Construct_UScriptStruct_FFMODEventInstance, METADATA_PARAMS(nullptr, 0) }; // 2164700124
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceStop_Statics::NewProp_EventInstance = { "EventInstance", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FMODBlueprintStatics_eventEventInstanceStop_Parms, EventInstance), Z_Construct_UScriptStruct_FFMODEventInstance, METADATA_PARAMS(0, nullptr) }; // 1332022397
 	void Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceStop_Statics::NewProp_Release_SetBit(void* Obj)
 	{
 		((FMODBlueprintStatics_eventEventInstanceStop_Parms*)Obj)->Release = 1;
 	}
-	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceStop_Statics::NewProp_Release = { "Release", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, sizeof(bool), sizeof(FMODBlueprintStatics_eventEventInstanceStop_Parms), &Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceStop_Statics::NewProp_Release_SetBit, METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceStop_Statics::NewProp_Release = { "Release", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(FMODBlueprintStatics_eventEventInstanceStop_Parms), &Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceStop_Statics::NewProp_Release_SetBit, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceStop_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceStop_Statics::NewProp_EventInstance,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceStop_Statics::NewProp_Release,
@@ -1247,7 +1279,9 @@ template<> FMODSTUDIO_API UScriptStruct* StaticStruct<FFMODEventInstance>()
 		{ "UnsafeDuringActorConstruction", "true" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceStop_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UFMODBlueprintStatics, nullptr, "EventInstanceStop", nullptr, nullptr, sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceStop_Statics::FMODBlueprintStatics_eventEventInstanceStop_Parms), Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceStop_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceStop_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceStop_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceStop_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceStop_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UFMODBlueprintStatics, nullptr, "EventInstanceStop", nullptr, nullptr, Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceStop_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceStop_Statics::PropPointers), sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceStop_Statics::FMODBlueprintStatics_eventEventInstanceStop_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceStop_Statics::Function_MetaDataParams), Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceStop_Statics::Function_MetaDataParams) };
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceStop_Statics::PropPointers) < 2048);
+	static_assert(sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceStop_Statics::FMODBlueprintStatics_eventEventInstanceStop_Parms) < MAX_uint16);
 	UFunction* Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceStop()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -1280,8 +1314,8 @@ template<> FMODSTUDIO_API UScriptStruct* StaticStruct<FFMODEventInstance>()
 		{ "NativeConst", "" },
 	};
 #endif
-	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_FindAssetByName_Statics::NewProp_Name = { "Name", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FMODBlueprintStatics_eventFindAssetByName_Parms, Name), METADATA_PARAMS(Z_Construct_UFunction_UFMODBlueprintStatics_FindAssetByName_Statics::NewProp_Name_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_FindAssetByName_Statics::NewProp_Name_MetaData)) };
-	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_FindAssetByName_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FMODBlueprintStatics_eventFindAssetByName_Parms, ReturnValue), Z_Construct_UClass_UFMODAsset_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_FindAssetByName_Statics::NewProp_Name = { "Name", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FMODBlueprintStatics_eventFindAssetByName_Parms, Name), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_FindAssetByName_Statics::NewProp_Name_MetaData), Z_Construct_UFunction_UFMODBlueprintStatics_FindAssetByName_Statics::NewProp_Name_MetaData) };
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_FindAssetByName_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FMODBlueprintStatics_eventFindAssetByName_Parms, ReturnValue), Z_Construct_UClass_UFMODAsset_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UFMODBlueprintStatics_FindAssetByName_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UFMODBlueprintStatics_FindAssetByName_Statics::NewProp_Name,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UFMODBlueprintStatics_FindAssetByName_Statics::NewProp_ReturnValue,
@@ -1294,7 +1328,9 @@ template<> FMODSTUDIO_API UScriptStruct* StaticStruct<FFMODEventInstance>()
 		{ "ToolTip", "Find an asset by name.\n@param EventName - The asset name" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UFMODBlueprintStatics_FindAssetByName_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UFMODBlueprintStatics, nullptr, "FindAssetByName", nullptr, nullptr, sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_FindAssetByName_Statics::FMODBlueprintStatics_eventFindAssetByName_Parms), Z_Construct_UFunction_UFMODBlueprintStatics_FindAssetByName_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_FindAssetByName_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UFMODBlueprintStatics_FindAssetByName_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_FindAssetByName_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UFMODBlueprintStatics_FindAssetByName_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UFMODBlueprintStatics, nullptr, "FindAssetByName", nullptr, nullptr, Z_Construct_UFunction_UFMODBlueprintStatics_FindAssetByName_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_FindAssetByName_Statics::PropPointers), sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_FindAssetByName_Statics::FMODBlueprintStatics_eventFindAssetByName_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_FindAssetByName_Statics::Function_MetaDataParams), Z_Construct_UFunction_UFMODBlueprintStatics_FindAssetByName_Statics::Function_MetaDataParams) };
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_FindAssetByName_Statics::PropPointers) < 2048);
+	static_assert(sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_FindAssetByName_Statics::FMODBlueprintStatics_eventFindAssetByName_Parms) < MAX_uint16);
 	UFunction* Z_Construct_UFunction_UFMODBlueprintStatics_FindAssetByName()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -1327,8 +1363,8 @@ template<> FMODSTUDIO_API UScriptStruct* StaticStruct<FFMODEventInstance>()
 		{ "NativeConst", "" },
 	};
 #endif
-	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_FindEventByName_Statics::NewProp_Name = { "Name", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FMODBlueprintStatics_eventFindEventByName_Parms, Name), METADATA_PARAMS(Z_Construct_UFunction_UFMODBlueprintStatics_FindEventByName_Statics::NewProp_Name_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_FindEventByName_Statics::NewProp_Name_MetaData)) };
-	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_FindEventByName_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FMODBlueprintStatics_eventFindEventByName_Parms, ReturnValue), Z_Construct_UClass_UFMODEvent_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_FindEventByName_Statics::NewProp_Name = { "Name", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FMODBlueprintStatics_eventFindEventByName_Parms, Name), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_FindEventByName_Statics::NewProp_Name_MetaData), Z_Construct_UFunction_UFMODBlueprintStatics_FindEventByName_Statics::NewProp_Name_MetaData) };
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_FindEventByName_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FMODBlueprintStatics_eventFindEventByName_Parms, ReturnValue), Z_Construct_UClass_UFMODEvent_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UFMODBlueprintStatics_FindEventByName_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UFMODBlueprintStatics_FindEventByName_Statics::NewProp_Name,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UFMODBlueprintStatics_FindEventByName_Statics::NewProp_ReturnValue,
@@ -1341,7 +1377,9 @@ template<> FMODSTUDIO_API UScriptStruct* StaticStruct<FFMODEventInstance>()
 		{ "ToolTip", "Find an event by name.\n@param EventName - The event name" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UFMODBlueprintStatics_FindEventByName_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UFMODBlueprintStatics, nullptr, "FindEventByName", nullptr, nullptr, sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_FindEventByName_Statics::FMODBlueprintStatics_eventFindEventByName_Parms), Z_Construct_UFunction_UFMODBlueprintStatics_FindEventByName_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_FindEventByName_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UFMODBlueprintStatics_FindEventByName_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_FindEventByName_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UFMODBlueprintStatics_FindEventByName_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UFMODBlueprintStatics, nullptr, "FindEventByName", nullptr, nullptr, Z_Construct_UFunction_UFMODBlueprintStatics_FindEventByName_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_FindEventByName_Statics::PropPointers), sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_FindEventByName_Statics::FMODBlueprintStatics_eventFindEventByName_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_FindEventByName_Statics::Function_MetaDataParams), Z_Construct_UFunction_UFMODBlueprintStatics_FindEventByName_Statics::Function_MetaDataParams) };
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_FindEventByName_Statics::PropPointers) < 2048);
+	static_assert(sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_FindEventByName_Statics::FMODBlueprintStatics_eventFindEventByName_Parms) < MAX_uint16);
 	UFunction* Z_Construct_UFunction_UFMODBlueprintStatics_FindEventByName()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -1369,10 +1407,10 @@ template<> FMODSTUDIO_API UScriptStruct* StaticStruct<FFMODEventInstance>()
 #endif
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_FindEventInstances_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FMODBlueprintStatics_eventFindEventInstances_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(nullptr, 0) };
-	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_FindEventInstances_Statics::NewProp_Event = { "Event", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FMODBlueprintStatics_eventFindEventInstances_Parms, Event), Z_Construct_UClass_UFMODEvent_NoRegister, METADATA_PARAMS(nullptr, 0) };
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_FindEventInstances_Statics::NewProp_ReturnValue_Inner = { "ReturnValue", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, 0, Z_Construct_UScriptStruct_FFMODEventInstance, METADATA_PARAMS(nullptr, 0) }; // 2164700124
-	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_FindEventInstances_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FMODBlueprintStatics_eventFindEventInstances_Parms, ReturnValue), EArrayPropertyFlags::None, METADATA_PARAMS(nullptr, 0) }; // 2164700124
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_FindEventInstances_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FMODBlueprintStatics_eventFindEventInstances_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_FindEventInstances_Statics::NewProp_Event = { "Event", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FMODBlueprintStatics_eventFindEventInstances_Parms, Event), Z_Construct_UClass_UFMODEvent_NoRegister, METADATA_PARAMS(0, nullptr) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_FindEventInstances_Statics::NewProp_ReturnValue_Inner = { "ReturnValue", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FFMODEventInstance, METADATA_PARAMS(0, nullptr) }; // 1332022397
+	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_FindEventInstances_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FMODBlueprintStatics_eventFindEventInstances_Parms, ReturnValue), EArrayPropertyFlags::None, METADATA_PARAMS(0, nullptr) }; // 1332022397
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UFMODBlueprintStatics_FindEventInstances_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UFMODBlueprintStatics_FindEventInstances_Statics::NewProp_WorldContextObject,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UFMODBlueprintStatics_FindEventInstances_Statics::NewProp_Event,
@@ -1390,7 +1428,9 @@ template<> FMODSTUDIO_API UScriptStruct* StaticStruct<FFMODEventInstance>()
 		{ "UnsafeDuringActorConstruction", "true" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UFMODBlueprintStatics_FindEventInstances_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UFMODBlueprintStatics, nullptr, "FindEventInstances", nullptr, nullptr, sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_FindEventInstances_Statics::FMODBlueprintStatics_eventFindEventInstances_Parms), Z_Construct_UFunction_UFMODBlueprintStatics_FindEventInstances_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_FindEventInstances_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UFMODBlueprintStatics_FindEventInstances_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_FindEventInstances_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UFMODBlueprintStatics_FindEventInstances_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UFMODBlueprintStatics, nullptr, "FindEventInstances", nullptr, nullptr, Z_Construct_UFunction_UFMODBlueprintStatics_FindEventInstances_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_FindEventInstances_Statics::PropPointers), sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_FindEventInstances_Statics::FMODBlueprintStatics_eventFindEventInstances_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_FindEventInstances_Statics::Function_MetaDataParams), Z_Construct_UFunction_UFMODBlueprintStatics_FindEventInstances_Statics::Function_MetaDataParams) };
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_FindEventInstances_Statics::PropPointers) < 2048);
+	static_assert(sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_FindEventInstances_Statics::FMODBlueprintStatics_eventFindEventInstances_Parms) < MAX_uint16);
 	UFunction* Z_Construct_UFunction_UFMODBlueprintStatics_FindEventInstances()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -1415,8 +1455,8 @@ template<> FMODSTUDIO_API UScriptStruct* StaticStruct<FFMODEventInstance>()
 #endif
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UECodeGen_Private::FNamePropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_GetGlobalParameterByName_Statics::NewProp_Name = { "Name", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FMODBlueprintStatics_eventGetGlobalParameterByName_Parms, Name), METADATA_PARAMS(nullptr, 0) };
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_GetGlobalParameterByName_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FMODBlueprintStatics_eventGetGlobalParameterByName_Parms, ReturnValue), METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FNamePropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_GetGlobalParameterByName_Statics::NewProp_Name = { "Name", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FMODBlueprintStatics_eventGetGlobalParameterByName_Parms, Name), METADATA_PARAMS(0, nullptr) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_GetGlobalParameterByName_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FMODBlueprintStatics_eventGetGlobalParameterByName_Parms, ReturnValue), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UFMODBlueprintStatics_GetGlobalParameterByName_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UFMODBlueprintStatics_GetGlobalParameterByName_Statics::NewProp_Name,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UFMODBlueprintStatics_GetGlobalParameterByName_Statics::NewProp_ReturnValue,
@@ -1430,7 +1470,9 @@ template<> FMODSTUDIO_API UScriptStruct* StaticStruct<FFMODEventInstance>()
 		{ "UnsafeDuringActorConstruction", "true" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UFMODBlueprintStatics_GetGlobalParameterByName_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UFMODBlueprintStatics, nullptr, "GetGlobalParameterByName", nullptr, nullptr, sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_GetGlobalParameterByName_Statics::FMODBlueprintStatics_eventGetGlobalParameterByName_Parms), Z_Construct_UFunction_UFMODBlueprintStatics_GetGlobalParameterByName_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_GetGlobalParameterByName_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UFMODBlueprintStatics_GetGlobalParameterByName_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_GetGlobalParameterByName_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UFMODBlueprintStatics_GetGlobalParameterByName_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UFMODBlueprintStatics, nullptr, "GetGlobalParameterByName", nullptr, nullptr, Z_Construct_UFunction_UFMODBlueprintStatics_GetGlobalParameterByName_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_GetGlobalParameterByName_Statics::PropPointers), sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_GetGlobalParameterByName_Statics::FMODBlueprintStatics_eventGetGlobalParameterByName_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_GetGlobalParameterByName_Statics::Function_MetaDataParams), Z_Construct_UFunction_UFMODBlueprintStatics_GetGlobalParameterByName_Statics::Function_MetaDataParams) };
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_GetGlobalParameterByName_Statics::PropPointers) < 2048);
+	static_assert(sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_GetGlobalParameterByName_Statics::FMODBlueprintStatics_eventGetGlobalParameterByName_Parms) < MAX_uint16);
 	UFunction* Z_Construct_UFunction_UFMODBlueprintStatics_GetGlobalParameterByName()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -1457,9 +1499,9 @@ template<> FMODSTUDIO_API UScriptStruct* StaticStruct<FFMODEventInstance>()
 #endif
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UECodeGen_Private::FNamePropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_GetGlobalParameterValueByName_Statics::NewProp_Name = { "Name", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FMODBlueprintStatics_eventGetGlobalParameterValueByName_Parms, Name), METADATA_PARAMS(nullptr, 0) };
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_GetGlobalParameterValueByName_Statics::NewProp_UserValue = { "UserValue", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FMODBlueprintStatics_eventGetGlobalParameterValueByName_Parms, UserValue), METADATA_PARAMS(nullptr, 0) };
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_GetGlobalParameterValueByName_Statics::NewProp_FinalValue = { "FinalValue", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FMODBlueprintStatics_eventGetGlobalParameterValueByName_Parms, FinalValue), METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FNamePropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_GetGlobalParameterValueByName_Statics::NewProp_Name = { "Name", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FMODBlueprintStatics_eventGetGlobalParameterValueByName_Parms, Name), METADATA_PARAMS(0, nullptr) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_GetGlobalParameterValueByName_Statics::NewProp_UserValue = { "UserValue", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FMODBlueprintStatics_eventGetGlobalParameterValueByName_Parms, UserValue), METADATA_PARAMS(0, nullptr) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_GetGlobalParameterValueByName_Statics::NewProp_FinalValue = { "FinalValue", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FMODBlueprintStatics_eventGetGlobalParameterValueByName_Parms, FinalValue), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UFMODBlueprintStatics_GetGlobalParameterValueByName_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UFMODBlueprintStatics_GetGlobalParameterValueByName_Statics::NewProp_Name,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UFMODBlueprintStatics_GetGlobalParameterValueByName_Statics::NewProp_UserValue,
@@ -1474,7 +1516,9 @@ template<> FMODSTUDIO_API UScriptStruct* StaticStruct<FFMODEventInstance>()
 		{ "UnsafeDuringActorConstruction", "true" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UFMODBlueprintStatics_GetGlobalParameterValueByName_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UFMODBlueprintStatics, nullptr, "GetGlobalParameterValueByName", nullptr, nullptr, sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_GetGlobalParameterValueByName_Statics::FMODBlueprintStatics_eventGetGlobalParameterValueByName_Parms), Z_Construct_UFunction_UFMODBlueprintStatics_GetGlobalParameterValueByName_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_GetGlobalParameterValueByName_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04422401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UFMODBlueprintStatics_GetGlobalParameterValueByName_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_GetGlobalParameterValueByName_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UFMODBlueprintStatics_GetGlobalParameterValueByName_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UFMODBlueprintStatics, nullptr, "GetGlobalParameterValueByName", nullptr, nullptr, Z_Construct_UFunction_UFMODBlueprintStatics_GetGlobalParameterValueByName_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_GetGlobalParameterValueByName_Statics::PropPointers), sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_GetGlobalParameterValueByName_Statics::FMODBlueprintStatics_eventGetGlobalParameterValueByName_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04422401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_GetGlobalParameterValueByName_Statics::Function_MetaDataParams), Z_Construct_UFunction_UFMODBlueprintStatics_GetGlobalParameterValueByName_Statics::Function_MetaDataParams) };
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_GetGlobalParameterValueByName_Statics::PropPointers) < 2048);
+	static_assert(sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_GetGlobalParameterValueByName_Statics::FMODBlueprintStatics_eventGetGlobalParameterValueByName_Parms) < MAX_uint16);
 	UFunction* Z_Construct_UFunction_UFMODBlueprintStatics_GetGlobalParameterValueByName()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -1498,8 +1542,8 @@ template<> FMODSTUDIO_API UScriptStruct* StaticStruct<FFMODEventInstance>()
 #endif
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_GetOutputDrivers_Statics::NewProp_ReturnValue_Inner = { "ReturnValue", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, 0, METADATA_PARAMS(nullptr, 0) };
-	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_GetOutputDrivers_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FMODBlueprintStatics_eventGetOutputDrivers_Parms, ReturnValue), EArrayPropertyFlags::None, METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_GetOutputDrivers_Statics::NewProp_ReturnValue_Inner = { "ReturnValue", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, METADATA_PARAMS(0, nullptr) };
+	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_GetOutputDrivers_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FMODBlueprintStatics_eventGetOutputDrivers_Parms, ReturnValue), EArrayPropertyFlags::None, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UFMODBlueprintStatics_GetOutputDrivers_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UFMODBlueprintStatics_GetOutputDrivers_Statics::NewProp_ReturnValue_Inner,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UFMODBlueprintStatics_GetOutputDrivers_Statics::NewProp_ReturnValue,
@@ -1512,7 +1556,9 @@ template<> FMODSTUDIO_API UScriptStruct* StaticStruct<FFMODEventInstance>()
 		{ "ToolTip", "List all output device names." },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UFMODBlueprintStatics_GetOutputDrivers_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UFMODBlueprintStatics, nullptr, "GetOutputDrivers", nullptr, nullptr, sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_GetOutputDrivers_Statics::FMODBlueprintStatics_eventGetOutputDrivers_Parms), Z_Construct_UFunction_UFMODBlueprintStatics_GetOutputDrivers_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_GetOutputDrivers_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UFMODBlueprintStatics_GetOutputDrivers_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_GetOutputDrivers_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UFMODBlueprintStatics_GetOutputDrivers_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UFMODBlueprintStatics, nullptr, "GetOutputDrivers", nullptr, nullptr, Z_Construct_UFunction_UFMODBlueprintStatics_GetOutputDrivers_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_GetOutputDrivers_Statics::PropPointers), sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_GetOutputDrivers_Statics::FMODBlueprintStatics_eventGetOutputDrivers_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_GetOutputDrivers_Statics::Function_MetaDataParams), Z_Construct_UFunction_UFMODBlueprintStatics_GetOutputDrivers_Statics::Function_MetaDataParams) };
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_GetOutputDrivers_Statics::PropPointers) < 2048);
+	static_assert(sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_GetOutputDrivers_Statics::FMODBlueprintStatics_eventGetOutputDrivers_Parms) < MAX_uint16);
 	UFunction* Z_Construct_UFunction_UFMODBlueprintStatics_GetOutputDrivers()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -1538,12 +1584,12 @@ template<> FMODSTUDIO_API UScriptStruct* StaticStruct<FFMODEventInstance>()
 #endif
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_IsBankLoaded_Statics::NewProp_Bank = { "Bank", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FMODBlueprintStatics_eventIsBankLoaded_Parms, Bank), Z_Construct_UClass_UFMODBank_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_IsBankLoaded_Statics::NewProp_Bank = { "Bank", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FMODBlueprintStatics_eventIsBankLoaded_Parms, Bank), Z_Construct_UClass_UFMODBank_NoRegister, METADATA_PARAMS(0, nullptr) };
 	void Z_Construct_UFunction_UFMODBlueprintStatics_IsBankLoaded_Statics::NewProp_ReturnValue_SetBit(void* Obj)
 	{
 		((FMODBlueprintStatics_eventIsBankLoaded_Parms*)Obj)->ReturnValue = 1;
 	}
-	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_IsBankLoaded_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, sizeof(bool), sizeof(FMODBlueprintStatics_eventIsBankLoaded_Parms), &Z_Construct_UFunction_UFMODBlueprintStatics_IsBankLoaded_Statics::NewProp_ReturnValue_SetBit, METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_IsBankLoaded_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(FMODBlueprintStatics_eventIsBankLoaded_Parms), &Z_Construct_UFunction_UFMODBlueprintStatics_IsBankLoaded_Statics::NewProp_ReturnValue_SetBit, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UFMODBlueprintStatics_IsBankLoaded_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UFMODBlueprintStatics_IsBankLoaded_Statics::NewProp_Bank,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UFMODBlueprintStatics_IsBankLoaded_Statics::NewProp_ReturnValue,
@@ -1557,7 +1603,9 @@ template<> FMODSTUDIO_API UScriptStruct* StaticStruct<FFMODEventInstance>()
 		{ "UnsafeDuringActorConstruction", "true" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UFMODBlueprintStatics_IsBankLoaded_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UFMODBlueprintStatics, nullptr, "IsBankLoaded", nullptr, nullptr, sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_IsBankLoaded_Statics::FMODBlueprintStatics_eventIsBankLoaded_Parms), Z_Construct_UFunction_UFMODBlueprintStatics_IsBankLoaded_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_IsBankLoaded_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UFMODBlueprintStatics_IsBankLoaded_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_IsBankLoaded_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UFMODBlueprintStatics_IsBankLoaded_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UFMODBlueprintStatics, nullptr, "IsBankLoaded", nullptr, nullptr, Z_Construct_UFunction_UFMODBlueprintStatics_IsBankLoaded_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_IsBankLoaded_Statics::PropPointers), sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_IsBankLoaded_Statics::FMODBlueprintStatics_eventIsBankLoaded_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_IsBankLoaded_Statics::Function_MetaDataParams), Z_Construct_UFunction_UFMODBlueprintStatics_IsBankLoaded_Statics::Function_MetaDataParams) };
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_IsBankLoaded_Statics::PropPointers) < 2048);
+	static_assert(sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_IsBankLoaded_Statics::FMODBlueprintStatics_eventIsBankLoaded_Parms) < MAX_uint16);
 	UFunction* Z_Construct_UFunction_UFMODBlueprintStatics_IsBankLoaded()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -1586,17 +1634,17 @@ template<> FMODSTUDIO_API UScriptStruct* StaticStruct<FFMODEventInstance>()
 #endif
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_LoadBank_Statics::NewProp_Bank = { "Bank", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FMODBlueprintStatics_eventLoadBank_Parms, Bank), Z_Construct_UClass_UFMODBank_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_LoadBank_Statics::NewProp_Bank = { "Bank", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FMODBlueprintStatics_eventLoadBank_Parms, Bank), Z_Construct_UClass_UFMODBank_NoRegister, METADATA_PARAMS(0, nullptr) };
 	void Z_Construct_UFunction_UFMODBlueprintStatics_LoadBank_Statics::NewProp_bBlocking_SetBit(void* Obj)
 	{
 		((FMODBlueprintStatics_eventLoadBank_Parms*)Obj)->bBlocking = 1;
 	}
-	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_LoadBank_Statics::NewProp_bBlocking = { "bBlocking", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, sizeof(bool), sizeof(FMODBlueprintStatics_eventLoadBank_Parms), &Z_Construct_UFunction_UFMODBlueprintStatics_LoadBank_Statics::NewProp_bBlocking_SetBit, METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_LoadBank_Statics::NewProp_bBlocking = { "bBlocking", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(FMODBlueprintStatics_eventLoadBank_Parms), &Z_Construct_UFunction_UFMODBlueprintStatics_LoadBank_Statics::NewProp_bBlocking_SetBit, METADATA_PARAMS(0, nullptr) };
 	void Z_Construct_UFunction_UFMODBlueprintStatics_LoadBank_Statics::NewProp_bLoadSampleData_SetBit(void* Obj)
 	{
 		((FMODBlueprintStatics_eventLoadBank_Parms*)Obj)->bLoadSampleData = 1;
 	}
-	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_LoadBank_Statics::NewProp_bLoadSampleData = { "bLoadSampleData", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, sizeof(bool), sizeof(FMODBlueprintStatics_eventLoadBank_Parms), &Z_Construct_UFunction_UFMODBlueprintStatics_LoadBank_Statics::NewProp_bLoadSampleData_SetBit, METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_LoadBank_Statics::NewProp_bLoadSampleData = { "bLoadSampleData", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(FMODBlueprintStatics_eventLoadBank_Parms), &Z_Construct_UFunction_UFMODBlueprintStatics_LoadBank_Statics::NewProp_bLoadSampleData_SetBit, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UFMODBlueprintStatics_LoadBank_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UFMODBlueprintStatics_LoadBank_Statics::NewProp_Bank,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UFMODBlueprintStatics_LoadBank_Statics::NewProp_bBlocking,
@@ -1612,7 +1660,9 @@ template<> FMODSTUDIO_API UScriptStruct* StaticStruct<FFMODEventInstance>()
 		{ "UnsafeDuringActorConstruction", "true" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UFMODBlueprintStatics_LoadBank_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UFMODBlueprintStatics, nullptr, "LoadBank", nullptr, nullptr, sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_LoadBank_Statics::FMODBlueprintStatics_eventLoadBank_Parms), Z_Construct_UFunction_UFMODBlueprintStatics_LoadBank_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_LoadBank_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UFMODBlueprintStatics_LoadBank_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_LoadBank_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UFMODBlueprintStatics_LoadBank_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UFMODBlueprintStatics, nullptr, "LoadBank", nullptr, nullptr, Z_Construct_UFunction_UFMODBlueprintStatics_LoadBank_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_LoadBank_Statics::PropPointers), sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_LoadBank_Statics::FMODBlueprintStatics_eventLoadBank_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_LoadBank_Statics::Function_MetaDataParams), Z_Construct_UFunction_UFMODBlueprintStatics_LoadBank_Statics::Function_MetaDataParams) };
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_LoadBank_Statics::PropPointers) < 2048);
+	static_assert(sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_LoadBank_Statics::FMODBlueprintStatics_eventLoadBank_Parms) < MAX_uint16);
 	UFunction* Z_Construct_UFunction_UFMODBlueprintStatics_LoadBank()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -1635,7 +1685,7 @@ template<> FMODSTUDIO_API UScriptStruct* StaticStruct<FFMODEventInstance>()
 #endif
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_LoadBankSampleData_Statics::NewProp_Bank = { "Bank", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FMODBlueprintStatics_eventLoadBankSampleData_Parms, Bank), Z_Construct_UClass_UFMODBank_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_LoadBankSampleData_Statics::NewProp_Bank = { "Bank", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FMODBlueprintStatics_eventLoadBankSampleData_Parms, Bank), Z_Construct_UClass_UFMODBank_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UFMODBlueprintStatics_LoadBankSampleData_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UFMODBlueprintStatics_LoadBankSampleData_Statics::NewProp_Bank,
 	};
@@ -1648,7 +1698,9 @@ template<> FMODSTUDIO_API UScriptStruct* StaticStruct<FFMODEventInstance>()
 		{ "UnsafeDuringActorConstruction", "true" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UFMODBlueprintStatics_LoadBankSampleData_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UFMODBlueprintStatics, nullptr, "LoadBankSampleData", nullptr, nullptr, sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_LoadBankSampleData_Statics::FMODBlueprintStatics_eventLoadBankSampleData_Parms), Z_Construct_UFunction_UFMODBlueprintStatics_LoadBankSampleData_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_LoadBankSampleData_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UFMODBlueprintStatics_LoadBankSampleData_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_LoadBankSampleData_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UFMODBlueprintStatics_LoadBankSampleData_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UFMODBlueprintStatics, nullptr, "LoadBankSampleData", nullptr, nullptr, Z_Construct_UFunction_UFMODBlueprintStatics_LoadBankSampleData_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_LoadBankSampleData_Statics::PropPointers), sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_LoadBankSampleData_Statics::FMODBlueprintStatics_eventLoadBankSampleData_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_LoadBankSampleData_Statics::Function_MetaDataParams), Z_Construct_UFunction_UFMODBlueprintStatics_LoadBankSampleData_Statics::Function_MetaDataParams) };
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_LoadBankSampleData_Statics::PropPointers) < 2048);
+	static_assert(sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_LoadBankSampleData_Statics::FMODBlueprintStatics_eventLoadBankSampleData_Parms) < MAX_uint16);
 	UFunction* Z_Construct_UFunction_UFMODBlueprintStatics_LoadBankSampleData()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -1673,8 +1725,8 @@ template<> FMODSTUDIO_API UScriptStruct* StaticStruct<FFMODEventInstance>()
 #endif
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_LoadEventSampleData_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FMODBlueprintStatics_eventLoadEventSampleData_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(nullptr, 0) };
-	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_LoadEventSampleData_Statics::NewProp_Event = { "Event", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FMODBlueprintStatics_eventLoadEventSampleData_Parms, Event), Z_Construct_UClass_UFMODEvent_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_LoadEventSampleData_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FMODBlueprintStatics_eventLoadEventSampleData_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_LoadEventSampleData_Statics::NewProp_Event = { "Event", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FMODBlueprintStatics_eventLoadEventSampleData_Parms, Event), Z_Construct_UClass_UFMODEvent_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UFMODBlueprintStatics_LoadEventSampleData_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UFMODBlueprintStatics_LoadEventSampleData_Statics::NewProp_WorldContextObject,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UFMODBlueprintStatics_LoadEventSampleData_Statics::NewProp_Event,
@@ -1690,7 +1742,9 @@ template<> FMODSTUDIO_API UScriptStruct* StaticStruct<FFMODEventInstance>()
 		{ "UnsafeDuringActorConstruction", "true" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UFMODBlueprintStatics_LoadEventSampleData_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UFMODBlueprintStatics, nullptr, "LoadEventSampleData", nullptr, nullptr, sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_LoadEventSampleData_Statics::FMODBlueprintStatics_eventLoadEventSampleData_Parms), Z_Construct_UFunction_UFMODBlueprintStatics_LoadEventSampleData_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_LoadEventSampleData_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UFMODBlueprintStatics_LoadEventSampleData_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_LoadEventSampleData_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UFMODBlueprintStatics_LoadEventSampleData_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UFMODBlueprintStatics, nullptr, "LoadEventSampleData", nullptr, nullptr, Z_Construct_UFunction_UFMODBlueprintStatics_LoadEventSampleData_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_LoadEventSampleData_Statics::PropPointers), sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_LoadEventSampleData_Statics::FMODBlueprintStatics_eventLoadEventSampleData_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_LoadEventSampleData_Statics::Function_MetaDataParams), Z_Construct_UFunction_UFMODBlueprintStatics_LoadEventSampleData_Statics::Function_MetaDataParams) };
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_LoadEventSampleData_Statics::PropPointers) < 2048);
+	static_assert(sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_LoadEventSampleData_Statics::FMODBlueprintStatics_eventLoadEventSampleData_Parms) < MAX_uint16);
 	UFunction* Z_Construct_UFunction_UFMODBlueprintStatics_LoadEventSampleData()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -1715,7 +1769,7 @@ template<> FMODSTUDIO_API UScriptStruct* StaticStruct<FFMODEventInstance>()
 		{ "ToolTip", "Resume the FMOD mixer.  Used when resuming the application." },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UFMODBlueprintStatics_MixerResume_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UFMODBlueprintStatics, nullptr, "MixerResume", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UFMODBlueprintStatics_MixerResume_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_MixerResume_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UFMODBlueprintStatics_MixerResume_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UFMODBlueprintStatics, nullptr, "MixerResume", nullptr, nullptr, nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_MixerResume_Statics::Function_MetaDataParams), Z_Construct_UFunction_UFMODBlueprintStatics_MixerResume_Statics::Function_MetaDataParams) };
 	UFunction* Z_Construct_UFunction_UFMODBlueprintStatics_MixerResume()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -1740,7 +1794,7 @@ template<> FMODSTUDIO_API UScriptStruct* StaticStruct<FFMODEventInstance>()
 		{ "ToolTip", "Suspend the FMOD mixer.  Used when suspending the application." },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UFMODBlueprintStatics_MixerSuspend_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UFMODBlueprintStatics, nullptr, "MixerSuspend", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UFMODBlueprintStatics_MixerSuspend_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_MixerSuspend_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UFMODBlueprintStatics_MixerSuspend_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UFMODBlueprintStatics, nullptr, "MixerSuspend", nullptr, nullptr, nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_MixerSuspend_Statics::Function_MetaDataParams), Z_Construct_UFunction_UFMODBlueprintStatics_MixerSuspend_Statics::Function_MetaDataParams) };
 	UFunction* Z_Construct_UFunction_UFMODBlueprintStatics_MixerSuspend()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -1770,14 +1824,14 @@ template<> FMODSTUDIO_API UScriptStruct* StaticStruct<FFMODEventInstance>()
 #endif
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_PlayEvent2D_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FMODBlueprintStatics_eventPlayEvent2D_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(nullptr, 0) };
-	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_PlayEvent2D_Statics::NewProp_Event = { "Event", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FMODBlueprintStatics_eventPlayEvent2D_Parms, Event), Z_Construct_UClass_UFMODEvent_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_PlayEvent2D_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FMODBlueprintStatics_eventPlayEvent2D_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_PlayEvent2D_Statics::NewProp_Event = { "Event", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FMODBlueprintStatics_eventPlayEvent2D_Parms, Event), Z_Construct_UClass_UFMODEvent_NoRegister, METADATA_PARAMS(0, nullptr) };
 	void Z_Construct_UFunction_UFMODBlueprintStatics_PlayEvent2D_Statics::NewProp_bAutoPlay_SetBit(void* Obj)
 	{
 		((FMODBlueprintStatics_eventPlayEvent2D_Parms*)Obj)->bAutoPlay = 1;
 	}
-	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_PlayEvent2D_Statics::NewProp_bAutoPlay = { "bAutoPlay", nullptr, (EPropertyFlags)0x0010040000000080, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, sizeof(bool), sizeof(FMODBlueprintStatics_eventPlayEvent2D_Parms), &Z_Construct_UFunction_UFMODBlueprintStatics_PlayEvent2D_Statics::NewProp_bAutoPlay_SetBit, METADATA_PARAMS(nullptr, 0) };
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_PlayEvent2D_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FMODBlueprintStatics_eventPlayEvent2D_Parms, ReturnValue), Z_Construct_UScriptStruct_FFMODEventInstance, METADATA_PARAMS(nullptr, 0) }; // 2164700124
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_PlayEvent2D_Statics::NewProp_bAutoPlay = { "bAutoPlay", nullptr, (EPropertyFlags)0x0010040000000080, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(FMODBlueprintStatics_eventPlayEvent2D_Parms), &Z_Construct_UFunction_UFMODBlueprintStatics_PlayEvent2D_Statics::NewProp_bAutoPlay_SetBit, METADATA_PARAMS(0, nullptr) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_PlayEvent2D_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FMODBlueprintStatics_eventPlayEvent2D_Parms, ReturnValue), Z_Construct_UScriptStruct_FFMODEventInstance, METADATA_PARAMS(0, nullptr) }; // 1332022397
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UFMODBlueprintStatics_PlayEvent2D_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UFMODBlueprintStatics_PlayEvent2D_Statics::NewProp_WorldContextObject,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UFMODBlueprintStatics_PlayEvent2D_Statics::NewProp_Event,
@@ -1797,7 +1851,9 @@ template<> FMODSTUDIO_API UScriptStruct* StaticStruct<FFMODEventInstance>()
 		{ "UnsafeDuringActorConstruction", "true" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UFMODBlueprintStatics_PlayEvent2D_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UFMODBlueprintStatics, nullptr, "PlayEvent2D", nullptr, nullptr, sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_PlayEvent2D_Statics::FMODBlueprintStatics_eventPlayEvent2D_Parms), Z_Construct_UFunction_UFMODBlueprintStatics_PlayEvent2D_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_PlayEvent2D_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UFMODBlueprintStatics_PlayEvent2D_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_PlayEvent2D_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UFMODBlueprintStatics_PlayEvent2D_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UFMODBlueprintStatics, nullptr, "PlayEvent2D", nullptr, nullptr, Z_Construct_UFunction_UFMODBlueprintStatics_PlayEvent2D_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_PlayEvent2D_Statics::PropPointers), sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_PlayEvent2D_Statics::FMODBlueprintStatics_eventPlayEvent2D_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_PlayEvent2D_Statics::Function_MetaDataParams), Z_Construct_UFunction_UFMODBlueprintStatics_PlayEvent2D_Statics::Function_MetaDataParams) };
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_PlayEvent2D_Statics::PropPointers) < 2048);
+	static_assert(sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_PlayEvent2D_Statics::FMODBlueprintStatics_eventPlayEvent2D_Parms) < MAX_uint16);
 	UFunction* Z_Construct_UFunction_UFMODBlueprintStatics_PlayEvent2D()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -1832,20 +1888,20 @@ template<> FMODSTUDIO_API UScriptStruct* StaticStruct<FFMODEventInstance>()
 #endif
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_PlayEventAtLocation_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FMODBlueprintStatics_eventPlayEventAtLocation_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(nullptr, 0) };
-	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_PlayEventAtLocation_Statics::NewProp_Event = { "Event", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FMODBlueprintStatics_eventPlayEventAtLocation_Parms, Event), Z_Construct_UClass_UFMODEvent_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_PlayEventAtLocation_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FMODBlueprintStatics_eventPlayEventAtLocation_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_PlayEventAtLocation_Statics::NewProp_Event = { "Event", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FMODBlueprintStatics_eventPlayEventAtLocation_Parms, Event), Z_Construct_UClass_UFMODEvent_NoRegister, METADATA_PARAMS(0, nullptr) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UFMODBlueprintStatics_PlayEventAtLocation_Statics::NewProp_Location_MetaData[] = {
 		{ "NativeConst", "" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_PlayEventAtLocation_Statics::NewProp_Location = { "Location", nullptr, (EPropertyFlags)0x0010040008000182, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FMODBlueprintStatics_eventPlayEventAtLocation_Parms, Location), Z_Construct_UScriptStruct_FTransform, METADATA_PARAMS(Z_Construct_UFunction_UFMODBlueprintStatics_PlayEventAtLocation_Statics::NewProp_Location_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_PlayEventAtLocation_Statics::NewProp_Location_MetaData)) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_PlayEventAtLocation_Statics::NewProp_Location = { "Location", nullptr, (EPropertyFlags)0x0010040008000182, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FMODBlueprintStatics_eventPlayEventAtLocation_Parms, Location), Z_Construct_UScriptStruct_FTransform, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_PlayEventAtLocation_Statics::NewProp_Location_MetaData), Z_Construct_UFunction_UFMODBlueprintStatics_PlayEventAtLocation_Statics::NewProp_Location_MetaData) };
 	void Z_Construct_UFunction_UFMODBlueprintStatics_PlayEventAtLocation_Statics::NewProp_bAutoPlay_SetBit(void* Obj)
 	{
 		((FMODBlueprintStatics_eventPlayEventAtLocation_Parms*)Obj)->bAutoPlay = 1;
 	}
-	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_PlayEventAtLocation_Statics::NewProp_bAutoPlay = { "bAutoPlay", nullptr, (EPropertyFlags)0x0010040000000080, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, sizeof(bool), sizeof(FMODBlueprintStatics_eventPlayEventAtLocation_Parms), &Z_Construct_UFunction_UFMODBlueprintStatics_PlayEventAtLocation_Statics::NewProp_bAutoPlay_SetBit, METADATA_PARAMS(nullptr, 0) };
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_PlayEventAtLocation_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FMODBlueprintStatics_eventPlayEventAtLocation_Parms, ReturnValue), Z_Construct_UScriptStruct_FFMODEventInstance, METADATA_PARAMS(nullptr, 0) }; // 2164700124
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_PlayEventAtLocation_Statics::NewProp_bAutoPlay = { "bAutoPlay", nullptr, (EPropertyFlags)0x0010040000000080, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(FMODBlueprintStatics_eventPlayEventAtLocation_Parms), &Z_Construct_UFunction_UFMODBlueprintStatics_PlayEventAtLocation_Statics::NewProp_bAutoPlay_SetBit, METADATA_PARAMS(0, nullptr) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_PlayEventAtLocation_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FMODBlueprintStatics_eventPlayEventAtLocation_Parms, ReturnValue), Z_Construct_UScriptStruct_FFMODEventInstance, METADATA_PARAMS(0, nullptr) }; // 1332022397
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UFMODBlueprintStatics_PlayEventAtLocation_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UFMODBlueprintStatics_PlayEventAtLocation_Statics::NewProp_WorldContextObject,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UFMODBlueprintStatics_PlayEventAtLocation_Statics::NewProp_Event,
@@ -1866,7 +1922,9 @@ template<> FMODSTUDIO_API UScriptStruct* StaticStruct<FFMODEventInstance>()
 		{ "UnsafeDuringActorConstruction", "true" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UFMODBlueprintStatics_PlayEventAtLocation_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UFMODBlueprintStatics, nullptr, "PlayEventAtLocation", nullptr, nullptr, sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_PlayEventAtLocation_Statics::FMODBlueprintStatics_eventPlayEventAtLocation_Parms), Z_Construct_UFunction_UFMODBlueprintStatics_PlayEventAtLocation_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_PlayEventAtLocation_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04C22401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UFMODBlueprintStatics_PlayEventAtLocation_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_PlayEventAtLocation_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UFMODBlueprintStatics_PlayEventAtLocation_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UFMODBlueprintStatics, nullptr, "PlayEventAtLocation", nullptr, nullptr, Z_Construct_UFunction_UFMODBlueprintStatics_PlayEventAtLocation_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_PlayEventAtLocation_Statics::PropPointers), sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_PlayEventAtLocation_Statics::FMODBlueprintStatics_eventPlayEventAtLocation_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04C22401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_PlayEventAtLocation_Statics::Function_MetaDataParams), Z_Construct_UFunction_UFMODBlueprintStatics_PlayEventAtLocation_Statics::Function_MetaDataParams) };
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_PlayEventAtLocation_Statics::PropPointers) < 2048);
+	static_assert(sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_PlayEventAtLocation_Statics::FMODBlueprintStatics_eventPlayEventAtLocation_Parms) < MAX_uint16);
 	UFunction* Z_Construct_UFunction_UFMODBlueprintStatics_PlayEventAtLocation()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -1914,37 +1972,37 @@ template<> FMODSTUDIO_API UScriptStruct* StaticStruct<FFMODEventInstance>()
 #endif
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_PlayEventAttached_Statics::NewProp_Event = { "Event", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FMODBlueprintStatics_eventPlayEventAttached_Parms, Event), Z_Construct_UClass_UFMODEvent_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_PlayEventAttached_Statics::NewProp_Event = { "Event", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FMODBlueprintStatics_eventPlayEventAttached_Parms, Event), Z_Construct_UClass_UFMODEvent_NoRegister, METADATA_PARAMS(0, nullptr) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UFMODBlueprintStatics_PlayEventAttached_Statics::NewProp_AttachToComponent_MetaData[] = {
 		{ "EditInline", "true" },
 	};
 #endif
-	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_PlayEventAttached_Statics::NewProp_AttachToComponent = { "AttachToComponent", nullptr, (EPropertyFlags)0x0010000000080080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FMODBlueprintStatics_eventPlayEventAttached_Parms, AttachToComponent), Z_Construct_UClass_USceneComponent_NoRegister, METADATA_PARAMS(Z_Construct_UFunction_UFMODBlueprintStatics_PlayEventAttached_Statics::NewProp_AttachToComponent_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_PlayEventAttached_Statics::NewProp_AttachToComponent_MetaData)) };
-	const UECodeGen_Private::FNamePropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_PlayEventAttached_Statics::NewProp_AttachPointName = { "AttachPointName", nullptr, (EPropertyFlags)0x0010040000000080, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FMODBlueprintStatics_eventPlayEventAttached_Parms, AttachPointName), METADATA_PARAMS(nullptr, 0) };
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_PlayEventAttached_Statics::NewProp_Location = { "Location", nullptr, (EPropertyFlags)0x0010040000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FMODBlueprintStatics_eventPlayEventAttached_Parms, Location), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(nullptr, 0) };
-	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_PlayEventAttached_Statics::NewProp_LocationType = { "LocationType", nullptr, (EPropertyFlags)0x0010040000000080, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FMODBlueprintStatics_eventPlayEventAttached_Parms, LocationType), Z_Construct_UEnum_Engine_EAttachLocation, METADATA_PARAMS(nullptr, 0) }; // 1954919674
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_PlayEventAttached_Statics::NewProp_AttachToComponent = { "AttachToComponent", nullptr, (EPropertyFlags)0x0010000000080080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FMODBlueprintStatics_eventPlayEventAttached_Parms, AttachToComponent), Z_Construct_UClass_USceneComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_PlayEventAttached_Statics::NewProp_AttachToComponent_MetaData), Z_Construct_UFunction_UFMODBlueprintStatics_PlayEventAttached_Statics::NewProp_AttachToComponent_MetaData) };
+	const UECodeGen_Private::FNamePropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_PlayEventAttached_Statics::NewProp_AttachPointName = { "AttachPointName", nullptr, (EPropertyFlags)0x0010040000000080, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FMODBlueprintStatics_eventPlayEventAttached_Parms, AttachPointName), METADATA_PARAMS(0, nullptr) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_PlayEventAttached_Statics::NewProp_Location = { "Location", nullptr, (EPropertyFlags)0x0010040000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FMODBlueprintStatics_eventPlayEventAttached_Parms, Location), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(0, nullptr) };
+	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_PlayEventAttached_Statics::NewProp_LocationType = { "LocationType", nullptr, (EPropertyFlags)0x0010040000000080, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FMODBlueprintStatics_eventPlayEventAttached_Parms, LocationType), Z_Construct_UEnum_Engine_EAttachLocation, METADATA_PARAMS(0, nullptr) }; // 4025501060
 	void Z_Construct_UFunction_UFMODBlueprintStatics_PlayEventAttached_Statics::NewProp_bStopWhenAttachedToDestroyed_SetBit(void* Obj)
 	{
 		((FMODBlueprintStatics_eventPlayEventAttached_Parms*)Obj)->bStopWhenAttachedToDestroyed = 1;
 	}
-	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_PlayEventAttached_Statics::NewProp_bStopWhenAttachedToDestroyed = { "bStopWhenAttachedToDestroyed", nullptr, (EPropertyFlags)0x0010040000000080, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, sizeof(bool), sizeof(FMODBlueprintStatics_eventPlayEventAttached_Parms), &Z_Construct_UFunction_UFMODBlueprintStatics_PlayEventAttached_Statics::NewProp_bStopWhenAttachedToDestroyed_SetBit, METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_PlayEventAttached_Statics::NewProp_bStopWhenAttachedToDestroyed = { "bStopWhenAttachedToDestroyed", nullptr, (EPropertyFlags)0x0010040000000080, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(FMODBlueprintStatics_eventPlayEventAttached_Parms), &Z_Construct_UFunction_UFMODBlueprintStatics_PlayEventAttached_Statics::NewProp_bStopWhenAttachedToDestroyed_SetBit, METADATA_PARAMS(0, nullptr) };
 	void Z_Construct_UFunction_UFMODBlueprintStatics_PlayEventAttached_Statics::NewProp_bAutoPlay_SetBit(void* Obj)
 	{
 		((FMODBlueprintStatics_eventPlayEventAttached_Parms*)Obj)->bAutoPlay = 1;
 	}
-	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_PlayEventAttached_Statics::NewProp_bAutoPlay = { "bAutoPlay", nullptr, (EPropertyFlags)0x0010040000000080, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, sizeof(bool), sizeof(FMODBlueprintStatics_eventPlayEventAttached_Parms), &Z_Construct_UFunction_UFMODBlueprintStatics_PlayEventAttached_Statics::NewProp_bAutoPlay_SetBit, METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_PlayEventAttached_Statics::NewProp_bAutoPlay = { "bAutoPlay", nullptr, (EPropertyFlags)0x0010040000000080, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(FMODBlueprintStatics_eventPlayEventAttached_Parms), &Z_Construct_UFunction_UFMODBlueprintStatics_PlayEventAttached_Statics::NewProp_bAutoPlay_SetBit, METADATA_PARAMS(0, nullptr) };
 	void Z_Construct_UFunction_UFMODBlueprintStatics_PlayEventAttached_Statics::NewProp_bAutoDestroy_SetBit(void* Obj)
 	{
 		((FMODBlueprintStatics_eventPlayEventAttached_Parms*)Obj)->bAutoDestroy = 1;
 	}
-	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_PlayEventAttached_Statics::NewProp_bAutoDestroy = { "bAutoDestroy", nullptr, (EPropertyFlags)0x0010040000000080, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, sizeof(bool), sizeof(FMODBlueprintStatics_eventPlayEventAttached_Parms), &Z_Construct_UFunction_UFMODBlueprintStatics_PlayEventAttached_Statics::NewProp_bAutoDestroy_SetBit, METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_PlayEventAttached_Statics::NewProp_bAutoDestroy = { "bAutoDestroy", nullptr, (EPropertyFlags)0x0010040000000080, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(FMODBlueprintStatics_eventPlayEventAttached_Parms), &Z_Construct_UFunction_UFMODBlueprintStatics_PlayEventAttached_Statics::NewProp_bAutoDestroy_SetBit, METADATA_PARAMS(0, nullptr) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UFMODBlueprintStatics_PlayEventAttached_Statics::NewProp_ReturnValue_MetaData[] = {
 		{ "EditInline", "true" },
 	};
 #endif
-	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_PlayEventAttached_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000080588, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FMODBlueprintStatics_eventPlayEventAttached_Parms, ReturnValue), Z_Construct_UClass_UFMODAudioComponent_NoRegister, METADATA_PARAMS(Z_Construct_UFunction_UFMODBlueprintStatics_PlayEventAttached_Statics::NewProp_ReturnValue_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_PlayEventAttached_Statics::NewProp_ReturnValue_MetaData)) };
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_PlayEventAttached_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000080588, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FMODBlueprintStatics_eventPlayEventAttached_Parms, ReturnValue), Z_Construct_UClass_UFMODAudioComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_PlayEventAttached_Statics::NewProp_ReturnValue_MetaData), Z_Construct_UFunction_UFMODBlueprintStatics_PlayEventAttached_Statics::NewProp_ReturnValue_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UFMODBlueprintStatics_PlayEventAttached_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UFMODBlueprintStatics_PlayEventAttached_Statics::NewProp_Event,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UFMODBlueprintStatics_PlayEventAttached_Statics::NewProp_AttachToComponent,
@@ -1968,7 +2026,9 @@ template<> FMODSTUDIO_API UScriptStruct* StaticStruct<FFMODEventInstance>()
 		{ "UnsafeDuringActorConstruction", "true" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UFMODBlueprintStatics_PlayEventAttached_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UFMODBlueprintStatics, nullptr, "PlayEventAttached", nullptr, nullptr, sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_PlayEventAttached_Statics::FMODBlueprintStatics_eventPlayEventAttached_Parms), Z_Construct_UFunction_UFMODBlueprintStatics_PlayEventAttached_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_PlayEventAttached_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04822401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UFMODBlueprintStatics_PlayEventAttached_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_PlayEventAttached_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UFMODBlueprintStatics_PlayEventAttached_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UFMODBlueprintStatics, nullptr, "PlayEventAttached", nullptr, nullptr, Z_Construct_UFunction_UFMODBlueprintStatics_PlayEventAttached_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_PlayEventAttached_Statics::PropPointers), sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_PlayEventAttached_Statics::FMODBlueprintStatics_eventPlayEventAttached_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04822401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_PlayEventAttached_Statics::Function_MetaDataParams), Z_Construct_UFunction_UFMODBlueprintStatics_PlayEventAttached_Statics::Function_MetaDataParams) };
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_PlayEventAttached_Statics::PropPointers) < 2048);
+	static_assert(sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_PlayEventAttached_Statics::FMODBlueprintStatics_eventPlayEventAttached_Parms) < MAX_uint16);
 	UFunction* Z_Construct_UFunction_UFMODBlueprintStatics_PlayEventAttached()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -1993,8 +2053,8 @@ template<> FMODSTUDIO_API UScriptStruct* StaticStruct<FFMODEventInstance>()
 #endif
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UECodeGen_Private::FNamePropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_SetGlobalParameterByName_Statics::NewProp_Name = { "Name", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FMODBlueprintStatics_eventSetGlobalParameterByName_Parms, Name), METADATA_PARAMS(nullptr, 0) };
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_SetGlobalParameterByName_Statics::NewProp_Value = { "Value", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FMODBlueprintStatics_eventSetGlobalParameterByName_Parms, Value), METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FNamePropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_SetGlobalParameterByName_Statics::NewProp_Name = { "Name", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FMODBlueprintStatics_eventSetGlobalParameterByName_Parms, Name), METADATA_PARAMS(0, nullptr) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_SetGlobalParameterByName_Statics::NewProp_Value = { "Value", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FMODBlueprintStatics_eventSetGlobalParameterByName_Parms, Value), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UFMODBlueprintStatics_SetGlobalParameterByName_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UFMODBlueprintStatics_SetGlobalParameterByName_Statics::NewProp_Name,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UFMODBlueprintStatics_SetGlobalParameterByName_Statics::NewProp_Value,
@@ -2008,7 +2068,9 @@ template<> FMODSTUDIO_API UScriptStruct* StaticStruct<FFMODEventInstance>()
 		{ "UnsafeDuringActorConstruction", "true" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UFMODBlueprintStatics_SetGlobalParameterByName_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UFMODBlueprintStatics, nullptr, "SetGlobalParameterByName", nullptr, nullptr, sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_SetGlobalParameterByName_Statics::FMODBlueprintStatics_eventSetGlobalParameterByName_Parms), Z_Construct_UFunction_UFMODBlueprintStatics_SetGlobalParameterByName_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_SetGlobalParameterByName_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UFMODBlueprintStatics_SetGlobalParameterByName_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_SetGlobalParameterByName_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UFMODBlueprintStatics_SetGlobalParameterByName_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UFMODBlueprintStatics, nullptr, "SetGlobalParameterByName", nullptr, nullptr, Z_Construct_UFunction_UFMODBlueprintStatics_SetGlobalParameterByName_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_SetGlobalParameterByName_Statics::PropPointers), sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_SetGlobalParameterByName_Statics::FMODBlueprintStatics_eventSetGlobalParameterByName_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_SetGlobalParameterByName_Statics::Function_MetaDataParams), Z_Construct_UFunction_UFMODBlueprintStatics_SetGlobalParameterByName_Statics::Function_MetaDataParams) };
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_SetGlobalParameterByName_Statics::PropPointers) < 2048);
+	static_assert(sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_SetGlobalParameterByName_Statics::FMODBlueprintStatics_eventSetGlobalParameterByName_Parms) < MAX_uint16);
 	UFunction* Z_Construct_UFunction_UFMODBlueprintStatics_SetGlobalParameterByName()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -2039,7 +2101,7 @@ template<> FMODSTUDIO_API UScriptStruct* StaticStruct<FFMODEventInstance>()
 		{ "NativeConst", "" },
 	};
 #endif
-	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_SetLocale_Statics::NewProp_Locale = { "Locale", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FMODBlueprintStatics_eventSetLocale_Parms, Locale), METADATA_PARAMS(Z_Construct_UFunction_UFMODBlueprintStatics_SetLocale_Statics::NewProp_Locale_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_SetLocale_Statics::NewProp_Locale_MetaData)) };
+	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_SetLocale_Statics::NewProp_Locale = { "Locale", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FMODBlueprintStatics_eventSetLocale_Parms, Locale), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_SetLocale_Statics::NewProp_Locale_MetaData), Z_Construct_UFunction_UFMODBlueprintStatics_SetLocale_Statics::NewProp_Locale_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UFMODBlueprintStatics_SetLocale_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UFMODBlueprintStatics_SetLocale_Statics::NewProp_Locale,
 	};
@@ -2051,7 +2113,9 @@ template<> FMODSTUDIO_API UScriptStruct* StaticStruct<FFMODEventInstance>()
 		{ "ToolTip", "Set the active locale for subsequent bank loads." },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UFMODBlueprintStatics_SetLocale_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UFMODBlueprintStatics, nullptr, "SetLocale", nullptr, nullptr, sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_SetLocale_Statics::FMODBlueprintStatics_eventSetLocale_Parms), Z_Construct_UFunction_UFMODBlueprintStatics_SetLocale_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_SetLocale_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UFMODBlueprintStatics_SetLocale_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_SetLocale_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UFMODBlueprintStatics_SetLocale_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UFMODBlueprintStatics, nullptr, "SetLocale", nullptr, nullptr, Z_Construct_UFunction_UFMODBlueprintStatics_SetLocale_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_SetLocale_Statics::PropPointers), sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_SetLocale_Statics::FMODBlueprintStatics_eventSetLocale_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_SetLocale_Statics::Function_MetaDataParams), Z_Construct_UFunction_UFMODBlueprintStatics_SetLocale_Statics::Function_MetaDataParams) };
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_SetLocale_Statics::PropPointers) < 2048);
+	static_assert(sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_SetLocale_Statics::FMODBlueprintStatics_eventSetLocale_Parms) < MAX_uint16);
 	UFunction* Z_Construct_UFunction_UFMODBlueprintStatics_SetLocale()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -2067,14 +2131,14 @@ template<> FMODSTUDIO_API UScriptStruct* StaticStruct<FFMODEventInstance>()
 		{
 			int32 NewDriverIndex;
 		};
-		static const UECodeGen_Private::FUnsizedIntPropertyParams NewProp_NewDriverIndex;
+		static const UECodeGen_Private::FIntPropertyParams NewProp_NewDriverIndex;
 		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
 #endif
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UECodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_SetOutputDriverByIndex_Statics::NewProp_NewDriverIndex = { "NewDriverIndex", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FMODBlueprintStatics_eventSetOutputDriverByIndex_Parms, NewDriverIndex), METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FIntPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_SetOutputDriverByIndex_Statics::NewProp_NewDriverIndex = { "NewDriverIndex", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FMODBlueprintStatics_eventSetOutputDriverByIndex_Parms, NewDriverIndex), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UFMODBlueprintStatics_SetOutputDriverByIndex_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UFMODBlueprintStatics_SetOutputDriverByIndex_Statics::NewProp_NewDriverIndex,
 	};
@@ -2086,7 +2150,9 @@ template<> FMODSTUDIO_API UScriptStruct* StaticStruct<FFMODEventInstance>()
 		{ "ToolTip", "Set current output device by its index from GetOutputDrivers." },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UFMODBlueprintStatics_SetOutputDriverByIndex_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UFMODBlueprintStatics, nullptr, "SetOutputDriverByIndex", nullptr, nullptr, sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_SetOutputDriverByIndex_Statics::FMODBlueprintStatics_eventSetOutputDriverByIndex_Parms), Z_Construct_UFunction_UFMODBlueprintStatics_SetOutputDriverByIndex_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_SetOutputDriverByIndex_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UFMODBlueprintStatics_SetOutputDriverByIndex_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_SetOutputDriverByIndex_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UFMODBlueprintStatics_SetOutputDriverByIndex_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UFMODBlueprintStatics, nullptr, "SetOutputDriverByIndex", nullptr, nullptr, Z_Construct_UFunction_UFMODBlueprintStatics_SetOutputDriverByIndex_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_SetOutputDriverByIndex_Statics::PropPointers), sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_SetOutputDriverByIndex_Statics::FMODBlueprintStatics_eventSetOutputDriverByIndex_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_SetOutputDriverByIndex_Statics::Function_MetaDataParams), Z_Construct_UFunction_UFMODBlueprintStatics_SetOutputDriverByIndex_Statics::Function_MetaDataParams) };
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_SetOutputDriverByIndex_Statics::PropPointers) < 2048);
+	static_assert(sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_SetOutputDriverByIndex_Statics::FMODBlueprintStatics_eventSetOutputDriverByIndex_Parms) < MAX_uint16);
 	UFunction* Z_Construct_UFunction_UFMODBlueprintStatics_SetOutputDriverByIndex()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -2109,7 +2175,7 @@ template<> FMODSTUDIO_API UScriptStruct* StaticStruct<FFMODEventInstance>()
 #endif
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_SetOutputDriverByName_Statics::NewProp_NewDriverName = { "NewDriverName", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FMODBlueprintStatics_eventSetOutputDriverByName_Parms, NewDriverName), METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_SetOutputDriverByName_Statics::NewProp_NewDriverName = { "NewDriverName", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FMODBlueprintStatics_eventSetOutputDriverByName_Parms, NewDriverName), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UFMODBlueprintStatics_SetOutputDriverByName_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UFMODBlueprintStatics_SetOutputDriverByName_Statics::NewProp_NewDriverName,
 	};
@@ -2121,7 +2187,9 @@ template<> FMODSTUDIO_API UScriptStruct* StaticStruct<FFMODEventInstance>()
 		{ "ToolTip", "Set current output device by name or part of the name." },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UFMODBlueprintStatics_SetOutputDriverByName_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UFMODBlueprintStatics, nullptr, "SetOutputDriverByName", nullptr, nullptr, sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_SetOutputDriverByName_Statics::FMODBlueprintStatics_eventSetOutputDriverByName_Parms), Z_Construct_UFunction_UFMODBlueprintStatics_SetOutputDriverByName_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_SetOutputDriverByName_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UFMODBlueprintStatics_SetOutputDriverByName_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_SetOutputDriverByName_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UFMODBlueprintStatics_SetOutputDriverByName_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UFMODBlueprintStatics, nullptr, "SetOutputDriverByName", nullptr, nullptr, Z_Construct_UFunction_UFMODBlueprintStatics_SetOutputDriverByName_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_SetOutputDriverByName_Statics::PropPointers), sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_SetOutputDriverByName_Statics::FMODBlueprintStatics_eventSetOutputDriverByName_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_SetOutputDriverByName_Statics::Function_MetaDataParams), Z_Construct_UFunction_UFMODBlueprintStatics_SetOutputDriverByName_Statics::Function_MetaDataParams) };
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_SetOutputDriverByName_Statics::PropPointers) < 2048);
+	static_assert(sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_SetOutputDriverByName_Statics::FMODBlueprintStatics_eventSetOutputDriverByName_Parms) < MAX_uint16);
 	UFunction* Z_Construct_UFunction_UFMODBlueprintStatics_SetOutputDriverByName()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -2144,7 +2212,7 @@ template<> FMODSTUDIO_API UScriptStruct* StaticStruct<FFMODEventInstance>()
 #endif
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_UnloadBank_Statics::NewProp_Bank = { "Bank", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FMODBlueprintStatics_eventUnloadBank_Parms, Bank), Z_Construct_UClass_UFMODBank_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_UnloadBank_Statics::NewProp_Bank = { "Bank", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FMODBlueprintStatics_eventUnloadBank_Parms, Bank), Z_Construct_UClass_UFMODBank_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UFMODBlueprintStatics_UnloadBank_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UFMODBlueprintStatics_UnloadBank_Statics::NewProp_Bank,
 	};
@@ -2157,7 +2225,9 @@ template<> FMODSTUDIO_API UScriptStruct* StaticStruct<FFMODEventInstance>()
 		{ "UnsafeDuringActorConstruction", "true" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UFMODBlueprintStatics_UnloadBank_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UFMODBlueprintStatics, nullptr, "UnloadBank", nullptr, nullptr, sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_UnloadBank_Statics::FMODBlueprintStatics_eventUnloadBank_Parms), Z_Construct_UFunction_UFMODBlueprintStatics_UnloadBank_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_UnloadBank_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UFMODBlueprintStatics_UnloadBank_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_UnloadBank_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UFMODBlueprintStatics_UnloadBank_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UFMODBlueprintStatics, nullptr, "UnloadBank", nullptr, nullptr, Z_Construct_UFunction_UFMODBlueprintStatics_UnloadBank_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_UnloadBank_Statics::PropPointers), sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_UnloadBank_Statics::FMODBlueprintStatics_eventUnloadBank_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_UnloadBank_Statics::Function_MetaDataParams), Z_Construct_UFunction_UFMODBlueprintStatics_UnloadBank_Statics::Function_MetaDataParams) };
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_UnloadBank_Statics::PropPointers) < 2048);
+	static_assert(sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_UnloadBank_Statics::FMODBlueprintStatics_eventUnloadBank_Parms) < MAX_uint16);
 	UFunction* Z_Construct_UFunction_UFMODBlueprintStatics_UnloadBank()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -2180,7 +2250,7 @@ template<> FMODSTUDIO_API UScriptStruct* StaticStruct<FFMODEventInstance>()
 #endif
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_UnloadBankSampleData_Statics::NewProp_Bank = { "Bank", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FMODBlueprintStatics_eventUnloadBankSampleData_Parms, Bank), Z_Construct_UClass_UFMODBank_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_UnloadBankSampleData_Statics::NewProp_Bank = { "Bank", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FMODBlueprintStatics_eventUnloadBankSampleData_Parms, Bank), Z_Construct_UClass_UFMODBank_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UFMODBlueprintStatics_UnloadBankSampleData_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UFMODBlueprintStatics_UnloadBankSampleData_Statics::NewProp_Bank,
 	};
@@ -2193,7 +2263,9 @@ template<> FMODSTUDIO_API UScriptStruct* StaticStruct<FFMODEventInstance>()
 		{ "UnsafeDuringActorConstruction", "true" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UFMODBlueprintStatics_UnloadBankSampleData_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UFMODBlueprintStatics, nullptr, "UnloadBankSampleData", nullptr, nullptr, sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_UnloadBankSampleData_Statics::FMODBlueprintStatics_eventUnloadBankSampleData_Parms), Z_Construct_UFunction_UFMODBlueprintStatics_UnloadBankSampleData_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_UnloadBankSampleData_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UFMODBlueprintStatics_UnloadBankSampleData_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_UnloadBankSampleData_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UFMODBlueprintStatics_UnloadBankSampleData_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UFMODBlueprintStatics, nullptr, "UnloadBankSampleData", nullptr, nullptr, Z_Construct_UFunction_UFMODBlueprintStatics_UnloadBankSampleData_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_UnloadBankSampleData_Statics::PropPointers), sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_UnloadBankSampleData_Statics::FMODBlueprintStatics_eventUnloadBankSampleData_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_UnloadBankSampleData_Statics::Function_MetaDataParams), Z_Construct_UFunction_UFMODBlueprintStatics_UnloadBankSampleData_Statics::Function_MetaDataParams) };
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_UnloadBankSampleData_Statics::PropPointers) < 2048);
+	static_assert(sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_UnloadBankSampleData_Statics::FMODBlueprintStatics_eventUnloadBankSampleData_Parms) < MAX_uint16);
 	UFunction* Z_Construct_UFunction_UFMODBlueprintStatics_UnloadBankSampleData()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -2218,8 +2290,8 @@ template<> FMODSTUDIO_API UScriptStruct* StaticStruct<FFMODEventInstance>()
 #endif
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_UnloadEventSampleData_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FMODBlueprintStatics_eventUnloadEventSampleData_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(nullptr, 0) };
-	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_UnloadEventSampleData_Statics::NewProp_Event = { "Event", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FMODBlueprintStatics_eventUnloadEventSampleData_Parms, Event), Z_Construct_UClass_UFMODEvent_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_UnloadEventSampleData_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FMODBlueprintStatics_eventUnloadEventSampleData_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_UnloadEventSampleData_Statics::NewProp_Event = { "Event", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FMODBlueprintStatics_eventUnloadEventSampleData_Parms, Event), Z_Construct_UClass_UFMODEvent_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UFMODBlueprintStatics_UnloadEventSampleData_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UFMODBlueprintStatics_UnloadEventSampleData_Statics::NewProp_WorldContextObject,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UFMODBlueprintStatics_UnloadEventSampleData_Statics::NewProp_Event,
@@ -2235,7 +2307,9 @@ template<> FMODSTUDIO_API UScriptStruct* StaticStruct<FFMODEventInstance>()
 		{ "UnsafeDuringActorConstruction", "true" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UFMODBlueprintStatics_UnloadEventSampleData_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UFMODBlueprintStatics, nullptr, "UnloadEventSampleData", nullptr, nullptr, sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_UnloadEventSampleData_Statics::FMODBlueprintStatics_eventUnloadEventSampleData_Parms), Z_Construct_UFunction_UFMODBlueprintStatics_UnloadEventSampleData_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_UnloadEventSampleData_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UFMODBlueprintStatics_UnloadEventSampleData_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_UnloadEventSampleData_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UFMODBlueprintStatics_UnloadEventSampleData_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UFMODBlueprintStatics, nullptr, "UnloadEventSampleData", nullptr, nullptr, Z_Construct_UFunction_UFMODBlueprintStatics_UnloadEventSampleData_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_UnloadEventSampleData_Statics::PropPointers), sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_UnloadEventSampleData_Statics::FMODBlueprintStatics_eventUnloadEventSampleData_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_UnloadEventSampleData_Statics::Function_MetaDataParams), Z_Construct_UFunction_UFMODBlueprintStatics_UnloadEventSampleData_Statics::Function_MetaDataParams) };
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_UnloadEventSampleData_Statics::PropPointers) < 2048);
+	static_assert(sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_UnloadEventSampleData_Statics::FMODBlueprintStatics_eventUnloadEventSampleData_Parms) < MAX_uint16);
 	UFunction* Z_Construct_UFunction_UFMODBlueprintStatics_UnloadEventSampleData()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -2260,8 +2334,8 @@ template<> FMODSTUDIO_API UScriptStruct* StaticStruct<FFMODEventInstance>()
 #endif
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_VCASetVolume_Statics::NewProp_Vca = { "Vca", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FMODBlueprintStatics_eventVCASetVolume_Parms, Vca), Z_Construct_UClass_UFMODVCA_NoRegister, METADATA_PARAMS(nullptr, 0) };
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_VCASetVolume_Statics::NewProp_Volume = { "Volume", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FMODBlueprintStatics_eventVCASetVolume_Parms, Volume), METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_VCASetVolume_Statics::NewProp_Vca = { "Vca", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FMODBlueprintStatics_eventVCASetVolume_Parms, Vca), Z_Construct_UClass_UFMODVCA_NoRegister, METADATA_PARAMS(0, nullptr) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_VCASetVolume_Statics::NewProp_Volume = { "Volume", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FMODBlueprintStatics_eventVCASetVolume_Parms, Volume), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UFMODBlueprintStatics_VCASetVolume_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UFMODBlueprintStatics_VCASetVolume_Statics::NewProp_Vca,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UFMODBlueprintStatics_VCASetVolume_Statics::NewProp_Volume,
@@ -2275,7 +2349,9 @@ template<> FMODSTUDIO_API UScriptStruct* StaticStruct<FFMODEventInstance>()
 		{ "UnsafeDuringActorConstruction", "true" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UFMODBlueprintStatics_VCASetVolume_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UFMODBlueprintStatics, nullptr, "VCASetVolume", nullptr, nullptr, sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_VCASetVolume_Statics::FMODBlueprintStatics_eventVCASetVolume_Parms), Z_Construct_UFunction_UFMODBlueprintStatics_VCASetVolume_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_VCASetVolume_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UFMODBlueprintStatics_VCASetVolume_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_VCASetVolume_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UFMODBlueprintStatics_VCASetVolume_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UFMODBlueprintStatics, nullptr, "VCASetVolume", nullptr, nullptr, Z_Construct_UFunction_UFMODBlueprintStatics_VCASetVolume_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_VCASetVolume_Statics::PropPointers), sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_VCASetVolume_Statics::FMODBlueprintStatics_eventVCASetVolume_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_VCASetVolume_Statics::Function_MetaDataParams), Z_Construct_UFunction_UFMODBlueprintStatics_VCASetVolume_Statics::Function_MetaDataParams) };
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODBlueprintStatics_VCASetVolume_Statics::PropPointers) < 2048);
+	static_assert(sizeof(Z_Construct_UFunction_UFMODBlueprintStatics_VCASetVolume_Statics::FMODBlueprintStatics_eventVCASetVolume_Parms) < MAX_uint16);
 	UFunction* Z_Construct_UFunction_UFMODBlueprintStatics_VCASetVolume()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -2304,48 +2380,50 @@ template<> FMODSTUDIO_API UScriptStruct* StaticStruct<FFMODEventInstance>()
 		(UObject* (*)())Z_Construct_UClass_UBlueprintFunctionLibrary,
 		(UObject* (*)())Z_Construct_UPackage__Script_FMODStudio,
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UFMODBlueprintStatics_Statics::DependentSingletons) < 16);
 	const FClassFunctionLinkInfo Z_Construct_UClass_UFMODBlueprintStatics_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_UFMODBlueprintStatics_BusSetMute, "BusSetMute" }, // 3985235914
-		{ &Z_Construct_UFunction_UFMODBlueprintStatics_BusSetPaused, "BusSetPaused" }, // 1385033560
-		{ &Z_Construct_UFunction_UFMODBlueprintStatics_BusSetVolume, "BusSetVolume" }, // 1770934267
-		{ &Z_Construct_UFunction_UFMODBlueprintStatics_BusStopAllEvents, "BusStopAllEvents" }, // 2729185714
-		{ &Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceGetParameter, "EventInstanceGetParameter" }, // 3151265457
-		{ &Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceGetParameterValue, "EventInstanceGetParameterValue" }, // 1061311260
-		{ &Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceIsValid, "EventInstanceIsValid" }, // 2963274119
-		{ &Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceKeyOff, "EventInstanceKeyOff" }, // 791945360
-		{ &Z_Construct_UFunction_UFMODBlueprintStatics_EventInstancePlay, "EventInstancePlay" }, // 3838237703
-		{ &Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceRelease, "EventInstanceRelease" }, // 1953948560
-		{ &Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetParameter, "EventInstanceSetParameter" }, // 556158817
-		{ &Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetPaused, "EventInstanceSetPaused" }, // 2989776477
-		{ &Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetPitch, "EventInstanceSetPitch" }, // 1267304795
-		{ &Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetProperty, "EventInstanceSetProperty" }, // 103803279
-		{ &Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetTransform, "EventInstanceSetTransform" }, // 619664406
-		{ &Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetVolume, "EventInstanceSetVolume" }, // 226775026
-		{ &Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceStop, "EventInstanceStop" }, // 3736330124
-		{ &Z_Construct_UFunction_UFMODBlueprintStatics_FindAssetByName, "FindAssetByName" }, // 1860790098
-		{ &Z_Construct_UFunction_UFMODBlueprintStatics_FindEventByName, "FindEventByName" }, // 3798856330
-		{ &Z_Construct_UFunction_UFMODBlueprintStatics_FindEventInstances, "FindEventInstances" }, // 3680183508
-		{ &Z_Construct_UFunction_UFMODBlueprintStatics_GetGlobalParameterByName, "GetGlobalParameterByName" }, // 4123192563
-		{ &Z_Construct_UFunction_UFMODBlueprintStatics_GetGlobalParameterValueByName, "GetGlobalParameterValueByName" }, // 2998837987
-		{ &Z_Construct_UFunction_UFMODBlueprintStatics_GetOutputDrivers, "GetOutputDrivers" }, // 1435830783
-		{ &Z_Construct_UFunction_UFMODBlueprintStatics_IsBankLoaded, "IsBankLoaded" }, // 485394613
-		{ &Z_Construct_UFunction_UFMODBlueprintStatics_LoadBank, "LoadBank" }, // 570325418
-		{ &Z_Construct_UFunction_UFMODBlueprintStatics_LoadBankSampleData, "LoadBankSampleData" }, // 220694411
-		{ &Z_Construct_UFunction_UFMODBlueprintStatics_LoadEventSampleData, "LoadEventSampleData" }, // 3809844642
-		{ &Z_Construct_UFunction_UFMODBlueprintStatics_MixerResume, "MixerResume" }, // 3784202546
-		{ &Z_Construct_UFunction_UFMODBlueprintStatics_MixerSuspend, "MixerSuspend" }, // 702316695
-		{ &Z_Construct_UFunction_UFMODBlueprintStatics_PlayEvent2D, "PlayEvent2D" }, // 525031525
-		{ &Z_Construct_UFunction_UFMODBlueprintStatics_PlayEventAtLocation, "PlayEventAtLocation" }, // 1412670293
-		{ &Z_Construct_UFunction_UFMODBlueprintStatics_PlayEventAttached, "PlayEventAttached" }, // 68425861
-		{ &Z_Construct_UFunction_UFMODBlueprintStatics_SetGlobalParameterByName, "SetGlobalParameterByName" }, // 1818126330
-		{ &Z_Construct_UFunction_UFMODBlueprintStatics_SetLocale, "SetLocale" }, // 3864377686
-		{ &Z_Construct_UFunction_UFMODBlueprintStatics_SetOutputDriverByIndex, "SetOutputDriverByIndex" }, // 584723608
-		{ &Z_Construct_UFunction_UFMODBlueprintStatics_SetOutputDriverByName, "SetOutputDriverByName" }, // 1358903214
-		{ &Z_Construct_UFunction_UFMODBlueprintStatics_UnloadBank, "UnloadBank" }, // 414203752
-		{ &Z_Construct_UFunction_UFMODBlueprintStatics_UnloadBankSampleData, "UnloadBankSampleData" }, // 624464948
-		{ &Z_Construct_UFunction_UFMODBlueprintStatics_UnloadEventSampleData, "UnloadEventSampleData" }, // 2808107521
-		{ &Z_Construct_UFunction_UFMODBlueprintStatics_VCASetVolume, "VCASetVolume" }, // 2123715866
+		{ &Z_Construct_UFunction_UFMODBlueprintStatics_BusSetMute, "BusSetMute" }, // 1498405920
+		{ &Z_Construct_UFunction_UFMODBlueprintStatics_BusSetPaused, "BusSetPaused" }, // 215391988
+		{ &Z_Construct_UFunction_UFMODBlueprintStatics_BusSetVolume, "BusSetVolume" }, // 1229828314
+		{ &Z_Construct_UFunction_UFMODBlueprintStatics_BusStopAllEvents, "BusStopAllEvents" }, // 3007176060
+		{ &Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceGetParameter, "EventInstanceGetParameter" }, // 2265553004
+		{ &Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceGetParameterValue, "EventInstanceGetParameterValue" }, // 606992221
+		{ &Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceIsValid, "EventInstanceIsValid" }, // 4215121264
+		{ &Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceKeyOff, "EventInstanceKeyOff" }, // 4037790748
+		{ &Z_Construct_UFunction_UFMODBlueprintStatics_EventInstancePlay, "EventInstancePlay" }, // 2526594841
+		{ &Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceRelease, "EventInstanceRelease" }, // 817856922
+		{ &Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetParameter, "EventInstanceSetParameter" }, // 1208196175
+		{ &Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetPaused, "EventInstanceSetPaused" }, // 3185774556
+		{ &Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetPitch, "EventInstanceSetPitch" }, // 1050145501
+		{ &Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetProperty, "EventInstanceSetProperty" }, // 338671292
+		{ &Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetTransform, "EventInstanceSetTransform" }, // 3638448465
+		{ &Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetVolume, "EventInstanceSetVolume" }, // 2849425461
+		{ &Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceStop, "EventInstanceStop" }, // 445039302
+		{ &Z_Construct_UFunction_UFMODBlueprintStatics_FindAssetByName, "FindAssetByName" }, // 1123543570
+		{ &Z_Construct_UFunction_UFMODBlueprintStatics_FindEventByName, "FindEventByName" }, // 1754952117
+		{ &Z_Construct_UFunction_UFMODBlueprintStatics_FindEventInstances, "FindEventInstances" }, // 1582721910
+		{ &Z_Construct_UFunction_UFMODBlueprintStatics_GetGlobalParameterByName, "GetGlobalParameterByName" }, // 2921374784
+		{ &Z_Construct_UFunction_UFMODBlueprintStatics_GetGlobalParameterValueByName, "GetGlobalParameterValueByName" }, // 3414100085
+		{ &Z_Construct_UFunction_UFMODBlueprintStatics_GetOutputDrivers, "GetOutputDrivers" }, // 1904152127
+		{ &Z_Construct_UFunction_UFMODBlueprintStatics_IsBankLoaded, "IsBankLoaded" }, // 416338832
+		{ &Z_Construct_UFunction_UFMODBlueprintStatics_LoadBank, "LoadBank" }, // 3261182680
+		{ &Z_Construct_UFunction_UFMODBlueprintStatics_LoadBankSampleData, "LoadBankSampleData" }, // 3291446347
+		{ &Z_Construct_UFunction_UFMODBlueprintStatics_LoadEventSampleData, "LoadEventSampleData" }, // 2761839869
+		{ &Z_Construct_UFunction_UFMODBlueprintStatics_MixerResume, "MixerResume" }, // 1680924964
+		{ &Z_Construct_UFunction_UFMODBlueprintStatics_MixerSuspend, "MixerSuspend" }, // 3477165109
+		{ &Z_Construct_UFunction_UFMODBlueprintStatics_PlayEvent2D, "PlayEvent2D" }, // 1818515808
+		{ &Z_Construct_UFunction_UFMODBlueprintStatics_PlayEventAtLocation, "PlayEventAtLocation" }, // 2249785036
+		{ &Z_Construct_UFunction_UFMODBlueprintStatics_PlayEventAttached, "PlayEventAttached" }, // 3112338188
+		{ &Z_Construct_UFunction_UFMODBlueprintStatics_SetGlobalParameterByName, "SetGlobalParameterByName" }, // 3754023733
+		{ &Z_Construct_UFunction_UFMODBlueprintStatics_SetLocale, "SetLocale" }, // 1682353271
+		{ &Z_Construct_UFunction_UFMODBlueprintStatics_SetOutputDriverByIndex, "SetOutputDriverByIndex" }, // 2874393881
+		{ &Z_Construct_UFunction_UFMODBlueprintStatics_SetOutputDriverByName, "SetOutputDriverByName" }, // 1669121747
+		{ &Z_Construct_UFunction_UFMODBlueprintStatics_UnloadBank, "UnloadBank" }, // 2645927329
+		{ &Z_Construct_UFunction_UFMODBlueprintStatics_UnloadBankSampleData, "UnloadBankSampleData" }, // 1635173490
+		{ &Z_Construct_UFunction_UFMODBlueprintStatics_UnloadEventSampleData, "UnloadEventSampleData" }, // 2973507606
+		{ &Z_Construct_UFunction_UFMODBlueprintStatics_VCASetVolume, "VCASetVolume" }, // 408748496
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UFMODBlueprintStatics_Statics::FuncInfo) < 2048);
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UFMODBlueprintStatics_Statics::Class_MetaDataParams[] = {
 		{ "IncludePath", "FMODBlueprintStatics.h" },
@@ -2368,7 +2446,7 @@ template<> FMODSTUDIO_API UScriptStruct* StaticStruct<FFMODEventInstance>()
 		0,
 		0,
 		0x001000A0u,
-		METADATA_PARAMS(Z_Construct_UClass_UFMODBlueprintStatics_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_UFMODBlueprintStatics_Statics::Class_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UFMODBlueprintStatics_Statics::Class_MetaDataParams), Z_Construct_UClass_UFMODBlueprintStatics_Statics::Class_MetaDataParams)
 	};
 	UClass* Z_Construct_UClass_UFMODBlueprintStatics()
 	{
@@ -2384,23 +2462,23 @@ template<> FMODSTUDIO_API UScriptStruct* StaticStruct<FFMODEventInstance>()
 	}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UFMODBlueprintStatics);
 	UFMODBlueprintStatics::~UFMODBlueprintStatics() {}
-	struct Z_CompiledInDeferFile_FID_Unreal_Projects_GameJam_1_GameJam_1_Plugins_fmodstudio20220ue5_2win64_FMODStudio_Source_FMODStudio_Classes_FMODBlueprintStatics_h_Statics
+	struct Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODBlueprintStatics_h_Statics
 	{
 		static const FEnumRegisterCompiledInInfo EnumInfo[];
 		static const FStructRegisterCompiledInInfo ScriptStructInfo[];
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FEnumRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_Projects_GameJam_1_GameJam_1_Plugins_fmodstudio20220ue5_2win64_FMODStudio_Source_FMODStudio_Classes_FMODBlueprintStatics_h_Statics::EnumInfo[] = {
-		{ EFMOD_STUDIO_STOP_MODE_StaticEnum, TEXT("EFMOD_STUDIO_STOP_MODE"), &Z_Registration_Info_UEnum_EFMOD_STUDIO_STOP_MODE, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 3570590506U) },
+	const FEnumRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODBlueprintStatics_h_Statics::EnumInfo[] = {
+		{ EFMOD_STUDIO_STOP_MODE_StaticEnum, TEXT("EFMOD_STUDIO_STOP_MODE"), &Z_Registration_Info_UEnum_EFMOD_STUDIO_STOP_MODE, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 3643564038U) },
 	};
-	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_Projects_GameJam_1_GameJam_1_Plugins_fmodstudio20220ue5_2win64_FMODStudio_Source_FMODStudio_Classes_FMODBlueprintStatics_h_Statics::ScriptStructInfo[] = {
-		{ FFMODEventInstance::StaticStruct, Z_Construct_UScriptStruct_FFMODEventInstance_Statics::NewStructOps, TEXT("FMODEventInstance"), &Z_Registration_Info_UScriptStruct_FMODEventInstance, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FFMODEventInstance), 2164700124U) },
+	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODBlueprintStatics_h_Statics::ScriptStructInfo[] = {
+		{ FFMODEventInstance::StaticStruct, Z_Construct_UScriptStruct_FFMODEventInstance_Statics::NewStructOps, TEXT("FMODEventInstance"), &Z_Registration_Info_UScriptStruct_FMODEventInstance, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FFMODEventInstance), 1332022397U) },
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_Projects_GameJam_1_GameJam_1_Plugins_fmodstudio20220ue5_2win64_FMODStudio_Source_FMODStudio_Classes_FMODBlueprintStatics_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UFMODBlueprintStatics, UFMODBlueprintStatics::StaticClass, TEXT("UFMODBlueprintStatics"), &Z_Registration_Info_UClass_UFMODBlueprintStatics, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFMODBlueprintStatics), 1449544186U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODBlueprintStatics_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_UFMODBlueprintStatics, UFMODBlueprintStatics::StaticClass, TEXT("UFMODBlueprintStatics"), &Z_Registration_Info_UClass_UFMODBlueprintStatics, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFMODBlueprintStatics), 2594672473U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_Projects_GameJam_1_GameJam_1_Plugins_fmodstudio20220ue5_2win64_FMODStudio_Source_FMODStudio_Classes_FMODBlueprintStatics_h_1309897939(TEXT("/Script/FMODStudio"),
-		Z_CompiledInDeferFile_FID_Unreal_Projects_GameJam_1_GameJam_1_Plugins_fmodstudio20220ue5_2win64_FMODStudio_Source_FMODStudio_Classes_FMODBlueprintStatics_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Unreal_Projects_GameJam_1_GameJam_1_Plugins_fmodstudio20220ue5_2win64_FMODStudio_Source_FMODStudio_Classes_FMODBlueprintStatics_h_Statics::ClassInfo),
-		Z_CompiledInDeferFile_FID_Unreal_Projects_GameJam_1_GameJam_1_Plugins_fmodstudio20220ue5_2win64_FMODStudio_Source_FMODStudio_Classes_FMODBlueprintStatics_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Unreal_Projects_GameJam_1_GameJam_1_Plugins_fmodstudio20220ue5_2win64_FMODStudio_Source_FMODStudio_Classes_FMODBlueprintStatics_h_Statics::ScriptStructInfo),
-		Z_CompiledInDeferFile_FID_Unreal_Projects_GameJam_1_GameJam_1_Plugins_fmodstudio20220ue5_2win64_FMODStudio_Source_FMODStudio_Classes_FMODBlueprintStatics_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Unreal_Projects_GameJam_1_GameJam_1_Plugins_fmodstudio20220ue5_2win64_FMODStudio_Source_FMODStudio_Classes_FMODBlueprintStatics_h_Statics::EnumInfo));
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODBlueprintStatics_h_3514482486(TEXT("/Script/FMODStudio"),
+		Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODBlueprintStatics_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODBlueprintStatics_h_Statics::ClassInfo),
+		Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODBlueprintStatics_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODBlueprintStatics_h_Statics::ScriptStructInfo),
+		Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODBlueprintStatics_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODBlueprintStatics_h_Statics::EnumInfo));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

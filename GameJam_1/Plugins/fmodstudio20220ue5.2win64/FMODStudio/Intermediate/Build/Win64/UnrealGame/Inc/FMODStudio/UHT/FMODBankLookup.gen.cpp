@@ -62,7 +62,7 @@ template<> FMODSTUDIO_API UScriptStruct* StaticStruct<FFMODLocalizedBankRow>()
 		{ "ModuleRelativePath", "Private/FMODBankLookup.h" },
 	};
 #endif
-	const UECodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FFMODLocalizedBankRow_Statics::NewProp_Path = { "Path", nullptr, (EPropertyFlags)0x0010000000020001, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FFMODLocalizedBankRow, Path), METADATA_PARAMS(Z_Construct_UScriptStruct_FFMODLocalizedBankRow_Statics::NewProp_Path_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFMODLocalizedBankRow_Statics::NewProp_Path_MetaData)) };
+	const UECodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FFMODLocalizedBankRow_Statics::NewProp_Path = { "Path", nullptr, (EPropertyFlags)0x0010000000020001, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FFMODLocalizedBankRow, Path), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFMODLocalizedBankRow_Statics::NewProp_Path_MetaData), Z_Construct_UScriptStruct_FFMODLocalizedBankRow_Statics::NewProp_Path_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FFMODLocalizedBankRow_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FFMODLocalizedBankRow_Statics::NewProp_Path,
 	};
@@ -71,14 +71,15 @@ template<> FMODSTUDIO_API UScriptStruct* StaticStruct<FFMODLocalizedBankRow>()
 		Z_Construct_UScriptStruct_FTableRowBase,
 		&NewStructOps,
 		"FMODLocalizedBankRow",
-		sizeof(FFMODLocalizedBankRow),
-		alignof(FFMODLocalizedBankRow),
 		Z_Construct_UScriptStruct_FFMODLocalizedBankRow_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFMODLocalizedBankRow_Statics::PropPointers),
+		sizeof(FFMODLocalizedBankRow),
+		alignof(FFMODLocalizedBankRow),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000201),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FFMODLocalizedBankRow_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFMODLocalizedBankRow_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFMODLocalizedBankRow_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FFMODLocalizedBankRow_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFMODLocalizedBankRow_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FFMODLocalizedBankRow()
 	{
 		if (!Z_Registration_Info_UScriptStruct_FMODLocalizedBankRow.InnerSingleton)
@@ -131,7 +132,7 @@ template<> FMODSTUDIO_API UScriptStruct* StaticStruct<FFMODLocalizedBankTable>()
 		{ "ModuleRelativePath", "Private/FMODBankLookup.h" },
 	};
 #endif
-	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UScriptStruct_FFMODLocalizedBankTable_Statics::NewProp_Banks = { "Banks", nullptr, (EPropertyFlags)0x0010000000020001, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FFMODLocalizedBankTable, Banks), Z_Construct_UClass_UDataTable_NoRegister, METADATA_PARAMS(Z_Construct_UScriptStruct_FFMODLocalizedBankTable_Statics::NewProp_Banks_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFMODLocalizedBankTable_Statics::NewProp_Banks_MetaData)) };
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UScriptStruct_FFMODLocalizedBankTable_Statics::NewProp_Banks = { "Banks", nullptr, (EPropertyFlags)0x0010000000020001, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FFMODLocalizedBankTable, Banks), Z_Construct_UClass_UDataTable_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFMODLocalizedBankTable_Statics::NewProp_Banks_MetaData), Z_Construct_UScriptStruct_FFMODLocalizedBankTable_Statics::NewProp_Banks_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FFMODLocalizedBankTable_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FFMODLocalizedBankTable_Statics::NewProp_Banks,
 	};
@@ -140,14 +141,15 @@ template<> FMODSTUDIO_API UScriptStruct* StaticStruct<FFMODLocalizedBankTable>()
 		Z_Construct_UScriptStruct_FTableRowBase,
 		&NewStructOps,
 		"FMODLocalizedBankTable",
-		sizeof(FFMODLocalizedBankTable),
-		alignof(FFMODLocalizedBankTable),
 		Z_Construct_UScriptStruct_FFMODLocalizedBankTable_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFMODLocalizedBankTable_Statics::PropPointers),
+		sizeof(FFMODLocalizedBankTable),
+		alignof(FFMODLocalizedBankTable),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000201),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FFMODLocalizedBankTable_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFMODLocalizedBankTable_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFMODLocalizedBankTable_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FFMODLocalizedBankTable_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFMODLocalizedBankTable_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FFMODLocalizedBankTable()
 	{
 		if (!Z_Registration_Info_UScriptStruct_FMODLocalizedBankTable.InnerSingleton)
@@ -194,6 +196,7 @@ template<> FMODSTUDIO_API UScriptStruct* StaticStruct<FFMODLocalizedBankTable>()
 		(UObject* (*)())Z_Construct_UClass_UObject,
 		(UObject* (*)())Z_Construct_UPackage__Script_FMODStudio,
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UFMODBankLookup_Statics::DependentSingletons) < 16);
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UFMODBankLookup_Statics::Class_MetaDataParams[] = {
 		{ "IncludePath", "FMODBankLookup.h" },
@@ -206,28 +209,28 @@ template<> FMODSTUDIO_API UScriptStruct* StaticStruct<FFMODLocalizedBankTable>()
 		{ "ModuleRelativePath", "Private/FMODBankLookup.h" },
 	};
 #endif
-	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UFMODBankLookup_Statics::NewProp_DataTable = { "DataTable", nullptr, (EPropertyFlags)0x0010000000020001, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(UFMODBankLookup, DataTable), Z_Construct_UClass_UDataTable_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UFMODBankLookup_Statics::NewProp_DataTable_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UFMODBankLookup_Statics::NewProp_DataTable_MetaData)) };
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UFMODBankLookup_Statics::NewProp_DataTable = { "DataTable", nullptr, (EPropertyFlags)0x0010000000020001, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UFMODBankLookup, DataTable), Z_Construct_UClass_UDataTable_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UFMODBankLookup_Statics::NewProp_DataTable_MetaData), Z_Construct_UClass_UFMODBankLookup_Statics::NewProp_DataTable_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UFMODBankLookup_Statics::NewProp_MasterBankPath_MetaData[] = {
 		{ "Category", "FMOD|Internal|BankLookup" },
 		{ "ModuleRelativePath", "Private/FMODBankLookup.h" },
 	};
 #endif
-	const UECodeGen_Private::FStrPropertyParams Z_Construct_UClass_UFMODBankLookup_Statics::NewProp_MasterBankPath = { "MasterBankPath", nullptr, (EPropertyFlags)0x0010000000020001, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(UFMODBankLookup, MasterBankPath), METADATA_PARAMS(Z_Construct_UClass_UFMODBankLookup_Statics::NewProp_MasterBankPath_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UFMODBankLookup_Statics::NewProp_MasterBankPath_MetaData)) };
+	const UECodeGen_Private::FStrPropertyParams Z_Construct_UClass_UFMODBankLookup_Statics::NewProp_MasterBankPath = { "MasterBankPath", nullptr, (EPropertyFlags)0x0010000000020001, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UFMODBankLookup, MasterBankPath), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UFMODBankLookup_Statics::NewProp_MasterBankPath_MetaData), Z_Construct_UClass_UFMODBankLookup_Statics::NewProp_MasterBankPath_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UFMODBankLookup_Statics::NewProp_MasterAssetsBankPath_MetaData[] = {
 		{ "Category", "FMOD|Internal|BankLookup" },
 		{ "ModuleRelativePath", "Private/FMODBankLookup.h" },
 	};
 #endif
-	const UECodeGen_Private::FStrPropertyParams Z_Construct_UClass_UFMODBankLookup_Statics::NewProp_MasterAssetsBankPath = { "MasterAssetsBankPath", nullptr, (EPropertyFlags)0x0010000000020001, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(UFMODBankLookup, MasterAssetsBankPath), METADATA_PARAMS(Z_Construct_UClass_UFMODBankLookup_Statics::NewProp_MasterAssetsBankPath_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UFMODBankLookup_Statics::NewProp_MasterAssetsBankPath_MetaData)) };
+	const UECodeGen_Private::FStrPropertyParams Z_Construct_UClass_UFMODBankLookup_Statics::NewProp_MasterAssetsBankPath = { "MasterAssetsBankPath", nullptr, (EPropertyFlags)0x0010000000020001, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UFMODBankLookup, MasterAssetsBankPath), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UFMODBankLookup_Statics::NewProp_MasterAssetsBankPath_MetaData), Z_Construct_UClass_UFMODBankLookup_Statics::NewProp_MasterAssetsBankPath_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UFMODBankLookup_Statics::NewProp_MasterStringsBankPath_MetaData[] = {
 		{ "Category", "FMOD|Internal|BankLookup" },
 		{ "ModuleRelativePath", "Private/FMODBankLookup.h" },
 	};
 #endif
-	const UECodeGen_Private::FStrPropertyParams Z_Construct_UClass_UFMODBankLookup_Statics::NewProp_MasterStringsBankPath = { "MasterStringsBankPath", nullptr, (EPropertyFlags)0x0010000000020001, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(UFMODBankLookup, MasterStringsBankPath), METADATA_PARAMS(Z_Construct_UClass_UFMODBankLookup_Statics::NewProp_MasterStringsBankPath_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UFMODBankLookup_Statics::NewProp_MasterStringsBankPath_MetaData)) };
+	const UECodeGen_Private::FStrPropertyParams Z_Construct_UClass_UFMODBankLookup_Statics::NewProp_MasterStringsBankPath = { "MasterStringsBankPath", nullptr, (EPropertyFlags)0x0010000000020001, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UFMODBankLookup, MasterStringsBankPath), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UFMODBankLookup_Statics::NewProp_MasterStringsBankPath_MetaData), Z_Construct_UClass_UFMODBankLookup_Statics::NewProp_MasterStringsBankPath_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UFMODBankLookup_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UFMODBankLookup_Statics::NewProp_DataTable,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UFMODBankLookup_Statics::NewProp_MasterBankPath,
@@ -250,8 +253,9 @@ template<> FMODSTUDIO_API UScriptStruct* StaticStruct<FFMODLocalizedBankTable>()
 		UE_ARRAY_COUNT(Z_Construct_UClass_UFMODBankLookup_Statics::PropPointers),
 		0,
 		0x001000A0u,
-		METADATA_PARAMS(Z_Construct_UClass_UFMODBankLookup_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_UFMODBankLookup_Statics::Class_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UFMODBankLookup_Statics::Class_MetaDataParams), Z_Construct_UClass_UFMODBankLookup_Statics::Class_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UFMODBankLookup_Statics::PropPointers) < 2048);
 	UClass* Z_Construct_UClass_UFMODBankLookup()
 	{
 		if (!Z_Registration_Info_UClass_UFMODBankLookup.OuterSingleton)
@@ -266,20 +270,20 @@ template<> FMODSTUDIO_API UScriptStruct* StaticStruct<FFMODLocalizedBankTable>()
 	}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UFMODBankLookup);
 	UFMODBankLookup::~UFMODBankLookup() {}
-	struct Z_CompiledInDeferFile_FID_Unreal_Projects_GameJam_1_GameJam_1_Plugins_fmodstudio20220ue5_2win64_FMODStudio_Source_FMODStudio_Private_FMODBankLookup_h_Statics
+	struct Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Private_FMODBankLookup_h_Statics
 	{
 		static const FStructRegisterCompiledInInfo ScriptStructInfo[];
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_Projects_GameJam_1_GameJam_1_Plugins_fmodstudio20220ue5_2win64_FMODStudio_Source_FMODStudio_Private_FMODBankLookup_h_Statics::ScriptStructInfo[] = {
-		{ FFMODLocalizedBankRow::StaticStruct, Z_Construct_UScriptStruct_FFMODLocalizedBankRow_Statics::NewStructOps, TEXT("FMODLocalizedBankRow"), &Z_Registration_Info_UScriptStruct_FMODLocalizedBankRow, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FFMODLocalizedBankRow), 3985305933U) },
-		{ FFMODLocalizedBankTable::StaticStruct, Z_Construct_UScriptStruct_FFMODLocalizedBankTable_Statics::NewStructOps, TEXT("FMODLocalizedBankTable"), &Z_Registration_Info_UScriptStruct_FMODLocalizedBankTable, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FFMODLocalizedBankTable), 3225716868U) },
+	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Private_FMODBankLookup_h_Statics::ScriptStructInfo[] = {
+		{ FFMODLocalizedBankRow::StaticStruct, Z_Construct_UScriptStruct_FFMODLocalizedBankRow_Statics::NewStructOps, TEXT("FMODLocalizedBankRow"), &Z_Registration_Info_UScriptStruct_FMODLocalizedBankRow, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FFMODLocalizedBankRow), 3365811779U) },
+		{ FFMODLocalizedBankTable::StaticStruct, Z_Construct_UScriptStruct_FFMODLocalizedBankTable_Statics::NewStructOps, TEXT("FMODLocalizedBankTable"), &Z_Registration_Info_UScriptStruct_FMODLocalizedBankTable, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FFMODLocalizedBankTable), 883292579U) },
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_Projects_GameJam_1_GameJam_1_Plugins_fmodstudio20220ue5_2win64_FMODStudio_Source_FMODStudio_Private_FMODBankLookup_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UFMODBankLookup, UFMODBankLookup::StaticClass, TEXT("UFMODBankLookup"), &Z_Registration_Info_UClass_UFMODBankLookup, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFMODBankLookup), 3645324818U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Private_FMODBankLookup_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_UFMODBankLookup, UFMODBankLookup::StaticClass, TEXT("UFMODBankLookup"), &Z_Registration_Info_UClass_UFMODBankLookup, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFMODBankLookup), 503390835U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_Projects_GameJam_1_GameJam_1_Plugins_fmodstudio20220ue5_2win64_FMODStudio_Source_FMODStudio_Private_FMODBankLookup_h_2820965369(TEXT("/Script/FMODStudio"),
-		Z_CompiledInDeferFile_FID_Unreal_Projects_GameJam_1_GameJam_1_Plugins_fmodstudio20220ue5_2win64_FMODStudio_Source_FMODStudio_Private_FMODBankLookup_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Unreal_Projects_GameJam_1_GameJam_1_Plugins_fmodstudio20220ue5_2win64_FMODStudio_Source_FMODStudio_Private_FMODBankLookup_h_Statics::ClassInfo),
-		Z_CompiledInDeferFile_FID_Unreal_Projects_GameJam_1_GameJam_1_Plugins_fmodstudio20220ue5_2win64_FMODStudio_Source_FMODStudio_Private_FMODBankLookup_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Unreal_Projects_GameJam_1_GameJam_1_Plugins_fmodstudio20220ue5_2win64_FMODStudio_Source_FMODStudio_Private_FMODBankLookup_h_Statics::ScriptStructInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Private_FMODBankLookup_h_2413627829(TEXT("/Script/FMODStudio"),
+		Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Private_FMODBankLookup_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Private_FMODBankLookup_h_Statics::ClassInfo),
+		Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Private_FMODBankLookup_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Private_FMODBankLookup_h_Statics::ScriptStructInfo),
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

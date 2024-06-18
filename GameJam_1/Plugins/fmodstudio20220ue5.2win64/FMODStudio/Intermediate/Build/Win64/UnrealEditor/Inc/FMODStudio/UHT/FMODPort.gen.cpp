@@ -35,6 +35,7 @@ void EmptyLinkFunctionForGeneratedCodeFMODPort() {}
 		(UObject* (*)())Z_Construct_UClass_UFMODAsset,
 		(UObject* (*)())Z_Construct_UPackage__Script_FMODStudio,
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UFMODPort_Statics::DependentSingletons) < 16);
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UFMODPort_Statics::Class_MetaDataParams[] = {
 		{ "Comment", "/**\n * FMOD Port Asset.\n */" },
@@ -59,7 +60,7 @@ void EmptyLinkFunctionForGeneratedCodeFMODPort() {}
 		0,
 		0,
 		0x001000A0u,
-		METADATA_PARAMS(Z_Construct_UClass_UFMODPort_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_UFMODPort_Statics::Class_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UFMODPort_Statics::Class_MetaDataParams), Z_Construct_UClass_UFMODPort_Statics::Class_MetaDataParams)
 	};
 	UClass* Z_Construct_UClass_UFMODPort()
 	{
@@ -80,9 +81,9 @@ void EmptyLinkFunctionForGeneratedCodeFMODPort() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODPort_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UFMODPort, UFMODPort::StaticClass, TEXT("UFMODPort"), &Z_Registration_Info_UClass_UFMODPort, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFMODPort), 322109676U) },
+		{ Z_Construct_UClass_UFMODPort, UFMODPort::StaticClass, TEXT("UFMODPort"), &Z_Registration_Info_UClass_UFMODPort, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFMODPort), 2572460023U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODPort_h_3542105293(TEXT("/Script/FMODStudio"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODPort_h_3591785340(TEXT("/Script/FMODStudio"),
 		Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODPort_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODPort_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

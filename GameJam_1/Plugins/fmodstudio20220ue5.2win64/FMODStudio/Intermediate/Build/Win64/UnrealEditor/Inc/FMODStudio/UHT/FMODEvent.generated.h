@@ -15,18 +15,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define FMODSTUDIO_FMODEvent_generated_h
 
 #define FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODEvent_h_16_SPARSE_DATA
+#define FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODEvent_h_16_SPARSE_DATA_PROPERTY_ACCESSORS
+#define FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODEvent_h_16_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS
 #define FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODEvent_h_16_RPC_WRAPPERS
-#define FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODEvent_h_16_RPC_WRAPPERS_NO_PURE_DECLS
 #define FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODEvent_h_16_ACCESSORS
-#define FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODEvent_h_16_INCLASS_NO_PURE_DECLS \
-private: \
-	static void StaticRegisterNativesUFMODEvent(); \
-	friend struct Z_Construct_UClass_UFMODEvent_Statics; \
-public: \
-	DECLARE_CLASS(UFMODEvent, UFMODAsset, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/FMODStudio"), NO_API) \
-	DECLARE_SERIALIZER(UFMODEvent)
-
-
 #define FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODEvent_h_16_INCLASS \
 private: \
 	static void StaticRegisterNativesUFMODEvent(); \
@@ -50,42 +42,18 @@ public: \
 	NO_API virtual ~UFMODEvent();
 
 
-#define FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODEvent_h_16_ENHANCED_CONSTRUCTORS \
-	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API UFMODEvent(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
-private: \
-	/** Private move- and copy-constructors, should never be used */ \
-	NO_API UFMODEvent(UFMODEvent&&); \
-	NO_API UFMODEvent(const UFMODEvent&); \
-public: \
-	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UFMODEvent); \
-	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UFMODEvent); \
-	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UFMODEvent) \
-	NO_API virtual ~UFMODEvent();
-
-
 #define FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODEvent_h_13_PROLOG
 #define FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODEvent_h_16_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODEvent_h_16_SPARSE_DATA \
+	FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODEvent_h_16_SPARSE_DATA_PROPERTY_ACCESSORS \
+	FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODEvent_h_16_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS \
 	FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODEvent_h_16_RPC_WRAPPERS \
 	FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODEvent_h_16_ACCESSORS \
 	FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODEvent_h_16_INCLASS \
 	FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODEvent_h_16_STANDARD_CONSTRUCTORS \
 public: \
-PRAGMA_ENABLE_DEPRECATION_WARNINGS
-
-
-#define FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODEvent_h_16_GENERATED_BODY \
-PRAGMA_DISABLE_DEPRECATION_WARNINGS \
-public: \
-	FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODEvent_h_16_SPARSE_DATA \
-	FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODEvent_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODEvent_h_16_ACCESSORS \
-	FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODEvent_h_16_INCLASS_NO_PURE_DECLS \
-	FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODEvent_h_16_ENHANCED_CONSTRUCTORS \
-static_assert(false, "Unknown access specifier for GENERATED_BODY() macro in class FMODEvent."); \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 

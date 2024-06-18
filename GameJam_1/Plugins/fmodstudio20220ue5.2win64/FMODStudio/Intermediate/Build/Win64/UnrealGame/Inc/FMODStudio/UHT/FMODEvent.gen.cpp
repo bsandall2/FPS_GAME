@@ -35,6 +35,7 @@ void EmptyLinkFunctionForGeneratedCodeFMODEvent() {}
 		(UObject* (*)())Z_Construct_UClass_UFMODAsset,
 		(UObject* (*)())Z_Construct_UPackage__Script_FMODStudio,
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UFMODEvent_Statics::DependentSingletons) < 16);
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UFMODEvent_Statics::Class_MetaDataParams[] = {
 		{ "Comment", "/**\n * FMOD Event Asset.\n */" },
@@ -59,7 +60,7 @@ void EmptyLinkFunctionForGeneratedCodeFMODEvent() {}
 		0,
 		0,
 		0x001000A0u,
-		METADATA_PARAMS(Z_Construct_UClass_UFMODEvent_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_UFMODEvent_Statics::Class_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UFMODEvent_Statics::Class_MetaDataParams), Z_Construct_UClass_UFMODEvent_Statics::Class_MetaDataParams)
 	};
 	UClass* Z_Construct_UClass_UFMODEvent()
 	{
@@ -75,15 +76,15 @@ void EmptyLinkFunctionForGeneratedCodeFMODEvent() {}
 	}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UFMODEvent);
 	UFMODEvent::~UFMODEvent() {}
-	struct Z_CompiledInDeferFile_FID_Unreal_Projects_GameJam_1_GameJam_1_Plugins_fmodstudio20220ue5_2win64_FMODStudio_Source_FMODStudio_Classes_FMODEvent_h_Statics
+	struct Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODEvent_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_Projects_GameJam_1_GameJam_1_Plugins_fmodstudio20220ue5_2win64_FMODStudio_Source_FMODStudio_Classes_FMODEvent_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UFMODEvent, UFMODEvent::StaticClass, TEXT("UFMODEvent"), &Z_Registration_Info_UClass_UFMODEvent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFMODEvent), 3073573024U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODEvent_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_UFMODEvent, UFMODEvent::StaticClass, TEXT("UFMODEvent"), &Z_Registration_Info_UClass_UFMODEvent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFMODEvent), 2822988603U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_Projects_GameJam_1_GameJam_1_Plugins_fmodstudio20220ue5_2win64_FMODStudio_Source_FMODStudio_Classes_FMODEvent_h_3929211146(TEXT("/Script/FMODStudio"),
-		Z_CompiledInDeferFile_FID_Unreal_Projects_GameJam_1_GameJam_1_Plugins_fmodstudio20220ue5_2win64_FMODStudio_Source_FMODStudio_Classes_FMODEvent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Unreal_Projects_GameJam_1_GameJam_1_Plugins_fmodstudio20220ue5_2win64_FMODStudio_Source_FMODStudio_Classes_FMODEvent_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODEvent_h_975285719(TEXT("/Script/FMODStudio"),
+		Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODEvent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODEvent_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -35,6 +35,7 @@ void EmptyLinkFunctionForGeneratedCodeFMODVCA() {}
 		(UObject* (*)())Z_Construct_UClass_UFMODAsset,
 		(UObject* (*)())Z_Construct_UPackage__Script_FMODStudio,
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UFMODVCA_Statics::DependentSingletons) < 16);
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UFMODVCA_Statics::Class_MetaDataParams[] = {
 		{ "Comment", "/**\n * FMOD VCA Asset.\n */" },
@@ -59,7 +60,7 @@ void EmptyLinkFunctionForGeneratedCodeFMODVCA() {}
 		0,
 		0,
 		0x001000A0u,
-		METADATA_PARAMS(Z_Construct_UClass_UFMODVCA_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_UFMODVCA_Statics::Class_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UFMODVCA_Statics::Class_MetaDataParams), Z_Construct_UClass_UFMODVCA_Statics::Class_MetaDataParams)
 	};
 	UClass* Z_Construct_UClass_UFMODVCA()
 	{
@@ -80,9 +81,9 @@ void EmptyLinkFunctionForGeneratedCodeFMODVCA() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODVCA_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UFMODVCA, UFMODVCA::StaticClass, TEXT("UFMODVCA"), &Z_Registration_Info_UClass_UFMODVCA, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFMODVCA), 813254590U) },
+		{ Z_Construct_UClass_UFMODVCA, UFMODVCA::StaticClass, TEXT("UFMODVCA"), &Z_Registration_Info_UClass_UFMODVCA, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFMODVCA), 724404203U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODVCA_h_1299309861(TEXT("/Script/FMODStudio"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODVCA_h_2160525852(TEXT("/Script/FMODStudio"),
 		Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODVCA_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODVCA_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

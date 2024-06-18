@@ -53,6 +53,7 @@ void EmptyLinkFunctionForGeneratedCodeFMODAudioLinkComponent() {}
 		(UObject* (*)())Z_Construct_UClass_USceneComponent,
 		(UObject* (*)())Z_Construct_UPackage__Script_FMODStudio,
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UFMODAudioLinkComponent_Statics::DependentSingletons) < 16);
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UFMODAudioLinkComponent_Statics::Class_MetaDataParams[] = {
 		{ "BlueprintSpawnableComponent", "" },
@@ -68,7 +69,7 @@ void EmptyLinkFunctionForGeneratedCodeFMODAudioLinkComponent() {}
 		{ "ModuleRelativePath", "" },
 	};
 #endif
-	const UECodeGen_Private::FObjectPtrPropertyParams Z_Construct_UClass_UFMODAudioLinkComponent_Statics::NewProp_Settings = { "Settings", nullptr, (EPropertyFlags)0x0014000000000005, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(UFMODAudioLinkComponent, Settings), Z_Construct_UClass_UFMODAudioLinkSettings_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UFMODAudioLinkComponent_Statics::NewProp_Settings_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UFMODAudioLinkComponent_Statics::NewProp_Settings_MetaData)) };
+	const UECodeGen_Private::FObjectPtrPropertyParams Z_Construct_UClass_UFMODAudioLinkComponent_Statics::NewProp_Settings = { "Settings", nullptr, (EPropertyFlags)0x0014000000000005, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UFMODAudioLinkComponent, Settings), Z_Construct_UClass_UFMODAudioLinkSettings_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UFMODAudioLinkComponent_Statics::NewProp_Settings_MetaData), Z_Construct_UClass_UFMODAudioLinkComponent_Statics::NewProp_Settings_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UFMODAudioLinkComponent_Statics::NewProp_Sound_MetaData[] = {
 		{ "Category", "Sound" },
@@ -77,22 +78,23 @@ void EmptyLinkFunctionForGeneratedCodeFMODAudioLinkComponent() {}
 		{ "ToolTip", "The sound to be played" },
 	};
 #endif
-	const UECodeGen_Private::FObjectPtrPropertyParams Z_Construct_UClass_UFMODAudioLinkComponent_Statics::NewProp_Sound = { "Sound", nullptr, (EPropertyFlags)0x0014000000000005, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(UFMODAudioLinkComponent, Sound), Z_Construct_UClass_USoundBase_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UFMODAudioLinkComponent_Statics::NewProp_Sound_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UFMODAudioLinkComponent_Statics::NewProp_Sound_MetaData)) };
+	const UECodeGen_Private::FObjectPtrPropertyParams Z_Construct_UClass_UFMODAudioLinkComponent_Statics::NewProp_Sound = { "Sound", nullptr, (EPropertyFlags)0x0014000000000005, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UFMODAudioLinkComponent, Sound), Z_Construct_UClass_USoundBase_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UFMODAudioLinkComponent_Statics::NewProp_Sound_MetaData), Z_Construct_UClass_UFMODAudioLinkComponent_Statics::NewProp_Sound_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UFMODAudioLinkComponent_Statics::NewProp_AudioComponent_MetaData[] = {
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "" },
 	};
 #endif
-	const UECodeGen_Private::FObjectPtrPropertyParams Z_Construct_UClass_UFMODAudioLinkComponent_Statics::NewProp_AudioComponent = { "AudioComponent", nullptr, (EPropertyFlags)0x0024080000082008, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(UFMODAudioLinkComponent, AudioComponent), Z_Construct_UClass_UAudioComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UFMODAudioLinkComponent_Statics::NewProp_AudioComponent_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UFMODAudioLinkComponent_Statics::NewProp_AudioComponent_MetaData)) };
+	const UECodeGen_Private::FObjectPtrPropertyParams Z_Construct_UClass_UFMODAudioLinkComponent_Statics::NewProp_AudioComponent = { "AudioComponent", nullptr, (EPropertyFlags)0x0024080000082008, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UFMODAudioLinkComponent, AudioComponent), Z_Construct_UClass_UAudioComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UFMODAudioLinkComponent_Statics::NewProp_AudioComponent_MetaData), Z_Construct_UClass_UFMODAudioLinkComponent_Statics::NewProp_AudioComponent_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UFMODAudioLinkComponent_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UFMODAudioLinkComponent_Statics::NewProp_Settings,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UFMODAudioLinkComponent_Statics::NewProp_Sound,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UFMODAudioLinkComponent_Statics::NewProp_AudioComponent,
 	};
 		const UECodeGen_Private::FImplementedInterfaceParams Z_Construct_UClass_UFMODAudioLinkComponent_Statics::InterfaceParams[] = {
-			{ Z_Construct_UClass_UAudioLinkBlueprintInterface_NoRegister, (int32)VTABLE_OFFSET(UFMODAudioLinkComponent, IAudioLinkBlueprintInterface), false },  // 4184086433
+			{ Z_Construct_UClass_UAudioLinkBlueprintInterface_NoRegister, (int32)VTABLE_OFFSET(UFMODAudioLinkComponent, IAudioLinkBlueprintInterface), false },  // 570740756
 		};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UFMODAudioLinkComponent_Statics::InterfaceParams) < 64);
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UFMODAudioLinkComponent_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<UFMODAudioLinkComponent>::IsAbstract,
 	};
@@ -109,8 +111,9 @@ void EmptyLinkFunctionForGeneratedCodeFMODAudioLinkComponent() {}
 		UE_ARRAY_COUNT(Z_Construct_UClass_UFMODAudioLinkComponent_Statics::PropPointers),
 		UE_ARRAY_COUNT(InterfaceParams),
 		0x00A000A4u,
-		METADATA_PARAMS(Z_Construct_UClass_UFMODAudioLinkComponent_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_UFMODAudioLinkComponent_Statics::Class_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UFMODAudioLinkComponent_Statics::Class_MetaDataParams), Z_Construct_UClass_UFMODAudioLinkComponent_Statics::Class_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UFMODAudioLinkComponent_Statics::PropPointers) < 2048);
 	UClass* Z_Construct_UClass_UFMODAudioLinkComponent()
 	{
 		if (!Z_Registration_Info_UClass_UFMODAudioLinkComponent.OuterSingleton)
@@ -131,9 +134,9 @@ void EmptyLinkFunctionForGeneratedCodeFMODAudioLinkComponent() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODAudioLink_Public_FMODAudioLinkComponent_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UFMODAudioLinkComponent, UFMODAudioLinkComponent::StaticClass, TEXT("UFMODAudioLinkComponent"), &Z_Registration_Info_UClass_UFMODAudioLinkComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFMODAudioLinkComponent), 1047464913U) },
+		{ Z_Construct_UClass_UFMODAudioLinkComponent, UFMODAudioLinkComponent::StaticClass, TEXT("UFMODAudioLinkComponent"), &Z_Registration_Info_UClass_UFMODAudioLinkComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFMODAudioLinkComponent), 3560883418U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODAudioLink_Public_FMODAudioLinkComponent_h_496330312(TEXT("/Script/FMODStudio"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODAudioLink_Public_FMODAudioLinkComponent_h_2210998890(TEXT("/Script/FMODStudio"),
 		Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODAudioLink_Public_FMODAudioLinkComponent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODAudioLink_Public_FMODAudioLinkComponent_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

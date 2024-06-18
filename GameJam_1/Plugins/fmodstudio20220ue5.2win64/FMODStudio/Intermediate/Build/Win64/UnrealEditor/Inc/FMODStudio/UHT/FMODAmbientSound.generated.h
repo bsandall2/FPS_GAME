@@ -15,18 +15,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define FMODSTUDIO_FMODAmbientSound_generated_h
 
 #define FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAmbientSound_h_13_SPARSE_DATA
+#define FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAmbientSound_h_13_SPARSE_DATA_PROPERTY_ACCESSORS
+#define FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAmbientSound_h_13_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS
 #define FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAmbientSound_h_13_RPC_WRAPPERS
-#define FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAmbientSound_h_13_RPC_WRAPPERS_NO_PURE_DECLS
 #define FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAmbientSound_h_13_ACCESSORS
-#define FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAmbientSound_h_13_INCLASS_NO_PURE_DECLS \
-private: \
-	static void StaticRegisterNativesAFMODAmbientSound(); \
-	friend struct Z_Construct_UClass_AFMODAmbientSound_Statics; \
-public: \
-	DECLARE_CLASS(AFMODAmbientSound, AActor, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/FMODStudio"), NO_API) \
-	DECLARE_SERIALIZER(AFMODAmbientSound)
-
-
 #define FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAmbientSound_h_13_INCLASS \
 private: \
 	static void StaticRegisterNativesAFMODAmbientSound(); \
@@ -50,42 +42,18 @@ public: \
 	NO_API virtual ~AFMODAmbientSound();
 
 
-#define FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAmbientSound_h_13_ENHANCED_CONSTRUCTORS \
-	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API AFMODAmbientSound(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
-private: \
-	/** Private move- and copy-constructors, should never be used */ \
-	NO_API AFMODAmbientSound(AFMODAmbientSound&&); \
-	NO_API AFMODAmbientSound(const AFMODAmbientSound&); \
-public: \
-	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AFMODAmbientSound); \
-	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AFMODAmbientSound); \
-	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AFMODAmbientSound) \
-	NO_API virtual ~AFMODAmbientSound();
-
-
 #define FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAmbientSound_h_10_PROLOG
 #define FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAmbientSound_h_13_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAmbientSound_h_13_SPARSE_DATA \
+	FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAmbientSound_h_13_SPARSE_DATA_PROPERTY_ACCESSORS \
+	FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAmbientSound_h_13_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS \
 	FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAmbientSound_h_13_RPC_WRAPPERS \
 	FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAmbientSound_h_13_ACCESSORS \
 	FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAmbientSound_h_13_INCLASS \
 	FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAmbientSound_h_13_STANDARD_CONSTRUCTORS \
 public: \
-PRAGMA_ENABLE_DEPRECATION_WARNINGS
-
-
-#define FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAmbientSound_h_13_GENERATED_BODY \
-PRAGMA_DISABLE_DEPRECATION_WARNINGS \
-public: \
-	FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAmbientSound_h_13_SPARSE_DATA \
-	FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAmbientSound_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAmbientSound_h_13_ACCESSORS \
-	FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAmbientSound_h_13_INCLASS_NO_PURE_DECLS \
-	FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAmbientSound_h_13_ENHANCED_CONSTRUCTORS \
-static_assert(false, "Unknown access specifier for GENERATED_BODY() macro in class FMODAmbientSound."); \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 

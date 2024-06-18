@@ -50,6 +50,7 @@ void EmptyLinkFunctionForGeneratedCodeFMODAnimNotifyPlay() {}
 		(UObject* (*)())Z_Construct_UClass_UAnimNotify,
 		(UObject* (*)())Z_Construct_UPackage__Script_FMODStudio,
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UFMODAnimNotifyPlay_Statics::DependentSingletons) < 16);
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UFMODAnimNotifyPlay_Statics::Class_MetaDataParams[] = {
 		{ "DisplayName", "Play FMOD Event" },
@@ -70,7 +71,7 @@ void EmptyLinkFunctionForGeneratedCodeFMODAnimNotifyPlay() {}
 	{
 		((UFMODAnimNotifyPlay*)Obj)->bFollow = 1;
 	}
-	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UFMODAnimNotifyPlay_Statics::NewProp_bFollow = { "bFollow", nullptr, (EPropertyFlags)0x0010000000000011, UECodeGen_Private::EPropertyGenFlags::Bool , RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, sizeof(uint8), sizeof(UFMODAnimNotifyPlay), &Z_Construct_UClass_UFMODAnimNotifyPlay_Statics::NewProp_bFollow_SetBit, METADATA_PARAMS(Z_Construct_UClass_UFMODAnimNotifyPlay_Statics::NewProp_bFollow_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UFMODAnimNotifyPlay_Statics::NewProp_bFollow_MetaData)) };
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UFMODAnimNotifyPlay_Statics::NewProp_bFollow = { "bFollow", nullptr, (EPropertyFlags)0x0010000000000011, UECodeGen_Private::EPropertyGenFlags::Bool , RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(uint8), sizeof(UFMODAnimNotifyPlay), &Z_Construct_UClass_UFMODAnimNotifyPlay_Statics::NewProp_bFollow_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UFMODAnimNotifyPlay_Statics::NewProp_bFollow_MetaData), Z_Construct_UClass_UFMODAnimNotifyPlay_Statics::NewProp_bFollow_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UFMODAnimNotifyPlay_Statics::NewProp_AttachName_MetaData[] = {
 		{ "Category", "FMOD Anim Notify" },
@@ -80,7 +81,7 @@ void EmptyLinkFunctionForGeneratedCodeFMODAnimNotifyPlay() {}
 		{ "ToolTip", "Socket or bone name to attach sound to" },
 	};
 #endif
-	const UECodeGen_Private::FStrPropertyParams Z_Construct_UClass_UFMODAnimNotifyPlay_Statics::NewProp_AttachName = { "AttachName", nullptr, (EPropertyFlags)0x0010000000000011, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(UFMODAnimNotifyPlay, AttachName), METADATA_PARAMS(Z_Construct_UClass_UFMODAnimNotifyPlay_Statics::NewProp_AttachName_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UFMODAnimNotifyPlay_Statics::NewProp_AttachName_MetaData)) };
+	const UECodeGen_Private::FStrPropertyParams Z_Construct_UClass_UFMODAnimNotifyPlay_Statics::NewProp_AttachName = { "AttachName", nullptr, (EPropertyFlags)0x0010000000000011, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UFMODAnimNotifyPlay, AttachName), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UFMODAnimNotifyPlay_Statics::NewProp_AttachName_MetaData), Z_Construct_UClass_UFMODAnimNotifyPlay_Statics::NewProp_AttachName_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UFMODAnimNotifyPlay_Statics::NewProp_Event_MetaData[] = {
 		{ "Category", "FMOD Anim Notify" },
@@ -89,7 +90,7 @@ void EmptyLinkFunctionForGeneratedCodeFMODAnimNotifyPlay() {}
 		{ "ToolTip", "Sound to Play" },
 	};
 #endif
-	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UFMODAnimNotifyPlay_Statics::NewProp_Event = { "Event", nullptr, (EPropertyFlags)0x0010000000000015, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(UFMODAnimNotifyPlay, Event), Z_Construct_UClass_UFMODEvent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UFMODAnimNotifyPlay_Statics::NewProp_Event_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UFMODAnimNotifyPlay_Statics::NewProp_Event_MetaData)) };
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UFMODAnimNotifyPlay_Statics::NewProp_Event = { "Event", nullptr, (EPropertyFlags)0x0010000000000015, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UFMODAnimNotifyPlay, Event), Z_Construct_UClass_UFMODEvent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UFMODAnimNotifyPlay_Statics::NewProp_Event_MetaData), Z_Construct_UClass_UFMODAnimNotifyPlay_Statics::NewProp_Event_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UFMODAnimNotifyPlay_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UFMODAnimNotifyPlay_Statics::NewProp_bFollow,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UFMODAnimNotifyPlay_Statics::NewProp_AttachName,
@@ -111,8 +112,9 @@ void EmptyLinkFunctionForGeneratedCodeFMODAnimNotifyPlay() {}
 		UE_ARRAY_COUNT(Z_Construct_UClass_UFMODAnimNotifyPlay_Statics::PropPointers),
 		0,
 		0x001120A0u,
-		METADATA_PARAMS(Z_Construct_UClass_UFMODAnimNotifyPlay_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_UFMODAnimNotifyPlay_Statics::Class_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UFMODAnimNotifyPlay_Statics::Class_MetaDataParams), Z_Construct_UClass_UFMODAnimNotifyPlay_Statics::Class_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UFMODAnimNotifyPlay_Statics::PropPointers) < 2048);
 	UClass* Z_Construct_UClass_UFMODAnimNotifyPlay()
 	{
 		if (!Z_Registration_Info_UClass_UFMODAnimNotifyPlay.OuterSingleton)
@@ -132,9 +134,9 @@ void EmptyLinkFunctionForGeneratedCodeFMODAnimNotifyPlay() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAnimNotifyPlay_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UFMODAnimNotifyPlay, UFMODAnimNotifyPlay::StaticClass, TEXT("UFMODAnimNotifyPlay"), &Z_Registration_Info_UClass_UFMODAnimNotifyPlay, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFMODAnimNotifyPlay), 779846264U) },
+		{ Z_Construct_UClass_UFMODAnimNotifyPlay, UFMODAnimNotifyPlay::StaticClass, TEXT("UFMODAnimNotifyPlay"), &Z_Registration_Info_UClass_UFMODAnimNotifyPlay, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFMODAnimNotifyPlay), 2909206864U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAnimNotifyPlay_h_3082696706(TEXT("/Script/FMODStudio"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAnimNotifyPlay_h_3938240457(TEXT("/Script/FMODStudio"),
 		Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAnimNotifyPlay_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAnimNotifyPlay_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

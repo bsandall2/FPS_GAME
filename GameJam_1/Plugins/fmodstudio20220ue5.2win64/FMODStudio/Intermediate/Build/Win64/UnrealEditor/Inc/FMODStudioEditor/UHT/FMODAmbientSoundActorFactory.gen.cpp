@@ -35,6 +35,7 @@ void EmptyLinkFunctionForGeneratedCodeFMODAmbientSoundActorFactory() {}
 		(UObject* (*)())Z_Construct_UClass_UActorFactory,
 		(UObject* (*)())Z_Construct_UPackage__Script_FMODStudioEditor,
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UFMODAmbientSoundActorFactory_Statics::DependentSingletons) < 16);
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UFMODAmbientSoundActorFactory_Statics::Class_MetaDataParams[] = {
 		{ "Comment", "/** FMOD Ambient Sound Actor Factory.\n*/" },
@@ -60,7 +61,7 @@ void EmptyLinkFunctionForGeneratedCodeFMODAmbientSoundActorFactory() {}
 		0,
 		0,
 		0x000830ACu,
-		METADATA_PARAMS(Z_Construct_UClass_UFMODAmbientSoundActorFactory_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_UFMODAmbientSoundActorFactory_Statics::Class_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UFMODAmbientSoundActorFactory_Statics::Class_MetaDataParams), Z_Construct_UClass_UFMODAmbientSoundActorFactory_Statics::Class_MetaDataParams)
 	};
 	UClass* Z_Construct_UClass_UFMODAmbientSoundActorFactory()
 	{
@@ -81,9 +82,9 @@ void EmptyLinkFunctionForGeneratedCodeFMODAmbientSoundActorFactory() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudioEditor_Classes_FMODAmbientSoundActorFactory_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UFMODAmbientSoundActorFactory, UFMODAmbientSoundActorFactory::StaticClass, TEXT("UFMODAmbientSoundActorFactory"), &Z_Registration_Info_UClass_UFMODAmbientSoundActorFactory, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFMODAmbientSoundActorFactory), 2089786798U) },
+		{ Z_Construct_UClass_UFMODAmbientSoundActorFactory, UFMODAmbientSoundActorFactory::StaticClass, TEXT("UFMODAmbientSoundActorFactory"), &Z_Registration_Info_UClass_UFMODAmbientSoundActorFactory, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFMODAmbientSoundActorFactory), 979798992U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudioEditor_Classes_FMODAmbientSoundActorFactory_h_3766157042(TEXT("/Script/FMODStudioEditor"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudioEditor_Classes_FMODAmbientSoundActorFactory_h_3717781988(TEXT("/Script/FMODStudioEditor"),
 		Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudioEditor_Classes_FMODAmbientSoundActorFactory_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudioEditor_Classes_FMODAmbientSoundActorFactory_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
