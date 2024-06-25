@@ -1,11 +1,11 @@
 {
-    "Version": "1.1",
+    "Version": "1.2",
     "Data": {
-        "Source": "d:\\unreal_projects\\gamejam_1\\gamejam_1\\plugins\\fmodstudio20220ue5.2win64\\fmodstudio\\source\\fmodaudiolink\\private\\fmodaudiolinklog.cpp",
+        "Source": "d:\\unreal engine projects\\fps_game\\gamejam_1\\plugins\\fmodstudio20220ue5.2win64\\fmodstudio\\source\\fmodaudiolink\\private\\fmodaudiolinklog.cpp",
         "ProvidedModule": "",
-        "PCH": "d:\\unreal_projects\\gamejam_1\\gamejam_1\\plugins\\fmodstudio20220ue5.2win64\\fmodstudio\\intermediate\\build\\win64\\x64\\unrealgame\\shipping\\fmodstudio\\pch.fmodstudio.h.pch",
+        "PCH": "d:\\unreal engine projects\\fps_game\\gamejam_1\\plugins\\fmodstudio20220ue5.2win64\\fmodstudio\\intermediate\\build\\win64\\x64\\unrealgame\\shipping\\fmodstudio\\pch.fmodstudio.h.pch",
         "Includes": [
-            "d:\\unreal_projects\\gamejam_1\\gamejam_1\\plugins\\fmodstudio20220ue5.2win64\\fmodstudio\\source\\fmodaudiolink\\public\\fmodaudiolinklog.h"
+            "d:\\unreal engine projects\\fps_game\\gamejam_1\\plugins\\fmodstudio20220ue5.2win64\\fmodstudio\\source\\fmodaudiolink\\public\\fmodaudiolinklog.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

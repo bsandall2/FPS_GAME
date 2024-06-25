@@ -1,18 +1,18 @@
 {
-    "Version": "1.1",
+    "Version": "1.2",
     "Data": {
-        "Source": "d:\\unreal_projects\\gamejam_1\\gamejam_1\\plugins\\fmodstudio20220ue5.2win64\\fmodstudio\\intermediate\\build\\win64\\unrealgame\\inc\\fmodstudio\\uht\\fmodbanklookup.gen.cpp",
+        "Source": "d:\\unreal engine projects\\fps_game\\gamejam_1\\plugins\\fmodstudio20220ue5.2win64\\fmodstudio\\intermediate\\build\\win64\\unrealgame\\inc\\fmodstudio\\uht\\fmodbanklookup.gen.cpp",
         "ProvidedModule": "",
-        "PCH": "d:\\unreal_projects\\gamejam_1\\gamejam_1\\plugins\\fmodstudio20220ue5.2win64\\fmodstudio\\intermediate\\build\\win64\\x64\\unrealgame\\shipping\\fmodstudio\\pch.fmodstudio.h.pch",
+        "PCH": "d:\\unreal engine projects\\fps_game\\gamejam_1\\plugins\\fmodstudio20220ue5.2win64\\fmodstudio\\intermediate\\build\\win64\\x64\\unrealgame\\shipping\\fmodstudio\\pch.fmodstudio.h.pch",
         "Includes": [
-            "d:\\epic games\\ue_5.2\\engine\\source\\runtime\\coreuobject\\public\\uobject\\generatedcppincludes.h",
-            "d:\\epic games\\ue_5.2\\engine\\source\\runtime\\coreuobject\\public\\uobject\\metadata.h",
-            "d:\\epic games\\ue_5.2\\engine\\source\\runtime\\coreuobject\\public\\uobject\\textproperty.h",
-            "d:\\unreal_projects\\gamejam_1\\gamejam_1\\plugins\\fmodstudio20220ue5.2win64\\fmodstudio\\source\\fmodstudio\\private\\fmodbanklookup.h",
-            "d:\\epic games\\ue_5.2\\engine\\source\\runtime\\engine\\classes\\engine\\datatable.h",
-            "d:\\epic games\\ue_5.2\\engine\\source\\runtime\\engine\\public\\datatableutils.h",
-            "d:\\epic games\\ue_5.2\\engine\\intermediate\\build\\win64\\unrealgame\\inc\\engine\\uht\\datatable.generated.h",
-            "d:\\unreal_projects\\gamejam_1\\gamejam_1\\plugins\\fmodstudio20220ue5.2win64\\fmodstudio\\intermediate\\build\\win64\\unrealgame\\inc\\fmodstudio\\uht\\fmodbanklookup.generated.h"
+            "d:\\ue_5.3\\engine\\source\\runtime\\coreuobject\\public\\uobject\\generatedcppincludes.h",
+            "d:\\ue_5.3\\engine\\source\\runtime\\coreuobject\\public\\uobject\\metadata.h",
+            "d:\\ue_5.3\\engine\\source\\runtime\\coreuobject\\public\\uobject\\textproperty.h",
+            "d:\\unreal engine projects\\fps_game\\gamejam_1\\plugins\\fmodstudio20220ue5.2win64\\fmodstudio\\source\\fmodstudio\\private\\fmodbanklookup.h",
+            "d:\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\engine\\datatable.h",
+            "d:\\ue_5.3\\engine\\source\\runtime\\engine\\public\\datatableutils.h",
+            "d:\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealgame\\inc\\engine\\uht\\datatable.generated.h",
+            "d:\\unreal engine projects\\fps_game\\gamejam_1\\plugins\\fmodstudio20220ue5.2win64\\fmodstudio\\intermediate\\build\\win64\\unrealgame\\inc\\fmodstudio\\uht\\fmodbanklookup.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []
