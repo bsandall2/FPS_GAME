@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{a87b5528-f2f3-4900-b2e7-75d656a58050}">
+		<property name="assetPath">
+			<value>World/Trap/SFX_TrapActivate.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>192</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.5866666666666667</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{5cd77b19-3bdf-4be2-a4c7-ba0d2d3c55f3}</destination>
+		</relationship>
+	</object>
+</objects>

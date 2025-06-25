@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{ae9d8ed0-5728-4a0e-8f0c-9d46a44e48bb}">
+		<property name="assetPath">
+			<value>Interactables/Dice/Dice_Impact_3.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>96</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.19609375000000001</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{5cd77b19-3bdf-4be2-a4c7-ba0d2d3c55f3}</destination>
+		</relationship>
+	</object>
+</objects>

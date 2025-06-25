@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{665fc91e-89cd-4726-b7c7-e6825d941225}">
+		<property name="name">
+			<value>Enemy Reverb</value>
+		</property>
+		<relationship name="folder">
+			<destination>{491fe6ba-4cf4-43c0-81e8-f8325fb9482c}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{cec1dbe7-c7e1-4dff-83c9-98dc20c63a06}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{cec1dbe7-c7e1-4dff-83c9-98dc20c63a06}">
+		<property name="initialValue">
+			<value>1</value>
+		</property>
+	</object>
+</objects>

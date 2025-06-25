@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{13d46563-e8b6-4b0b-88b2-3f8d5569ccc1}">
+		<property name="name">
+			<value>PressurePlate</value>
+		</property>
+		<relationship name="folder">
+			<destination>{491fe6ba-4cf4-43c0-81e8-f8325fb9482c}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{44819843-10a3-4144-8d94-2a42c1d136a3}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{44819843-10a3-4144-8d94-2a42c1d136a3}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>2</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>Down</value>
+			<value>Up</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
