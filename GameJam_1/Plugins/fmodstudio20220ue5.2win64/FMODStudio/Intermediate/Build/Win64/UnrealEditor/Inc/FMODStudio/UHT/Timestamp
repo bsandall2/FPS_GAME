@@ -1,23 +1,23 @@
-C:\BuildAgent1\work\570ad728b1678096\build\staging\FMODStudio\HostProject\Plugins\FMODStudio\Source\FMODStudio\Classes\FMODAmbientSound.h
-C:\BuildAgent1\work\570ad728b1678096\build\staging\FMODStudio\HostProject\Plugins\FMODStudio\Source\FMODStudio\Classes\FMODAsset.h
-C:\BuildAgent1\work\570ad728b1678096\build\staging\FMODStudio\HostProject\Plugins\FMODStudio\Source\FMODStudio\Classes\FMODAnimNotifyPlay.h
-C:\BuildAgent1\work\570ad728b1678096\build\staging\FMODStudio\HostProject\Plugins\FMODStudio\Source\FMODStudio\Classes\FMODBank.h
-C:\BuildAgent1\work\570ad728b1678096\build\staging\FMODStudio\HostProject\Plugins\FMODStudio\Source\FMODStudio\Classes\FMODAudioComponent.h
-C:\BuildAgent1\work\570ad728b1678096\build\staging\FMODStudio\HostProject\Plugins\FMODStudio\Source\FMODStudio\Classes\FMODBlueprintStatics.h
-C:\BuildAgent1\work\570ad728b1678096\build\staging\FMODStudio\HostProject\Plugins\FMODStudio\Source\FMODStudio\Classes\FMODBus.h
-C:\BuildAgent1\work\570ad728b1678096\build\staging\FMODStudio\HostProject\Plugins\FMODStudio\Source\FMODStudio\Classes\FMODPort.h
-C:\BuildAgent1\work\570ad728b1678096\build\staging\FMODStudio\HostProject\Plugins\FMODStudio\Source\FMODStudio\Classes\FMODEvent.h
-C:\BuildAgent1\work\570ad728b1678096\build\staging\FMODStudio\HostProject\Plugins\FMODStudio\Source\FMODStudio\Classes\FMODSettings.h
-C:\BuildAgent1\work\570ad728b1678096\build\staging\FMODStudio\HostProject\Plugins\FMODStudio\Source\FMODStudio\Classes\FMODSnapshot.h
-C:\BuildAgent1\work\570ad728b1678096\build\staging\FMODStudio\HostProject\Plugins\FMODStudio\Source\FMODStudio\Classes\FMODSnapshotReverb.h
-C:\BuildAgent1\work\570ad728b1678096\build\staging\FMODStudio\HostProject\Plugins\FMODStudio\Source\FMODStudio\Classes\FMODVCA.h
-C:\BuildAgent1\work\570ad728b1678096\build\staging\FMODStudio\HostProject\Plugins\FMODStudio\Source\FMODAudioLink\Public\FMODAudioLinkComponent.h
-C:\BuildAgent1\work\570ad728b1678096\build\staging\FMODStudio\HostProject\Plugins\FMODStudio\Source\FMODAudioLink\Public\FMODAudioLinkSettings.h
-C:\BuildAgent1\work\570ad728b1678096\build\staging\FMODStudio\HostProject\Plugins\FMODStudio\Source\FMODStudio\Private\FMODAssetLookup.h
-C:\BuildAgent1\work\570ad728b1678096\build\staging\FMODStudio\HostProject\Plugins\FMODStudio\Source\FMODStudio\Private\FMODBankLookup.h
-C:\BuildAgent1\work\570ad728b1678096\build\staging\FMODStudio\HostProject\Plugins\FMODStudio\Source\FMODStudio\Private\Sequencer\FMODEventControlSection.h
-C:\BuildAgent1\work\570ad728b1678096\build\staging\FMODStudio\HostProject\Plugins\FMODStudio\Source\FMODStudio\Private\Sequencer\FMODEventControlSectionTemplate.h
-C:\BuildAgent1\work\570ad728b1678096\build\staging\FMODStudio\HostProject\Plugins\FMODStudio\Source\FMODStudio\Private\Sequencer\FMODEventControlTrack.h
-C:\BuildAgent1\work\570ad728b1678096\build\staging\FMODStudio\HostProject\Plugins\FMODStudio\Source\FMODStudio\Private\Sequencer\FMODEventParameterSectionTemplate.h
-C:\BuildAgent1\work\570ad728b1678096\build\staging\FMODStudio\HostProject\Plugins\FMODStudio\Source\FMODStudio\Private\Sequencer\FMODEventParameterTrack.h
-C:\BuildAgent1\work\570ad728b1678096\build\staging\FMODStudio\HostProject\Plugins\FMODStudio\Source\FMODAudioLinkEditor\Private\FMODAudioLinkSettingsFactory.h
+D:\Unreal Engine Projects\FPS_GAME\GameJam_1\Plugins\fmodstudio20220ue5.2win64\FMODStudio\Source\FMODStudio\Classes\FMODAmbientSound.h
+D:\Unreal Engine Projects\FPS_GAME\GameJam_1\Plugins\fmodstudio20220ue5.2win64\FMODStudio\Source\FMODStudio\Classes\FMODAnimNotifyPlay.h
+D:\Unreal Engine Projects\FPS_GAME\GameJam_1\Plugins\fmodstudio20220ue5.2win64\FMODStudio\Source\FMODStudio\Classes\FMODAsset.h
+D:\Unreal Engine Projects\FPS_GAME\GameJam_1\Plugins\fmodstudio20220ue5.2win64\FMODStudio\Source\FMODStudio\Classes\FMODBank.h
+D:\Unreal Engine Projects\FPS_GAME\GameJam_1\Plugins\fmodstudio20220ue5.2win64\FMODStudio\Source\FMODStudio\Classes\FMODBlueprintStatics.h
+D:\Unreal Engine Projects\FPS_GAME\GameJam_1\Plugins\fmodstudio20220ue5.2win64\FMODStudio\Source\FMODStudio\Classes\FMODBus.h
+D:\Unreal Engine Projects\FPS_GAME\GameJam_1\Plugins\fmodstudio20220ue5.2win64\FMODStudio\Source\FMODStudio\Classes\FMODEvent.h
+D:\Unreal Engine Projects\FPS_GAME\GameJam_1\Plugins\fmodstudio20220ue5.2win64\FMODStudio\Source\FMODStudio\Classes\FMODPort.h
+D:\Unreal Engine Projects\FPS_GAME\GameJam_1\Plugins\fmodstudio20220ue5.2win64\FMODStudio\Source\FMODStudio\Classes\FMODSnapshot.h
+D:\Unreal Engine Projects\FPS_GAME\GameJam_1\Plugins\fmodstudio20220ue5.2win64\FMODStudio\Source\FMODStudio\Classes\FMODSnapshotReverb.h
+D:\Unreal Engine Projects\FPS_GAME\GameJam_1\Plugins\fmodstudio20220ue5.2win64\FMODStudio\Source\FMODStudio\Classes\FMODVCA.h
+D:\Unreal Engine Projects\FPS_GAME\GameJam_1\Plugins\fmodstudio20220ue5.2win64\FMODStudio\Source\FMODStudio\Classes\FMODAudioComponent.h
+D:\Unreal Engine Projects\FPS_GAME\GameJam_1\Plugins\fmodstudio20220ue5.2win64\FMODStudio\Source\FMODStudio\Classes\FMODSettings.h
+D:\Unreal Engine Projects\FPS_GAME\GameJam_1\Plugins\fmodstudio20220ue5.2win64\FMODStudio\Source\FMODAudioLink\Public\FMODAudioLinkComponent.h
+D:\Unreal Engine Projects\FPS_GAME\GameJam_1\Plugins\fmodstudio20220ue5.2win64\FMODStudio\Source\FMODAudioLink\Public\FMODAudioLinkSettings.h
+D:\Unreal Engine Projects\FPS_GAME\GameJam_1\Plugins\fmodstudio20220ue5.2win64\FMODStudio\Source\FMODStudio\Private\FMODAssetLookup.h
+D:\Unreal Engine Projects\FPS_GAME\GameJam_1\Plugins\fmodstudio20220ue5.2win64\FMODStudio\Source\FMODStudio\Private\FMODBankLookup.h
+D:\Unreal Engine Projects\FPS_GAME\GameJam_1\Plugins\fmodstudio20220ue5.2win64\FMODStudio\Source\FMODStudio\Private\Sequencer\FMODEventControlSection.h
+D:\Unreal Engine Projects\FPS_GAME\GameJam_1\Plugins\fmodstudio20220ue5.2win64\FMODStudio\Source\FMODStudio\Private\Sequencer\FMODEventControlSectionTemplate.h
+D:\Unreal Engine Projects\FPS_GAME\GameJam_1\Plugins\fmodstudio20220ue5.2win64\FMODStudio\Source\FMODStudio\Private\Sequencer\FMODEventControlTrack.h
+D:\Unreal Engine Projects\FPS_GAME\GameJam_1\Plugins\fmodstudio20220ue5.2win64\FMODStudio\Source\FMODStudio\Private\Sequencer\FMODEventParameterSectionTemplate.h
+D:\Unreal Engine Projects\FPS_GAME\GameJam_1\Plugins\fmodstudio20220ue5.2win64\FMODStudio\Source\FMODStudio\Private\Sequencer\FMODEventParameterTrack.h
+D:\Unreal Engine Projects\FPS_GAME\GameJam_1\Plugins\fmodstudio20220ue5.2win64\FMODStudio\Source\FMODAudioLinkEditor\Private\FMODAudioLinkSettingsFactory.h

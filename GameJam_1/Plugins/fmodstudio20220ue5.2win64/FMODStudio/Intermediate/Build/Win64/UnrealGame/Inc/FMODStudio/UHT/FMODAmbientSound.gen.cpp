@@ -41,37 +41,28 @@ void EmptyLinkFunctionForGeneratedCodeFMODAmbientSound() {}
 		(UObject* (*)())Z_Construct_UClass_AActor,
 		(UObject* (*)())Z_Construct_UPackage__Script_FMODStudio,
 	};
-	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_AFMODAmbientSound_Statics::DependentSingletons) < 16);
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFMODAmbientSound_Statics::Class_MetaDataParams[] = {
 		{ "AutoExpandCategories", "Audio" },
 		{ "ClassGroupNames", "Sounds" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** FMOD Ambient Sound.\n*/" },
-#endif
 		{ "HideCategories", "Collision Input" },
 		{ "IncludePath", "FMODAmbientSound.h" },
 		{ "ModuleRelativePath", "Classes/FMODAmbientSound.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "FMOD Ambient Sound." },
-#endif
 	};
 #endif
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFMODAmbientSound_Statics::NewProp_AudioComponent_MetaData[] = {
 		{ "Category", "Sound" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** The Audio component for this actor */" },
-#endif
 		{ "EditInline", "true" },
 		{ "ExposeFunctionCategories", "Sound" },
 		{ "ModuleRelativePath", "Classes/FMODAmbientSound.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The Audio component for this actor" },
-#endif
 	};
 #endif
-	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AFMODAmbientSound_Statics::NewProp_AudioComponent = { "AudioComponent", nullptr, (EPropertyFlags)0x00100000000a001d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AFMODAmbientSound, AudioComponent), Z_Construct_UClass_UFMODAudioComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AFMODAmbientSound_Statics::NewProp_AudioComponent_MetaData), Z_Construct_UClass_AFMODAmbientSound_Statics::NewProp_AudioComponent_MetaData) };
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AFMODAmbientSound_Statics::NewProp_AudioComponent = { "AudioComponent", nullptr, (EPropertyFlags)0x00100000000a001d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(AFMODAmbientSound, AudioComponent), Z_Construct_UClass_UFMODAudioComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AFMODAmbientSound_Statics::NewProp_AudioComponent_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AFMODAmbientSound_Statics::NewProp_AudioComponent_MetaData)) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AFMODAmbientSound_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFMODAmbientSound_Statics::NewProp_AudioComponent,
 	};
@@ -91,9 +82,8 @@ void EmptyLinkFunctionForGeneratedCodeFMODAmbientSound() {}
 		UE_ARRAY_COUNT(Z_Construct_UClass_AFMODAmbientSound_Statics::PropPointers),
 		0,
 		0x009000A4u,
-		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AFMODAmbientSound_Statics::Class_MetaDataParams), Z_Construct_UClass_AFMODAmbientSound_Statics::Class_MetaDataParams)
+		METADATA_PARAMS(Z_Construct_UClass_AFMODAmbientSound_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_AFMODAmbientSound_Statics::Class_MetaDataParams))
 	};
-	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_AFMODAmbientSound_Statics::PropPointers) < 2048);
 	UClass* Z_Construct_UClass_AFMODAmbientSound()
 	{
 		if (!Z_Registration_Info_UClass_AFMODAmbientSound.OuterSingleton)
@@ -108,15 +98,15 @@ void EmptyLinkFunctionForGeneratedCodeFMODAmbientSound() {}
 	}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AFMODAmbientSound);
 	AFMODAmbientSound::~AFMODAmbientSound() {}
-	struct Z_CompiledInDeferFile_FID_Unreal_Engine_Projects_FPS_GAME_GameJam_1_Plugins_fmodstudio20220ue5_2win64_FMODStudio_Source_FMODStudio_Classes_FMODAmbientSound_h_Statics
+	struct Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAmbientSound_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_Engine_Projects_FPS_GAME_GameJam_1_Plugins_fmodstudio20220ue5_2win64_FMODStudio_Source_FMODStudio_Classes_FMODAmbientSound_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_AFMODAmbientSound, AFMODAmbientSound::StaticClass, TEXT("AFMODAmbientSound"), &Z_Registration_Info_UClass_AFMODAmbientSound, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AFMODAmbientSound), 2514600281U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAmbientSound_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_AFMODAmbientSound, AFMODAmbientSound::StaticClass, TEXT("AFMODAmbientSound"), &Z_Registration_Info_UClass_AFMODAmbientSound, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AFMODAmbientSound), 2815982822U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_Engine_Projects_FPS_GAME_GameJam_1_Plugins_fmodstudio20220ue5_2win64_FMODStudio_Source_FMODStudio_Classes_FMODAmbientSound_h_469592471(TEXT("/Script/FMODStudio"),
-		Z_CompiledInDeferFile_FID_Unreal_Engine_Projects_FPS_GAME_GameJam_1_Plugins_fmodstudio20220ue5_2win64_FMODStudio_Source_FMODStudio_Classes_FMODAmbientSound_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Unreal_Engine_Projects_FPS_GAME_GameJam_1_Plugins_fmodstudio20220ue5_2win64_FMODStudio_Source_FMODStudio_Classes_FMODAmbientSound_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAmbientSound_h_2473908391(TEXT("/Script/FMODStudio"),
+		Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAmbientSound_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAmbientSound_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

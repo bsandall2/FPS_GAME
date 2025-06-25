@@ -1,4 +1,4 @@
-// Copyright (c), Firelight Technologies Pty, Ltd. 2012-2024.
+// Copyright (c), Firelight Technologies Pty, Ltd. 2012-2025.
 
 #include "FMODStudioEditorModule.h"
 #include "FMODStudioModule.h"
@@ -20,32 +20,32 @@
 #include "Sequencer/FMODEventParameterTrackEditor.h"
 #include "AssetTypeActions_FMODEvent.h"
 
-#include "Framework/Application/SlateApplication.h"
+#include "Slate/Public/Framework/Application/SlateApplication.h"
 #include "AssetRegistry/AssetRegistryModule.h"
-#include "AssetSelection.h"
-#include "Framework/Notifications/NotificationManager.h"
-#include "Widgets/Notifications/SNotificationList.h"
+#include "UnrealEd/Public/AssetSelection.h"
+#include "Slate/Public/Framework/Notifications/NotificationManager.h"
+#include "Slate/Public/Widgets/Notifications/SNotificationList.h"
 #include "Developer/Settings/Public/ISettingsModule.h"
 #include "Developer/Settings/Public/ISettingsSection.h"
-#include "Editor.h"
+#include "UnrealEd/Public/Editor.h"
 #include "Slate/SceneViewport.h"
-#include "Editor/LevelEditor/Public/LevelEditor.h"
-#include "SocketSubsystem.h"
-#include "Sockets.h"
-#include "IPAddress.h"
-#include "FileHelpers.h"
-#include "ISequencerModule.h"
-#include "SequencerChannelInterface.h"
-#include "ClipboardTypes.h"
-#include "DebugRenderSceneProxy.h"
-#include "Debug/DebugDrawService.h"
+#include "LevelEditor/Public/LevelEditor.h"
+#include "Sockets/Public/SocketSubsystem.h"
+#include "Sockets/Public/Sockets.h"
+#include "Sockets/Public/IPAddress.h"
+#include "UnrealEd/Public/FileHelpers.h"
+#include "Sequencer/Public/ISequencerModule.h"
+#include "Sequencer/Public/SequencerChannelInterface.h"
+#include "MovieSceneTools/Public/ClipboardTypes.h"
+#include "Engine/Public/DebugRenderSceneProxy.h"
+#include "Engine/Classes/Debug/DebugDrawService.h"
 #include "Settings/ProjectPackagingSettings.h"
 #include "UnrealEdGlobals.h"
-#include "LevelEditorViewport.h"
+#include "UnrealEd/Public/LevelEditorViewport.h"
 #include "ActorFactories/ActorFactory.h"
 #include "Engine/Canvas.h"
 #include "Editor/UnrealEdEngine.h"
-#include "Framework/MultiBox/MultiBoxBuilder.h"
+#include "Slate/Public/Framework/MultiBox/MultiBoxBuilder.h"
 #include "Misc/MessageDialog.h"
 #include "HAL/FileManager.h"
 #include "Interfaces/IMainFrameModule.h"
@@ -838,6 +838,9 @@ void FFMODStudioEditorModule::ValidateFMOD()
     // Look for banks that may have failed to load
     if (bAnyBankFiles)
     {
+        if (!IFMODStudioModule::Get().AreAuditioningBanksLoaded()) {
+            IFMODStudioModule::Get().LoadAuditioningBanks();
+        }
         FMOD::Studio::System *StudioSystem = IFMODStudioModule::Get().GetStudioSystem(EFMODSystemContext::Auditioning);
         int BankCount = 0;
         StudioSystem->getBankCount(&BankCount);

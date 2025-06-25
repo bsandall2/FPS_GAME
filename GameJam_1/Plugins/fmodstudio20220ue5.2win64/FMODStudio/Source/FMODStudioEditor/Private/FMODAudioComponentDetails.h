@@ -1,12 +1,10 @@
-// Copyright (c), Firelight Technologies Pty, Ltd. 2012-2024.
+// Copyright (c), Firelight Technologies Pty, Ltd. 2012-2025.
 
 #pragma once
 
 //#include "PropertyEditing.h"
 #include "PropertyCustomizationHelpers.h"
-#include "IDetailCustomization.h"
-
-class IDetailLayoutBuilder;
+#include "PropertyEditor/Public/IDetailCustomization.h"
 
 class FFMODAudioComponentDetails : public IDetailCustomization
 {
