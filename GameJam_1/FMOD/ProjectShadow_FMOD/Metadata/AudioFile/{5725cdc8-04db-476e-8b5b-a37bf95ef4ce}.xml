@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{5725cdc8-04db-476e-8b5b-a37bf95ef4ce}">
 		<property name="assetPath">
 			<value>UI/SFX_UI_Hover_1.wav</value>

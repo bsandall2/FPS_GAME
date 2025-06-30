@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{aa3c4086-dbdb-42e7-b838-de92d5d65bd1}">
 		<property name="assetPath">
 			<value>World/SFX_WinSFX.wav</value>

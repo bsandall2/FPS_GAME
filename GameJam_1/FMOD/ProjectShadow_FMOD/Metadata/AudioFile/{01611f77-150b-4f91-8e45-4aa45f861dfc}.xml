@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{01611f77-150b-4f91-8e45-4aa45f861dfc}">
 		<property name="assetPath">
 			<value>Decoy/SFX_SpawnDecoy.wav</value>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{16977ed4-e7eb-4db5-8115-73d41fa96f60}">
 		<property name="name">
 			<value>UI_Select</value>

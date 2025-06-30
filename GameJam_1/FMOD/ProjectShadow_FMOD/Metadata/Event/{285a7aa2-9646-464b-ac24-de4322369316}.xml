@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{285a7aa2-9646-464b-ac24-de4322369316}">
 		<property name="name">
 			<value>Card_EnemySkip</value>

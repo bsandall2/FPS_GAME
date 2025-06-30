@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{9bab839a-1a07-46bb-af9c-8db9911f4865}">
 		<property name="assetPath">
 			<value>Interactables/Box_Impact_2.wav</value>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{4070e965-9326-452a-bd1d-94e67447042c}">
 		<property name="assetPath">
 			<value>Interactables/Dice/Dice_Impact_4.wav</value>

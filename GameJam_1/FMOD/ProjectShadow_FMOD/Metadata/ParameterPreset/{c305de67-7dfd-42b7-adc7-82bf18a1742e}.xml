@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="ParameterPreset" id="{c305de67-7dfd-42b7-adc7-82bf18a1742e}">
 		<property name="name">
 			<value>Lights Active</value>

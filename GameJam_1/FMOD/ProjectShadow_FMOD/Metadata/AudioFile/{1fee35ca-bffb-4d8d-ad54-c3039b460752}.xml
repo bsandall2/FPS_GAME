@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{1fee35ca-bffb-4d8d-ad54-c3039b460752}">
 		<property name="assetPath">
 			<value>UI/SFX_TimesUp.wav</value>

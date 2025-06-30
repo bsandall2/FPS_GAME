@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{f4e9cb76-2d81-4a63-a488-3f62a8183322}">
 		<property name="assetPath">
 			<value>Enemy/SFX_Enemy_Kill2.wav</value>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{f7fe471c-423d-46b1-98c6-310ce2c440c9}">
 		<property name="assetPath">
 			<value>Music/MUSIC_Gameplay_Intense.wav</value>

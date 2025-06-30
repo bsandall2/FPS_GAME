@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{c102f2c3-d05c-4d40-b459-72e7fd40af6d}">
 		<property name="name">
 			<value>Level Ambience</value>
@@ -71,8 +71,8 @@
 	</object>
 	<object class="Timeline" id="{cf8b66b0-c7de-4601-96e2-f232c307a142}">
 		<relationship name="modules">
-			<destination>{5e16e26a-7f41-4edf-a2f6-3d5eb70a31f7}</destination>
 			<destination>{d7a578ef-081a-435d-8051-2df7b5e8333b}</destination>
+			<destination>{5e16e26a-7f41-4edf-a2f6-3d5eb70a31f7}</destination>
 		</relationship>
 		<relationship name="markers">
 			<destination>{0166ea08-54ff-4048-9eb5-b17803341f90}</destination>

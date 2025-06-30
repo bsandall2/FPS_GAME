@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{ec5dc225-b2d1-4aed-92be-239bae6342be}">
 		<property name="name">
 			<value>Enemy_Laugh</value>
@@ -227,8 +227,8 @@
 			<destination>{cec1dbe7-c7e1-4dff-83c9-98dc20c63a06}</destination>
 		</relationship>
 		<relationship name="automationPoints">
-			<destination>{ced5443a-00a5-4c43-a79e-24b7ac399e02}</destination>
 			<destination>{afca8f79-bfa5-4270-91a3-ffa3a275750f}</destination>
+			<destination>{ced5443a-00a5-4c43-a79e-24b7ac399e02}</destination>
 		</relationship>
 	</object>
 	<object class="AutomationPoint" id="{c236c695-7a31-41eb-ac7a-56d233b64a6d}">
@@ -266,20 +266,20 @@
 			<value>2000</value>
 		</property>
 	</object>
-	<object class="AutomationPoint" id="{ced5443a-00a5-4c43-a79e-24b7ac399e02}">
-		<property name="position">
-			<value>0</value>
-		</property>
-		<property name="value">
-			<value>0</value>
-		</property>
-	</object>
 	<object class="AutomationPoint" id="{afca8f79-bfa5-4270-91a3-ffa3a275750f}">
 		<property name="position">
 			<value>1</value>
 		</property>
 		<property name="value">
 			<value>-5</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{ced5443a-00a5-4c43-a79e-24b7ac399e02}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="value">
+			<value>0</value>
 		</property>
 	</object>
 </objects>
