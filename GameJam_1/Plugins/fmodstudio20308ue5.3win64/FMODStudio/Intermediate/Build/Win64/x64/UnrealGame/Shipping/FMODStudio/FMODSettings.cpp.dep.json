@@ -1,0 +1,20 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\unreal engine projects\\fps_game\\gamejam_1\\plugins\\fmodstudio20308ue5.3win64\\fmodstudio\\source\\fmodstudio\\private\\fmodsettings.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\unreal engine projects\\fps_game\\gamejam_1\\plugins\\fmodstudio20308ue5.3win64\\fmodstudio\\intermediate\\build\\win64\\x64\\unrealgame\\shipping\\fmodstudio\\pch.fmodstudio.h.pch",
+        "Includes": [
+            "d:\\unreal engine projects\\fps_game\\gamejam_1\\plugins\\fmodstudio20308ue5.3win64\\fmodstudio\\source\\fmodstudio\\classes\\fmodsettings.h",
+            "d:\\unreal engine projects\\fps_game\\gamejam_1\\plugins\\fmodstudio20308ue5.3win64\\fmodstudio\\source\\fmodstudio\\public\\fmod\\fmod_common.h",
+            "d:\\unreal engine projects\\fps_game\\gamejam_1\\plugins\\fmodstudio20308ue5.3win64\\fmodstudio\\source\\fmodstudio\\public\\fmod\\fmod_codec.h",
+            "d:\\unreal engine projects\\fps_game\\gamejam_1\\plugins\\fmodstudio20308ue5.3win64\\fmodstudio\\source\\fmodstudio\\public\\fmod\\fmod_dsp.h",
+            "d:\\unreal engine projects\\fps_game\\gamejam_1\\plugins\\fmodstudio20308ue5.3win64\\fmodstudio\\source\\fmodstudio\\public\\fmod\\fmod_dsp_effects.h",
+            "d:\\unreal engine projects\\fps_game\\gamejam_1\\plugins\\fmodstudio20308ue5.3win64\\fmodstudio\\source\\fmodstudio\\public\\fmod\\fmod_output.h",
+            "d:\\unreal engine projects\\fps_game\\gamejam_1\\plugins\\fmodstudio20308ue5.3win64\\fmodstudio\\intermediate\\build\\win64\\unrealgame\\inc\\fmodstudio\\uht\\fmodsettings.generated.h",
+            "d:\\ue_5.3\\engine\\source\\runtime\\core\\public\\misc\\paths.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
